@@ -1,0 +1,1077 @@
+{
+ "country": "CM",
+ "name": {
+  "fr": "Cameroun",
+  "en": "Cameroon"
+ },
+ "status": "issued on 21 October 2026 (provisional codes, confirmed by residents)",
+ "version": "1.0",
+ "date": "2026-10-21",
+ "brand": "N-Ways",
+ "criteria": [
+  {
+   "rank": 1,
+   "id": "memorable-and-effortless",
+   "text": "Easy for citizens to remember their code, and even easier to get it: a place word they already use + a short number read in pairs; the code is shown, shared and plated without effort."
+  },
+  {
+   "rank": 2,
+   "id": "compound-and-gate",
+   "text": "The addressable unit is the compound behind its gate, with structures, entrances and flats as sub-units."
+  },
+  {
+   "rank": 3,
+   "id": "beside-official-systems",
+   "text": "Use the government's addresses wherever they exist (Campost PLP/FindMe, council numbering) and create nothing new there; N-Ways codes only where nothing official exists; a later official address becomes primary and the N-Ways code an alias."
+  },
+  {
+   "rank": 4,
+   "id": "stable",
+   "text": "A code never moves and is never reused; zones and area numbers are append-only and frozen against reforms."
+  },
+  {
+   "rank": 5,
+   "id": "bilingual",
+   "text": "Every name, form and spoken form in French and English; English first in the North-West and South-West."
+  },
+  {
+   "rank": 6,
+   "id": "offline",
+   "text": "Spot codes computed on the phone; home codes from small per-area registry files."
+  },
+  {
+   "rank": 7,
+   "id": "open",
+   "text": "Method, engine and code data public under open licences (to decide)."
+  },
+  {
+   "rank": 8,
+   "id": "privacy-and-safety",
+   "text": "Codes describe places, never people; extra safety rules in the North-West, South-West and conflict-affected border areas."
+  }
+ ],
+ "verdict": {
+  "postcodes": "In name only: commune postal codes announced by Campost/FindMe in Nov 2024, no published format or list; the UPU format (2002) has none; mail goes to P.O. boxes ('BP 6000 YAOUNDÉ').",
+  "addresses": "Partial: Douala metric door numbering since 1992 (under 15% of roads named in 2019), Yaoundé numbered streets ('Rue 1794'); no national register or law.",
+  "checked": "2026-10-18",
+  "detail": "docs/existing-systems.md"
+ },
+ "interoperation": {
+  "campost": {
+   "zoneField": "campostCode",
+   "compoundFields": [
+    "campostPLP",
+    "findMeAddress"
+   ],
+   "rule": "Filled when Campost publishes its commune codes or a resident gives their PLP; N-Ways codes nest inside the commune code, never replace it."
+  },
+  "poBox": "A BP is stored as a mailbox of a person or organisation, never as a place.",
+  "municipal": {
+   "entranceFields": [
+    "street",
+    "streetNumber",
+    "streetSource"
+   ],
+   "examples": [
+    "Rue 1.055 (Yaoundé, OSM)",
+    "Douala metric number, even right / odd left"
+   ]
+  },
+  "plusCode": "Spot codes convert to WGS 84 and then to Open Location Code.",
+  "rule": "Official data first: see precedence."
+ },
+ "hierarchy": {
+  "levels": [
+   {
+    "level": "région / region",
+    "count": 10,
+    "iso": [
+     "CM-AD",
+     "CM-CE",
+     "CM-EN",
+     "CM-ES",
+     "CM-LT",
+     "CM-NO",
+     "CM-NW",
+     "CM-OU",
+     "CM-SU",
+     "CM-SW"
+    ],
+    "inCode": false
+   },
+   {
+    "level": "département / division",
+    "count": 58,
+    "inCode": "first 3 letters of the zone key outside the numbered city communes"
+   },
+   {
+    "level": "arrondissement / subdivision = commune",
+    "count": 360,
+    "inCode": "zone (4-character key)",
+    "osmLevel": 8
+   },
+   {
+    "level": "communauté urbaine / city council",
+    "count": 14,
+    "inCode": "city key of numbered communes (YDE, DLA, BDA ...)",
+    "osmLevel": 7
+   },
+   {
+    "level": "quartier / quarter / village",
+    "count": "named localities (OSM + GeoNames)",
+    "inCode": "area name of the home code"
+   }
+  ],
+  "specialStatus": {
+   "regions": [
+    "CM-NW",
+    "CM-SW"
+   ],
+   "law": "Law no. 2019/024 of 24 Dec 2019 (General Code of Regional and Local Authorities), s. 327-329: Regional Assembly (House of Divisional Representatives + House of Chiefs), Regional Executive Council, Public Independent Conciliator; Anglophone education and common-law justice systems.",
+   "effects": [
+    "English names and English voice first",
+    "Regional Assemblies, House of Chiefs and Conciliators among governance partners",
+    "safety rules (see privacy.safety)"
+   ]
+  }
+ },
+ "settlement": {
+  "footprints2026": 9527082,
+  "byRegion": {
+   "CM-EN": 1990532,
+   "CM-OU": 1351713,
+   "CM-NO": 1296551,
+   "CM-CE": 1276385,
+   "CM-LT": 785863,
+   "CM-NW": 758789,
+   "CM-AD": 661171,
+   "CM-ES": 503725,
+   "CM-SW": 401419,
+   "CM-SU": 267954
+  },
+  "medianFootprintM2": {
+   "CM-EN": 19.3,
+   "CM-NO": 18.6,
+   "CM-AD": 28.0,
+   "CM-ES": 39.6,
+   "CM-NW": 69.3,
+   "CM-LT": 71.0,
+   "CM-SW": 76.2,
+   "CM-CE": 76.3,
+   "CM-OU": 79.3,
+   "CM-SU": 80.6
+  },
+  "cities": {
+   "Douala (CU)": {
+    "footprints": 512137,
+    "areaKm2": 974.6
+   },
+   "Yaoundé (CU)": {
+    "footprints": 404952,
+    "areaKm2": 287.8
+   },
+   "Maroua (CU)": 224950,
+   "Garoua (CU)": 172630,
+   "Bafoussam (CU)": 166625,
+   "Ngaoundéré (CU)": 153156,
+   "Bamenda (CU)": 85641
+  },
+  "densest": {
+   "Douala III": {
+    "footprints": 225061,
+    "areaKm2": 166.9
+   },
+   "Douala V": 117959,
+   "Yaoundé IV": {
+    "footprints": 98275,
+    "areaKm2": 58.5
+   },
+   "Yaoundé I": 77120
+  },
+  "patterns": [
+   "Douala and Yaoundé: dense one-storey houses in walled or unwalled parcelles, immeubles in Akwa, Bonanjo, Bonapriso, Bastos, centre-ville; wooden houses (maisons en planches) in older Douala quartiers",
+   "North, Far North, Adamaoua: saré — walled family compounds of small huts (median footprint 18.6-19.3 m2); 165,169 round houses in North + Far North; enclosures hardly mapped (87 closed in Far North)",
+   "West and North-West (Grassfields): dispersed family compounds around a yard; chefferies/fondoms (palace of the Fon or chief)",
+   "Centre, South, East: villages strung along roads in the forest; huge arrondissements with few buildings (Tcholliré 14,617 km2)",
+   "Coast and creeks: Wouri estuary and Bakassi landings; Lake Chad shore"
+  ],
+  "census": "RGPH-4 fieldwork 24 Apr - 15 Sep 2026, results not yet published; UN 2025 urban projections Yaoundé ~5.1 M, Douala ~4.1 M",
+  "walls": {
+   "osmWallLines": 173096,
+   "closedRings": 3345,
+   "douala": {
+    "segments": 105306,
+    "km": 2222
+   },
+   "yaounde": {
+    "segments": 63887,
+    "km": 1918
+   },
+   "medianSegmentM": 16.9,
+   "north": "Far North 478 wall lines, 87 closed enclosures: saré enclosures (often seccos) mostly unmapped"
+  }
+ },
+ "languages": {
+  "official": [
+   "fr",
+   "en"
+  ],
+  "linguaFranca": {
+   "CM-NW": "Cameroonian Pidgin English",
+   "CM-SW": "Cameroonian Pidgin English",
+   "CM-EN": "Fulfulde",
+   "CM-NO": "Fulfulde",
+   "CM-AD": "Fulfulde",
+   "CM-CE": "Ewondo / French",
+   "CM-SU": "Ewondo / Bulu",
+   "CM-ES": "French",
+   "CM-LT": "Duala / French / Pidgin",
+   "CM-OU": "French / Pidgin"
+  },
+  "numbers": {
+   "rule": "read in pairs, as Cameroonian phone numbers are: 2367 -> '23 67'; 5 digits -> '1 10 99'",
+   "fr": "vingt-trois soixante-sept",
+   "en": "twenty-three sixty-seven",
+   "pcm": "twenty-three sixty-seven (English numerals)",
+   "ff": "French numerals are commonly used for phone numbers in the North (to verify in the memorability study)"
+  },
+  "spokenLetters": {
+   "fr": {
+    "2": "deux",
+    "3": "trois",
+    "4": "quatre",
+    "5": "cinq",
+    "6": "six",
+    "7": "sept",
+    "8": "huit",
+    "9": "neuf",
+    "C": "cé",
+    "F": "effe",
+    "G": "gé",
+    "H": "ache",
+    "J": "ji",
+    "M": "emme",
+    "P": "pé",
+    "Q": "ku",
+    "R": "erre",
+    "V": "vé",
+    "W": "double vé",
+    "X": "ixe"
+   },
+   "en": {
+    "2": "two",
+    "3": "three",
+    "4": "four",
+    "5": "five",
+    "6": "six",
+    "7": "seven",
+    "8": "eight",
+    "9": "nine",
+    "C": "see",
+    "F": "eff",
+    "G": "gee",
+    "H": "aitch",
+    "J": "jay",
+    "M": "em",
+    "P": "pee",
+    "Q": "cue",
+    "R": "ar",
+    "V": "vee",
+    "W": "double-u",
+    "X": "ex"
+   }
+  },
+  "spelling": {
+   "note": "Spelling words for spot codes, Cameroonian places first; G/J and M/N are the pairs most often confused aloud",
+   "C": "Campo",
+   "F": "Foumban",
+   "G": "Garoua",
+   "H": "Hôtel",
+   "J": "Jakiri",
+   "M": "Maroua",
+   "P": "Penja",
+   "Q": "Québec",
+   "R": "Rey-Bouba",
+   "V": "Victoria",
+   "W": "Wum",
+   "X": "Xavier"
+  }
+ },
+ "homeCode": {
+  "form": "<plate name> <number>",
+  "example": "Bonapriso 14 01",
+  "plate": "Bonapriso 14 01 · Douala",
+  "machine": "CM-DLA1-015-1401-6",
+  "plateName": {
+   "rule": "The name in the remembered code is a short PLATE NAME, because a long official name is neither said nor written in full: at most 12 characters (letters, spaces, hyphens, apostrophes; an accented letter is one) and at most 2 words (linking words de, du, des, la, le, of, the do not count; a hyphen separates words: 'Mvog-Ada' is 2 words), no digits",
+   "officialName": "the full name from the map is kept and printed in small type on cards and plates for context; never required",
+   "language": "English generic words in the North-West and South-West, French elsewhere; both generic lists applied everywhere because names mix",
+   "derivation": [
+    "1. a documented short form people already say (none asserted for Cameroon yet)",
+    "2. clean: map spellings ('Ouro_kessoum_1' -> 'Ouro Kessoum I', a name all in capitals in title case, a number 1-10 as a Roman numeral as quartiers are written: 'Melen 8' -> 'Melen VIII'); drop brackets, text after a slash, generic words (Quartier, Lotissement, Zone, Village, Campement, Hameau, Chefferie (de), Community, Estate, Layout, Quarter, Town, Area) and a linking word they leave at an end",
+    "3. if it fits, that is the plate name ('Cité Des Palmiers' -> 'Palmiers' only because it does not fit; 'Cité SIC' stays)",
+    "4. else the best run of whole words, dropping head words first: Carrefour, Rond-point, Place, Rue, Montée, Entrée, Vallée, Pont, Station, Mission, Junction, Camp, Cité, and the Fulfulde settlement words of the North (Ouro/Wouro, Hosséré, Mayo, Djaouro/Djaoro, Ardo, Lawan)",
+    "5. Cameroon rule: an automatic short form may drop only head, generic and linking words; if it would drop another word of the name (a second proper name, a qualifier such as Upper, Ancien, II, PK 14), the commune chooses (needsCouncilChoice)",
+    "6. never a word cut, never a name equal to a commune seat, region capital or regional city other than the area's own (Douala, Yaoundé, Mokolo, Kribi, Dakar, Bangui...), never fewer than 4 letters automatically"
+   ],
+   "hyphenated": "local hyphenated names are names, not scheme labels: 'Mvog-Ada', 'Etoa-Meki', 'Biyem-Assi' are kept whole; one over 12 characters ('Mvog-Atangana-Mballa') goes to the commune",
+   "reduplication": "a word written twice is a reduplicated name ('Louba Louba', 'Kouéssé-Kouéssé') and is kept",
+   "abbreviations": "St, Ste, Mt are allowed and read as Saint, Sainte, Mount by the name key",
+   "council": "an area with needsCouncilChoice has up to 3 plateCandidates and a provisional plate name (the first), under which its codes are issued; the commune may confirm or replace it once, and the provisional name stays an alias",
+   "aliases": "the official name typed in full decodes when it maps to one plate name (names.json aliases); an alias claimed by two plate names, or equal to another plate name, is dropped and listed in aliasesDropped",
+   "fields": {
+    "name": "plate name used in the code",
+    "officialName": "full name",
+    "plateRule": "as-is | cleaned | abbreviated | known | distinctive | council",
+    "needsCouncilChoice": "bool",
+    "plateCandidates": "<= 3",
+    "plateReason": "why flagged"
+   },
+   "tool": "engine/reference/plate_names.py (Cameroon's copy of the plate rule) configured in tools/name-ranges.py",
+   "stats2026": {
+    "areas": 23568,
+    "officialOverChars": 1748,
+    "officialOverWords": 429,
+    "officialOverEither": 2063,
+    "rules": {
+     "as-is": 21265,
+     "cleaned": 628,
+     "council": 1328,
+     "distinctive": 347
+    },
+    "needsCouncilChoice": 1328,
+    "stillOverLimitProvisionally": 274,
+    "aliases": 1493,
+    "aliasesDropped": 26
+   },
+   "examples": [
+    {
+     "official": "Cité Des Palmiers",
+     "plate": "Palmiers",
+     "zone": "Douala V"
+    },
+    {
+     "official": "Carrefour Ndokoti",
+     "plate": "Ndokoti",
+     "zone": "Douala III"
+    },
+    {
+     "official": "Chefferie de Troisième Degré de Minkoameyos",
+     "plate": "Minkoameyos",
+     "zone": "Yaoundé VII"
+    },
+    {
+     "official": "Carrefour Vallée Nlongkak",
+     "plate": "Nlongkak",
+     "zone": "Yaoundé I"
+    },
+    {
+     "official": "Ouro_kessoum_1",
+     "plate": "Kessoum I",
+     "zone": "Touroua"
+    },
+    {
+     "official": "Ngousso Savana",
+     "plate": "Savana (provisional; commune chooses: Savana or Ngousso)",
+     "zone": "Yaoundé V"
+    }
+   ]
+  },
+  "area": {
+   "what": "quartier / quarter / village / chefferie quarter / lamidat quarter people already name",
+   "source": "OpenStreetMap place nodes + GeoNames populated places, nearest locality (Voronoi), clipped to the zone; frozen at first issue",
+   "uniqueness": "national, by plate name: see nationalNames"
+  },
+  "number": "3, 4 or 5 digits (never more: five is the most people say and remember as a pair and a hundred), from the plate name's national range; each area a frozen block of max(20, ceil(2c/10)*10) numbers (engine/SPEC.md 2.4)",
+  "check": {
+   "kind": "Damm (order-10 totally anti-symmetric quasigroup)",
+   "over": "national name id (6 digits) + block index (2 digits) + number",
+   "where": "plates, forms, QR, machine form only",
+   "catches": "every single wrong digit, every swap of neighbouring digits"
+  },
+  "rememberedFormValidation": "registry sparsity (about half the numbers issued) + gate photo, quartier and commune shown before navigation",
+  "options": [
+   {
+    "option": "alphanumeric grid code",
+    "example": "YDE6 4C7-QX9-M",
+    "length": "4 + 6-8 + 1",
+    "memorable": false,
+    "kept": "as spot code"
+   },
+   {
+    "option": "digits only",
+    "example": "005437 2367 2",
+    "length": 8,
+    "memorable": false,
+    "why": "no place word, too long"
+   },
+   {
+    "option": "plate name + 4 digits",
+    "example": "Etetak 2367",
+    "chosen": true
+   },
+   {
+    "option": "plate name + 5 digits",
+    "example": "Bali 1 10 99",
+    "chosen": "when the name's combined national blocks exceed 9,000 numbers"
+   }
+  ],
+  "subUnits": {
+   "structure": ".n",
+   "entrance": "/n (/1 main gate)",
+   "unit": "#label (flats in immeubles, shop units)"
+  },
+  "uniqueness": "Name + number is unique in all Cameroon on its own; city/arrondissement on the plate is information only",
+  "machineForm": "CM-<zone key>-<area index 3>-<number>-<Damm check over nameId5 + zoneIndex3 + area + number>; the check is for systems, never shown to people"
+ },
+ "spotCode": {
+  "zone": "arrondissement (360), 4-character key, frozen index 0-359",
+  "form": "CM-<zone> E<east> N<north>, e.g. CM-DLA1 E0449 N0268",
+  "cellMetres": 10,
+  "digits": "4 per axis, 5 where the zone frame is wider than 99.99 km",
+  "origin": "zone box south-west corner floored to 0.01 degree; reference latitude: box centre rounded to 0.01 degree",
+  "decodeError": "at most 7.1 m",
+  "alternativeConsidered": "a 3 m grid with letters 23456789CFGHJMPQRVWX and a check character, set aside because people remember names and numbers, not grid letters"
+ },
+ "compound": {
+  "terms": {
+   "fr": [
+    "concession",
+    "parcelle"
+   ],
+   "en": [
+    "compound"
+   ],
+   "north": [
+    "saré"
+   ],
+   "grassfields": [
+    "compound",
+    "chefferie / fondom"
+   ]
+  },
+  "groupingRules": [
+   {
+    "rule": 1,
+    "name": "people",
+    "confidence": 0.95
+   },
+   {
+    "rule": 2,
+    "name": "survey plan (titre foncier)",
+    "confidence": 0.9
+   },
+   {
+    "rule": 3,
+    "name": "closed OSM wall/fence/hedge 40-20,000 m2, smallest ring",
+    "confidence": 0.8
+   },
+   {
+    "rule": "3b",
+    "name": "open-wall: snap open OSM wall segments (3 m) to each other, road edges and facades; polygonise; faces 40-20,000 m2 are enclosures (Douala 105,306 segments / 2,222 km; Yaoundé 63,887 / 1,918 km)",
+    "confidence": 0.7
+   },
+   {
+    "rule": 4,
+    "name": "saré: closed wall or seccos ring with several huts (North, Far North, Adamaoua)",
+    "confidence": 0.8
+   },
+   {
+    "rule": 5,
+    "name": "N-Ways gated compound (outer level: estates, camps, government, military, police, sites)",
+    "confidence": 0.75
+   },
+   {
+    "rule": 6,
+    "name": "annex: < 40 m2 joins nearest >= 2x within 8 m (towns)",
+    "confidence": 0.55
+   },
+   {
+    "rule": 7,
+    "name": "yard cluster: walls within 6 m around a shared yard, one structure >= 60 m2, split at 15 m (Grassfields, forest villages)",
+    "confidence": 0.4
+   },
+   {
+    "rule": 8,
+    "name": "single structure",
+    "confidence": 0.3
+   }
+  ],
+  "estates": "two levels: estate gate then compound gate (SIC camps, MAETUR estates, company camps)",
+  "regrouping": "never changes an issued code: merge -> alias; split -> old code on one part, new numbers from the gap",
+  "numbering": "Hilbert order (order 16 over the area box) of main gates (else compound centres), spread evenly over the number range"
+ },
+ "profile": {
+  "compound": {
+   "code": "string",
+   "use": "one-household | multi-household | mixed | commercial | institutional | outbuildings-only",
+   "useConfidence": "0-1",
+   "useSource": "people | inferred",
+   "plotAreaM2": "number|null",
+   "plotSource": "wall | survey-plan | people-outline | none",
+   "structures": "int",
+   "floorAreaM2": "number",
+   "entrances": [
+    {
+     "n": 1,
+     "kind": "gate | door | shopfront | landing | service",
+     "lat": 0,
+     "lon": 0,
+     "photo": "gate photo id|null",
+     "street": "string|null",
+     "streetNumber": "string|null",
+     "lastConfirmed": "date"
+    }
+   ],
+   "name": "business/public only",
+   "status": "active | under-construction | ruin | demolished | merged",
+   "groupingRule": "1-8",
+   "groupingConfidence": "0-1",
+   "campostPLP": "string|null",
+   "findMeAddress": "string|null",
+   "issued": "date",
+   "lastConfirmed": "date"
+  },
+  "structure": {
+   "index": "int",
+   "class": "taxonomy class",
+   "sub": "taxonomy sub-class",
+   "classConfidence": "0-1",
+   "classSource": "people | osm:building | osm:tags | n-ways:compound | name-pattern | n-ways:place | shape | default",
+   "footprintM2": "number",
+   "perimeterM": "number",
+   "heightM": "number|null",
+   "heightSource": "osm:height | osm:building:levels | ml:h | people | null",
+   "floors": "int (OSM levels, else floor((h+0.5)/3), min 1)",
+   "floorAreaM2": "footprint x floors",
+   "footprintSource": "osm | google-open-buildings | microsoft | people",
+   "lastConfirmed": {
+    "perAttribute": true
+   }
+  },
+  "public": [
+   "codes",
+   "gates and entrances",
+   "footprint and size",
+   "class",
+   "names of businesses and public buildings",
+   "confirmation dates"
+  ],
+  "neverStored": [
+   "residents' names",
+   "number of occupants",
+   "photos of people",
+   "who is present or absent"
+  ],
+  "privateOnRequest": "compound shown only as 'residential'; gate photo visible only to someone already navigating there"
+ },
+ "taxonomy": {
+  "RES": {
+   "label": {
+    "fr": "Résidentiel",
+    "en": "Residential"
+   },
+   "sub": {
+    "villa": "large detached house, usually walled (Bastos, Bonapriso, Santa Barbara); area >= 250 m2 or OSM house/detached + enclosure",
+    "maison": "one-storey house in dur (default urban dwelling)",
+    "immeuble": "apartment block (Akwa, Bonanjo, Bastos, centre-ville); floors >= 4 or OSM apartments; units by '#'",
+    "maison-planches": "wooden-plank house (older Douala quartiers, creeks); OSM building:material=wood or people",
+    "case": "village house of earth/thatch or poto-poto; rural, small, OSM hut",
+    "case-ronde": "round house / saré hut; circularity > 0.88 and < 60 m2",
+    "compound-house": "house of a Grassfields family compound (yard-cluster rule)",
+    "dependance": "boys' quarters / annex rooms; inside compound, < 40 m2 or people"
+   }
+  },
+  "COM": {
+   "label": {
+    "fr": "Commerce",
+    "en": "Commercial"
+   },
+   "sub": {
+    "boutique": "shop, often in the compound's front wall (shopfront entrance)",
+    "marche": "market (Mokolo, Marché Central, Sandaga, Mboppi, Mvog-Mbi); OSM marketplace or N-Ways market",
+    "entrepot": "warehouse; >= 1,500 m2 and 1-2 floors",
+    "bureau": "office",
+    "banque": "bank / microfinance",
+    "station": "fuel station"
+   }
+  },
+  "GOV": {
+   "label": {
+    "fr": "Administration",
+    "en": "Government"
+   },
+   "sub": {
+    "administration": "ministry, préfecture, sous-préfecture, mairie, délégation, council; name patterns",
+    "chefferie": "chefferie / palace of a Fon or chief (traditional authority)",
+    "lamidat": "lamidat / palace of a Lamido (North)",
+    "securite": "police, gendarmerie, military (N-Ways compounds)"
+   }
+  },
+  "EDU": {
+   "label": {
+    "fr": "Enseignement",
+    "en": "Education"
+   },
+   "sub": {
+    "ecole": "school, collège, lycée, GBHS/GHS",
+    "universite": "university",
+    "ecole-coranique": "Qur'anic school"
+   }
+  },
+  "HEA": {
+   "label": {
+    "fr": "Santé",
+    "en": "Health"
+   },
+   "sub": {
+    "hopital": "hospital, CHU, regional hospital",
+    "centre-sante": "CSI, health centre, clinic",
+    "pharmacie": "pharmacy"
+   }
+  },
+  "REL": {
+   "label": {
+    "fr": "Culte",
+    "en": "Religious"
+   },
+   "sub": {
+    "eglise": "church, cathedral, temple",
+    "mosquee": "mosque"
+   }
+  },
+  "IND": {
+   "label": {
+    "fr": "Industrie",
+    "en": "Industrial"
+   },
+   "sub": {
+    "port": "Port of Douala, Kribi deep-sea port",
+    "raffinerie": "SONARA (Limbe)",
+    "cimenterie": "cement works",
+    "usine": "factory, brewery, agro-industry",
+    "mine": "quarry, artisanal gold (East, Adamaoua)"
+   }
+  },
+  "HOS": {
+   "label": {
+    "fr": "Hébergement",
+    "en": "Hospitality"
+   },
+   "sub": {
+    "hotel": "hotel",
+    "auberge": "auberge / guest house",
+    "snack": "snack-bar, circuit, cabaret"
+   }
+  },
+  "TRA": {
+   "label": {
+    "fr": "Transport",
+    "en": "Transport"
+   },
+   "sub": {
+    "gare-routiere": "gare routière / motor park",
+    "agence-de-voyage": "intercity bus agency (agences de voyage)",
+    "gare": "Camrail station",
+    "aeroport": "airport",
+    "debarcadere": "landing (Wouri creeks, Bakassi, Lake Chad)"
+   }
+  },
+  "AGR": {
+   "label": {
+    "fr": "Agricole",
+    "en": "Agricultural"
+   },
+   "sub": {
+    "plantation": "CDC, PHP, SOCAPALM estates",
+    "grenier": "granary (North)",
+    "elevage": "livestock shelter"
+   }
+  },
+  "MIX": {
+   "label": {
+    "fr": "Mixte",
+    "en": "Mixed use"
+   },
+   "rule": "residential floors above shops: floors >= 2 + shop/POI at ground"
+  },
+  "CON": {
+   "label": {
+    "fr": "Chantier",
+    "en": "Under construction"
+   }
+  },
+  "RUI": {
+   "label": {
+    "fr": "Ruine",
+    "en": "Ruin"
+   },
+   "note": "a ruin is recorded as a building status, never as a reason to retire a code"
+  },
+  "ANX": {
+   "label": {
+    "fr": "Annexe",
+    "en": "Outbuilding"
+   },
+   "rule": "< 12 m2 or OSM shed/toilets/kitchen/garage"
+  },
+  "UNK": {
+   "label": {
+    "fr": "Inconnu",
+    "en": "Unknown"
+   }
+  }
+ },
+ "inference": {
+  "order": [
+   "people",
+   "osm:building (not yes)",
+   "osm tags (amenity/shop/office/tourism/healthcare/man_made)",
+   "N-Ways gated compound (government/military/police)",
+   "official-name patterns (ministère, préfecture, sous-préfecture, mairie, délégation, council, chefferie, lamidat ...)",
+   "N-Ways place (POI) inside the footprint",
+   "shape",
+   "default RES"
+  ],
+  "confidence": {
+   "people": 0.95,
+   "osm:building": 0.9,
+   "osm:tags": 0.85,
+   "n-ways:compound": 0.7,
+   "n-ways:place": 0.7,
+   "shape": 0.5,
+   "default": 0.3
+  },
+  "shape": {
+   "annex": "< 12 m2",
+   "roundHouse": "circularity 4*pi*A/P^2 > 0.88 and < 60 m2",
+   "warehouse": ">= 1,500 m2 and <= 2 floors"
+  },
+  "floors": "OSM building:levels, else floor((h + 0.5) / 3) with minimum 1; h from OSM height or ML h",
+  "corrections": [
+   "residents confirm use, households, floors",
+   "arrivals and deliveries confirm gates",
+   "partners (couriers, utilities, banks) flag business and public uses",
+   "consensus settles; nothing waits in a manual review queue"
+  ]
+ },
+ "addMyHome": {
+  "steps": [
+   "stand at the gate: GPS averaged 10 s + one gate photo",
+   "outline: tap corners on imagery | walk the wall with AR (ARKit/ARCore, anchored by averaged GPS, checked against imagery and footprints) | import survey-plan beacons",
+   "describe: households (no names), structures, floors, use",
+   "provisional code: free number nearest the middle of the gap between Hilbert neighbours",
+   "confirmed by arrivals/deliveries, no neighbour dispute, or new imagery"
+  ],
+  "checks": [
+   "gate on outline",
+   "plot 30-20,000 m2",
+   "closed loop",
+   "GPS vs AR within 5 m",
+   "overlaps flagged, not issued"
+  ],
+  "notATitle": "A code is an address, not a land title. Only a titre foncier registered by MINDCAF proves ownership.",
+  "cadastre": {
+   "holder": "MINDCAF (cadastral plans; titres fonciers)",
+   "law": "Ordonnances 74-1 and 74-2 of 6 Jul 1974; décret 76/165 amended by 2005/481 (unverified)",
+   "surveyors": "sworn géomètres, Ordre National des Géomètres du Cameroun (unverified)",
+   "datums": [
+    {
+     "name": "WGS 84 / UTM 32N or 33N",
+     "epsg": [
+      32632,
+      32633
+     ],
+     "status": "believed modern (unverified)"
+    },
+    {
+     "name": "Manoca 1962 / UTM 32N",
+     "epsg": 2215,
+     "status": "legacy coastal; replaced Douala 1948 (EPSG:3119)",
+     "flag": "approximate"
+    }
+   ],
+   "openData": "none known"
+  },
+  "privacy": "outline + one gate photo only",
+  "offline": "spot code at once; home code from the registry on next connection; optional reserved numbers per area with server-side collision check"
+ },
+ "gettingTheCode": [
+  {
+   "who": "smartphone, saved home",
+   "how": "home card shows 'Votre code maison / Your home code'",
+   "steps": 0
+  },
+  {
+   "who": "smartphone at the gate",
+   "how": "'Ici c'est chez moi / This is my home'",
+   "steps": 2
+  },
+  {
+   "who": "sharing",
+   "how": "one tap: WhatsApp or SMS with code, commune and nways.ng/a/ link",
+   "steps": 1
+  },
+  {
+   "who": "anyone",
+   "how": "plate / QR sticker on the gate",
+   "steps": 0
+  },
+  {
+   "who": "new home",
+   "how": "Add my home",
+   "steps": 5
+  },
+  {
+   "who": "courier, bank, utility",
+   "how": "partner API lookup with the customer's consent",
+   "steps": 0
+  }
+ ],
+ "notIncluded": [
+  "USSD (not offered)",
+  "SMS lookup service (possible later option only)"
+ ],
+ "privacy": {
+  "law": "Loi n° 2024/017 du 23 décembre 2024 relative à la protection des données à caractère personnel; in force 23 June 2026",
+  "authority": "Autorité de protection des données à caractère personnel (APDP); operational status unverified",
+  "duties": [
+   "prior authorisation for processing (art. 19, per DLA Piper)",
+   "register of processing",
+   "prior authorisation for transfers abroad (N-Ways servers outside Cameroon)",
+   "explicit consent where required"
+  ],
+  "safety": {
+   "areas": [
+    "CM-NW",
+    "CM-SW",
+    "conflict-affected border arrondissements of CM-EN"
+   ],
+   "rules": [
+    "every issued code is published; the area table flags these arrondissements (alert_zone)",
+    "nothing about presence or absence of people",
+    "gate photos never public"
+   ]
+  }
+ },
+ "governance": {
+  "partners": [
+   "Campost (+ FindMe)",
+   "MINPOSTEL",
+   "ART (Agence de Régulation des Télécommunications)",
+   "INC (Institut National de Cartographie)",
+   "MINDCAF",
+   "MINHDU",
+   "Communauté urbaine de Douala",
+   "Communauté urbaine de Yaoundé (Mairie de la Ville)",
+   "other communautés urbaines and councils",
+   "NW and SW Regional Assemblies, House of Chiefs, Public Independent Conciliators",
+   "Commission nationale de toponymie (décret 68/DF/314)",
+   "APDP",
+   "BUCREP",
+   "emergency services, couriers, banks, utilities"
+  ],
+  "handOver": "repo transferable to Campost, INC or a city council without forking the engine",
+  "file": "GOVERNANCE.md"
+ },
+ "rollout": {
+  "phases": [
+   "pilot: two quartiers each in Yaoundé (FR) and Bamenda or Buea (EN)",
+   "Yaoundé and Douala city communes",
+   "regional capitals",
+   "whole country"
+  ],
+  "memorabilityEvaluation": {
+   "design": "randomised: half the pilot households get a place+4-digit code, half are shown the same home as an alphanumeric spot code; both with plate + app",
+   "measures": [
+    "free recall after 1 day, 1 week, 1 month (exact / one-digit error / wrong)",
+    "time to say or type the code",
+    "first-time arrival success of couriers using the code",
+    "errors caught by the check digit or the gate photo",
+    "share rate (one-tap)"
+   ],
+   "languages": [
+    "fr",
+    "en",
+    "pcm",
+    "ff (North)"
+   ],
+   "targets": [
+    "exact recall after a week >= 80% for place+digits",
+    "digit-level errors caught or shown wrong gate >= 95%"
+   ],
+   "sample": "about 400 households per arm"
+  }
+ },
+ "stats": {
+  "files": [
+   "model/stats/register.json",
+   "model/stats/building-stats.json",
+   "model/stats/name-stats.json",
+   "model/stats/area-compounds.csv",
+   "model/stats/zone-counts.json",
+   "model/stats/cm-extra.json"
+  ],
+  "date": "2026-10-21",
+  "compounds": 7243272,
+  "footprints": 9293569,
+  "areas": 24213,
+  "plateNames": 17218,
+  "compoundsByDigits": {
+   "3": 1636204,
+   "4": 4164967,
+   "5": 1442101
+  },
+  "note": "figures of the paper (docs/paper.md); counted on the issued registry"
+ },
+ "precedence": {
+  "rule": "Where the government, a council or Campost already gives an address, it is shown first, exactly as written; every compound also has its N-Ways code.",
+  "order": [
+   {
+    "rank": 1,
+    "source": "Campost PLP / FindMe certified address",
+    "scope": "door/compound",
+    "display": "verbatim, language as published"
+   },
+   {
+    "rank": 2,
+    "source": "Council street + door number (CUD metric numbering since 1992; CUY numbered streets 'Rue 1794', 'No 1232'; other councils)",
+    "scope": "door",
+    "display": "verbatim"
+   },
+   {
+    "rank": 3,
+    "source": "OSM addr:street + addr:housenumber copied from a plate (confirmed)",
+    "scope": "door",
+    "display": "verbatim"
+   },
+   {
+    "rank": 4,
+    "source": "N-Ways home code",
+    "scope": "compound",
+    "when": "every compound; shown after ranks 1-3 where they exist"
+   }
+  ],
+  "areaCodes": "Campost commune postal codes stored in zones.json campostCode and shown beside any address; N-Ways codes nest inside them",
+  "later": "When an official address appears for a door, it becomes primary; the N-Ways code becomes an alias (superseded_by) so old plates and links still work",
+  "poBox": "A BP is a mailbox, never an address",
+  "ifCampostNational": "If Campost-FindMe proves working and national, this repo becomes an integration plan: no new format; app imports and shows Campost addresses; Add my home points to the PLP",
+  "currentEvidence": "Official door addresses cover a small part of Douala and Yaoundé and an unknown number of PLP holders; most of Cameroon has nothing official",
+  "coverage": "per zone: share of compounds with a PLP, share of entrances with an official number, published in model/stats/official-coverage.json once official data is published",
+  "compoundBlock": {
+   "official": {
+    "kind": "campost-plp | findme | council | osm-plate",
+    "text": "verbatim string",
+    "lang": "fr|en",
+    "postalCode": "string|null",
+    "street": "string|null",
+    "number": "string|null",
+    "source": "string",
+    "terms": "string",
+    "importedAt": "date"
+   },
+   "nways": {
+    "code": "string|null",
+    "status": "primary | alias",
+    "superseded_by": "official ref|null"
+   }
+  },
+  "plan": "docs/integration-campost.md"
+ },
+ "nationalNames": {
+  "rule": "A plate name and number must be unique nationally on their own: many neighbourhoods share a name, and a code read aloud carries no town",
+  "normalise": "strip accents and case; remove spaces, hyphens, apostrophes, dots; Roman numerals and FR/EN number words to digits; St/Ste/Mt to Saint/Sainte/Mount (Nkol-Bisson = Nkolbisson; Mile Four = Mile 4; Ndogpassi III = Ndogpassi 3)",
+  "allocation": {
+   "range": "one national range per normalised plate name: 1000-9999 if all blocks fit, else 10000-99999",
+   "block": "one frozen block per area, size max(500, ceil(2 x buildings / 100) x 100), laid out in zone order",
+   "spare": "rest of the range free for new same-name areas (next free block) and overflow blocks of full areas",
+   "qualifier": "only if a name's blocks exceed 90,000 numbers: split once by an established qualifier people say (town), recorded in names.json",
+   "frozen": "blocks never move; numbers never change"
+  },
+  "decode": "normalise name -> national entry (or alias of an official name -> its plate name) -> block holding the number -> area, zone, compound",
+  "machineForm": "CM-<name id 6 digits>-<number>-<check>",
+  "file": "model/names.json",
+  "stats2026": {
+   "areas": 23568,
+   "before": {
+    "basis": "official names",
+    "distinctNames": 18598,
+    "namesRepeated": 2969,
+    "areasSharingAName": 7939,
+    "names4digits": 18352,
+    "names5digits": 246,
+    "areas4digits": 22729,
+    "areas5digits": 839
+   },
+   "distinctNames": 18171,
+   "namesRepeated": 3198,
+   "areasSharingAName": 8595,
+   "names4digits": 17910,
+   "names5digits": 261,
+   "areas4digits": 22642,
+   "areas5digits": 926,
+   "namesNeedingQualifier": 0,
+   "largestSharedRange": {
+    "name": "Kousséri",
+    "areas": 2,
+    "buildings": 34022,
+    "digits": 5,
+    "note": "two localities of one town (OSM + GeoNames); largest across different towns: Mora (Mora, Koza, Goulfey, and 'Carrefour Mora' in Bibemi provisionally) 15,570 buildings, 5 digits"
+   },
+   "mostRepeated": {
+    "name": "Adjap",
+    "areas": 29,
+    "buildings": 2810,
+    "digits": 5
+   },
+   "examples": [
+    {
+     "name": "Bali",
+     "areas": 5,
+     "blocks": {
+      "Douala I": [
+       10000,
+       12199
+      ],
+      "Bali (Mezam)": [
+       14900,
+       30199
+      ]
+     },
+     "codes": [
+      "Bali 11099",
+      "Bali 22549"
+     ]
+    },
+    {
+     "name": "Akwa",
+     "areas": 4,
+     "blocks": {
+      "Douala I": [
+       1000,
+       2199
+      ],
+      "Akonolinga": [
+       2200,
+       2699
+      ]
+     },
+     "codes": [
+      "Akwa 1599",
+      "Akwa 2449"
+     ]
+    },
+    {
+     "name": "Ndokoti",
+     "areas": 3,
+     "note": "the quartier and two \"Carrefour Ndokoti\" localities share one range after shortening",
+     "codes": [
+      "Ndokoti 1699",
+      "Ndokoti 2649"
+     ]
+    }
+   ]
+  },
+  "dataGap": "Several well-known Yaoundé quartiers (Bastos, Biyem-Assi) are missing as OSM place nodes; OSM has 66 Yaoundé quartier polygons (admin_level 10) and the communes hold official quartier lists: gather names before issuing"
+ }
+}

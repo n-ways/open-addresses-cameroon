@@ -1,0 +1,252 @@
+[
+  {
+    "key": "AD",
+    "iso": "CM-AD",
+    "name": "Adamawa",
+    "nameFr": "Région de l'Adamaoua",
+    "nameLocal": "Adamaoua",
+    "wikidata": "Q351514",
+    "areaKm2": 63962.8,
+    "box": [
+      11.18261,
+      5.97477,
+      15.23362,
+      8.19136
+    ],
+    "buildings": {
+      "openstreetmap": 182590,
+      "ml": 478581,
+      "total": 661171
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "CE",
+    "iso": "CM-CE",
+    "name": "Centre",
+    "nameFr": "Région du Centre",
+    "nameLocal": "Centre",
+    "wikidata": "Q739951",
+    "areaKm2": 68728.6,
+    "box": [
+      10.2308,
+      3.10456,
+      13.24696,
+      6.26335
+    ],
+    "buildings": {
+      "openstreetmap": 736409,
+      "ml": 539976,
+      "total": 1276385
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "EN",
+    "iso": "CM-EN",
+    "name": "Far-North",
+    "nameFr": "Région de l'Extrême-Nord",
+    "nameLocal": "Extrême-Nord",
+    "wikidata": "Q823976",
+    "areaKm2": 34157.7,
+    "box": [
+      13.41199,
+      9.93348,
+      15.6891,
+      13.08333
+    ],
+    "buildings": {
+      "openstreetmap": 588571,
+      "ml": 1401961,
+      "total": 1990532
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 6
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "ES",
+    "iso": "CM-ES",
+    "name": "East",
+    "nameFr": "Région de l'Est",
+    "nameLocal": "Est",
+    "wikidata": "Q845168",
+    "areaKm2": 108970.7,
+    "box": [
+      12.49414,
+      1.65179,
+      16.1911,
+      6.06749
+    ],
+    "buildings": {
+      "openstreetmap": 149165,
+      "ml": 354560,
+      "total": 503725
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "LT",
+    "iso": "CM-LT",
+    "name": "Littoral",
+    "nameFr": "Région du Littoral",
+    "nameLocal": "Littoral",
+    "wikidata": "Q845172",
+    "areaKm2": 22771.5,
+    "box": [
+      9.20522,
+      3.18785,
+      11.07755,
+      5.33502
+    ],
+    "buildings": {
+      "openstreetmap": 391789,
+      "ml": 394074,
+      "total": 785863
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "NO",
+    "iso": "CM-NO",
+    "name": "North",
+    "nameFr": "Région du Nord",
+    "nameLocal": "Nord",
+    "wikidata": "Q502341",
+    "areaKm2": 66104.6,
+    "box": [
+      12.2438,
+      7.01473,
+      15.59145,
+      10.25946
+    ],
+    "buildings": {
+      "openstreetmap": 475593,
+      "ml": 820958,
+      "total": 1296551
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "NW",
+    "iso": "CM-NW",
+    "name": "Northwest",
+    "nameFr": "Nord-Ouest",
+    "nameLocal": "Northwest",
+    "wikidata": "Q823946",
+    "areaKm2": 17429.2,
+    "box": [
+      9.59045,
+      5.7044,
+      11.21044,
+      7.16224
+    ],
+    "buildings": {
+      "openstreetmap": 242692,
+      "ml": 516097,
+      "total": 758789
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "OU",
+    "iso": "CM-OU",
+    "name": "West",
+    "nameFr": "Région de l'Ouest",
+    "nameLocal": "Ouest",
+    "wikidata": "Q165784",
+    "areaKm2": 13925.6,
+    "box": [
+      9.83163,
+      4.80726,
+      11.31537,
+      6.26439
+    ],
+    "buildings": {
+      "openstreetmap": 645014,
+      "ml": 706699,
+      "total": 1351713
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "SU",
+    "iso": "CM-SU",
+    "name": "South",
+    "nameFr": "Région du Sud",
+    "nameLocal": "Sud",
+    "wikidata": "Q857122",
+    "areaKm2": 49487.6,
+    "box": [
+      9.58925,
+      2.14317,
+      13.67978,
+      3.68304
+    ],
+    "buildings": {
+      "openstreetmap": 195553,
+      "ml": 72401,
+      "total": 267954
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "SW",
+    "iso": "CM-SW",
+    "name": "Southwest",
+    "nameFr": "Sud-Ouest",
+    "nameLocal": "Southwest",
+    "wikidata": "Q607499",
+    "areaKm2": 28134.1,
+    "box": [
+      8.38222,
+      3.74371,
+      10.10156,
+      6.53086
+    ],
+    "buildings": {
+      "openstreetmap": 229416,
+      "ml": 172003,
+      "total": 401419
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  }
+]

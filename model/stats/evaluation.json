@@ -1,0 +1,64 @@
+{
+ "codes": 7243272,
+ "manifest": 7243272,
+ "uniqueWritten": 7243272,
+ "duplicateWritten": 0,
+ "digits": {
+  "3": 1640038,
+  "4": 4170120,
+  "5": 1433114
+ },
+ "badCheck": 0,
+ "outOfBlock": 0,
+ "officialFirst": 207707,
+ "alertZoneCodes": 4046885,
+ "decodeSample": 20000,
+ "decode": {
+  "joined:True": 20000,
+  "lower:True": 20000,
+  "unaccented:True": 20000,
+  "written:True": 20000
+ },
+ "spotMaxErrorM": 7.0,
+ "damm": {
+  "substitutions": 143784,
+  "caught": 143784,
+  "transpositions": 13226,
+  "transCaught": 13226
+ },
+ "plateChars": {
+  "2": 54,
+  "3": 464,
+  "4": 2030,
+  "5": 3652,
+  "6": 4009,
+  "7": 3935,
+  "8": 2945,
+  "9": 2392,
+  "10": 1652,
+  "11": 1102,
+  "12": 777,
+  "13": 101,
+  "14": 42,
+  "15": 30,
+  "16": 11,
+  "17": 4,
+  "18": 4,
+  "19": 2,
+  "20": 1,
+  "26": 1
+ },
+ "plateWords": {
+  "1": 20259,
+  "2": 2940,
+  "3": 9
+ },
+ "perAreaNumberingAmbiguous": 1434705,
+ "perAreaShare": 0.1981,
+ "locality": {
+  "pairs": 111390,
+  "medianNextM": 29.5,
+  "medianRandomM": 517.5
+ },
+ "registryExported": "2026-10-21T14:51:04Z"
+}

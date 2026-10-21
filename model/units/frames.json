@@ -1,0 +1,2882 @@
+{
+ "BAF1": {
+  "lon0": 10.4,
+  "lat0": 5.42,
+  "latc": 5.5,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bafoussam I"
+ },
+ "BAF2": {
+  "lon0": 10.34,
+  "lat0": 5.47,
+  "latc": 5.54,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bafoussam II"
+ },
+ "BAF3": {
+  "lon0": 10.32,
+  "lat0": 5.41,
+  "latc": 5.49,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bafoussam III"
+ },
+ "BAMA": {
+  "lon0": 10.08,
+  "lat0": 5.5,
+  "latc": 5.58,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Batcham"
+ },
+ "BAMB": {
+  "lon0": 10.07,
+  "lat0": 5.6,
+  "latc": 5.69,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Babadjou"
+ },
+ "BAMG": {
+  "lon0": 10.27,
+  "lat0": 5.61,
+  "latc": 5.73,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Galim"
+ },
+ "BAMM": {
+  "lon0": 10.2,
+  "lat0": 5.52,
+  "latc": 5.63,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mbouda"
+ },
+ "BANA": {
+  "lon0": 11.54,
+  "lat0": 6.19,
+  "latc": 6.73,
+  "dx": 4,
+  "dy": 5,
+  "zone": "Banyo"
+ },
+ "BANB": {
+  "lon0": 11.18,
+  "lat0": 5.97,
+  "latc": 6.26,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bankim"
+ },
+ "BANM": {
+  "lon0": 11.4,
+  "lat0": 6.28,
+  "latc": 6.48,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mayo-Darlé"
+ },
+ "BDA1": {
+  "lon0": 10.14,
+  "lat0": 5.85,
+  "latc": 5.91,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bamenda I"
+ },
+ "BDA2": {
+  "lon0": 10.02,
+  "lat0": 5.88,
+  "latc": 5.97,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bamenda 2"
+ },
+ "BDA3": {
+  "lon0": 10.13,
+  "lat0": 5.94,
+  "latc": 5.99,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bamenda 3"
+ },
+ "BENB": {
+  "lon0": 13.22,
+  "lat0": 9.52,
+  "latc": 9.76,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Baschéo"
+ },
+ "BEND": {
+  "lon0": 13.36,
+  "lat0": 9.6,
+  "latc": 9.79,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Dembo"
+ },
+ "BENG": {
+  "lon0": 13.02,
+  "lat0": 9.35,
+  "latc": 9.49,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Gachiga"
+ },
+ "BENI": {
+  "lon0": 13.52,
+  "lat0": 8.95,
+  "latc": 9.3,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bibemi"
+ },
+ "BENL": {
+  "lon0": 13.26,
+  "lat0": 8.35,
+  "latc": 8.76,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Lagdo"
+ },
+ "BENM": {
+  "lon0": 12.84,
+  "lat0": 9.19,
+  "latc": 9.34,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mayo-Hourna"
+ },
+ "BENN": {
+  "lon0": 13.03,
+  "lat0": 8.61,
+  "latc": 8.93,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ngong"
+ },
+ "BENP": {
+  "lon0": 13.36,
+  "lat0": 9.28,
+  "latc": 9.47,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Pitoa"
+ },
+ "BENT": {
+  "lon0": 12.87,
+  "lat0": 8.72,
+  "latc": 9.03,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Touroua"
+ },
+ "BER1": {
+  "lon0": 13.6,
+  "lat0": 4.4,
+  "latc": 4.53,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bertoua I"
+ },
+ "BER2": {
+  "lon0": 13.65,
+  "lat0": 4.46,
+  "latc": 4.55,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bertoua II"
+ },
+ "BNGG": {
+  "lon0": 14.41,
+  "lat0": 3.46,
+  "latc": 3.75,
+  "dx": 5,
+  "dy": 4,
+  "zone": "Gari-Gombo"
+ },
+ "BNGM": {
+  "lon0": 14.59,
+  "lat0": 1.65,
+  "latc": 2.08,
+  "dx": 5,
+  "dy": 4,
+  "zone": "Mouloundou"
+ },
+ "BNGS": {
+  "lon0": 14.59,
+  "lat0": 2.47,
+  "latc": 2.68,
+  "dx": 5,
+  "dy": 4,
+  "zone": "Salapoumbé"
+ },
+ "BNGY": {
+  "lon0": 14.32,
+  "lat0": 2.71,
+  "latc": 3.14,
+  "dx": 5,
+  "dy": 4,
+  "zone": "Yokadouma"
+ },
+ "BOYB": {
+  "lon0": 10.19,
+  "lat0": 6.1,
+  "latc": 6.22,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Belo"
+ },
+ "BOYF": {
+  "lon0": 10.31,
+  "lat0": 6.35,
+  "latc": 6.53,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Fonfuka"
+ },
+ "BOYN": {
+  "lon0": 10.06,
+  "lat0": 6.15,
+  "latc": 6.22,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Njinikom"
+ },
+ "BOYU": {
+  "lon0": 10.1,
+  "lat0": 6.25,
+  "latc": 6.34,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Fundong"
+ },
+ "BUIE": {
+  "lon0": 10.42,
+  "lat0": 6.1,
+  "latc": 6.2,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Elak"
+ },
+ "BUIJ": {
+  "lon0": 10.52,
+  "lat0": 5.98,
+  "latc": 6.09,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Jakiri"
+ },
+ "BUIK": {
+  "lon0": 10.61,
+  "lat0": 6.13,
+  "latc": 6.21,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kumbo"
+ },
+ "BUIM": {
+  "lon0": 10.76,
+  "lat0": 5.97,
+  "latc": 6.14,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mbiame"
+ },
+ "BUIN": {
+  "lon0": 10.49,
+  "lat0": 6.25,
+  "latc": 6.37,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nkor"
+ },
+ "BUIU": {
+  "lon0": 10.63,
+  "lat0": 6.24,
+  "latc": 6.32,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nkum"
+ },
+ "DIAB": {
+  "lon0": 14.49,
+  "lat0": 10.58,
+  "latc": 10.81,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bogo"
+ },
+ "DIAD": {
+  "lon0": 14.41,
+  "lat0": 10.46,
+  "latc": 10.55,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Dargala"
+ },
+ "DIAG": {
+  "lon0": 14.04,
+  "lat0": 10.45,
+  "latc": 10.55,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Gazawa"
+ },
+ "DIAM": {
+  "lon0": 14.03,
+  "lat0": 10.59,
+  "latc": 10.76,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Meri"
+ },
+ "DIAN": {
+  "lon0": 13.94,
+  "lat0": 10.16,
+  "latc": 10.33,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ndoukoula"
+ },
+ "DIAP": {
+  "lon0": 14.4,
+  "lat0": 10.73,
+  "latc": 10.94,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Pétté"
+ },
+ "DJEN": {
+  "lon0": 12.83,
+  "lat0": 6.0,
+  "latc": 6.44,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ngaoundal"
+ },
+ "DJET": {
+  "lon0": 11.99,
+  "lat0": 6.0,
+  "latc": 6.53,
+  "dx": 5,
+  "dy": 5,
+  "zone": "Tibati"
+ },
+ "DJLB": {
+  "lon0": 12.21,
+  "lat0": 2.96,
+  "latc": 3.32,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bengbis"
+ },
+ "DJLD": {
+  "lon0": 12.3,
+  "lat0": 2.22,
+  "latc": 2.64,
+  "dx": 5,
+  "dy": 4,
+  "zone": "Djoum"
+ },
+ "DJLE": {
+  "lon0": 12.03,
+  "lat0": 2.6,
+  "latc": 2.75,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Meyomessi"
+ },
+ "DJLI": {
+  "lon0": 13.04,
+  "lat0": 2.17,
+  "latc": 2.54,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mintom"
+ },
+ "DJLM": {
+  "lon0": 11.93,
+  "lat0": 2.85,
+  "latc": 3.09,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Meyomessala"
+ },
+ "DJLO": {
+  "lon0": 11.93,
+  "lat0": 2.25,
+  "latc": 2.47,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Oveng"
+ },
+ "DJLS": {
+  "lon0": 11.59,
+  "lat0": 2.65,
+  "latc": 2.91,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Sangmélima"
+ },
+ "DJLZ": {
+  "lon0": 11.68,
+  "lat0": 3.06,
+  "latc": 3.27,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Zoétélé"
+ },
+ "DLA1": {
+  "lon0": 9.65,
+  "lat0": 4.0,
+  "latc": 4.05,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Douala I"
+ },
+ "DLA2": {
+  "lon0": 9.69,
+  "lat0": 3.98,
+  "latc": 4.02,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Douala II"
+ },
+ "DLA3": {
+  "lon0": 9.71,
+  "lat0": 3.94,
+  "latc": 4.03,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Douala III"
+ },
+ "DLA4": {
+  "lon0": 9.5,
+  "lat0": 4.0,
+  "latc": 4.08,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Douala IV"
+ },
+ "DLA5": {
+  "lon0": 9.72,
+  "lat0": 4.04,
+  "latc": 4.14,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Douala V"
+ },
+ "DLA6": {
+  "lon0": 9.33,
+  "lat0": 3.74,
+  "latc": 3.9,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Douala VI"
+ },
+ "DOMA": {
+  "lon0": 10.52,
+  "lat0": 6.61,
+  "latc": 6.89,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ako"
+ },
+ "DOMK": {
+  "lon0": 10.62,
+  "lat0": 6.42,
+  "latc": 6.55,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nkambe"
+ },
+ "DOMM": {
+  "lon0": 10.4,
+  "lat0": 6.46,
+  "latc": 6.69,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Misaje"
+ },
+ "DOMN": {
+  "lon0": 10.67,
+  "lat0": 6.26,
+  "latc": 6.42,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ndu"
+ },
+ "DOMW": {
+  "lon0": 10.79,
+  "lat0": 6.2,
+  "latc": 6.53,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nwa"
+ },
+ "EBO1": {
+  "lon0": 10.61,
+  "lat0": 2.8,
+  "latc": 2.93,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ebolowa I"
+ },
+ "EBO2": {
+  "lon0": 10.59,
+  "lat0": 2.37,
+  "latc": 2.7,
+  "dx": 5,
+  "dy": 4,
+  "zone": "Ebolowa II"
+ },
+ "EDE1": {
+  "lon0": 9.86,
+  "lat0": 3.25,
+  "latc": 3.56,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Édéa I"
+ },
+ "EDE2": {
+  "lon0": 10.04,
+  "lat0": 3.77,
+  "latc": 4.01,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Édéa II"
+ },
+ "FADG": {
+  "lon0": 11.87,
+  "lat0": 6.87,
+  "latc": 7.13,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Galim-Tignère"
+ },
+ "FADK": {
+  "lon0": 12.18,
+  "lat0": 7.93,
+  "latc": 8.06,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kontcha"
+ },
+ "FADM": {
+  "lon0": 11.89,
+  "lat0": 7.36,
+  "latc": 7.68,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mayo-Baléo"
+ },
+ "FADT": {
+  "lon0": 12.24,
+  "lat0": 6.96,
+  "latc": 7.36,
+  "dx": 5,
+  "dy": 4,
+  "zone": "Tignère"
+ },
+ "FAKB": {
+  "lon0": 9.02,
+  "lat0": 4.04,
+  "latc": 4.18,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Buea"
+ },
+ "FAKI": {
+  "lon0": 8.93,
+  "lat0": 4.06,
+  "latc": 4.18,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Idenau"
+ },
+ "FAKM": {
+  "lon0": 9.21,
+  "lat0": 4.18,
+  "latc": 4.32,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Muyuka"
+ },
+ "FAKT": {
+  "lon0": 9.26,
+  "lat0": 3.95,
+  "latc": 4.09,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Tiko"
+ },
+ "FARB": {
+  "lon0": 12.24,
+  "lat0": 8.17,
+  "latc": 8.7,
+  "dx": 4,
+  "dy": 5,
+  "zone": "Béka"
+ },
+ "FARP": {
+  "lon0": 12.27,
+  "lat0": 7.59,
+  "latc": 8.19,
+  "dx": 5,
+  "dy": 5,
+  "zone": "Poli"
+ },
+ "GAR1": {
+  "lon0": 13.32,
+  "lat0": 9.25,
+  "latc": 9.34,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Garoua I"
+ },
+ "GAR2": {
+  "lon0": 13.37,
+  "lat0": 9.29,
+  "latc": 9.35,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Garoua II"
+ },
+ "GAR3": {
+  "lon0": 13.34,
+  "lat0": 9.19,
+  "latc": 9.27,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Garoua III"
+ },
+ "HNKA": {
+  "lon0": 10.06,
+  "lat0": 4.91,
+  "latc": 5.0,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bakou"
+ },
+ "HNKB": {
+  "lon0": 10.09,
+  "lat0": 5.06,
+  "latc": 5.11,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bafang"
+ },
+ "HNKD": {
+  "lon0": 10.11,
+  "lat0": 5.16,
+  "latc": 5.27,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bandja"
+ },
+ "HNKE": {
+  "lon0": 9.99,
+  "lat0": 5.09,
+  "latc": 5.18,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kékem"
+ },
+ "HNKK": {
+  "lon0": 10.12,
+  "lat0": 5.14,
+  "latc": 5.2,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Banka"
+ },
+ "HNKN": {
+  "lon0": 10.22,
+  "lat0": 5.05,
+  "latc": 5.12,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bana"
+ },
+ "HNKW": {
+  "lon0": 10.0,
+  "lat0": 5.02,
+  "latc": 5.08,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Banwa"
+ },
+ "HNYA": {
+  "lon0": 12.94,
+  "lat0": 3.66,
+  "latc": 3.86,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Abong-Mbang"
+ },
+ "HNYB": {
+  "lon0": 12.61,
+  "lat0": 3.17,
+  "latc": 3.31,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Somalomo"
+ },
+ "HNYD": {
+  "lon0": 13.45,
+  "lat0": 4.14,
+  "latc": 4.34,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Dimako"
+ },
+ "HNYE": {
+  "lon0": 12.54,
+  "lat0": 3.32,
+  "latc": 3.61,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Messaména"
+ },
+ "HNYG": {
+  "lon0": 13.62,
+  "lat0": 2.12,
+  "latc": 2.54,
+  "dx": 5,
+  "dy": 4,
+  "zone": "Ngoyla"
+ },
+ "HNYI": {
+  "lon0": 13.17,
+  "lat0": 3.24,
+  "latc": 3.57,
+  "dx": 5,
+  "dy": 4,
+  "zone": "Mindourou"
+ },
+ "HNYK": {
+  "lon0": 12.74,
+  "lat0": 4.08,
+  "latc": 4.34,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nguelemendouka"
+ },
+ "HNYL": {
+  "lon0": 12.76,
+  "lat0": 2.77,
+  "latc": 3.11,
+  "dx": 5,
+  "dy": 4,
+  "zone": "Lomié"
+ },
+ "HNYM": {
+  "lon0": 12.83,
+  "lat0": 4.09,
+  "latc": 4.19,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mboma"
+ },
+ "HNYN": {
+  "lon0": 12.77,
+  "lat0": 4.01,
+  "latc": 4.09,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Angossas"
+ },
+ "HNYO": {
+  "lon0": 12.95,
+  "lat0": 3.94,
+  "latc": 4.19,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Doumaintang"
+ },
+ "HNYS": {
+  "lon0": 13.76,
+  "lat0": 2.79,
+  "latc": 3.1,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Messock"
+ },
+ "HNYT": {
+  "lon0": 12.49,
+  "lat0": 3.79,
+  "latc": 3.91,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Atok"
+ },
+ "HNYU": {
+  "lon0": 13.2,
+  "lat0": 4.04,
+  "latc": 4.3,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Doumé"
+ },
+ "HPLA": {
+  "lon0": 10.24,
+  "lat0": 5.29,
+  "latc": 5.38,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bamendjou"
+ },
+ "HPLB": {
+  "lon0": 10.32,
+  "lat0": 5.26,
+  "latc": 5.31,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Baham"
+ },
+ "HPLN": {
+  "lon0": 10.29,
+  "lat0": 5.14,
+  "latc": 5.23,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bangou"
+ },
+ "HPLT": {
+  "lon0": 10.24,
+  "lat0": 5.23,
+  "latc": 5.29,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Batié"
+ },
+ "HSAB": {
+  "lon0": 12.63,
+  "lat0": 4.73,
+  "latc": 5.01,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bibey"
+ },
+ "HSAI": {
+  "lon0": 12.68,
+  "lat0": 4.32,
+  "latc": 4.64,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Minta"
+ },
+ "HSAK": {
+  "lon0": 11.97,
+  "lat0": 4.31,
+  "latc": 4.49,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nkoteng"
+ },
+ "HSAL": {
+  "lon0": 11.95,
+  "lat0": 4.03,
+  "latc": 4.21,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Lembe Yezoum"
+ },
+ "HSAM": {
+  "lon0": 11.71,
+  "lat0": 4.25,
+  "latc": 4.45,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mbandjock"
+ },
+ "HSAN": {
+  "lon0": 11.93,
+  "lat0": 4.31,
+  "latc": 4.79,
+  "dx": 4,
+  "dy": 5,
+  "zone": "Nanga-Eboko"
+ },
+ "HSAS": {
+  "lon0": 12.75,
+  "lat0": 4.8,
+  "latc": 4.9,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nsem"
+ },
+ "KADB": {
+  "lon0": 13.94,
+  "lat0": 4.21,
+  "latc": 4.49,
+  "dx": 5,
+  "dy": 4,
+  "zone": "Batouri"
+ },
+ "KADE": {
+  "lon0": 14.24,
+  "lat0": 4.54,
+  "latc": 4.77,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kétté"
+ },
+ "KADG": {
+  "lon0": 13.5,
+  "lat0": 3.9,
+  "latc": 4.14,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nguélébok"
+ },
+ "KADK": {
+  "lon0": 14.78,
+  "lat0": 4.09,
+  "latc": 4.28,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kentzou"
+ },
+ "KADM": {
+  "lon0": 13.66,
+  "lat0": 3.67,
+  "latc": 3.99,
+  "dx": 5,
+  "dy": 4,
+  "zone": "Mbang"
+ },
+ "KADN": {
+  "lon0": 14.55,
+  "lat0": 3.76,
+  "latc": 4.01,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ndélélé"
+ },
+ "KADO": {
+  "lon0": 14.4,
+  "lat0": 4.95,
+  "latc": 5.12,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ouli"
+ },
+ "KKHB": {
+  "lon0": 10.4,
+  "lat0": 5.2,
+  "latc": 5.26,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bayangam"
+ },
+ "KKHD": {
+  "lon0": 10.43,
+  "lat0": 5.26,
+  "latc": 5.32,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Demding"
+ },
+ "KKHP": {
+  "lon0": 10.36,
+  "lat0": 5.32,
+  "latc": 5.39,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Pete-Bandjoun"
+ },
+ "KMAB": {
+  "lon0": 9.44,
+  "lat0": 4.93,
+  "latc": 5.07,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bangem"
+ },
+ "KMAN": {
+  "lon0": 9.18,
+  "lat0": 5.01,
+  "latc": 5.25,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nguti"
+ },
+ "KMAT": {
+  "lon0": 9.42,
+  "lat0": 4.6,
+  "latc": 4.84,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Tombel"
+ },
+ "KRI1": {
+  "lon0": 9.84,
+  "lat0": 2.62,
+  "latc": 2.8,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kribi I"
+ },
+ "KRI2": {
+  "lon0": 9.9,
+  "lat0": 2.93,
+  "latc": 3.02,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kribi II"
+ },
+ "KUM1": {
+  "lon0": 9.21,
+  "lat0": 4.41,
+  "latc": 4.55,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kumba I"
+ },
+ "KUM2": {
+  "lon0": 9.36,
+  "lat0": 4.63,
+  "latc": 4.73,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kumba II"
+ },
+ "KUM3": {
+  "lon0": 9.34,
+  "lat0": 4.37,
+  "latc": 4.54,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kumba III"
+ },
+ "LEBA": {
+  "lon0": 9.82,
+  "lat0": 5.47,
+  "latc": 5.56,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Alou"
+ },
+ "LEBM": {
+  "lon0": 9.77,
+  "lat0": 5.36,
+  "latc": 5.45,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Menji"
+ },
+ "LEBW": {
+  "lon0": 9.86,
+  "lat0": 5.58,
+  "latc": 5.67,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Wabane"
+ },
+ "LEKA": {
+  "lon0": 11.36,
+  "lat0": 3.99,
+  "latc": 4.12,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Obala"
+ },
+ "LEKB": {
+  "lon0": 11.54,
+  "lat0": 4.19,
+  "latc": 4.29,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Batchenga"
+ },
+ "LEKE": {
+  "lon0": 11.25,
+  "lat0": 4.3,
+  "latc": 4.4,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ebebda"
+ },
+ "LEKK": {
+  "lon0": 11.11,
+  "lat0": 3.86,
+  "latc": 4.0,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Okola"
+ },
+ "LEKL": {
+  "lon0": 11.22,
+  "lat0": 4.1,
+  "latc": 4.17,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Elig-Mfomo"
+ },
+ "LEKM": {
+  "lon0": 11.07,
+  "lat0": 4.15,
+  "latc": 4.26,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Monatélé"
+ },
+ "LEKO": {
+  "lon0": 11.15,
+  "lat0": 3.79,
+  "latc": 3.9,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Lobo"
+ },
+ "LEKS": {
+  "lon0": 11.37,
+  "lat0": 4.21,
+  "latc": 4.36,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Sa'a"
+ },
+ "LEKV": {
+  "lon0": 11.1,
+  "lat0": 4.06,
+  "latc": 4.13,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Evodoula"
+ },
+ "LIM1": {
+  "lon0": 9.19,
+  "lat0": 4.0,
+  "latc": 4.04,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Limbé I"
+ },
+ "LIM2": {
+  "lon0": 9.05,
+  "lat0": 4.0,
+  "latc": 4.03,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Limbé II"
+ },
+ "LIM3": {
+  "lon0": 9.18,
+  "lat0": 3.9,
+  "latc": 3.96,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Limbé III"
+ },
+ "LOGB": {
+  "lon0": 14.48,
+  "lat0": 12.66,
+  "latc": 12.77,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Blangoua"
+ },
+ "LOGD": {
+  "lon0": 14.08,
+  "lat0": 12.45,
+  "latc": 12.77,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Darak"
+ },
+ "LOGF": {
+  "lon0": 14.17,
+  "lat0": 12.35,
+  "latc": 12.47,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Fotokol"
+ },
+ "LOGG": {
+  "lon0": 14.47,
+  "lat0": 12.1,
+  "latc": 12.41,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Goulfey قولفي"
+ },
+ "LOGH": {
+  "lon0": 14.23,
+  "lat0": 12.58,
+  "latc": 12.68,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Hilé - Alifa"
+ },
+ "LOGK": {
+  "lon0": 14.87,
+  "lat0": 11.99,
+  "latc": 12.06,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kousséri"
+ },
+ "LOGL": {
+  "lon0": 14.6,
+  "lat0": 11.44,
+  "latc": 11.8,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Logone-Birni"
+ },
+ "LOGM": {
+  "lon0": 14.2,
+  "lat0": 12.18,
+  "latc": 12.44,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Makary"
+ },
+ "LOGW": {
+  "lon0": 14.46,
+  "lat0": 11.04,
+  "latc": 11.42,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Waza"
+ },
+ "LOGZ": {
+  "lon0": 14.67,
+  "lat0": 10.99,
+  "latc": 11.23,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Zina"
+ },
+ "LOMB": {
+  "lon0": 12.8,
+  "lat0": 4.53,
+  "latc": 5.03,
+  "dx": 5,
+  "dy": 5,
+  "zone": "Bélabo"
+ },
+ "LOMD": {
+  "lon0": 13.2,
+  "lat0": 4.45,
+  "latc": 4.62,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Diang"
+ },
+ "LOME": {
+  "lon0": 12.86,
+  "lat0": 5.0,
+  "latc": 5.54,
+  "dx": 5,
+  "dy": 5,
+  "zone": "Bétaré-Oya"
+ },
+ "LOMG": {
+  "lon0": 14.19,
+  "lat0": 5.32,
+  "latc": 5.7,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Garoua-Boulaï"
+ },
+ "LOMM": {
+  "lon0": 13.65,
+  "lat0": 4.34,
+  "latc": 4.83,
+  "dx": 4,
+  "dy": 5,
+  "zone": "Mandjou"
+ },
+ "LOMN": {
+  "lon0": 13.89,
+  "lat0": 4.64,
+  "latc": 4.88,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ngoura"
+ },
+ "MAFA": {
+  "lon0": 11.97,
+  "lat0": 4.02,
+  "latc": 4.12,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Afanloum"
+ },
+ "MAFB": {
+  "lon0": 11.49,
+  "lat0": 3.86,
+  "latc": 3.99,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Soa"
+ },
+ "MAFE": {
+  "lon0": 11.6,
+  "lat0": 4.06,
+  "latc": 4.2,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Edzendouan"
+ },
+ "MAFM": {
+  "lon0": 11.5,
+  "lat0": 3.54,
+  "latc": 3.69,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mfou"
+ },
+ "MAFN": {
+  "lon0": 11.52,
+  "lat0": 3.71,
+  "latc": 3.81,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nkolafamba"
+ },
+ "MAFO": {
+  "lon0": 11.91,
+  "lat0": 3.88,
+  "latc": 3.99,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Olanguina"
+ },
+ "MAFS": {
+  "lon0": 11.64,
+  "lat0": 3.97,
+  "latc": 4.13,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Esse"
+ },
+ "MAFW": {
+  "lon0": 11.64,
+  "lat0": 3.78,
+  "latc": 3.89,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Awaé"
+ },
+ "MAKA": {
+  "lon0": 11.18,
+  "lat0": 3.4,
+  "latc": 3.49,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Akono"
+ },
+ "MAKB": {
+  "lon0": 11.34,
+  "lat0": 3.34,
+  "latc": 3.55,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bikok"
+ },
+ "MAKM": {
+  "lon0": 11.21,
+  "lat0": 3.63,
+  "latc": 3.76,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mbankomo"
+ },
+ "MAKN": {
+  "lon0": 11.22,
+  "lat0": 3.52,
+  "latc": 3.64,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ngoumou"
+ },
+ "MANA": {
+  "lon0": 8.94,
+  "lat0": 5.79,
+  "latc": 6.16,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Akwaya"
+ },
+ "MANE": {
+  "lon0": 8.83,
+  "lat0": 5.3,
+  "latc": 5.61,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Eyumodjock"
+ },
+ "MANM": {
+  "lon0": 8.99,
+  "lat0": 5.28,
+  "latc": 5.65,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mamfé"
+ },
+ "MANT": {
+  "lon0": 9.5,
+  "lat0": 5.38,
+  "latc": 5.6,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Tinto"
+ },
+ "MAR1": {
+  "lon0": 14.14,
+  "lat0": 10.43,
+  "latc": 10.54,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Maroua I"
+ },
+ "MAR2": {
+  "lon0": 14.27,
+  "lat0": 10.59,
+  "latc": 10.64,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Maroua II"
+ },
+ "MAR3": {
+  "lon0": 14.25,
+  "lat0": 10.59,
+  "latc": 10.8,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Maroua III"
+ },
+ "MBED": {
+  "lon0": 13.28,
+  "lat0": 6.0,
+  "latc": 6.41,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Dir"
+ },
+ "MBEJ": {
+  "lon0": 14.44,
+  "lat0": 6.63,
+  "latc": 6.93,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Djohong"
+ },
+ "MBEM": {
+  "lon0": 13.91,
+  "lat0": 6.0,
+  "latc": 6.44,
+  "dx": 5,
+  "dy": 4,
+  "zone": "Meiganga"
+ },
+ "MBEN": {
+  "lon0": 14.81,
+  "lat0": 6.69,
+  "latc": 6.78,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ngaoui"
+ },
+ "MBIB": {
+  "lon0": 11.11,
+  "lat0": 4.66,
+  "latc": 4.74,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bafia"
+ },
+ "MBID": {
+  "lon0": 10.93,
+  "lat0": 4.77,
+  "latc": 5.0,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Deuk"
+ },
+ "MBIE": {
+  "lon0": 11.21,
+  "lat0": 4.49,
+  "latc": 4.63,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ombessa"
+ },
+ "MBII": {
+  "lon0": 10.37,
+  "lat0": 4.44,
+  "latc": 4.68,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ndikiniméki"
+ },
+ "MBIK": {
+  "lon0": 11.01,
+  "lat0": 4.57,
+  "latc": 4.68,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kiiki"
+ },
+ "MBIM": {
+  "lon0": 10.41,
+  "lat0": 4.71,
+  "latc": 4.87,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Makenene"
+ },
+ "MBIN": {
+  "lon0": 10.95,
+  "lat0": 4.7,
+  "latc": 4.81,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kon-Yambetta"
+ },
+ "MBIO": {
+  "lon0": 10.88,
+  "lat0": 4.21,
+  "latc": 4.48,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bokito"
+ },
+ "MBIT": {
+  "lon0": 10.82,
+  "lat0": 4.58,
+  "latc": 4.65,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nitoukou"
+ },
+ "MBKG": {
+  "lon0": 11.23,
+  "lat0": 4.62,
+  "latc": 4.99,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ngoro"
+ },
+ "MBKM": {
+  "lon0": 11.27,
+  "lat0": 4.39,
+  "latc": 4.55,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mbangassina"
+ },
+ "MBKN": {
+  "lon0": 11.06,
+  "lat0": 5.19,
+  "latc": 5.65,
+  "dx": 5,
+  "dy": 5,
+  "zone": "Ngambé-Tikar"
+ },
+ "MBKT": {
+  "lon0": 11.46,
+  "lat0": 4.34,
+  "latc": 4.52,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ntui"
+ },
+ "MBKY": {
+  "lon0": 11.36,
+  "lat0": 4.63,
+  "latc": 5.45,
+  "dx": 5,
+  "dy": 5,
+  "zone": "Yoko"
+ },
+ "MDAA": {
+  "lon0": 14.86,
+  "lat0": 10.07,
+  "latc": 10.25,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kalfou"
+ },
+ "MDAD": {
+  "lon0": 14.96,
+  "lat0": 9.94,
+  "latc": 10.0,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Datchéka"
+ },
+ "MDAE": {
+  "lon0": 15.22,
+  "lat0": 9.98,
+  "latc": 10.12,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Guéré"
+ },
+ "MDAG": {
+  "lon0": 15.24,
+  "lat0": 9.93,
+  "latc": 10.07,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Gobo"
+ },
+ "MDAK": {
+  "lon0": 14.78,
+  "lat0": 10.5,
+  "latc": 10.62,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kai-Kai"
+ },
+ "MDAM": {
+  "lon0": 14.78,
+  "lat0": 10.73,
+  "latc": 10.91,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Maga"
+ },
+ "MDAR": {
+  "lon0": 14.86,
+  "lat0": 9.99,
+  "latc": 10.09,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kar-Hay"
+ },
+ "MDAT": {
+  "lon0": 14.8,
+  "lat0": 9.93,
+  "latc": 9.99,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Tchatibali"
+ },
+ "MDAU": {
+  "lon0": 14.89,
+  "lat0": 10.33,
+  "latc": 10.44,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Guémé"
+ },
+ "MDAW": {
+  "lon0": 15.04,
+  "lat0": 9.98,
+  "latc": 10.05,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Wina"
+ },
+ "MDAY": {
+  "lon0": 15.06,
+  "lat0": 9.98,
+  "latc": 10.21,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Yagoua"
+ },
+ "MEMK": {
+  "lon0": 9.21,
+  "lat0": 4.63,
+  "latc": 4.87,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Konye"
+ },
+ "MEMM": {
+  "lon0": 8.96,
+  "lat0": 4.21,
+  "latc": 4.44,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mbonge"
+ },
+ "MENB": {
+  "lon0": 9.7,
+  "lat0": 6.2,
+  "latc": 6.41,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Benakuma"
+ },
+ "MENF": {
+  "lon0": 9.92,
+  "lat0": 6.61,
+  "latc": 6.83,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Furu-Awa"
+ },
+ "MENW": {
+  "lon0": 10.0,
+  "lat0": 6.22,
+  "latc": 6.36,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Wum"
+ },
+ "MENZ": {
+  "lon0": 9.73,
+  "lat0": 6.32,
+  "latc": 6.58,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Zhoa"
+ },
+ "MEZA": {
+  "lon0": 9.93,
+  "lat0": 5.81,
+  "latc": 5.87,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bali"
+ },
+ "MEZB": {
+  "lon0": 9.9,
+  "lat0": 6.02,
+  "latc": 6.17,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bafut"
+ },
+ "MEZS": {
+  "lon0": 9.97,
+  "lat0": 5.7,
+  "latc": 5.8,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Santa"
+ },
+ "MEZT": {
+  "lon0": 10.19,
+  "lat0": 5.91,
+  "latc": 6.04,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Tubah"
+ },
+ "MKAD": {
+  "lon0": 14.61,
+  "lat0": 9.93,
+  "latc": 10.03,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Dziguilao"
+ },
+ "MKAG": {
+  "lon0": 14.48,
+  "lat0": 9.97,
+  "latc": 10.08,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Guidiguis"
+ },
+ "MKAK": {
+  "lon0": 14.19,
+  "lat0": 9.99,
+  "latc": 10.2,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kaélé"
+ },
+ "MKAM": {
+  "lon0": 14.23,
+  "lat0": 10.24,
+  "latc": 10.4,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mindif"
+ },
+ "MKAO": {
+  "lon0": 14.58,
+  "lat0": 10.17,
+  "latc": 10.42,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Moulvoudaye"
+ },
+ "MKAT": {
+  "lon0": 14.71,
+  "lat0": 10.07,
+  "latc": 10.19,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Touloum"
+ },
+ "MKAU": {
+  "lon0": 14.04,
+  "lat0": 10.09,
+  "latc": 10.24,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Moutourwa"
+ },
+ "MLOF": {
+  "lon0": 13.92,
+  "lat0": 9.62,
+  "latc": 9.9,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Figuil"
+ },
+ "MLOG": {
+  "lon0": 13.61,
+  "lat0": 9.56,
+  "latc": 9.91,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Guider"
+ },
+ "MLOM": {
+  "lon0": 13.24,
+  "lat0": 9.75,
+  "latc": 10.01,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mayo-Oulo"
+ },
+ "MNOD": {
+  "lon0": 9.93,
+  "lat0": 5.32,
+  "latc": 5.42,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Dschang"
+ },
+ "MNOF": {
+  "lon0": 10.03,
+  "lat0": 5.24,
+  "latc": 5.32,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Fokoué"
+ },
+ "MNON": {
+  "lon0": 10.05,
+  "lat0": 5.38,
+  "latc": 5.51,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nkong-Zem"
+ },
+ "MNOO": {
+  "lon0": 9.94,
+  "lat0": 5.47,
+  "latc": 5.55,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Fongo-Tongo"
+ },
+ "MNOP": {
+  "lon0": 10.12,
+  "lat0": 5.36,
+  "latc": 5.45,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Penka-Michel"
+ },
+ "MNOS": {
+  "lon0": 9.83,
+  "lat0": 5.17,
+  "latc": 5.3,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Santchou"
+ },
+ "MOMA": {
+  "lon0": 9.7,
+  "lat0": 5.89,
+  "latc": 5.98,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Andek"
+ },
+ "MOMB": {
+  "lon0": 9.79,
+  "lat0": 5.71,
+  "latc": 5.82,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Batibo"
+ },
+ "MOMM": {
+  "lon0": 9.87,
+  "lat0": 5.91,
+  "latc": 6.07,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mbengwi"
+ },
+ "MOMN": {
+  "lon0": 9.73,
+  "lat0": 6.01,
+  "latc": 6.15,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nijkwa"
+ },
+ "MOMW": {
+  "lon0": 9.59,
+  "lat0": 5.77,
+  "latc": 5.95,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Widikum-Boffé"
+ },
+ "MOUA": {
+  "lon0": 9.42,
+  "lat0": 4.24,
+  "latc": 4.39,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mbanga"
+ },
+ "MOUB": {
+  "lon0": 9.92,
+  "lat0": 4.88,
+  "latc": 4.98,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Baré"
+ },
+ "MOUC": {
+  "lon0": 9.51,
+  "lat0": 4.51,
+  "latc": 4.57,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mombo"
+ },
+ "MOUD": {
+  "lon0": 9.41,
+  "lat0": 4.06,
+  "latc": 4.18,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Dibombari"
+ },
+ "MOUE": {
+  "lon0": 9.81,
+  "lat0": 4.72,
+  "latc": 4.85,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ebone"
+ },
+ "MOUL": {
+  "lon0": 9.66,
+  "lat0": 4.61,
+  "latc": 4.7,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Loum"
+ },
+ "MOUM": {
+  "lon0": 9.7,
+  "lat0": 4.71,
+  "latc": 4.87,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Manjo"
+ },
+ "MOUN": {
+  "lon0": 9.73,
+  "lat0": 4.99,
+  "latc": 5.17,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mélong"
+ },
+ "MOUO": {
+  "lon0": 9.52,
+  "lat0": 4.22,
+  "latc": 4.34,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bonaléa"
+ },
+ "MOUP": {
+  "lon0": 9.6,
+  "lat0": 4.45,
+  "latc": 4.58,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Penja"
+ },
+ "MREM": {
+  "lon0": 14.69,
+  "lat0": 7.88,
+  "latc": 8.23,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Madingring"
+ },
+ "MREO": {
+  "lon0": 14.49,
+  "lat0": 7.01,
+  "latc": 7.64,
+  "dx": 5,
+  "dy": 5,
+  "zone": "Touboro"
+ },
+ "MRER": {
+  "lon0": 13.65,
+  "lat0": 8.35,
+  "latc": 8.86,
+  "dx": 5,
+  "dy": 5,
+  "zone": "Rey-Bouba"
+ },
+ "MRET": {
+  "lon0": 13.0,
+  "lat0": 7.05,
+  "latc": 7.87,
+  "dx": 5,
+  "dy": 5,
+  "zone": "Tcholliré"
+ },
+ "MSAK": {
+  "lon0": 13.87,
+  "lat0": 10.96,
+  "latc": 11.14,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kolofata"
+ },
+ "MSAM": {
+  "lon0": 13.97,
+  "lat0": 10.88,
+  "latc": 11.16,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mora"
+ },
+ "MSAT": {
+  "lon0": 14.01,
+  "lat0": 10.77,
+  "latc": 10.87,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Tokombéré"
+ },
+ "MTSB": {
+  "lon0": 13.41,
+  "lat0": 10.07,
+  "latc": 10.25,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bourha"
+ },
+ "MTSH": {
+  "lon0": 13.68,
+  "lat0": 10.22,
+  "latc": 10.33,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Hina"
+ },
+ "MTSK": {
+  "lon0": 13.76,
+  "lat0": 10.79,
+  "latc": 10.92,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Koza"
+ },
+ "MTSM": {
+  "lon0": 13.53,
+  "lat0": 10.37,
+  "latc": 10.54,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mogodé"
+ },
+ "MTSO": {
+  "lon0": 13.6,
+  "lat0": 10.32,
+  "latc": 10.66,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mokolo"
+ },
+ "MTSS": {
+  "lon0": 13.85,
+  "lat0": 10.69,
+  "latc": 10.77,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Soulèdé-Roua"
+ },
+ "MTSZ": {
+  "lon0": 13.78,
+  "lat0": 10.94,
+  "latc": 11.04,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mozogo"
+ },
+ "MVIB": {
+  "lon0": 10.91,
+  "lat0": 3.0,
+  "latc": 3.09,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Biwong-Bané"
+ },
+ "MVIE": {
+  "lon0": 10.57,
+  "lat0": 2.93,
+  "latc": 3.08,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Efoulan"
+ },
+ "MVII": {
+  "lon0": 11.25,
+  "lat0": 2.61,
+  "latc": 2.79,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Biwong-Bulu"
+ },
+ "MVIM": {
+  "lon0": 11.22,
+  "lat0": 2.82,
+  "latc": 2.94,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mengong"
+ },
+ "MVIN": {
+  "lon0": 11.23,
+  "lat0": 2.97,
+  "latc": 3.08,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ngoulémakong"
+ },
+ "MVIV": {
+  "lon0": 11.66,
+  "lat0": 2.27,
+  "latc": 2.54,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mvangan"
+ },
+ "NDEA": {
+  "lon0": 10.54,
+  "lat0": 5.03,
+  "latc": 5.05,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bassamba"
+ },
+ "NDEB": {
+  "lon0": 10.34,
+  "lat0": 4.93,
+  "latc": 5.11,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bangangté"
+ },
+ "NDET": {
+  "lon0": 10.41,
+  "lat0": 4.8,
+  "latc": 4.94,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Tonga"
+ },
+ "NDEZ": {
+  "lon0": 10.36,
+  "lat0": 4.91,
+  "latc": 5.03,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bazou"
+ },
+ "NDIB": {
+  "lon0": 8.83,
+  "lat0": 4.25,
+  "latc": 4.46,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bamusso"
+ },
+ "NDID": {
+  "lon0": 8.95,
+  "lat0": 4.68,
+  "latc": 4.81,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Dikome-Balue"
+ },
+ "NDIE": {
+  "lon0": 8.78,
+  "lat0": 4.53,
+  "latc": 4.69,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ekondo-Titi"
+ },
+ "NDII": {
+  "lon0": 8.49,
+  "lat0": 4.48,
+  "latc": 4.54,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Idabato"
+ },
+ "NDIK": {
+  "lon0": 8.49,
+  "lat0": 4.5,
+  "latc": 4.6,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kombo-Abedimo"
+ },
+ "NDIM": {
+  "lon0": 8.64,
+  "lat0": 4.75,
+  "latc": 5.05,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mudemba"
+ },
+ "NDIO": {
+  "lon0": 8.64,
+  "lat0": 4.52,
+  "latc": 4.65,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kombo-Itindi"
+ },
+ "NDIS": {
+  "lon0": 8.52,
+  "lat0": 4.66,
+  "latc": 4.79,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Isanguele"
+ },
+ "NDIT": {
+  "lon0": 8.94,
+  "lat0": 4.92,
+  "latc": 5.18,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Toko"
+ },
+ "NGA1": {
+  "lon0": 13.45,
+  "lat0": 7.14,
+  "latc": 7.28,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ngaoundéré I"
+ },
+ "NGA2": {
+  "lon0": 13.53,
+  "lat0": 7.24,
+  "latc": 7.34,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ngaoundéré II"
+ },
+ "NGA3": {
+  "lon0": 13.5,
+  "lat0": 7.4,
+  "latc": 7.5,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ngaoundéré III"
+ },
+ "NGKA": {
+  "lon0": 10.25,
+  "lat0": 5.8,
+  "latc": 5.88,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Balikumbat"
+ },
+ "NGKB": {
+  "lon0": 10.34,
+  "lat0": 5.88,
+  "latc": 6.02,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Babessi"
+ },
+ "NGKN": {
+  "lon0": 10.36,
+  "lat0": 5.77,
+  "latc": 5.91,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ndop"
+ },
+ "NKAI": {
+  "lon0": 10.14,
+  "lat0": 4.08,
+  "latc": 4.44,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Yingui"
+ },
+ "NKAK": {
+  "lon0": 9.99,
+  "lat0": 4.57,
+  "latc": 4.79,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nkondjock"
+ },
+ "NKAN": {
+  "lon0": 10.19,
+  "lat0": 4.77,
+  "latc": 4.94,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ndobian"
+ },
+ "NKAY": {
+  "lon0": 9.75,
+  "lat0": 4.06,
+  "latc": 4.4,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Yabassi"
+ },
+ "NKS1": {
+  "lon0": 9.91,
+  "lat0": 4.83,
+  "latc": 4.9,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nkongsamba I"
+ },
+ "NKS2": {
+  "lon0": 9.87,
+  "lat0": 4.95,
+  "latc": 4.99,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nkongsamba II"
+ },
+ "NKS3": {
+  "lon0": 9.83,
+  "lat0": 4.91,
+  "latc": 4.97,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nkongsamba III"
+ },
+ "NOUA": {
+  "lon0": 10.96,
+  "lat0": 5.41,
+  "latc": 5.65,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Malentouen"
+ },
+ "NOUB": {
+  "lon0": 10.59,
+  "lat0": 5.76,
+  "latc": 5.9,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bangourain"
+ },
+ "NOUF": {
+  "lon0": 10.72,
+  "lat0": 5.56,
+  "latc": 5.72,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Foumban"
+ },
+ "NOUK": {
+  "lon0": 10.45,
+  "lat0": 5.56,
+  "latc": 5.68,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kouoptamo"
+ },
+ "NOUM": {
+  "lon0": 10.9,
+  "lat0": 5.86,
+  "latc": 6.07,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Magba"
+ },
+ "NOUN": {
+  "lon0": 10.75,
+  "lat0": 5.77,
+  "latc": 5.89,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Njimom"
+ },
+ "NOUO": {
+  "lon0": 10.49,
+  "lat0": 5.23,
+  "latc": 5.42,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Foumbot"
+ },
+ "NOUS": {
+  "lon0": 10.65,
+  "lat0": 4.92,
+  "latc": 5.26,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Massangam"
+ },
+ "NOUU": {
+  "lon0": 10.59,
+  "lat0": 5.51,
+  "latc": 5.65,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Koutaba"
+ },
+ "NYKA": {
+  "lon0": 10.93,
+  "lat0": 3.71,
+  "latc": 3.83,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Matomb"
+ },
+ "NYKB": {
+  "lon0": 10.61,
+  "lat0": 3.73,
+  "latc": 3.81,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Biyouha"
+ },
+ "NYKD": {
+  "lon0": 10.64,
+  "lat0": 3.8,
+  "latc": 3.95,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Dibang"
+ },
+ "NYKE": {
+  "lon0": 10.68,
+  "lat0": 3.44,
+  "latc": 3.65,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Éséka"
+ },
+ "NYKG": {
+  "lon0": 11.0,
+  "lat0": 3.98,
+  "latc": 4.1,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nguibassal"
+ },
+ "NYKM": {
+  "lon0": 10.81,
+  "lat0": 3.37,
+  "latc": 3.57,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Makak"
+ },
+ "NYKN": {
+  "lon0": 10.81,
+  "lat0": 3.81,
+  "latc": 3.9,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ngog-Mapubi"
+ },
+ "NYKO": {
+  "lon0": 10.98,
+  "lat0": 3.58,
+  "latc": 3.66,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bondjock"
+ },
+ "NYKS": {
+  "lon0": 10.23,
+  "lat0": 3.33,
+  "latc": 3.58,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Messondo"
+ },
+ "NYKT": {
+  "lon0": 10.83,
+  "lat0": 3.92,
+  "latc": 4.04,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bot-Makak"
+ },
+ "NYMA": {
+  "lon0": 11.94,
+  "lat0": 3.45,
+  "latc": 3.92,
+  "dx": 4,
+  "dy": 5,
+  "zone": "Akonolinga"
+ },
+ "NYME": {
+  "lon0": 11.78,
+  "lat0": 3.28,
+  "latc": 3.44,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Endom"
+ },
+ "NYMK": {
+  "lon0": 12.61,
+  "lat0": 3.93,
+  "latc": 4.05,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kobdombo"
+ },
+ "NYMM": {
+  "lon0": 11.94,
+  "lat0": 3.7,
+  "latc": 3.84,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mengang"
+ },
+ "NYMY": {
+  "lon0": 12.27,
+  "lat0": 3.83,
+  "latc": 4.11,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ayos"
+ },
+ "NYSA": {
+  "lon0": 11.42,
+  "lat0": 3.13,
+  "latc": 3.26,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Akoéman"
+ },
+ "NYSD": {
+  "lon0": 11.67,
+  "lat0": 3.52,
+  "latc": 3.67,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Dzeng"
+ },
+ "NYSE": {
+  "lon0": 11.23,
+  "lat0": 3.11,
+  "latc": 3.27,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mengueme"
+ },
+ "NYSK": {
+  "lon0": 11.64,
+  "lat0": 3.3,
+  "latc": 3.43,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nkol-Métet"
+ },
+ "NYSM": {
+  "lon0": 11.42,
+  "lat0": 3.34,
+  "latc": 3.49,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mbalmayo"
+ },
+ "NYSN": {
+  "lon0": 11.05,
+  "lat0": 3.1,
+  "latc": 3.28,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ngomedzap"
+ },
+ "OCEA": {
+  "lon0": 10.18,
+  "lat0": 2.57,
+  "latc": 2.83,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Akom II"
+ },
+ "OCEB": {
+  "lon0": 10.22,
+  "lat0": 2.94,
+  "latc": 3.19,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bipindi"
+ },
+ "OCEC": {
+  "lon0": 9.81,
+  "lat0": 2.14,
+  "latc": 2.42,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Campo"
+ },
+ "OCEL": {
+  "lon0": 9.89,
+  "lat0": 2.63,
+  "latc": 3.12,
+  "dx": 4,
+  "dy": 5,
+  "zone": "Lokoundjé"
+ },
+ "OCEM": {
+  "lon0": 10.83,
+  "lat0": 3.13,
+  "latc": 3.28,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mvengue"
+ },
+ "OCEN": {
+  "lon0": 9.95,
+  "lat0": 2.55,
+  "latc": 2.75,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Niété"
+ },
+ "OCEO": {
+  "lon0": 10.49,
+  "lat0": 3.07,
+  "latc": 3.28,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Lolodorf"
+ },
+ "SAMD": {
+  "lon0": 9.82,
+  "lat0": 3.9,
+  "latc": 4.02,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Dibamba"
+ },
+ "SAMG": {
+  "lon0": 10.39,
+  "lat0": 4.18,
+  "latc": 4.35,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ngambé"
+ },
+ "SAMI": {
+  "lon0": 9.65,
+  "lat0": 3.67,
+  "latc": 3.82,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Dizangué"
+ },
+ "SAMM": {
+  "lon0": 10.44,
+  "lat0": 4.01,
+  "latc": 4.14,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Massok"
+ },
+ "SAMN": {
+  "lon0": 10.73,
+  "lat0": 4.24,
+  "latc": 4.43,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ndom"
+ },
+ "SAMO": {
+  "lon0": 9.53,
+  "lat0": 3.33,
+  "latc": 3.58,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mouanko"
+ },
+ "SAMP": {
+  "lon0": 10.43,
+  "lat0": 3.72,
+  "latc": 3.91,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Pouma"
+ },
+ "SAMW": {
+  "lon0": 10.18,
+  "lat0": 3.51,
+  "latc": 3.8,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ngwei"
+ },
+ "SAMY": {
+  "lon0": 10.78,
+  "lat0": 4.08,
+  "latc": 4.21,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Nyanon"
+ },
+ "VINB": {
+  "lon0": 14.07,
+  "lat0": 6.8,
+  "latc": 7.11,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Bélel"
+ },
+ "VINE": {
+  "lon0": 13.28,
+  "lat0": 7.56,
+  "latc": 7.77,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Mbé"
+ },
+ "VINM": {
+  "lon0": 12.82,
+  "lat0": 6.75,
+  "latc": 7.23,
+  "dx": 4,
+  "dy": 5,
+  "zone": "Martap"
+ },
+ "VINN": {
+  "lon0": 13.59,
+  "lat0": 7.22,
+  "latc": 7.46,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ngan'ha"
+ },
+ "VINY": {
+  "lon0": 13.31,
+  "lat0": 6.52,
+  "latc": 6.91,
+  "dx": 5,
+  "dy": 4,
+  "zone": "Nyambaka"
+ },
+ "VNTA": {
+  "lon0": 10.91,
+  "lat0": 2.27,
+  "latc": 2.51,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Ambam"
+ },
+ "VNTK": {
+  "lon0": 11.17,
+  "lat0": 2.17,
+  "latc": 2.24,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Kyé-Ossi"
+ },
+ "VNTM": {
+  "lon0": 10.18,
+  "lat0": 2.16,
+  "latc": 2.48,
+  "dx": 5,
+  "dy": 4,
+  "zone": "Ma'an"
+ },
+ "VNTO": {
+  "lon0": 10.64,
+  "lat0": 2.16,
+  "latc": 2.23,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Olamzé"
+ },
+ "YDE1": {
+  "lon0": 11.47,
+  "lat0": 3.86,
+  "latc": 3.92,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Yaoundé I"
+ },
+ "YDE2": {
+  "lon0": 11.46,
+  "lat0": 3.86,
+  "latc": 3.91,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Yaoundé II"
+ },
+ "YDE3": {
+  "lon0": 11.42,
+  "lat0": 3.71,
+  "latc": 3.79,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Yaoundé III"
+ },
+ "YDE4": {
+  "lon0": 11.48,
+  "lat0": 3.75,
+  "latc": 3.81,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Yaoundé IV"
+ },
+ "YDE5": {
+  "lon0": 11.52,
+  "lat0": 3.85,
+  "latc": 3.9,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Yaoundé V"
+ },
+ "YDE6": {
+  "lon0": 11.45,
+  "lat0": 3.79,
+  "latc": 3.83,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Yaoundé VI"
+ },
+ "YDE7": {
+  "lon0": 11.41,
+  "lat0": 3.83,
+  "latc": 3.87,
+  "dx": 4,
+  "dy": 4,
+  "zone": "Yaoundé VII"
+ }
+}

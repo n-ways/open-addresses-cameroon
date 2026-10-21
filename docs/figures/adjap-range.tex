@@ -1,0 +1,67 @@
+% The national range of the name Adjap: 30 blocks laid end to end from 1000 (Eq. 6), each with the numbers issued at
+% first issue, the rest of its main part and its tail reserve (Eq. 9), then the spare. Data: adjap-blocks.dat, written by tools/paper-figures.py.
+\documentclass[tikz,border=3pt]{standalone}
+\usepackage{fontspec}
+\setmainfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{unicode-math}
+\setmathfont{LibertinusMath-Regular.otf}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{pgfplotstable}
+% English by default; the French paper compiles <name>-fr.tex, which sets \fr to 1 and inputs this file.
+\providecommand{\fr}{0}
+\newcommand{\T}[2]{\ifnum\fr=1 #2\else #1\fi}
+\ifnum\fr=1 \pgfkeys{/pgf/number format/.cd, use comma, 1000 sep={\,}}\else \pgfkeys{/pgf/number format/.cd, 1000 sep={,}}\fi
+\definecolor{ink}{HTML}{00664F}\definecolor{flaggreen}{HTML}{007A5E}\definecolor{flagred}{HTML}{CE1126}
+\definecolor{flagyellow}{HTML}{FCD116}\definecolor{amber}{HTML}{C98A00}
+\usetikzlibrary{patterns}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\pgfplotstableread{adjap-blocks.dat}\blocks
+\def\W{14}
+\pgfmathsetmacro{\sx}{\W/9000}
+% the whole range 1000-9999
+\fill[gray!12] (0,2.8) rectangle (\W,3.4);
+\fill[flaggreen!70] (0,2.8) rectangle ({(4950-1000)*\sx},3.4);
+\fill[flagred!25] ({(9100-1000)*\sx},2.8) rectangle (\W,3.4);
+\draw[gray] (0,2.8) rectangle (\W,3.4);
+\node[font=\footnotesize, anchor=south] at ({(4950-1000)*\sx/2},3.4) {\T{30 blocks, 1000–4949}{30 blocs, 1000–4949}};
+\node[font=\footnotesize, anchor=south] at ({(7025-1000)*\sx},3.4) {\T{spare: new areas and extensions}{réserve : nouvelles zones et extensions}};
+\node[font=\footnotesize, anchor=south, text=flagred] at ({(9550-1000)*\sx},3.4) {\T{top tenth}{dixième supérieur}};
+\foreach \t in {1000,2000,...,9000} {\draw[gray] ({(\t-1000)*\sx},2.8) -- ({(\t-1000)*\sx},2.7) node[below, font=\scriptsize] {\t};}
+\draw[gray] (\W,2.8) -- (\W,2.7) node[below, font=\scriptsize] {9999};
+% zoom on 1000-4949
+\pgfmathsetmacro{\zx}{\W/3950}
+\draw[gray!60, dashed] (0,2.25) -- (0,1.0);
+\draw[gray!60, dashed] ({(4950-1000)*\sx},2.25) -- (\W,1.0);
+\foreach \i in {0,...,29} {
+  \pgfplotstablegetelem{\i}{lo}\of\blocks \let\lo\pgfplotsretval
+  \pgfplotstablegetelem{\i}{hi}\of\blocks \let\hi\pgfplotsretval
+  \pgfplotstablegetelem{\i}{mainhi}\of\blocks \let\mh\pgfplotsretval
+  \pgfplotstablegetelem{\i}{usedhi}\of\blocks \let\uh\pgfplotsretval
+  \pgfmathsetmacro{\a}{(\lo-1000)*\zx}
+  \pgfmathsetmacro{\u}{(\uh+1-1000)*\zx}
+  \pgfmathsetmacro{\m}{(\mh+1-1000)*\zx}
+  \pgfmathsetmacro{\b}{(\hi+1-1000)*\zx}
+  \fill[flaggreen] (\a,0.4) rectangle (\u,1.0);
+  \fill[flaggreen!25] (\u,0.4) rectangle (\m,1.0);
+  \fill[pattern=north east lines, pattern color=amber] (\m,0.4) rectangle (\b,1.0);
+  \draw[white, line width=0.6pt] (\a,0.4) -- (\a,1.0);
+}
+\draw[gray] (0,0.4) rectangle (\W,1.0);
+% a few blocks named
+\foreach \i/\side in {0/below, 8/above, 14/below, 20/above, 24/below, 29/above} {
+  \pgfplotstablegetelem{\i}{lo}\of\blocks \let\lo\pgfplotsretval
+  \pgfplotstablegetelem{\i}{hi}\of\blocks \let\hi\pgfplotsretval
+  \pgfplotstablegetelem{\i}{zonename}\of\blocks \let\ar\pgfplotsretval
+  \pgfmathsetmacro{\mid}{((\lo+\hi+1)/2-1000)*\zx}
+  \ifx\side\above \draw[gray] (\mid,1.0) -- (\mid,1.25) node[above, font=\tiny, align=center, text=black] {\ar\\\lo–\hi};
+  \else \draw[gray] (\mid,0.4) -- (\mid,0.15) node[below, font=\tiny, align=center, text=black] {\ar\\\lo–\hi}; \fi
+}
+% legend
+\fill[flaggreen] (0,-0.95) rectangle (0.35,-0.7); \node[font=\footnotesize, anchor=west] at (0.4,-0.82) {\T{numbers issued}{numéros émis}};
+\fill[flaggreen!25] (3.4,-0.95) rectangle (3.75,-0.7); \node[font=\footnotesize, anchor=west] at (3.8,-0.82) {\T{rest of the main part (infill)}{reste de la partie principale (insertion)}};
+\fill[pattern=north east lines, pattern color=amber] (8.8,-0.95) rectangle (9.15,-0.7); \draw[gray] (8.8,-0.95) rectangle (9.15,-0.7);
+\node[font=\footnotesize, anchor=west] at (9.2,-0.82) {\T{tail reserve (last third)}{réserve de queue (dernier tiers)}};
+\end{tikzpicture}
+\end{document}

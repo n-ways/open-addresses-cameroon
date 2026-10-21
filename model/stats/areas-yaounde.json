@@ -1,0 +1,189 @@
+{
+ "localities": [
+  {
+   "src": "geonames",
+   "n": 11225
+  },
+  {
+   "src": "osm",
+   "n": 13078
+  }
+ ],
+ "perArea": [
+  {
+   "areas_with_buildings": 23568,
+   "p50": 157.0,
+   "p90": 915.0,
+   "p99": 4085.0,
+   "max_n": 29433,
+   "le_450": 18252,
+   "le_4500": 5125,
+   "le_45000": 191,
+   "gt_45000": 0,
+   "buildings_in_areas_over_4500": "1432533",
+   "total": "9564960"
+  }
+ ],
+ "capitalTop": [
+  {
+   "name": "Ahala Centre",
+   "kind": "locality",
+   "src": "osm",
+   "n": 5286
+  },
+  {
+   "name": "Rond-point Damas",
+   "kind": "locality",
+   "src": "osm",
+   "n": 4586
+  },
+  {
+   "name": "Onambele",
+   "kind": "locality",
+   "src": "osm",
+   "n": 4000
+  },
+  {
+   "name": "Etoug",
+   "kind": "PPL",
+   "src": "geonames",
+   "n": 3855
+  },
+  {
+   "name": "Carrefour Messassi",
+   "kind": "locality",
+   "src": "osm",
+   "n": 3656
+  },
+  {
+   "name": "Carrefour Nkondengui",
+   "kind": "locality",
+   "src": "osm",
+   "n": 3590
+  },
+  {
+   "name": "Mvolyé",
+   "kind": "PPL",
+   "src": "geonames",
+   "n": 3476
+  },
+  {
+   "name": "Eba",
+   "kind": "locality",
+   "src": "osm",
+   "n": 3383
+  },
+  {
+   "name": "Minkoameyos",
+   "kind": "village",
+   "src": "osm",
+   "n": 3382
+  },
+  {
+   "name": "Chefferie Nsimeyong 3",
+   "kind": "locality",
+   "src": "osm",
+   "n": 3345
+  },
+  {
+   "name": "Nkomkana",
+   "kind": "locality",
+   "src": "osm",
+   "n": 3334
+  },
+  {
+   "name": "Melen 8",
+   "kind": "locality",
+   "src": "osm",
+   "n": 3332
+  },
+  {
+   "name": "Tchad",
+   "kind": "locality",
+   "src": "osm",
+   "n": 3299
+  },
+  {
+   "name": "Nkmassi",
+   "kind": "locality",
+   "src": "osm",
+   "n": 3266
+  },
+  {
+   "name": "Bilik",
+   "kind": "locality",
+   "src": "osm",
+   "n": 3194
+  },
+  {
+   "name": "Nkolmekou",
+   "kind": "locality",
+   "src": "osm",
+   "n": 3173
+  },
+  {
+   "name": "Ayéné",
+   "kind": "neighbourhood",
+   "src": "osm",
+   "n": 3166
+  },
+  {
+   "name": "Ayené",
+   "kind": "locality",
+   "src": "osm",
+   "n": 3166
+  },
+  {
+   "name": "Ngousso Savana",
+   "kind": "locality",
+   "src": "osm",
+   "n": 3161
+  },
+  {
+   "name": "Carrefour Nsam",
+   "kind": "neighbourhood",
+   "src": "osm",
+   "n": 3154
+  },
+  {
+   "name": "Carrefour Amadou",
+   "kind": "locality",
+   "src": "osm",
+   "n": 3073
+  },
+  {
+   "name": "Nkol-nzie",
+   "kind": "locality",
+   "src": "osm",
+   "n": 3061
+  },
+  {
+   "name": "Zone de Paix",
+   "kind": "locality",
+   "src": "osm",
+   "n": 2987
+  },
+  {
+   "name": "Carrefour de La Fraternite",
+   "kind": "locality",
+   "src": "osm",
+   "n": 2866
+  },
+  {
+   "name": "Chefferie Tsinga Village",
+   "kind": "locality",
+   "src": "osm",
+   "n": 2843
+  }
+ ],
+ "capitalAreas": [
+  {
+   "areas": 323,
+   "p50": 1078.0,
+   "p90": 2710.0,
+   "max_n": 5286,
+   "over_4500": 2,
+   "over_45000": 0
+  }
+ ]
+}

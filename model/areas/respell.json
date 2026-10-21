@@ -1,0 +1,5210 @@
+{
+ "note": "The issued register keeps every name id, key, range and block. From a copy of this repository in\nwhich tools/name-ranges.py and tools/build-register.py ran with the current rules, it takes only\nhow each plate name is written: its accents, hyphens and apostrophes. A name key never changes\n(cm_engine.name_key folds all of those), so no number, range or check digit moves.\n\nThe spelling rule: variants of a name take the spelling with its\naccents (\"Bessengué\", not \"Bessengue\"), then the one more people live under; and a name given in\ntwo scripts is written on its plate in the Latin one. The one key that changes is Blangoua's\n(LOGB-012), whose plate had been its Arabic name (\"بلانقوا\", an empty key): it keeps its name id 1,\nits range and its blocks, so its codes keep their machine form. Every change is recorded in\nmodel/areas/respell.json.",
+ "changes": [
+  {
+   "area": "BAF1-016",
+   "was": "Fou'sap",
+   "now": "Fou-sap"
+  },
+  {
+   "area": "BAF1-017",
+   "was": "Fou'sap",
+   "now": "Fou-sap"
+  },
+  {
+   "area": "BAF3-020",
+   "was": "La'tsit",
+   "now": "La’tsit"
+  },
+  {
+   "area": "BAF3-021",
+   "was": "La'tsit",
+   "now": "La’tsit"
+  },
+  {
+   "area": "BAF3-032",
+   "was": "Njisse",
+   "now": "Njissé"
+  },
+  {
+   "area": "BAMA-076",
+   "was": "La'tchué",
+   "now": "La’tchuè"
+  },
+  {
+   "area": "BAMA-081",
+   "was": "Lena",
+   "now": "Léna"
+  },
+  {
+   "area": "BAMA-085",
+   "was": "Lewa",
+   "now": "Léwa"
+  },
+  {
+   "area": "BAMA-094",
+   "was": "Mbwe",
+   "now": "Mbwé"
+  },
+  {
+   "area": "BAMA-095",
+   "was": "Mbwe",
+   "now": "Mbwé"
+  },
+  {
+   "area": "BAMA-098",
+   "was": "Mefou",
+   "now": "Méfou"
+  },
+  {
+   "area": "BAMA-105",
+   "was": "Mendou",
+   "now": "Mèndou"
+  },
+  {
+   "area": "BAMA-162",
+   "was": "Tsela",
+   "now": "Tsèla"
+  },
+  {
+   "area": "BAMA-163",
+   "was": "Tsela",
+   "now": "Tsèla"
+  },
+  {
+   "area": "BAMB-023",
+   "was": "La'tchué",
+   "now": "La’tchuè"
+  },
+  {
+   "area": "BAMB-025",
+   "was": "Lepo",
+   "now": "Lépo"
+  },
+  {
+   "area": "BAMG-070",
+   "was": "Tassé Yeyep",
+   "now": "Tassé-Yéyep"
+  },
+  {
+   "area": "BAMG-071",
+   "was": "Tassé Yeyep",
+   "now": "Tassé-Yéyep"
+  },
+  {
+   "area": "BAMM-085",
+   "was": "Mendou",
+   "now": "Mèndou"
+  },
+  {
+   "area": "BANA-042",
+   "was": "Makam",
+   "now": "Mākam"
+  },
+  {
+   "area": "BANA-075",
+   "was": "Ndipelé",
+   "now": "Ndipélé"
+  },
+  {
+   "area": "BANA-076",
+   "was": "Ndipelé",
+   "now": "Ndipélé"
+  },
+  {
+   "area": "BENB-005",
+   "was": "Bai",
+   "now": "Baï"
+  },
+  {
+   "area": "BENB-021",
+   "was": "Dandere",
+   "now": "Dandéré"
+  },
+  {
+   "area": "BENB-028",
+   "was": "Djarengol",
+   "now": "Djarèngol"
+  },
+  {
+   "area": "BENB-046",
+   "was": "Karewa",
+   "now": "Karéwa"
+  },
+  {
+   "area": "BENB-109",
+   "was": "Ouro Seidou",
+   "now": "Ouro SeÏdou"
+  },
+  {
+   "area": "BEND-035",
+   "was": "Louguereo",
+   "now": "Louguéréo"
+  },
+  {
+   "area": "BEND-049",
+   "was": "Ouro Seidou",
+   "now": "Ouro SeÏdou"
+  },
+  {
+   "area": "BENG-016",
+   "was": "Louguereo",
+   "now": "Louguéréo"
+  },
+  {
+   "area": "BENI-055",
+   "was": "Dandere",
+   "now": "Dandéré"
+  },
+  {
+   "area": "BENI-068",
+   "was": "Djarengol",
+   "now": "Djarèngol"
+  },
+  {
+   "area": "BENI-076",
+   "was": "Dougue",
+   "now": "Dougué"
+  },
+  {
+   "area": "BENI-077",
+   "was": "Dougue",
+   "now": "Dougué"
+  },
+  {
+   "area": "BENI-104",
+   "was": "Guewa",
+   "now": "Guéwa"
+  },
+  {
+   "area": "BENI-105",
+   "was": "Guewa",
+   "now": "Guéwa"
+  },
+  {
+   "area": "BENI-119",
+   "was": "Karedjé",
+   "now": "Karédjé"
+  },
+  {
+   "area": "BENI-120",
+   "was": "Karewa",
+   "now": "Karéwa"
+  },
+  {
+   "area": "BENI-174",
+   "was": "Nakere",
+   "now": "Nakéré"
+  },
+  {
+   "area": "BENI-217",
+   "was": "Sebore",
+   "now": "Séboré"
+  },
+  {
+   "area": "BENI-224",
+   "was": "Teware",
+   "now": "Tewaré"
+  },
+  {
+   "area": "BENI-227",
+   "was": "Tihele",
+   "now": "Tihélé"
+  },
+  {
+   "area": "BENI-228",
+   "was": "Tihele",
+   "now": "Tihélé"
+  },
+  {
+   "area": "BENL-018",
+   "was": "Bame",
+   "now": "Bamé"
+  },
+  {
+   "area": "BENL-134",
+   "was": "Soulede",
+   "now": "Soulèdé"
+  },
+  {
+   "area": "BENL-140",
+   "was": "Wadjiri",
+   "now": "Wadjîri"
+  },
+  {
+   "area": "BENN-046",
+   "was": "Karewa",
+   "now": "Karéwa"
+  },
+  {
+   "area": "BENN-054",
+   "was": "Kone",
+   "now": "Koné"
+  },
+  {
+   "area": "BENN-055",
+   "was": "Kone",
+   "now": "Koné"
+  },
+  {
+   "area": "BENN-058",
+   "was": "Koubadje",
+   "now": "Koubadjé"
+  },
+  {
+   "area": "BENN-059",
+   "was": "Koubadje",
+   "now": "Koubadjé"
+  },
+  {
+   "area": "BENN-060",
+   "was": "Koubadje",
+   "now": "Koubadjé"
+  },
+  {
+   "area": "BENN-075",
+   "was": "Lougguere",
+   "now": "Lougguéré"
+  },
+  {
+   "area": "BENN-137",
+   "was": "Tcheboa",
+   "now": "Tchéboa"
+  },
+  {
+   "area": "BENN-138",
+   "was": "Tcheboa",
+   "now": "Tchéboa"
+  },
+  {
+   "area": "BENP-137",
+   "was": "Delem",
+   "now": "Délem"
+  },
+  {
+   "area": "BENP-138",
+   "was": "Delem",
+   "now": "Délem"
+  },
+  {
+   "area": "BENP-206",
+   "was": "Kefero",
+   "now": "Kéféro"
+  },
+  {
+   "area": "BENP-207",
+   "was": "Kefero",
+   "now": "Kéféro"
+  },
+  {
+   "area": "BENP-210",
+   "was": "Koubere",
+   "now": "Koubéré"
+  },
+  {
+   "area": "BENP-216",
+   "was": "Langui Be",
+   "now": "Langui-Bé"
+  },
+  {
+   "area": "BENP-225",
+   "was": "Langui Be",
+   "now": "Langui-Bé"
+  },
+  {
+   "area": "BENP-232",
+   "was": "Louguereo",
+   "now": "Louguéréo"
+  },
+  {
+   "area": "BENP-248",
+   "was": "Mbe",
+   "now": "Mbé"
+  },
+  {
+   "area": "BENP-286",
+   "was": "Ouro Nangue",
+   "now": "Ouro Nangué"
+  },
+  {
+   "area": "BENP-299",
+   "was": "Poumpoumre",
+   "now": "Poumpoumré"
+  },
+  {
+   "area": "BENP-320",
+   "was": "Sebore",
+   "now": "Séboré"
+  },
+  {
+   "area": "BENP-321",
+   "was": "Sebore",
+   "now": "Séboré"
+  },
+  {
+   "area": "BENP-323",
+   "was": "Sirlawe",
+   "now": "Sirlawé"
+  },
+  {
+   "area": "BENP-344",
+   "was": "Tokombere",
+   "now": "Tokombéré"
+  },
+  {
+   "area": "BENT-039",
+   "was": "Mayo Oulo",
+   "now": "Mayo-Oulo"
+  },
+  {
+   "area": "BNGG-044",
+   "was": "Pater",
+   "now": "Patér"
+  },
+  {
+   "area": "BNGM-069",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "BNGM-080",
+   "was": "Ndongo",
+   "now": "Ndongó"
+  },
+  {
+   "area": "BNGS-033",
+   "was": "Ndongo",
+   "now": "Ndongó"
+  },
+  {
+   "area": "BNGY-007",
+   "was": "Bangue",
+   "now": "Bangué"
+  },
+  {
+   "area": "BNGY-013",
+   "was": "Bienemama",
+   "now": "Biénémama"
+  },
+  {
+   "area": "BNGY-014",
+   "was": "Bienemama",
+   "now": "Biénémama"
+  },
+  {
+   "area": "BNGY-037",
+   "was": "Elandjo",
+   "now": "Élandjo"
+  },
+  {
+   "area": "BNGY-078",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "BUIK-021",
+   "was": "Mve",
+   "now": "Mvè"
+  },
+  {
+   "area": "DIAB-061",
+   "was": "Metché",
+   "now": "Mètche"
+  },
+  {
+   "area": "DIAD-031",
+   "was": "Meleme",
+   "now": "Mélémé"
+  },
+  {
+   "area": "DIAG-012",
+   "was": "Djideo",
+   "now": "Djidéo"
+  },
+  {
+   "area": "DIAM-021",
+   "was": "Djebé",
+   "now": "Djébé"
+  },
+  {
+   "area": "DIAN-017",
+   "was": "Dalewawo",
+   "now": "Daléwawo"
+  },
+  {
+   "area": "DIAN-018",
+   "was": "Dalewawo",
+   "now": "Daléwawo"
+  },
+  {
+   "area": "DIAN-085",
+   "was": "Louguere",
+   "now": "Louguéré"
+  },
+  {
+   "area": "DIAN-086",
+   "was": "Louguere",
+   "now": "Louguéré"
+  },
+  {
+   "area": "DIAN-103",
+   "was": "Missingueleo",
+   "now": "Missinguéléo"
+  },
+  {
+   "area": "DIAN-136",
+   "was": "Ouro Nangue",
+   "now": "Ouro Nangué"
+  },
+  {
+   "area": "DIAP-096",
+   "was": "Ouro Kaïgama",
+   "now": "Ouro KaÏgama"
+  },
+  {
+   "area": "DJEN-019",
+   "was": "Djounde",
+   "now": "Djoundé"
+  },
+  {
+   "area": "DJEN-031",
+   "was": "PANGAR",
+   "now": "Pangar"
+  },
+  {
+   "area": "DJEN-032",
+   "was": "PANGAR",
+   "now": "Pangar"
+  },
+  {
+   "area": "DJET-037",
+   "was": "Dang Haoussa",
+   "now": "Dang-Haoussa"
+  },
+  {
+   "area": "DJET-173",
+   "was": "Wadjiri",
+   "now": "Wadjîri"
+  },
+  {
+   "area": "DJLB-007",
+   "was": "Akom Ndong",
+   "now": "Akom-Ndong"
+  },
+  {
+   "area": "DJLB-032",
+   "was": "Ebodoumou",
+   "now": "Ébodoumou"
+  },
+  {
+   "area": "DJLB-040",
+   "was": "Ewot",
+   "now": "Éwot"
+  },
+  {
+   "area": "DJLB-041",
+   "was": "Ewot",
+   "now": "Éwot"
+  },
+  {
+   "area": "DJLB-049",
+   "was": "Meba",
+   "now": "Méba"
+  },
+  {
+   "area": "DJLB-050",
+   "was": "Mebomo",
+   "now": "Mébomo"
+  },
+  {
+   "area": "DJLB-055",
+   "was": "Melondo",
+   "now": "Mélondo"
+  },
+  {
+   "area": "DJLB-059",
+   "was": "Messeng",
+   "now": "Mèsseng"
+  },
+  {
+   "area": "DJLB-060",
+   "was": "Metom",
+   "now": "Métom"
+  },
+  {
+   "area": "DJLB-061",
+   "was": "Metom",
+   "now": "Métom"
+  },
+  {
+   "area": "DJLB-066",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "DJLB-094",
+   "was": "Nkoulaze",
+   "now": "Nkoulazé"
+  },
+  {
+   "area": "DJLB-095",
+   "was": "Nkoulaze",
+   "now": "Nkoulazé"
+  },
+  {
+   "area": "DJLD-009",
+   "was": "Akonetye",
+   "now": "Akonétyé"
+  },
+  {
+   "area": "DJLD-010",
+   "was": "Akonetye",
+   "now": "Akonétyé"
+  },
+  {
+   "area": "DJLD-036",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "DJLD-047",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "DJLD-048",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "DJLD-049",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "DJLD-050",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "DJLD-057",
+   "was": "Meyos Obam",
+   "now": "Meyos-Obam"
+  },
+  {
+   "area": "DJLD-058",
+   "was": "Meyos Obam",
+   "now": "Meyos-Obam"
+  },
+  {
+   "area": "DJLD-070",
+   "was": "Nko",
+   "now": "Nkô"
+  },
+  {
+   "area": "DJLD-071",
+   "was": "Nko",
+   "now": "Nkô"
+  },
+  {
+   "area": "DJLD-074",
+   "was": "Nkolenyeng",
+   "now": "Nkolényeng"
+  },
+  {
+   "area": "DJLE-003",
+   "was": "Akom Ndong",
+   "now": "Akom-Ndong"
+  },
+  {
+   "area": "DJLE-012",
+   "was": "Eboman",
+   "now": "Éboman"
+  },
+  {
+   "area": "DJLE-013",
+   "was": "Elom",
+   "now": "Élom"
+  },
+  {
+   "area": "DJLE-014",
+   "was": "Elom",
+   "now": "Élom"
+  },
+  {
+   "area": "DJLE-018",
+   "was": "Esong",
+   "now": "Ésong"
+  },
+  {
+   "area": "DJLE-019",
+   "was": "Esong",
+   "now": "Ésong"
+  },
+  {
+   "area": "DJLE-026",
+   "was": "Mebem",
+   "now": "Mébem"
+  },
+  {
+   "area": "DJLE-029",
+   "was": "Mekok",
+   "now": "Mékok"
+  },
+  {
+   "area": "DJLE-030",
+   "was": "Melan",
+   "now": "Mélan"
+  },
+  {
+   "area": "DJLE-034",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "DJLE-041",
+   "was": "Nkolmekok",
+   "now": "Nkolmékok"
+  },
+  {
+   "area": "DJLE-042",
+   "was": "Nnemeyong",
+   "now": "Nnémeyong"
+  },
+  {
+   "area": "DJLE-045",
+   "was": "Zoe",
+   "now": "Zoé"
+  },
+  {
+   "area": "DJLI-005",
+   "was": "Akonetye",
+   "now": "Akonétyé"
+  },
+  {
+   "area": "DJLI-039",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "DJLI-040",
+   "was": "Meyiboto",
+   "now": "Méyiboto"
+  },
+  {
+   "area": "DJLI-041",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "DJLI-049",
+   "was": "Nkolenyeng",
+   "now": "Nkolényeng"
+  },
+  {
+   "area": "DJLI-059",
+   "was": "Zoebefam",
+   "now": "Zoébefam"
+  },
+  {
+   "area": "DJLI-063",
+   "was": "Zoulabot",
+   "now": "Zoulabôt"
+  },
+  {
+   "area": "DJLM-021",
+   "was": "Bibouleman",
+   "now": "Bibouléman"
+  },
+  {
+   "area": "DJLM-030",
+   "was": "Bitye",
+   "now": "Bityé"
+  },
+  {
+   "area": "DJLM-031",
+   "was": "Bitye",
+   "now": "Bityé"
+  },
+  {
+   "area": "DJLM-032",
+   "was": "Biyebe",
+   "now": "Biyebé"
+  },
+  {
+   "area": "DJLM-038",
+   "was": "Ebolakoun",
+   "now": "Ébolakoun"
+  },
+  {
+   "area": "DJLM-040",
+   "was": "Ebotenkou",
+   "now": "Ébotenkou"
+  },
+  {
+   "area": "DJLM-043",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "DJLM-044",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "DJLM-048",
+   "was": "Ekok",
+   "now": "Ékok"
+  },
+  {
+   "area": "DJLM-049",
+   "was": "Ekok",
+   "now": "Ékok"
+  },
+  {
+   "area": "DJLM-055",
+   "was": "Esong",
+   "now": "Ésong"
+  },
+  {
+   "area": "DJLM-059",
+   "was": "Eton",
+   "now": "Éton"
+  },
+  {
+   "area": "DJLM-060",
+   "was": "Eton",
+   "now": "Éton"
+  },
+  {
+   "area": "DJLM-080",
+   "was": "Mbame",
+   "now": "Mbamé"
+  },
+  {
+   "area": "DJLM-083",
+   "was": "Mebam",
+   "now": "Mébam"
+  },
+  {
+   "area": "DJLM-085",
+   "was": "Mebemonko",
+   "now": "Mébémonko"
+  },
+  {
+   "area": "DJLM-086",
+   "was": "Mekin",
+   "now": "Mékin"
+  },
+  {
+   "area": "DJLM-087",
+   "was": "Mekin",
+   "now": "Mékin"
+  },
+  {
+   "area": "DJLM-089",
+   "was": "Melan",
+   "now": "Mélan"
+  },
+  {
+   "area": "DJLM-091",
+   "was": "Memvae",
+   "now": "Memvaé"
+  },
+  {
+   "area": "DJLM-092",
+   "was": "Memvae",
+   "now": "Memvaé"
+  },
+  {
+   "area": "DJLM-098",
+   "was": "Mengueme",
+   "now": "Menguémé"
+  },
+  {
+   "area": "DJLM-104",
+   "was": "Meyomakot",
+   "now": "Méyomakot"
+  },
+  {
+   "area": "DJLM-105",
+   "was": "Meyomakot",
+   "now": "Méyomakot"
+  },
+  {
+   "area": "DJLM-108",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "DJLM-109",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "DJLM-110",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "DJLM-111",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "DJLM-112",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "DJLM-156",
+   "was": "Nko",
+   "now": "Nkô"
+  },
+  {
+   "area": "DJLM-163",
+   "was": "Nkolenyeng",
+   "now": "Nkolényeng"
+  },
+  {
+   "area": "DJLO-016",
+   "was": "Eboman",
+   "now": "Éboman"
+  },
+  {
+   "area": "DJLO-017",
+   "was": "Ekowong",
+   "now": "Ékowong"
+  },
+  {
+   "area": "DJLO-018",
+   "was": "Ekowong",
+   "now": "Ékowong"
+  },
+  {
+   "area": "DJLO-024",
+   "was": "Mebang",
+   "now": "Mébang"
+  },
+  {
+   "area": "DJLO-034",
+   "was": "NKOL-ETON",
+   "now": "Nkol Éton"
+  },
+  {
+   "area": "DJLS-036",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "DJLS-044",
+   "was": "Evelessi",
+   "now": "Evélessi"
+  },
+  {
+   "area": "DJLS-045",
+   "was": "Evelessi",
+   "now": "Evélessi"
+  },
+  {
+   "area": "DJLS-054",
+   "was": "Kamelon",
+   "now": "Kamélon"
+  },
+  {
+   "area": "DJLS-061",
+   "was": "Maamenyin",
+   "now": "Maaményin"
+  },
+  {
+   "area": "DJLS-068",
+   "was": "Mebem",
+   "now": "Mébem"
+  },
+  {
+   "area": "DJLS-069",
+   "was": "Mebem",
+   "now": "Mébem"
+  },
+  {
+   "area": "DJLS-070",
+   "was": "Mebemenko",
+   "now": "Mébemenko"
+  },
+  {
+   "area": "DJLS-081",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "DJLS-083",
+   "was": "Mengue",
+   "now": "Mengué"
+  },
+  {
+   "area": "DJLS-084",
+   "was": "Mengue",
+   "now": "Mengué"
+  },
+  {
+   "area": "DJLS-089",
+   "was": "Meyo",
+   "now": "Méyo"
+  },
+  {
+   "area": "DJLS-090",
+   "was": "Meyo",
+   "now": "Méyo"
+  },
+  {
+   "area": "DJLS-091",
+   "was": "Meyomadjom",
+   "now": "Méyomadjom"
+  },
+  {
+   "area": "DJLS-092",
+   "was": "Meyomadjom",
+   "now": "Méyomadjom"
+  },
+  {
+   "area": "DJLS-093",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "DJLS-094",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "DJLS-110",
+   "was": "Momebili",
+   "now": "Momébili"
+  },
+  {
+   "area": "DJLS-133",
+   "was": "Ngoulemekong",
+   "now": "Ngoulémékong"
+  },
+  {
+   "area": "DJLS-137",
+   "was": "Nko",
+   "now": "Nkô"
+  },
+  {
+   "area": "DJLS-141",
+   "was": "Nkolessé",
+   "now": "Nkolésse"
+  },
+  {
+   "area": "DJLS-142",
+   "was": "Nkolessé",
+   "now": "Nkolésse"
+  },
+  {
+   "area": "DJLS-168",
+   "was": "Zoe",
+   "now": "Zoé"
+  },
+  {
+   "area": "DJLS-169",
+   "was": "Zoebefam",
+   "now": "Zoébefam"
+  },
+  {
+   "area": "DJLZ-011",
+   "was": "Bibae",
+   "now": "Bibaé"
+  },
+  {
+   "area": "DJLZ-012",
+   "was": "Bibae",
+   "now": "Bibaé"
+  },
+  {
+   "area": "DJLZ-015",
+   "was": "Bibouleman",
+   "now": "Bibouléman"
+  },
+  {
+   "area": "DJLZ-024",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "DJLZ-045",
+   "was": "Meba",
+   "now": "Méba"
+  },
+  {
+   "area": "DJLZ-046",
+   "was": "Meba",
+   "now": "Méba"
+  },
+  {
+   "area": "DJLZ-047",
+   "was": "Mebang",
+   "now": "Mébang"
+  },
+  {
+   "area": "DJLZ-048",
+   "was": "Mekak",
+   "now": "Mékak"
+  },
+  {
+   "area": "DJLZ-050",
+   "was": "Melomébaé",
+   "now": "Mélomébaé"
+  },
+  {
+   "area": "DJLZ-051",
+   "was": "Melomébaé",
+   "now": "Mélomébaé"
+  },
+  {
+   "area": "DJLZ-056",
+   "was": "Meyiboto",
+   "now": "Méyiboto"
+  },
+  {
+   "area": "DJLZ-057",
+   "was": "Meyiboto",
+   "now": "Méyiboto"
+  },
+  {
+   "area": "DLA1-005",
+   "was": "Bessengue",
+   "now": "Bessengué"
+  },
+  {
+   "area": "DLA1-007",
+   "was": "Bonadoumbe",
+   "now": "Bonadoumbé"
+  },
+  {
+   "area": "DLA3-003",
+   "was": "Bessengue",
+   "now": "Bessengué"
+  },
+  {
+   "area": "DLA3-004",
+   "was": "Bessengue",
+   "now": "Bessengué"
+  },
+  {
+   "area": "DLA4-005",
+   "was": "Bonaberi",
+   "now": "Bonabéri"
+  },
+  {
+   "area": "DLA4-006",
+   "was": "Bonaberi",
+   "now": "Bonabéri"
+  },
+  {
+   "area": "DLA4-008",
+   "was": "Bonamatoumbe",
+   "now": "Bonamatoumbé"
+  },
+  {
+   "area": "DLA4-009",
+   "was": "Bonamatoumbe",
+   "now": "Bonamatoumbé"
+  },
+  {
+   "area": "DLA5-001",
+   "was": "Bangue",
+   "now": "Bangué"
+  },
+  {
+   "area": "DOMW-021",
+   "was": "Mve",
+   "now": "Mvè"
+  },
+  {
+   "area": "EBO1-025",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "EBO1-029",
+   "was": "Eves",
+   "now": "Evés"
+  },
+  {
+   "area": "EBO1-030",
+   "was": "Eves",
+   "now": "Evés"
+  },
+  {
+   "area": "EBO1-041",
+   "was": "Mebaé",
+   "now": "Mébaé"
+  },
+  {
+   "area": "EBO1-042",
+   "was": "Mebaé",
+   "now": "Mébaé"
+  },
+  {
+   "area": "EBO1-047",
+   "was": "Mekoa",
+   "now": "Mékoa"
+  },
+  {
+   "area": "EBO1-050",
+   "was": "Messambe",
+   "now": "Messambé"
+  },
+  {
+   "area": "EBO1-051",
+   "was": "Messambe",
+   "now": "Messambé"
+  },
+  {
+   "area": "EBO2-068",
+   "was": "Ebolakoun",
+   "now": "Ébolakoun"
+  },
+  {
+   "area": "EBO2-069",
+   "was": "Ebolowa",
+   "now": "Ébolowa"
+  },
+  {
+   "area": "EBO2-070",
+   "was": "Ebolowa",
+   "now": "Ébolowa"
+  },
+  {
+   "area": "EBO2-074",
+   "was": "Elon",
+   "now": "Élon"
+  },
+  {
+   "area": "EBO2-075",
+   "was": "Elon",
+   "now": "Élon"
+  },
+  {
+   "area": "EBO2-106",
+   "was": "Mekalaté",
+   "now": "Mékalâte"
+  },
+  {
+   "area": "EBO2-107",
+   "was": "Mekalaté",
+   "now": "Mékalâte"
+  },
+  {
+   "area": "EBO2-108",
+   "was": "Mekok",
+   "now": "Mékok"
+  },
+  {
+   "area": "EBO2-109",
+   "was": "Mekok",
+   "now": "Mékok"
+  },
+  {
+   "area": "EBO2-110",
+   "was": "Mekok",
+   "now": "Mékok"
+  },
+  {
+   "area": "EBO2-115",
+   "was": "Mevous",
+   "now": "Mévous"
+  },
+  {
+   "area": "EBO2-116",
+   "was": "Mevous",
+   "now": "Mévous"
+  },
+  {
+   "area": "EBO2-117",
+   "was": "Meyo",
+   "now": "Méyo"
+  },
+  {
+   "area": "EBO2-118",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "EBO2-119",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "EBO2-120",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "EBO2-135",
+   "was": "Ndengue",
+   "now": "Ndengué"
+  },
+  {
+   "area": "EBO2-136",
+   "was": "Ndengue",
+   "now": "Ndengué"
+  },
+  {
+   "area": "EDE1-024",
+   "was": "Malendé",
+   "now": "Malèndé"
+  },
+  {
+   "area": "FADG-004",
+   "was": "Kaigama",
+   "now": "KaÏgama"
+  },
+  {
+   "area": "FADM-024",
+   "was": "Mayo Baléo",
+   "now": "Mayo-Baléo"
+  },
+  {
+   "area": "FADM-026",
+   "was": "Mayo Baléo",
+   "now": "Mayo-Baléo"
+  },
+  {
+   "area": "FADT-018",
+   "was": "Karedjé",
+   "now": "Karédjé"
+  },
+  {
+   "area": "FADT-024",
+   "was": "Louguere",
+   "now": "Louguéré"
+  },
+  {
+   "area": "FARP-051",
+   "was": "Djoumte",
+   "now": "Djoumté"
+  },
+  {
+   "area": "FARP-052",
+   "was": "Djoumte",
+   "now": "Djoumté"
+  },
+  {
+   "area": "FARP-082",
+   "was": "Godje",
+   "now": "Godjé"
+  },
+  {
+   "area": "FARP-177",
+   "was": "Sebore",
+   "now": "Séboré"
+  },
+  {
+   "area": "FARP-227",
+   "was": "Yelle",
+   "now": "Yéllé"
+  },
+  {
+   "area": "GAR2-006",
+   "was": "Poumpoumre",
+   "now": "Poumpoumré"
+  },
+  {
+   "area": "HNKE-005",
+   "was": "Fotomena",
+   "now": "Fotoména"
+  },
+  {
+   "area": "HNYB-022",
+   "was": "Ekom",
+   "now": "Ékom"
+  },
+  {
+   "area": "HNYB-023",
+   "was": "Ekom",
+   "now": "Ékom"
+  },
+  {
+   "area": "HNYB-024",
+   "was": "Elandjo",
+   "now": "Élandjo"
+  },
+  {
+   "area": "HNYB-025",
+   "was": "Elandjo",
+   "now": "Élandjo"
+  },
+  {
+   "area": "HNYB-026",
+   "was": "Etou",
+   "now": "Étou"
+  },
+  {
+   "area": "HNYB-027",
+   "was": "Etou",
+   "now": "Étou"
+  },
+  {
+   "area": "HNYB-050",
+   "was": "Ndengue",
+   "now": "Ndengué"
+  },
+  {
+   "area": "HNYB-056",
+   "was": "Nkolekoul",
+   "now": "Nkolékoul"
+  },
+  {
+   "area": "HNYB-057",
+   "was": "Nkolekoul",
+   "now": "Nkolékoul"
+  },
+  {
+   "area": "HNYB-065",
+   "was": "Zoulabot",
+   "now": "Zoulabôt"
+  },
+  {
+   "area": "HNYD-004",
+   "was": "Grand Pol",
+   "now": "Grand-Pol"
+  },
+  {
+   "area": "HNYD-005",
+   "was": "Grand Pol",
+   "now": "Grand-Pol"
+  },
+  {
+   "area": "HNYD-018",
+   "was": "Toungrelo",
+   "now": "Toungrélo"
+  },
+  {
+   "area": "HNYD-019",
+   "was": "Toungrelo",
+   "now": "Toungrélo"
+  },
+  {
+   "area": "HNYE-052",
+   "was": "Ebade",
+   "now": "Ebadé"
+  },
+  {
+   "area": "HNYE-053",
+   "was": "Ebade",
+   "now": "Ebadé"
+  },
+  {
+   "area": "HNYE-054",
+   "was": "Ebam",
+   "now": "Ébam"
+  },
+  {
+   "area": "HNYE-060",
+   "was": "Ekomo",
+   "now": "Ékomo"
+  },
+  {
+   "area": "HNYE-061",
+   "was": "Ekomo",
+   "now": "Ékomo"
+  },
+  {
+   "area": "HNYE-069",
+   "was": "Etol",
+   "now": "Étol"
+  },
+  {
+   "area": "HNYE-114",
+   "was": "Malen II",
+   "now": "Malén II"
+  },
+  {
+   "area": "HNYE-115",
+   "was": "Malen II",
+   "now": "Malén II"
+  },
+  {
+   "area": "HNYE-116",
+   "was": "Malen II",
+   "now": "Malén II"
+  },
+  {
+   "area": "HNYE-136",
+   "was": "Meba",
+   "now": "Méba"
+  },
+  {
+   "area": "HNYE-137",
+   "was": "Meba",
+   "now": "Méba"
+  },
+  {
+   "area": "HNYE-138",
+   "was": "Meba",
+   "now": "Méba"
+  },
+  {
+   "area": "HNYE-141",
+   "was": "Meka",
+   "now": "Méka"
+  },
+  {
+   "area": "HNYE-142",
+   "was": "Mekak",
+   "now": "Mékak"
+  },
+  {
+   "area": "HNYE-143",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "HNYE-148",
+   "was": "Melong II",
+   "now": "Mélong II"
+  },
+  {
+   "area": "HNYE-156",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "HNYE-180",
+   "was": "Ngoulmekong",
+   "now": "Ngoulmékong"
+  },
+  {
+   "area": "HNYE-181",
+   "was": "Ngoulmekong",
+   "now": "Ngoulmékong"
+  },
+  {
+   "area": "HNYE-217",
+   "was": "Zo'ebefam",
+   "now": "Zo'ébefam"
+  },
+  {
+   "area": "HNYE-218",
+   "was": "Zoulabot",
+   "now": "Zoulabôt"
+  },
+  {
+   "area": "HNYG-028",
+   "was": "Makwamekouma",
+   "now": "Makwamékouma"
+  },
+  {
+   "area": "HNYG-029",
+   "was": "Makwamekouma",
+   "now": "Makwamékouma"
+  },
+  {
+   "area": "HNYG-047",
+   "was": "Zoulabot",
+   "now": "Zoulabôt"
+  },
+  {
+   "area": "HNYI-007",
+   "was": "Bedoumo",
+   "now": "Bédoumo"
+  },
+  {
+   "area": "HNYI-008",
+   "was": "Bedoumo",
+   "now": "Bédoumo"
+  },
+  {
+   "area": "HNYK-043",
+   "was": "Nguelemendouka",
+   "now": "Nguélémendouka"
+  },
+  {
+   "area": "HNYK-044",
+   "was": "Nguelemendouka",
+   "now": "Nguélémendouka"
+  },
+  {
+   "area": "HNYL-029",
+   "was": "Djebé",
+   "now": "Djébé"
+  },
+  {
+   "area": "HNYL-042",
+   "was": "Ekom",
+   "now": "Ékom"
+  },
+  {
+   "area": "HNYL-043",
+   "was": "Ekom",
+   "now": "Ékom"
+  },
+  {
+   "area": "HNYL-044",
+   "was": "Elandjo",
+   "now": "Élandjo"
+  },
+  {
+   "area": "HNYL-062",
+   "was": "Meka",
+   "now": "Méka"
+  },
+  {
+   "area": "HNYL-063",
+   "was": "Mekak",
+   "now": "Mékak"
+  },
+  {
+   "area": "HNYL-064",
+   "was": "Mekoum",
+   "now": "Mékoum"
+  },
+  {
+   "area": "HNYL-065",
+   "was": "Mekoum",
+   "now": "Mékoum"
+  },
+  {
+   "area": "HNYL-066",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "HNYL-067",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "HNYL-068",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "HNYL-086",
+   "was": "Ngoulmekong",
+   "now": "Ngoulmékong"
+  },
+  {
+   "area": "HNYL-106",
+   "was": "Zoulabot",
+   "now": "Zoulabôt"
+  },
+  {
+   "area": "HNYL-107",
+   "was": "Zoulabot",
+   "now": "Zoulabôt"
+  },
+  {
+   "area": "HNYL-108",
+   "was": "Zoulabot",
+   "now": "Zoulabôt"
+  },
+  {
+   "area": "HNYM-015",
+   "was": "Mbame",
+   "now": "Mbamé"
+  },
+  {
+   "area": "HNYM-023",
+   "was": "Nkaoule",
+   "now": "Nkaoulé"
+  },
+  {
+   "area": "HNYM-024",
+   "was": "Nkaoule",
+   "now": "Nkaoulé"
+  },
+  {
+   "area": "HNYN-016",
+   "was": "Bagbezé",
+   "now": "Bagbézé"
+  },
+  {
+   "area": "HNYN-017",
+   "was": "Bagbezé",
+   "now": "Bagbézé"
+  },
+  {
+   "area": "HNYN-018",
+   "was": "Bagbezé",
+   "now": "Bagbézé"
+  },
+  {
+   "area": "HNYN-029",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "HNYO-010",
+   "was": "Bamekok",
+   "now": "Bamékok"
+  },
+  {
+   "area": "HNYS-008",
+   "was": "Kamelon",
+   "now": "Kamélon"
+  },
+  {
+   "area": "HNYS-022",
+   "was": "Mebem",
+   "now": "Mébem"
+  },
+  {
+   "area": "HNYT-004",
+   "was": "Yebekolo",
+   "now": "Yébékolo"
+  },
+  {
+   "area": "HNYT-005",
+   "was": "Yebekolo",
+   "now": "Yébékolo"
+  },
+  {
+   "area": "HNYT-018",
+   "was": "Ebotenkou",
+   "now": "Ébotenkou"
+  },
+  {
+   "area": "HNYT-043",
+   "was": "Ngoulemekong",
+   "now": "Ngoulémékong"
+  },
+  {
+   "area": "HNYT-048",
+   "was": "Nyimbe",
+   "now": "Nyimbé"
+  },
+  {
+   "area": "HNYT-049",
+   "was": "Nyimbe",
+   "now": "Nyimbé"
+  },
+  {
+   "area": "HPLA-002",
+   "was": "Bameka",
+   "now": "Baméka"
+  },
+  {
+   "area": "HPLA-013",
+   "was": "La'tsit",
+   "now": "La’tsit"
+  },
+  {
+   "area": "HPLA-024",
+   "was": "Meka",
+   "now": "Méka"
+  },
+  {
+   "area": "HPLA-025",
+   "was": "Messeng",
+   "now": "Mèsseng"
+  },
+  {
+   "area": "HPLB-028",
+   "was": "Tchie",
+   "now": "Tchiè"
+  },
+  {
+   "area": "HPLB-029",
+   "was": "Tchie",
+   "now": "Tchiè"
+  },
+  {
+   "area": "HPLN-012",
+   "was": "Bètè",
+   "now": "Bété"
+  },
+  {
+   "area": "HPLN-042",
+   "was": "Tsela",
+   "now": "Tsèla"
+  },
+  {
+   "area": "HPLN-044",
+   "was": "Tsela",
+   "now": "Tsèla"
+  },
+  {
+   "area": "HPLN-045",
+   "was": "Tsela",
+   "now": "Tsèla"
+  },
+  {
+   "area": "HSAB-012",
+   "was": "Ebam",
+   "now": "Ébam"
+  },
+  {
+   "area": "HSAB-013",
+   "was": "Ebam",
+   "now": "Ébam"
+  },
+  {
+   "area": "HSAB-024",
+   "was": "KOM-ASSO",
+   "now": "Kom-Asso"
+  },
+  {
+   "area": "HSAB-025",
+   "was": "KOM-ASSO",
+   "now": "Kom-Asso"
+  },
+  {
+   "area": "HSAB-026",
+   "was": "LANDI",
+   "now": "Landi"
+  },
+  {
+   "area": "HSAB-027",
+   "was": "LANDI",
+   "now": "Landi"
+  },
+  {
+   "area": "HSAB-053",
+   "was": "Ngoulmekong",
+   "now": "Ngoulmékong"
+  },
+  {
+   "area": "HSAI-007",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "HSAI-017",
+   "was": "Etol",
+   "now": "Étol"
+  },
+  {
+   "area": "HSAI-034",
+   "was": "Meba",
+   "now": "Méba"
+  },
+  {
+   "area": "HSAI-035",
+   "was": "Meba",
+   "now": "Méba"
+  },
+  {
+   "area": "HSAI-036",
+   "was": "Mebang",
+   "now": "Mébang"
+  },
+  {
+   "area": "HSAI-037",
+   "was": "Mebang",
+   "now": "Mébang"
+  },
+  {
+   "area": "HSAI-044",
+   "was": "Mengue",
+   "now": "Mengué"
+  },
+  {
+   "area": "HSAK-026",
+   "was": "Messeng",
+   "now": "Mèsseng"
+  },
+  {
+   "area": "HSAK-027",
+   "was": "Messeng",
+   "now": "Mèsseng"
+  },
+  {
+   "area": "HSAK-040",
+   "was": "Ngoulmekong",
+   "now": "Ngoulmékong"
+  },
+  {
+   "area": "HSAL-026",
+   "was": "Mete",
+   "now": "Meté"
+  },
+  {
+   "area": "HSAL-041",
+   "was": "Nkomesse",
+   "now": "Nkomessé"
+  },
+  {
+   "area": "HSAM-014",
+   "was": "Mbe",
+   "now": "Mbé"
+  },
+  {
+   "area": "HSAM-024",
+   "was": "NDOKOA",
+   "now": "Ndokoa"
+  },
+  {
+   "area": "HSAM-025",
+   "was": "NDOKOA",
+   "now": "Ndokoa"
+  },
+  {
+   "area": "HSAM-030",
+   "was": "NKOL-ETON",
+   "now": "Nkol Éton"
+  },
+  {
+   "area": "HSAN-014",
+   "was": "Betékélé",
+   "now": "Bétékélé"
+  },
+  {
+   "area": "HSAN-015",
+   "was": "Betékélé",
+   "now": "Bétékélé"
+  },
+  {
+   "area": "HSAN-055",
+   "was": "EDOUMDANE",
+   "now": "Edoumdané"
+  },
+  {
+   "area": "HSAN-056",
+   "was": "EDOUMDANE",
+   "now": "Edoumdané"
+  },
+  {
+   "area": "HSAN-062",
+   "was": "Ekok",
+   "now": "Ékok"
+  },
+  {
+   "area": "HSAN-064",
+   "was": "Ekomba",
+   "now": "Ékomba"
+  },
+  {
+   "area": "HSAN-116",
+   "was": "Meka",
+   "now": "Méka"
+  },
+  {
+   "area": "HSAN-117",
+   "was": "Mekak",
+   "now": "Mékak"
+  },
+  {
+   "area": "HSAN-120",
+   "was": "Mekoum",
+   "now": "Mékoum"
+  },
+  {
+   "area": "HSAN-134",
+   "was": "Mengue",
+   "now": "Mengué"
+  },
+  {
+   "area": "HSAN-135",
+   "was": "Mengue",
+   "now": "Mengué"
+  },
+  {
+   "area": "HSAN-171",
+   "was": "Nanga Eboko",
+   "now": "Nanga-Eboko"
+  },
+  {
+   "area": "HSAN-172",
+   "was": "Nanga Eboko",
+   "now": "Nanga-Eboko"
+  },
+  {
+   "area": "HSAN-194",
+   "was": "Ngoulemekong",
+   "now": "Ngoulémékong"
+  },
+  {
+   "area": "HSAN-195",
+   "was": "Ngoulmekong",
+   "now": "Ngoulmékong"
+  },
+  {
+   "area": "HSAN-221",
+   "was": "Sasse",
+   "now": "Sassé"
+  },
+  {
+   "area": "HSAN-237",
+   "was": "Yelle",
+   "now": "Yéllé"
+  },
+  {
+   "area": "HSAS-006",
+   "was": "Epeda I",
+   "now": "Epéda I"
+  },
+  {
+   "area": "KADB-001",
+   "was": "Abeganga",
+   "now": "Abéganga"
+  },
+  {
+   "area": "KADB-002",
+   "was": "Abeganga",
+   "now": "Abéganga"
+  },
+  {
+   "area": "KADB-031",
+   "was": "Belita II",
+   "now": "Bélita II"
+  },
+  {
+   "area": "KADB-032",
+   "was": "Belita II",
+   "now": "Bélita II"
+  },
+  {
+   "area": "KADB-033",
+   "was": "Belita II",
+   "now": "Bélita II"
+  },
+  {
+   "area": "KADB-072",
+   "was": "Doube",
+   "now": "Doubé"
+  },
+  {
+   "area": "KADB-114",
+   "was": "Mbendissola",
+   "now": "Mbéndissola"
+  },
+  {
+   "area": "KADB-115",
+   "was": "Mbendissola",
+   "now": "Mbéndissola"
+  },
+  {
+   "area": "KADB-168",
+   "was": "Pater",
+   "now": "Patér"
+  },
+  {
+   "area": "KADE-001",
+   "was": "Bedobo",
+   "now": "Bédobo"
+  },
+  {
+   "area": "KADE-002",
+   "was": "Bedobo",
+   "now": "Bédobo"
+  },
+  {
+   "area": "KADE-034",
+   "was": "Kette",
+   "now": "Kétté"
+  },
+  {
+   "area": "KADE-035",
+   "was": "Kette",
+   "now": "Kétté"
+  },
+  {
+   "area": "KADG-016",
+   "was": "Leta",
+   "now": "Léta"
+  },
+  {
+   "area": "KADG-030",
+   "was": "Ndoumbe",
+   "now": "Ndoumbé"
+  },
+  {
+   "area": "KADG-033",
+   "was": "Ngoulemekong",
+   "now": "Ngoulémékong"
+  },
+  {
+   "area": "KADG-034",
+   "was": "Ngoulmekong",
+   "now": "Ngoulmékong"
+  },
+  {
+   "area": "KADK-002",
+   "was": "Beli",
+   "now": "Béli"
+  },
+  {
+   "area": "KADM-010",
+   "was": "Bamekok",
+   "now": "Bamékok"
+  },
+  {
+   "area": "KADM-013",
+   "was": "Bangue",
+   "now": "Bangué"
+  },
+  {
+   "area": "KADM-014",
+   "was": "Bangue",
+   "now": "Bangué"
+  },
+  {
+   "area": "KADM-023",
+   "was": "Djampiel",
+   "now": "Djampièl"
+  },
+  {
+   "area": "KADM-024",
+   "was": "Djampiel",
+   "now": "Djampièl"
+  },
+  {
+   "area": "KADM-027",
+   "was": "Djemiong",
+   "now": "Djémiong"
+  },
+  {
+   "area": "KADM-028",
+   "was": "Djemiong",
+   "now": "Djémiong"
+  },
+  {
+   "area": "KADN-054",
+   "was": "Ndelele",
+   "now": "Ndélélé"
+  },
+  {
+   "area": "KADN-057",
+   "was": "Ndoumbe",
+   "now": "Ndoumbé"
+  },
+  {
+   "area": "KADN-081",
+   "was": "Sone",
+   "now": "Soné"
+  },
+  {
+   "area": "KKHB-023",
+   "was": "Mbe",
+   "now": "Mbé"
+  },
+  {
+   "area": "KKHB-024",
+   "was": "Meje",
+   "now": "Méjé"
+  },
+  {
+   "area": "KKHD-028",
+   "was": "Vele",
+   "now": "Vélé"
+  },
+  {
+   "area": "KKHP-060",
+   "was": "Tsela",
+   "now": "Tsèla"
+  },
+  {
+   "area": "KKHP-061",
+   "was": "Tsela",
+   "now": "Tsèla"
+  },
+  {
+   "area": "LEBW-023",
+   "was": "Mve",
+   "now": "Mvè"
+  },
+  {
+   "area": "LEKA-008",
+   "was": "Ekekom",
+   "now": "Ekékom"
+  },
+  {
+   "area": "LEKA-017",
+   "was": "Essele",
+   "now": "Essélé"
+  },
+  {
+   "area": "LEKA-018",
+   "was": "Essele",
+   "now": "Essélé"
+  },
+  {
+   "area": "LEKA-069",
+   "was": "Nkolmbené",
+   "now": "Nkolmbéné"
+  },
+  {
+   "area": "LEKA-070",
+   "was": "Nkolmbené",
+   "now": "Nkolmbéné"
+  },
+  {
+   "area": "LEKA-071",
+   "was": "Nkolmelen",
+   "now": "Nkolmélen"
+  },
+  {
+   "area": "LEKA-072",
+   "was": "Nkolmelen",
+   "now": "Nkolmélen"
+  },
+  {
+   "area": "LEKA-083",
+   "was": "Nkometou II",
+   "now": "Nkométou II"
+  },
+  {
+   "area": "LEKA-084",
+   "was": "Nkometou II",
+   "now": "Nkométou II"
+  },
+  {
+   "area": "LEKA-092",
+   "was": "Tsek",
+   "now": "Tsèk"
+  },
+  {
+   "area": "LEKB-007",
+   "was": "Elon",
+   "now": "Élon"
+  },
+  {
+   "area": "LEKB-008",
+   "was": "Emana",
+   "now": "Émana"
+  },
+  {
+   "area": "LEKB-009",
+   "was": "Emana",
+   "now": "Émana"
+  },
+  {
+   "area": "LEKB-021",
+   "was": "Nkolmekok",
+   "now": "Nkolmékok"
+  },
+  {
+   "area": "LEKB-022",
+   "was": "Nkolmekok",
+   "now": "Nkolmékok"
+  },
+  {
+   "area": "LEKE-006",
+   "was": "Ebebda II",
+   "now": "Ébebda II"
+  },
+  {
+   "area": "LEKE-007",
+   "was": "Ebebda II",
+   "now": "Ébebda II"
+  },
+  {
+   "area": "LEKE-010",
+   "was": "Ebong",
+   "now": "Ébong"
+  },
+  {
+   "area": "LEKE-011",
+   "was": "Ebong",
+   "now": "Ébong"
+  },
+  {
+   "area": "LEKE-023",
+   "was": "Mebele",
+   "now": "Mébélé"
+  },
+  {
+   "area": "LEKE-046",
+   "was": "Nkomesse",
+   "now": "Nkomessé"
+  },
+  {
+   "area": "LEKK-031",
+   "was": "Evodoula",
+   "now": "Évodoula"
+  },
+  {
+   "area": "LEKK-054",
+   "was": "Mekak",
+   "now": "Mékak"
+  },
+  {
+   "area": "LEKK-055",
+   "was": "Metak",
+   "now": "Métak"
+  },
+  {
+   "area": "LEKK-056",
+   "was": "Metak",
+   "now": "Métak"
+  },
+  {
+   "area": "LEKK-082",
+   "was": "Nkoldjobe",
+   "now": "Nkoldjobé"
+  },
+  {
+   "area": "LEKK-090",
+   "was": "Nkolmekouma",
+   "now": "Nkolmékouma"
+  },
+  {
+   "area": "LEKK-091",
+   "was": "Nkolmekouma",
+   "now": "Nkolmékouma"
+  },
+  {
+   "area": "LEKK-110",
+   "was": "Nyemeyong",
+   "now": "Nyéméyong"
+  },
+  {
+   "area": "LEKK-111",
+   "was": "Nyemeyong",
+   "now": "Nyéméyong"
+  },
+  {
+   "area": "LEKL-024",
+   "was": "Mebomo",
+   "now": "Mébomo"
+  },
+  {
+   "area": "LEKL-025",
+   "was": "Metché",
+   "now": "Mètche"
+  },
+  {
+   "area": "LEKL-042",
+   "was": "Tsek",
+   "now": "Tsèk"
+  },
+  {
+   "area": "LEKM-010",
+   "was": "Bilik Bindik",
+   "now": "Bilik-Bindik"
+  },
+  {
+   "area": "LEKM-011",
+   "was": "Bilik Bindik",
+   "now": "Bilik-Bindik"
+  },
+  {
+   "area": "LEKM-017",
+   "was": "Ekekom",
+   "now": "Ekékom"
+  },
+  {
+   "area": "LEKM-021",
+   "was": "Elon",
+   "now": "Élon"
+  },
+  {
+   "area": "LEKM-022",
+   "was": "Elon",
+   "now": "Élon"
+  },
+  {
+   "area": "LEKM-024",
+   "was": "Emana",
+   "now": "Émana"
+  },
+  {
+   "area": "LEKM-027",
+   "was": "Eyenmeyong",
+   "now": "Eyenméyong"
+  },
+  {
+   "area": "LEKM-028",
+   "was": "Eyenmeyong",
+   "now": "Eyenméyong"
+  },
+  {
+   "area": "LEKM-039",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "LEKM-074",
+   "was": "Nkolmelen",
+   "now": "Nkolmélen"
+  },
+  {
+   "area": "LEKM-078",
+   "was": "Nkolmeyos",
+   "now": "Nkolméyos"
+  },
+  {
+   "area": "LEKM-099",
+   "was": "Nkongmesa",
+   "now": "Nkongmésa"
+  },
+  {
+   "area": "LEKO-011",
+   "was": "Kelle",
+   "now": "Kéllé"
+  },
+  {
+   "area": "LEKO-018",
+   "was": "Mebem",
+   "now": "Mébem"
+  },
+  {
+   "area": "LEKO-020",
+   "was": "Mekak",
+   "now": "Mékak"
+  },
+  {
+   "area": "LEKO-029",
+   "was": "Ngoulmekong",
+   "now": "Ngoulmékong"
+  },
+  {
+   "area": "LEKO-032",
+   "was": "Nkoldjobe",
+   "now": "Nkoldjobé"
+  },
+  {
+   "area": "LEKO-033",
+   "was": "Nkolmelen",
+   "now": "Nkolmélen"
+  },
+  {
+   "area": "LEKO-040",
+   "was": "Nkongmesa",
+   "now": "Nkongmésa"
+  },
+  {
+   "area": "LEKO-052",
+   "was": "Tsek",
+   "now": "Tsèk"
+  },
+  {
+   "area": "LEKO-054",
+   "was": "Yemassi",
+   "now": "Yémassi"
+  },
+  {
+   "area": "LEKO-055",
+   "was": "Yemassi",
+   "now": "Yémassi"
+  },
+  {
+   "area": "LEKS-007",
+   "was": "Ebogo",
+   "now": "Ébogo"
+  },
+  {
+   "area": "LEKS-008",
+   "was": "Ebogo",
+   "now": "Ébogo"
+  },
+  {
+   "area": "LEKS-012",
+   "was": "Ekekom",
+   "now": "Ekékom"
+  },
+  {
+   "area": "LEKS-015",
+   "was": "Elang",
+   "now": "Élang"
+  },
+  {
+   "area": "LEKS-016",
+   "was": "Elang",
+   "now": "Élang"
+  },
+  {
+   "area": "LEKS-094",
+   "was": "Nkolmeyos",
+   "now": "Nkolméyos"
+  },
+  {
+   "area": "LEKS-095",
+   "was": "Nkolmeyos",
+   "now": "Nkolméyos"
+  },
+  {
+   "area": "LEKV-010",
+   "was": "Evodoula",
+   "now": "Évodoula"
+  },
+  {
+   "area": "LEKV-015",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "LEKV-034",
+   "was": "Nkolmeyos I",
+   "now": "Nkolméyos I"
+  },
+  {
+   "area": "LEKV-035",
+   "was": "Nkolmeyos I",
+   "now": "Nkolméyos I"
+  },
+  {
+   "area": "LIM1-013",
+   "was": "Limbe",
+   "now": "Limbé"
+  },
+  {
+   "area": "LIM1-014",
+   "was": "Limbe",
+   "now": "Limbé"
+  },
+  {
+   "area": "LOGB-012",
+   "was": "بلانقوا",
+   "now": "Blangoua"
+  },
+  {
+   "area": "LOGB-027",
+   "was": "Madina مدينة",
+   "now": "Madina"
+  },
+  {
+   "area": "LOGF-026",
+   "was": "Djamena",
+   "now": "Djaména"
+  },
+  {
+   "area": "LOGF-069",
+   "was": "Nigue",
+   "now": "Nigué"
+  },
+  {
+   "area": "LOGG-051",
+   "was": "Ardeb",
+   "now": "Ardéb"
+  },
+  {
+   "area": "LOGG-052",
+   "was": "Ardeb",
+   "now": "Ardéb"
+  },
+  {
+   "area": "LOGG-101",
+   "was": "Doh",
+   "now": "Dôh"
+  },
+  {
+   "area": "LOGG-139",
+   "was": "Gley",
+   "now": "Gléy"
+  },
+  {
+   "area": "LOGG-140",
+   "was": "Gley",
+   "now": "Gléy"
+  },
+  {
+   "area": "LOGG-145",
+   "was": "Grelié",
+   "now": "Grélié"
+  },
+  {
+   "area": "LOGG-233",
+   "was": "Naira",
+   "now": "Naïra"
+  },
+  {
+   "area": "LOGG-234",
+   "was": "Naira",
+   "now": "Naïra"
+  },
+  {
+   "area": "LOGG-239",
+   "was": "Ngame",
+   "now": "Ngamé"
+  },
+  {
+   "area": "LOGG-240",
+   "was": "Ngame",
+   "now": "Ngamé"
+  },
+  {
+   "area": "LOGG-265",
+   "was": "Sero",
+   "now": "Séro"
+  },
+  {
+   "area": "LOGG-291",
+   "was": "Woulkio Kale",
+   "now": "Woulkio Kalé"
+  },
+  {
+   "area": "LOGG-292",
+   "was": "Woulkio Kale",
+   "now": "Woulkio Kalé"
+  },
+  {
+   "area": "LOGK-005",
+   "was": "Am Chediré",
+   "now": "Am Chédiré"
+  },
+  {
+   "area": "LOGK-008",
+   "was": "Bamcherafa",
+   "now": "Bamchérafa"
+  },
+  {
+   "area": "LOGK-033",
+   "was": "Nigue",
+   "now": "Nigué"
+  },
+  {
+   "area": "LOGL-009",
+   "was": "Am Chediré",
+   "now": "Am Chédiré"
+  },
+  {
+   "area": "LOGL-019",
+   "was": "Bamcherafa",
+   "now": "Bamchérafa"
+  },
+  {
+   "area": "LOGL-049",
+   "was": "Djamena",
+   "now": "Djaména"
+  },
+  {
+   "area": "LOGL-054",
+   "was": "Dogderi",
+   "now": "Dogdéri"
+  },
+  {
+   "area": "LOGL-055",
+   "was": "Dogderi",
+   "now": "Dogdéri"
+  },
+  {
+   "area": "LOGL-120",
+   "was": "Koulkoule",
+   "now": "Koulkoulé"
+  },
+  {
+   "area": "LOGL-121",
+   "was": "Koulkoule",
+   "now": "Koulkoulé"
+  },
+  {
+   "area": "LOGL-164",
+   "was": "Ngame",
+   "now": "Ngamé"
+  },
+  {
+   "area": "LOGL-190",
+   "was": "Sero",
+   "now": "Séro"
+  },
+  {
+   "area": "LOGM-013",
+   "was": "Aledjous",
+   "now": "Alédjous"
+  },
+  {
+   "area": "LOGM-014",
+   "was": "Aledjous",
+   "now": "Alédjous"
+  },
+  {
+   "area": "LOGM-025",
+   "was": "Ardeb",
+   "now": "Ardéb"
+  },
+  {
+   "area": "LOGM-056",
+   "was": "Djamena",
+   "now": "Djaména"
+  },
+  {
+   "area": "LOGM-057",
+   "was": "Djamena",
+   "now": "Djaména"
+  },
+  {
+   "area": "LOGM-106",
+   "was": "Grelié",
+   "now": "Grélié"
+  },
+  {
+   "area": "LOGM-108",
+   "was": "Guelao",
+   "now": "Guélao"
+  },
+  {
+   "area": "LOGM-169",
+   "was": "Mbe",
+   "now": "Mbé"
+  },
+  {
+   "area": "LOGM-171",
+   "was": "Medina",
+   "now": "Médina"
+  },
+  {
+   "area": "LOGW-005",
+   "was": "Dieguere",
+   "now": "Diéguéré"
+  },
+  {
+   "area": "LOGZ-022",
+   "was": "Dieguere",
+   "now": "Diéguéré"
+  },
+  {
+   "area": "LOGZ-023",
+   "was": "Dieguere",
+   "now": "Diéguéré"
+  },
+  {
+   "area": "LOGZ-024",
+   "was": "Dieguere",
+   "now": "Diéguéré"
+  },
+  {
+   "area": "LOMB-022",
+   "was": "Doube",
+   "now": "Doubé"
+  },
+  {
+   "area": "LOMB-036",
+   "was": "Kalbe",
+   "now": "Kalbé"
+  },
+  {
+   "area": "LOMB-037",
+   "was": "Kalbe",
+   "now": "Kalbé"
+  },
+  {
+   "area": "LOME-011",
+   "was": "Bétaré Oya",
+   "now": "Bétaré-Oya"
+  },
+  {
+   "area": "LOME-012",
+   "was": "Bétaré Oya",
+   "now": "Bétaré-Oya"
+  },
+  {
+   "area": "LOME-028",
+   "was": "Dang Haoussa",
+   "now": "Dang-Haoussa"
+  },
+  {
+   "area": "LOME-031",
+   "was": "Dang Haoussa",
+   "now": "Dang-Haoussa"
+  },
+  {
+   "area": "LOME-108",
+   "was": "Sengbe",
+   "now": "Sengbé"
+  },
+  {
+   "area": "LOMG-005",
+   "was": "Badzere",
+   "now": "Badzéré"
+  },
+  {
+   "area": "LOMG-006",
+   "was": "Badzere",
+   "now": "Badzéré"
+  },
+  {
+   "area": "LOMM-015",
+   "was": "Leta",
+   "now": "Léta"
+  },
+  {
+   "area": "LOMM-018",
+   "was": "Mboulai",
+   "now": "Mboulaï"
+  },
+  {
+   "area": "LOMM-023",
+   "was": "Ndoumbe",
+   "now": "Ndoumbé"
+  },
+  {
+   "area": "MAFA-004",
+   "was": "Ebodoumou",
+   "now": "Ébodoumou"
+  },
+  {
+   "area": "MAFB-015",
+   "was": "Ebogo",
+   "now": "Ébogo"
+  },
+  {
+   "area": "MAFB-027",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "MAFB-028",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "MAFM-016",
+   "was": "Bénebalot",
+   "now": "Bénébalot"
+  },
+  {
+   "area": "MAFM-031",
+   "was": "Ekoumeyen",
+   "now": "Ekouméyen"
+  },
+  {
+   "area": "MAFM-045",
+   "was": "Mefou",
+   "now": "Méfou"
+  },
+  {
+   "area": "MAFM-049",
+   "was": "Messeng",
+   "now": "Mèsseng"
+  },
+  {
+   "area": "MAFM-064",
+   "was": "Ndziefidi",
+   "now": "Ndziéfidi"
+  },
+  {
+   "area": "MAFM-065",
+   "was": "Ndziefidi",
+   "now": "Ndziéfidi"
+  },
+  {
+   "area": "MAFM-081",
+   "was": "Nkolmeyos",
+   "now": "Nkolméyos"
+  },
+  {
+   "area": "MAFM-082",
+   "was": "Nkolmeyos",
+   "now": "Nkolméyos"
+  },
+  {
+   "area": "MAFN-023",
+   "was": "Ekom",
+   "now": "Ékom"
+  },
+  {
+   "area": "MAFN-024",
+   "was": "Ekom",
+   "now": "Ékom"
+  },
+  {
+   "area": "MAFN-026",
+   "was": "Ekoumeyen",
+   "now": "Ekouméyen"
+  },
+  {
+   "area": "MAFN-034",
+   "was": "Mebang",
+   "now": "Mébang"
+  },
+  {
+   "area": "MAFN-040",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "MAFN-042",
+   "was": "Meyo",
+   "now": "Méyo"
+  },
+  {
+   "area": "MAFS-007",
+   "was": "Ebogo",
+   "now": "Ébogo"
+  },
+  {
+   "area": "MAFS-014",
+   "was": "Ewot",
+   "now": "Éwot"
+  },
+  {
+   "area": "MAFW-014",
+   "was": "Ebolowa",
+   "now": "Ébolowa"
+  },
+  {
+   "area": "MAFW-039",
+   "was": "Mve II",
+   "now": "Mvé II"
+  },
+  {
+   "area": "MAKA-014",
+   "was": "Mbalelon",
+   "now": "Mbalélon"
+  },
+  {
+   "area": "MAKA-015",
+   "was": "Mezali",
+   "now": "Mézali"
+  },
+  {
+   "area": "MAKA-016",
+   "was": "Mezali",
+   "now": "Mézali"
+  },
+  {
+   "area": "MAKB-031",
+   "was": "Mbalelon",
+   "now": "Mbalélon"
+  },
+  {
+   "area": "MAKB-032",
+   "was": "Mbalelon",
+   "now": "Mbalélon"
+  },
+  {
+   "area": "MAKB-034",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "MAKB-035",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "MAKB-047",
+   "was": "Nkolmelen",
+   "now": "Nkolmélen"
+  },
+  {
+   "area": "MAKN-008",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "MAKN-031",
+   "was": "Nkolmelen",
+   "now": "Nkolmélen"
+  },
+  {
+   "area": "MAR1-028",
+   "was": "Djarengol",
+   "now": "Djarèngol"
+  },
+  {
+   "area": "MAR1-029",
+   "was": "Djarengol",
+   "now": "Djarèngol"
+  },
+  {
+   "area": "MAR1-030",
+   "was": "Djarengol",
+   "now": "Djarèngol"
+  },
+  {
+   "area": "MAR1-063",
+   "was": "Goubeo",
+   "now": "Goubéo"
+  },
+  {
+   "area": "MAR1-067",
+   "was": "Harde",
+   "now": "Hardé"
+  },
+  {
+   "area": "MAR1-074",
+   "was": "Kaigama",
+   "now": "KaÏgama"
+  },
+  {
+   "area": "MAR1-138",
+   "was": "Tambanangue",
+   "now": "Tambanangué"
+  },
+  {
+   "area": "MAR1-139",
+   "was": "Tambanangue",
+   "now": "Tambanangué"
+  },
+  {
+   "area": "MAR1-142",
+   "was": "Tchasdeo",
+   "now": "Tchasdéo"
+  },
+  {
+   "area": "MAR1-143",
+   "was": "Tchasdeo",
+   "now": "Tchasdéo"
+  },
+  {
+   "area": "MAR2-002",
+   "was": "Djarengol",
+   "now": "Djarèngol"
+  },
+  {
+   "area": "MAR2-008",
+   "was": "Missingueleo",
+   "now": "Missinguéléo"
+  },
+  {
+   "area": "MAR3-038",
+   "was": "Djideo",
+   "now": "Djidéo"
+  },
+  {
+   "area": "MAR3-063",
+   "was": "Goubeo",
+   "now": "Goubéo"
+  },
+  {
+   "area": "MAR3-072",
+   "was": "Harde",
+   "now": "Hardé"
+  },
+  {
+   "area": "MAR3-085",
+   "was": "Kodek",
+   "now": "Kodèk"
+  },
+  {
+   "area": "MAR3-086",
+   "was": "Kodek",
+   "now": "Kodèk"
+  },
+  {
+   "area": "MAR3-087",
+   "was": "Kodek",
+   "now": "Kodèk"
+  },
+  {
+   "area": "MAR3-150",
+   "was": "Ouro Kaïgama",
+   "now": "Ouro KaÏgama"
+  },
+  {
+   "area": "MAR3-155",
+   "was": "Ouro Lope",
+   "now": "Ouro Lopé"
+  },
+  {
+   "area": "MAR3-202",
+   "was": "Tchasdeo",
+   "now": "Tchasdéo"
+  },
+  {
+   "area": "MBED-007",
+   "was": "Bekasiki",
+   "now": "Békasiki"
+  },
+  {
+   "area": "MBED-008",
+   "was": "Bekasiki",
+   "now": "Békasiki"
+  },
+  {
+   "area": "MBEJ-008",
+   "was": "Baina",
+   "now": "Baïna"
+  },
+  {
+   "area": "MBEJ-029",
+   "was": "Dare",
+   "now": "Daré"
+  },
+  {
+   "area": "MBEJ-030",
+   "was": "Dare",
+   "now": "Daré"
+  },
+  {
+   "area": "MBEJ-033",
+   "was": "Doh",
+   "now": "Dôh"
+  },
+  {
+   "area": "MBEJ-062",
+   "was": "Nabemo",
+   "now": "Nabémo"
+  },
+  {
+   "area": "MBEJ-068",
+   "was": "Ngonbe",
+   "now": "Ngonbé"
+  },
+  {
+   "area": "MBEM-014",
+   "was": "Baina",
+   "now": "Baïna"
+  },
+  {
+   "area": "MBEM-048",
+   "was": "Dokodombe",
+   "now": "Dokodombé"
+  },
+  {
+   "area": "MBEM-049",
+   "was": "Dokodombe",
+   "now": "Dokodombé"
+  },
+  {
+   "area": "MBEM-074",
+   "was": "Goumbela",
+   "now": "Goumbéla"
+  },
+  {
+   "area": "MBEM-075",
+   "was": "Goumbela",
+   "now": "Goumbéla"
+  },
+  {
+   "area": "MBEM-101",
+   "was": "Mbale",
+   "now": "Mbalé"
+  },
+  {
+   "area": "MBEM-102",
+   "was": "Mbale",
+   "now": "Mbalé"
+  },
+  {
+   "area": "MBEM-106",
+   "was": "Mboulai",
+   "now": "Mboulaï"
+  },
+  {
+   "area": "MBEM-107",
+   "was": "Mboulai",
+   "now": "Mboulaï"
+  },
+  {
+   "area": "MBEM-117",
+   "was": "Nandeke",
+   "now": "Nandéké"
+  },
+  {
+   "area": "MBEM-118",
+   "was": "Nandeke",
+   "now": "Nandéké"
+  },
+  {
+   "area": "MBEM-128",
+   "was": "Ngonde",
+   "now": "Ngondé"
+  },
+  {
+   "area": "MBIB-035",
+   "was": "Ndengue",
+   "now": "Ndengué"
+  },
+  {
+   "area": "MBID-019",
+   "was": "Ga",
+   "now": "Gâ"
+  },
+  {
+   "area": "MBID-020",
+   "was": "Ga",
+   "now": "Gâ"
+  },
+  {
+   "area": "MBID-025",
+   "was": "Mbe",
+   "now": "Mbé"
+  },
+  {
+   "area": "MBII-009",
+   "was": "Ndema",
+   "now": "Ndéma"
+  },
+  {
+   "area": "MBII-010",
+   "was": "Ndema",
+   "now": "Ndéma"
+  },
+  {
+   "area": "MBIK-005",
+   "was": "Biamesé",
+   "now": "Biamésé"
+  },
+  {
+   "area": "MBIK-006",
+   "was": "Biamesé",
+   "now": "Biamésé"
+  },
+  {
+   "area": "MBIN-037",
+   "was": "Yambeta",
+   "now": "Yambéta"
+  },
+  {
+   "area": "MBIN-038",
+   "was": "Yambeta",
+   "now": "Yambéta"
+  },
+  {
+   "area": "MBKN-001",
+   "was": "Akouen",
+   "now": "Akouén"
+  },
+  {
+   "area": "MBKN-002",
+   "was": "Akouen",
+   "now": "Akouén"
+  },
+  {
+   "area": "MBKN-003",
+   "was": "Akouen",
+   "now": "Akouén"
+  },
+  {
+   "area": "MBKN-012",
+   "was": "Ga",
+   "now": "Gâ"
+  },
+  {
+   "area": "MBKN-013",
+   "was": "Ga",
+   "now": "Gâ"
+  },
+  {
+   "area": "MBKN-061",
+   "was": "Mbe",
+   "now": "Mbé"
+  },
+  {
+   "area": "MBKN-062",
+   "was": "Mbe",
+   "now": "Mbé"
+  },
+  {
+   "area": "MBKY-043",
+   "was": "Epeda I",
+   "now": "Epéda I"
+  },
+  {
+   "area": "MBKY-072",
+   "was": "Lena",
+   "now": "Léna"
+  },
+  {
+   "area": "MBKY-150",
+   "was": "Pokelé",
+   "now": "Pokélé"
+  },
+  {
+   "area": "MBKY-151",
+   "was": "Pokelé",
+   "now": "Pokélé"
+  },
+  {
+   "area": "MBKY-158",
+   "was": "Sasse",
+   "now": "Sassé"
+  },
+  {
+   "area": "MBKY-160",
+   "was": "Sengbe",
+   "now": "Sengbé"
+  },
+  {
+   "area": "MDAA-026",
+   "was": "Koro Koro",
+   "now": "Koro-koro"
+  },
+  {
+   "area": "MDAA-027",
+   "was": "Koro Koro",
+   "now": "Koro-koro"
+  },
+  {
+   "area": "MDAG-016",
+   "was": "Djelme",
+   "now": "Djelmé"
+  },
+  {
+   "area": "MDAG-017",
+   "was": "Djelme",
+   "now": "Djelmé"
+  },
+  {
+   "area": "MDAR-034",
+   "was": "Sirlawe",
+   "now": "Sirlawé"
+  },
+  {
+   "area": "MDAR-035",
+   "was": "Sirlawe",
+   "now": "Sirlawé"
+  },
+  {
+   "area": "MDAU-018",
+   "was": "Vele",
+   "now": "Vélé"
+  },
+  {
+   "area": "MDAU-019",
+   "was": "Vele",
+   "now": "Vélé"
+  },
+  {
+   "area": "MDAY-045",
+   "was": "Tcherfeke",
+   "now": "Tcherféké"
+  },
+  {
+   "area": "MENF-018",
+   "was": "Nkannye",
+   "now": "Nkannyé"
+  },
+  {
+   "area": "MENF-019",
+   "was": "Nkannye",
+   "now": "Nkannyé"
+  },
+  {
+   "area": "MKAD-011",
+   "was": "Defin",
+   "now": "Défin"
+  },
+  {
+   "area": "MKAD-012",
+   "was": "Defin",
+   "now": "Défin"
+  },
+  {
+   "area": "MKAD-016",
+   "was": "Golombe",
+   "now": "Golombé"
+  },
+  {
+   "area": "MKAG-019",
+   "was": "Louguere",
+   "now": "Louguéré"
+  },
+  {
+   "area": "MKAG-020",
+   "was": "Mapore",
+   "now": "Maporé"
+  },
+  {
+   "area": "MKAG-021",
+   "was": "Mapore",
+   "now": "Maporé"
+  },
+  {
+   "area": "MKAK-168",
+   "was": "Mourbare",
+   "now": "Mourbaré"
+  },
+  {
+   "area": "MKAK-169",
+   "was": "Mourbare",
+   "now": "Mourbaré"
+  },
+  {
+   "area": "MKAK-179",
+   "was": "Ouro Lope",
+   "now": "Ouro Lopé"
+  },
+  {
+   "area": "MKAM-002",
+   "was": "Bamguel",
+   "now": "Bamguèl"
+  },
+  {
+   "area": "MKAM-059",
+   "was": "Gagadje",
+   "now": "Gagadjé"
+  },
+  {
+   "area": "MKAM-060",
+   "was": "Gagadje",
+   "now": "Gagadjé"
+  },
+  {
+   "area": "MKAM-122",
+   "was": "Ouro Kaïgama",
+   "now": "Ouro KaÏgama"
+  },
+  {
+   "area": "MKAM-138",
+   "was": "Tchasdeo",
+   "now": "Tchasdéo"
+  },
+  {
+   "area": "MKAO-085",
+   "was": "Sirlawe",
+   "now": "Sirlawé"
+  },
+  {
+   "area": "MLOF-078",
+   "was": "Karewa",
+   "now": "Karéwa"
+  },
+  {
+   "area": "MLOF-085",
+   "was": "Kole",
+   "now": "Kolé"
+  },
+  {
+   "area": "MLOF-107",
+   "was": "Mayo Kewe",
+   "now": "Mayo Kewé"
+  },
+  {
+   "area": "MLOF-108",
+   "was": "Meleme",
+   "now": "Mélémé"
+  },
+  {
+   "area": "MLOF-121",
+   "was": "Ndelele",
+   "now": "Ndélélé"
+  },
+  {
+   "area": "MLOF-135",
+   "was": "Pelgue",
+   "now": "Pelgué"
+  },
+  {
+   "area": "MLOF-136",
+   "was": "Pelgue",
+   "now": "Pelgué"
+  },
+  {
+   "area": "MLOG-020",
+   "was": "Beli",
+   "now": "Béli"
+  },
+  {
+   "area": "MLOG-066",
+   "was": "Djarengol",
+   "now": "Djarèngol"
+  },
+  {
+   "area": "MLOG-067",
+   "was": "Djedjengue",
+   "now": "Djedjengué"
+  },
+  {
+   "area": "MLOG-068",
+   "was": "Djedjengue",
+   "now": "Djedjengué"
+  },
+  {
+   "area": "MLOG-072",
+   "was": "Djounde",
+   "now": "Djoundé"
+  },
+  {
+   "area": "MLOG-091",
+   "was": "Golombe",
+   "now": "Golombé"
+  },
+  {
+   "area": "MLOG-130",
+   "was": "Korehel",
+   "now": "Koréhel"
+  },
+  {
+   "area": "MLOG-145",
+   "was": "Lougguere",
+   "now": "Lougguéré"
+  },
+  {
+   "area": "MLOG-174",
+   "was": "Mayo Kewe",
+   "now": "Mayo Kewé"
+  },
+  {
+   "area": "MLOG-179",
+   "was": "Sanganare",
+   "now": "Sanganaré"
+  },
+  {
+   "area": "MLOG-310",
+   "was": "Zevene",
+   "now": "Zévéné"
+  },
+  {
+   "area": "MLOG-311",
+   "was": "Zevene",
+   "now": "Zévéné"
+  },
+  {
+   "area": "MLOM-012",
+   "was": "Bereng",
+   "now": "Béreng"
+  },
+  {
+   "area": "MLOM-040",
+   "was": "Debo",
+   "now": "Débo"
+  },
+  {
+   "area": "MLOM-041",
+   "was": "Debo",
+   "now": "Débo"
+  },
+  {
+   "area": "MLOM-117",
+   "was": "Koubere",
+   "now": "Koubéré"
+  },
+  {
+   "area": "MLOM-138",
+   "was": "Mayo Oulo",
+   "now": "Mayo-Oulo"
+  },
+  {
+   "area": "MLOM-141",
+   "was": "Mayo Oulo",
+   "now": "Mayo-Oulo"
+  },
+  {
+   "area": "MNOD-021",
+   "was": "Foreke",
+   "now": "Foreké"
+  },
+  {
+   "area": "MNOD-022",
+   "was": "Foreke",
+   "now": "Foreké"
+  },
+  {
+   "area": "MNOD-031",
+   "was": "Keleng",
+   "now": "Kéleng"
+  },
+  {
+   "area": "MNOD-048",
+   "was": "Lepo",
+   "now": "Lépo"
+  },
+  {
+   "area": "MNOD-063",
+   "was": "Mete",
+   "now": "Meté"
+  },
+  {
+   "area": "MNOD-069",
+   "was": "Mve II",
+   "now": "Mvé II"
+  },
+  {
+   "area": "MNOF-012",
+   "was": "Fotomena",
+   "now": "Fotoména"
+  },
+  {
+   "area": "MNOF-021",
+   "was": "Meka",
+   "now": "Méka"
+  },
+  {
+   "area": "MNON-032",
+   "was": "Keleng",
+   "now": "Kéleng"
+  },
+  {
+   "area": "MNON-042",
+   "was": "Lepo",
+   "now": "Lépo"
+  },
+  {
+   "area": "MNON-061",
+   "was": "Mboule",
+   "now": "Mboulé"
+  },
+  {
+   "area": "MNOP-045",
+   "was": "La'tsit",
+   "now": "La’tsit"
+  },
+  {
+   "area": "MNOP-067",
+   "was": "Meka",
+   "now": "Méka"
+  },
+  {
+   "area": "MNOP-072",
+   "was": "Mendou",
+   "now": "Mèndou"
+  },
+  {
+   "area": "MNOP-073",
+   "was": "Mendou",
+   "now": "Mèndou"
+  },
+  {
+   "area": "MNOP-131",
+   "was": "Tchie",
+   "now": "Tchiè"
+  },
+  {
+   "area": "MNOS-010",
+   "was": "Fondonera",
+   "now": "Fondonéra"
+  },
+  {
+   "area": "MNOS-011",
+   "was": "Fondonera",
+   "now": "Fondonéra"
+  },
+  {
+   "area": "MOUB-009",
+   "was": "Ekom Nkam",
+   "now": "Ekom-Nkam"
+  },
+  {
+   "area": "MOUB-010",
+   "was": "Ekom Nkam",
+   "now": "Ekom-Nkam"
+  },
+  {
+   "area": "MOUB-017",
+   "was": "Melong II",
+   "now": "Mélong II"
+  },
+  {
+   "area": "MOUD-011",
+   "was": "Bekouma",
+   "now": "Békouma"
+  },
+  {
+   "area": "MOUD-024",
+   "was": "Bonadoumbe",
+   "now": "Bonadoumbé"
+  },
+  {
+   "area": "MOUD-058",
+   "was": "Malendé",
+   "now": "Malèndé"
+  },
+  {
+   "area": "MOUE-010",
+   "was": "Ekom",
+   "now": "Ékom"
+  },
+  {
+   "area": "MOUE-015",
+   "was": "Manengole",
+   "now": "Manengolé"
+  },
+  {
+   "area": "MOUE-016",
+   "was": "Manengole",
+   "now": "Manengolé"
+  },
+  {
+   "area": "MOUO-009",
+   "was": "Bekouma",
+   "now": "Békouma"
+  },
+  {
+   "area": "MOUO-010",
+   "was": "Bekouma",
+   "now": "Békouma"
+  },
+  {
+   "area": "MOUO-016",
+   "was": "Bonalea",
+   "now": "Bonaléa"
+  },
+  {
+   "area": "MOUO-017",
+   "was": "Bonalea",
+   "now": "Bonaléa"
+  },
+  {
+   "area": "MOUO-046",
+   "was": "Ndongo",
+   "now": "Ndongó"
+  },
+  {
+   "area": "MREO-038",
+   "was": "Bole",
+   "now": "Bolé"
+  },
+  {
+   "area": "MREO-087",
+   "was": "Godje",
+   "now": "Godjé"
+  },
+  {
+   "area": "MREO-098",
+   "was": "Home",
+   "now": "Homé"
+  },
+  {
+   "area": "MREO-099",
+   "was": "Home",
+   "now": "Homé"
+  },
+  {
+   "area": "MREO-143",
+   "was": "Louguere",
+   "now": "Louguéré"
+  },
+  {
+   "area": "MRER-166",
+   "was": "Guelao",
+   "now": "Guélao"
+  },
+  {
+   "area": "MRER-196",
+   "was": "Koubadje",
+   "now": "Koubadjé"
+  },
+  {
+   "area": "MRER-217",
+   "was": "Lise",
+   "now": "Lisé"
+  },
+  {
+   "area": "MRER-261",
+   "was": "Nakere",
+   "now": "Nakéré"
+  },
+  {
+   "area": "MRER-338",
+   "was": "Tcherfeke",
+   "now": "Tcherféké"
+  },
+  {
+   "area": "MRER-342",
+   "was": "Teware",
+   "now": "Tewaré"
+  },
+  {
+   "area": "MRET-005",
+   "was": "Bai",
+   "now": "Baï"
+  },
+  {
+   "area": "MRET-070",
+   "was": "Home",
+   "now": "Homé"
+  },
+  {
+   "area": "MRET-160",
+   "was": "Son",
+   "now": "Sôn"
+  },
+  {
+   "area": "MSAK-012",
+   "was": "Bame",
+   "now": "Bamé"
+  },
+  {
+   "area": "MSAM-035",
+   "was": "Blamaderi",
+   "now": "Blamadéri"
+  },
+  {
+   "area": "MSAM-036",
+   "was": "Blamaderi",
+   "now": "Blamadéri"
+  },
+  {
+   "area": "MSAM-059",
+   "was": "Djounde",
+   "now": "Djoundé"
+  },
+  {
+   "area": "MSAM-208",
+   "was": "Mehe",
+   "now": "Mehé"
+  },
+  {
+   "area": "MSAM-209",
+   "was": "Mehe",
+   "now": "Mehé"
+  },
+  {
+   "area": "MSAM-210",
+   "was": "Meje",
+   "now": "Méjé"
+  },
+  {
+   "area": "MSAT-092",
+   "was": "Mouyengue",
+   "now": "Mouyengué"
+  },
+  {
+   "area": "MSAT-093",
+   "was": "Mouyengue",
+   "now": "Mouyengué"
+  },
+  {
+   "area": "MSAT-130",
+   "was": "Tokombere",
+   "now": "Tokombéré"
+  },
+  {
+   "area": "MTSB-070",
+   "was": "Teleki",
+   "now": "Téléki"
+  },
+  {
+   "area": "MTSB-071",
+   "was": "Teleki",
+   "now": "Téléki"
+  },
+  {
+   "area": "MTSH-001",
+   "was": "Bamguel",
+   "now": "Bamguèl"
+  },
+  {
+   "area": "MTSH-004",
+   "was": "Bereng",
+   "now": "Béreng"
+  },
+  {
+   "area": "MTSH-011",
+   "was": "Djoum Djoum",
+   "now": "Djoum-Djoum"
+  },
+  {
+   "area": "MTSH-012",
+   "was": "Djoum Djoum",
+   "now": "Djoum-Djoum"
+  },
+  {
+   "area": "MTSK-098",
+   "was": "Kedaoula",
+   "now": "Kédaoula"
+  },
+  {
+   "area": "MTSK-099",
+   "was": "Kedaoula",
+   "now": "Kédaoula"
+  },
+  {
+   "area": "MTSM-003",
+   "was": "Bahale",
+   "now": "Bahalé"
+  },
+  {
+   "area": "MTSM-057",
+   "was": "Yelle",
+   "now": "Yéllé"
+  },
+  {
+   "area": "MTSO-124",
+   "was": "Korehel",
+   "now": "Koréhel"
+  },
+  {
+   "area": "MTSO-127",
+   "was": "Kossehone",
+   "now": "Kosséhone"
+  },
+  {
+   "area": "MTSO-128",
+   "was": "Kossehone",
+   "now": "Kosséhone"
+  },
+  {
+   "area": "MTSO-152",
+   "was": "Louguere",
+   "now": "Louguéré"
+  },
+  {
+   "area": "MTSO-157",
+   "was": "Louguereo",
+   "now": "Louguéréo"
+  },
+  {
+   "area": "MTSO-202",
+   "was": "Sanganare",
+   "now": "Sanganaré"
+  },
+  {
+   "area": "MTSO-209",
+   "was": "Mbever",
+   "now": "Mbéver"
+  },
+  {
+   "area": "MTSO-210",
+   "was": "Mbever",
+   "now": "Mbéver"
+  },
+  {
+   "area": "MTSO-217",
+   "was": "Medere",
+   "now": "Médéré"
+  },
+  {
+   "area": "MTSO-218",
+   "was": "Medere",
+   "now": "Médéré"
+  },
+  {
+   "area": "MTSO-244",
+   "was": "Mofole",
+   "now": "Mofolé"
+  },
+  {
+   "area": "MTSO-245",
+   "was": "Mofole",
+   "now": "Mofolé"
+  },
+  {
+   "area": "MTSO-371",
+   "was": "Tchoumpel",
+   "now": "Tchoumpèl"
+  },
+  {
+   "area": "MTSO-372",
+   "was": "Tchoumpel",
+   "now": "Tchoumpèl"
+  },
+  {
+   "area": "MTSS-127",
+   "was": "Soulede",
+   "now": "Soulèdé"
+  },
+  {
+   "area": "MVIB-013",
+   "was": "Maamenyin",
+   "now": "Maaményin"
+  },
+  {
+   "area": "MVIE-017",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "MVIE-018",
+   "was": "Elon",
+   "now": "Élon"
+  },
+  {
+   "area": "MVIE-020",
+   "was": "Maamenyin",
+   "now": "Maaményin"
+  },
+  {
+   "area": "MVIE-026",
+   "was": "Mebem",
+   "now": "Mébem"
+  },
+  {
+   "area": "MVIE-027",
+   "was": "Mebem",
+   "now": "Mébem"
+  },
+  {
+   "area": "MVIE-028",
+   "was": "Melan",
+   "now": "Mélan"
+  },
+  {
+   "area": "MVIE-044",
+   "was": "Ngate",
+   "now": "Ngaté"
+  },
+  {
+   "area": "MVIE-045",
+   "was": "Ngonebok",
+   "now": "Ngonébok"
+  },
+  {
+   "area": "MVIE-046",
+   "was": "Ngonebok",
+   "now": "Ngonébok"
+  },
+  {
+   "area": "MVII-018",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "MVII-019",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "MVII-020",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "MVII-023",
+   "was": "Elon",
+   "now": "Élon"
+  },
+  {
+   "area": "MVII-024",
+   "was": "Elon",
+   "now": "Élon"
+  },
+  {
+   "area": "MVII-034",
+   "was": "Mbounezok",
+   "now": "Mbounézok"
+  },
+  {
+   "area": "MVII-036",
+   "was": "Melan",
+   "now": "Mélan"
+  },
+  {
+   "area": "MVII-037",
+   "was": "Messambe",
+   "now": "Messambé"
+  },
+  {
+   "area": "MVII-038",
+   "was": "Messambe",
+   "now": "Messambé"
+  },
+  {
+   "area": "MVII-039",
+   "was": "Momebili",
+   "now": "Momébili"
+  },
+  {
+   "area": "MVII-047",
+   "was": "Ngonde",
+   "now": "Ngondé"
+  },
+  {
+   "area": "MVII-053",
+   "was": "Nkolenyeng",
+   "now": "Nkolényeng"
+  },
+  {
+   "area": "MVII-057",
+   "was": "Nkongmedjap",
+   "now": "Nkongmédjap"
+  },
+  {
+   "area": "MVII-058",
+   "was": "Nkongmedjap",
+   "now": "Nkongmédjap"
+  },
+  {
+   "area": "MVII-073",
+   "was": "Zo'ebefam",
+   "now": "Zo'ébefam"
+  },
+  {
+   "area": "MVIM-018",
+   "was": "Bibouleman",
+   "now": "Bibouléman"
+  },
+  {
+   "area": "MVIM-053",
+   "was": "Melan",
+   "now": "Mélan"
+  },
+  {
+   "area": "MVIM-059",
+   "was": "Minkpwele",
+   "now": "Minkpwéle"
+  },
+  {
+   "area": "MVIM-060",
+   "was": "Minkpwele",
+   "now": "Minkpwéle"
+  },
+  {
+   "area": "MVIM-063",
+   "was": "Mvangue",
+   "now": "Mvangué"
+  },
+  {
+   "area": "MVIM-064",
+   "was": "Mvangue",
+   "now": "Mvangué"
+  },
+  {
+   "area": "MVIM-065",
+   "was": "Mvangue",
+   "now": "Mvangué"
+  },
+  {
+   "area": "MVIM-082",
+   "was": "Nezam",
+   "now": "Nézam"
+  },
+  {
+   "area": "MVIM-083",
+   "was": "Ngate",
+   "now": "Ngaté"
+  },
+  {
+   "area": "MVIM-094",
+   "was": "Nkolebityé",
+   "now": "Nkolébityé"
+  },
+  {
+   "area": "MVIM-095",
+   "was": "Nkolebityé",
+   "now": "Nkolébityé"
+  },
+  {
+   "area": "MVIN-001",
+   "was": "Abiete",
+   "now": "Abiété"
+  },
+  {
+   "area": "MVIN-016",
+   "was": "Ebotenkou",
+   "now": "Ébotenkou"
+  },
+  {
+   "area": "MVIN-021",
+   "was": "Elon",
+   "now": "Élon"
+  },
+  {
+   "area": "MVIN-033",
+   "was": "Mbekaa I",
+   "now": "Mbékaa I"
+  },
+  {
+   "area": "MVIN-034",
+   "was": "Mbekaa I",
+   "now": "Mbékaa I"
+  },
+  {
+   "area": "MVIN-035",
+   "was": "Mbekaa I",
+   "now": "Mbékaa I"
+  },
+  {
+   "area": "MVIN-047",
+   "was": "Mvamedjap",
+   "now": "Mvamédjap"
+  },
+  {
+   "area": "MVIN-048",
+   "was": "Mvamedjap",
+   "now": "Mvamédjap"
+  },
+  {
+   "area": "MVIV-048",
+   "was": "Eboman",
+   "now": "Éboman"
+  },
+  {
+   "area": "MVIV-049",
+   "was": "Eboman",
+   "now": "Éboman"
+  },
+  {
+   "area": "MVIV-050",
+   "was": "Eboman",
+   "now": "Éboman"
+  },
+  {
+   "area": "MVIV-051",
+   "was": "Ebomane",
+   "now": "Ebomané"
+  },
+  {
+   "area": "MVIV-053",
+   "was": "Ekowong",
+   "now": "Ékowong"
+  },
+  {
+   "area": "MVIV-054",
+   "was": "Ekowong",
+   "now": "Ékowong"
+  },
+  {
+   "area": "MVIV-058",
+   "was": "Endengue",
+   "now": "Endengué"
+  },
+  {
+   "area": "MVIV-065",
+   "was": "Mbounezok",
+   "now": "Mbounézok"
+  },
+  {
+   "area": "MVIV-066",
+   "was": "Mebemenko",
+   "now": "Mébemenko"
+  },
+  {
+   "area": "MVIV-067",
+   "was": "Mebemenko",
+   "now": "Mébemenko"
+  },
+  {
+   "area": "MVIV-068",
+   "was": "Mebemonko",
+   "now": "Mébémonko"
+  },
+  {
+   "area": "MVIV-072",
+   "was": "Mebosso",
+   "now": "Mébosso"
+  },
+  {
+   "area": "MVIV-073",
+   "was": "Mebosso",
+   "now": "Mébosso"
+  },
+  {
+   "area": "MVIV-074",
+   "was": "Medjeme",
+   "now": "Medjémé"
+  },
+  {
+   "area": "MVIV-075",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "MVIV-078",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "MVIV-087",
+   "was": "Momebili",
+   "now": "Momébili"
+  },
+  {
+   "area": "MVIV-101",
+   "was": "Nélefoup",
+   "now": "Néléfoup"
+  },
+  {
+   "area": "MVIV-104",
+   "was": "Nezam",
+   "now": "Nézam"
+  },
+  {
+   "area": "MVIV-106",
+   "was": "Ngame",
+   "now": "Ngamé"
+  },
+  {
+   "area": "MVIV-107",
+   "was": "Ngomébae",
+   "now": "Ngomébaé"
+  },
+  {
+   "area": "MVIV-108",
+   "was": "Ngomébae",
+   "now": "Ngomébaé"
+  },
+  {
+   "area": "MVIV-110",
+   "was": "Nkengou",
+   "now": "Nkéngou"
+  },
+  {
+   "area": "MVIV-114",
+   "was": "Nkolenyeng",
+   "now": "Nkolényeng"
+  },
+  {
+   "area": "MVIV-115",
+   "was": "Nkolenyeng",
+   "now": "Nkolényeng"
+  },
+  {
+   "area": "MVIV-124",
+   "was": "Nnemeyong",
+   "now": "Nnémeyong"
+  },
+  {
+   "area": "MVIV-131",
+   "was": "Zo'ebefam",
+   "now": "Zo'ébefam"
+  },
+  {
+   "area": "NDEB-025",
+   "was": "Bole",
+   "now": "Bolé"
+  },
+  {
+   "area": "NDET-016",
+   "was": "Medina",
+   "now": "Médina"
+  },
+  {
+   "area": "NKAI-001",
+   "was": "Bahale",
+   "now": "Bahalé"
+  },
+  {
+   "area": "NKAK-003",
+   "was": "Bètè",
+   "now": "Bété"
+  },
+  {
+   "area": "NOUF-011",
+   "was": "Mamben",
+   "now": "Mambèn"
+  },
+  {
+   "area": "NOUF-045",
+   "was": "Njifen",
+   "now": "Njifèn"
+  },
+  {
+   "area": "NOUF-046",
+   "was": "Njifen",
+   "now": "Njifèn"
+  },
+  {
+   "area": "NOUF-050",
+   "was": "Njikwet",
+   "now": "Njikwèt"
+  },
+  {
+   "area": "NOUF-055",
+   "was": "Njindare",
+   "now": "Njindaré"
+  },
+  {
+   "area": "NOUF-056",
+   "was": "Njindare",
+   "now": "Njindaré"
+  },
+  {
+   "area": "NOUF-063",
+   "was": "Njisse",
+   "now": "Njissé"
+  },
+  {
+   "area": "NOUF-068",
+   "was": "Njitekwet",
+   "now": "Njitekwèt"
+  },
+  {
+   "area": "NOUK-003",
+   "was": "Bameka",
+   "now": "Baméka"
+  },
+  {
+   "area": "NOUK-012",
+   "was": "Makam",
+   "now": "Mākam"
+  },
+  {
+   "area": "NOUK-060",
+   "was": "Njitekwet",
+   "now": "Njitekwèt"
+  },
+  {
+   "area": "NOUK-070",
+   "was": "Nkoupa're",
+   "now": "Nkoupa'ré"
+  },
+  {
+   "area": "NOUM-023",
+   "was": "Mante",
+   "now": "Manté"
+  },
+  {
+   "area": "NOUM-024",
+   "was": "Mante",
+   "now": "Manté"
+  },
+  {
+   "area": "NOUN-005",
+   "was": "Makam",
+   "now": "Mākam"
+  },
+  {
+   "area": "NOUN-006",
+   "was": "Makam",
+   "now": "Mākam"
+  },
+  {
+   "area": "NOUN-040",
+   "was": "Njitekwet",
+   "now": "Njitekwèt"
+  },
+  {
+   "area": "NOUO-056",
+   "was": "Nkoupa're",
+   "now": "Nkoupa'ré"
+  },
+  {
+   "area": "NOUS-023",
+   "was": "Mamben",
+   "now": "Mambèn"
+  },
+  {
+   "area": "NOUS-067",
+   "was": "Njindare",
+   "now": "Njindaré"
+  },
+  {
+   "area": "NOUU-043",
+   "was": "Njikwet",
+   "now": "Njikwèt"
+  },
+  {
+   "area": "NOUU-044",
+   "was": "Njikwet",
+   "now": "Njikwèt"
+  },
+  {
+   "area": "NOUU-060",
+   "was": "Njitekwet",
+   "now": "Njitekwèt"
+  },
+  {
+   "area": "NOUU-061",
+   "was": "Njitekwet",
+   "now": "Njitekwèt"
+  },
+  {
+   "area": "NOUU-062",
+   "was": "Njitekwet",
+   "now": "Njitekwèt"
+  },
+  {
+   "area": "NOUU-065",
+   "was": "Nkengou",
+   "now": "Nkéngou"
+  },
+  {
+   "area": "NOUU-098",
+   "was": "Pamfuetlé",
+   "now": "Pamfuétlé"
+  },
+  {
+   "area": "NOUU-099",
+   "was": "Pamfuetlé",
+   "now": "Pamfuétlé"
+  },
+  {
+   "area": "NYKA-013",
+   "was": "Lise",
+   "now": "Lisé"
+  },
+  {
+   "area": "NYKD-025",
+   "was": "Ndongo",
+   "now": "Ndongó"
+  },
+  {
+   "area": "NYKD-026",
+   "was": "Ndongo",
+   "now": "Ndongó"
+  },
+  {
+   "area": "NYKE-003",
+   "was": "Eséka",
+   "now": "Éséka"
+  },
+  {
+   "area": "NYKE-004",
+   "was": "Eséka",
+   "now": "Éséka"
+  },
+  {
+   "area": "NYKE-006",
+   "was": "Kelle",
+   "now": "Kéllé"
+  },
+  {
+   "area": "NYKM-037",
+   "was": "Mboule",
+   "now": "Mboulé"
+  },
+  {
+   "area": "NYKM-053",
+   "was": "Ngwate",
+   "now": "Ngwaté"
+  },
+  {
+   "area": "NYKM-054",
+   "was": "Ngwate",
+   "now": "Ngwaté"
+  },
+  {
+   "area": "NYKM-056",
+   "was": "Nkolmelen",
+   "now": "Nkolmélen"
+  },
+  {
+   "area": "NYKN-005",
+   "was": "Boumnyebel",
+   "now": "Boumnyébel"
+  },
+  {
+   "area": "NYKS-019",
+   "was": "Kellé Mpek",
+   "now": "Kellé-Mpek"
+  },
+  {
+   "area": "NYKS-020",
+   "was": "Kellé Mpek",
+   "now": "Kellé-Mpek"
+  },
+  {
+   "area": "NYMA-029",
+   "was": "Biyebe",
+   "now": "Biyebé"
+  },
+  {
+   "area": "NYMA-042",
+   "was": "Eboman",
+   "now": "Éboman"
+  },
+  {
+   "area": "NYMA-045",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "NYMA-046",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "NYMA-047",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "NYMA-048",
+   "was": "Ekomba",
+   "now": "Ékomba"
+  },
+  {
+   "area": "NYMA-050",
+   "was": "Ekoua",
+   "now": "Ékoua"
+  },
+  {
+   "area": "NYMA-051",
+   "was": "Ekoua",
+   "now": "Ékoua"
+  },
+  {
+   "area": "NYMA-102",
+   "was": "Meba",
+   "now": "Méba"
+  },
+  {
+   "area": "NYMA-103",
+   "was": "Mebang",
+   "now": "Mébang"
+  },
+  {
+   "area": "NYMA-107",
+   "was": "Medoumou",
+   "now": "Médoumou"
+  },
+  {
+   "area": "NYMA-110",
+   "was": "Meka",
+   "now": "Méka"
+  },
+  {
+   "area": "NYMA-111",
+   "was": "Meka",
+   "now": "Méka"
+  },
+  {
+   "area": "NYMA-114",
+   "was": "Melan",
+   "now": "Mélan"
+  },
+  {
+   "area": "NYMA-115",
+   "was": "Melan",
+   "now": "Mélan"
+  },
+  {
+   "area": "NYMA-116",
+   "was": "Melan",
+   "now": "Mélan"
+  },
+  {
+   "area": "NYMA-133",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "NYMA-134",
+   "was": "Meyos",
+   "now": "Méyos"
+  },
+  {
+   "area": "NYMA-135",
+   "was": "Miende",
+   "now": "Miendé"
+  },
+  {
+   "area": "NYMA-136",
+   "was": "Miende",
+   "now": "Miendé"
+  },
+  {
+   "area": "NYMA-160",
+   "was": "Ngoulemekong",
+   "now": "Ngoulémékong"
+  },
+  {
+   "area": "NYMA-162",
+   "was": "Ngoulmekong",
+   "now": "Ngoulmékong"
+  },
+  {
+   "area": "NYMA-167",
+   "was": "Nko",
+   "now": "Nkô"
+  },
+  {
+   "area": "NYME-010",
+   "was": "Beta",
+   "now": "Béta"
+  },
+  {
+   "area": "NYME-011",
+   "was": "Beta",
+   "now": "Béta"
+  },
+  {
+   "area": "NYME-021",
+   "was": "Eboman",
+   "now": "Éboman"
+  },
+  {
+   "area": "NYME-022",
+   "was": "Ebomane",
+   "now": "Ebomané"
+  },
+  {
+   "area": "NYME-025",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "NYME-026",
+   "was": "Ekomba",
+   "now": "Ékomba"
+  },
+  {
+   "area": "NYME-027",
+   "was": "Ekomba",
+   "now": "Ékomba"
+  },
+  {
+   "area": "NYME-044",
+   "was": "Mebem",
+   "now": "Mébem"
+  },
+  {
+   "area": "NYME-045",
+   "was": "Mebomo",
+   "now": "Mébomo"
+  },
+  {
+   "area": "NYME-046",
+   "was": "Mebomo",
+   "now": "Mébomo"
+  },
+  {
+   "area": "NYME-047",
+   "was": "Medjeme",
+   "now": "Medjémé"
+  },
+  {
+   "area": "NYME-052",
+   "was": "Meyo",
+   "now": "Méyo"
+  },
+  {
+   "area": "NYMK-011",
+   "was": "Leng Tombo",
+   "now": "Leng-Tombo"
+  },
+  {
+   "area": "NYMK-012",
+   "was": "Leng Tombo",
+   "now": "Leng-Tombo"
+  },
+  {
+   "area": "NYMM-007",
+   "was": "Ekok",
+   "now": "Ékok"
+  },
+  {
+   "area": "NYMY-027",
+   "was": "Eyes",
+   "now": "Éyes"
+  },
+  {
+   "area": "NYMY-028",
+   "was": "Eyes",
+   "now": "Éyes"
+  },
+  {
+   "area": "NYSA-023",
+   "was": "Kole",
+   "now": "Kolé"
+  },
+  {
+   "area": "NYSA-026",
+   "was": "Mebam",
+   "now": "Mébam"
+  },
+  {
+   "area": "NYSA-027",
+   "was": "Mebele",
+   "now": "Mébélé"
+  },
+  {
+   "area": "NYSA-028",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "NYSA-029",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "NYSA-033",
+   "was": "Ndziefidi",
+   "now": "Ndziéfidi"
+  },
+  {
+   "area": "NYSA-040",
+   "was": "Nkolmeyos",
+   "now": "Nkolméyos"
+  },
+  {
+   "area": "NYSD-021",
+   "was": "Biyebe",
+   "now": "Biyebé"
+  },
+  {
+   "area": "NYSD-022",
+   "was": "Biyebe",
+   "now": "Biyebé"
+  },
+  {
+   "area": "NYSD-037",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "NYSD-042",
+   "was": "Elang",
+   "now": "Élang"
+  },
+  {
+   "area": "NYSD-044",
+   "was": "Esong",
+   "now": "Ésong"
+  },
+  {
+   "area": "NYSD-046",
+   "was": "Eves",
+   "now": "Evés"
+  },
+  {
+   "area": "NYSE-005",
+   "was": "Bénebalot",
+   "now": "Bénébalot"
+  },
+  {
+   "area": "NYSE-007",
+   "was": "Ebogo",
+   "now": "Ébogo"
+  },
+  {
+   "area": "NYSE-012",
+   "was": "Mengueme",
+   "now": "Menguémé"
+  },
+  {
+   "area": "NYSE-022",
+   "was": "Nyemeyong",
+   "now": "Nyéméyong"
+  },
+  {
+   "area": "NYSK-011",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "NYSK-013",
+   "was": "Elende",
+   "now": "Elendé"
+  },
+  {
+   "area": "NYSK-014",
+   "was": "Elende",
+   "now": "Elendé"
+  },
+  {
+   "area": "NYSK-015",
+   "was": "Endengue",
+   "now": "Endengué"
+  },
+  {
+   "area": "NYSK-022",
+   "was": "Mengueme",
+   "now": "Menguémé"
+  },
+  {
+   "area": "NYSM-026",
+   "was": "Mbalelon",
+   "now": "Mbalélon"
+  },
+  {
+   "area": "NYSN-027",
+   "was": "Ekoumeyek",
+   "now": "Ekouméyek"
+  },
+  {
+   "area": "NYSN-028",
+   "was": "Ekoumeyek",
+   "now": "Ekouméyek"
+  },
+  {
+   "area": "NYSN-040",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "NYSN-041",
+   "was": "Mengueme",
+   "now": "Menguémé"
+  },
+  {
+   "area": "NYSN-043",
+   "was": "Mevamebot",
+   "now": "Mévamébot"
+  },
+  {
+   "area": "NYSN-044",
+   "was": "Mevamebot",
+   "now": "Mévamébot"
+  },
+  {
+   "area": "OCEA-001",
+   "was": "Abiete",
+   "now": "Abiété"
+  },
+  {
+   "area": "OCEA-002",
+   "was": "Abiete",
+   "now": "Abiété"
+  },
+  {
+   "area": "OCEA-026",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "OCEA-027",
+   "was": "Efoulan",
+   "now": "Éfoulan"
+  },
+  {
+   "area": "OCEA-028",
+   "was": "Ekowong",
+   "now": "Ékowong"
+  },
+  {
+   "area": "OCEA-029",
+   "was": "Ekowong",
+   "now": "Ékowong"
+  },
+  {
+   "area": "OCEA-030",
+   "was": "Elom",
+   "now": "Élom"
+  },
+  {
+   "area": "OCEA-031",
+   "was": "Elon",
+   "now": "Élon"
+  },
+  {
+   "area": "OCEA-040",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "OCEA-051",
+   "was": "Nnemeyong",
+   "now": "Nnémeyong"
+  },
+  {
+   "area": "OCEB-016",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "OCEB-017",
+   "was": "Melombo",
+   "now": "Mélombo"
+  },
+  {
+   "area": "OCEB-018",
+   "was": "Melombo",
+   "now": "Mélombo"
+  },
+  {
+   "area": "OCEB-019",
+   "was": "Melondo",
+   "now": "Mélondo"
+  },
+  {
+   "area": "OCEB-020",
+   "was": "Melondo",
+   "now": "Mélondo"
+  },
+  {
+   "area": "OCEC-016",
+   "was": "Bibae",
+   "now": "Bibaé"
+  },
+  {
+   "area": "OCEL-009",
+   "was": "Bera",
+   "now": "Béra"
+  },
+  {
+   "area": "OCEL-037",
+   "was": "Elon",
+   "now": "Élon"
+  },
+  {
+   "area": "OCEM-016",
+   "was": "Elon",
+   "now": "Élon"
+  },
+  {
+   "area": "OCEM-023",
+   "was": "Melondo",
+   "now": "Mélondo"
+  },
+  {
+   "area": "OCEM-031",
+   "was": "Mvengue",
+   "now": "Mvengué"
+  },
+  {
+   "area": "OCEM-032",
+   "was": "Mvengue",
+   "now": "Mvengué"
+  },
+  {
+   "area": "OCEN-015",
+   "was": "Edoudouma",
+   "now": "Édoudouma"
+  },
+  {
+   "area": "OCEN-016",
+   "was": "Edoudouma",
+   "now": "Édoudouma"
+  },
+  {
+   "area": "SAMI-051",
+   "was": "Sone",
+   "now": "Soné"
+  },
+  {
+   "area": "SAMM-023",
+   "was": "Ngonbe",
+   "now": "Ngonbé"
+  },
+  {
+   "area": "SAMM-037",
+   "was": "Songmbengue",
+   "now": "Songmbengué"
+  },
+  {
+   "area": "SAMN-040",
+   "was": "Nko",
+   "now": "Nkô"
+  },
+  {
+   "area": "SAMP-038",
+   "was": "Songmbengue",
+   "now": "Songmbengué"
+  },
+  {
+   "area": "SAMY-001",
+   "was": "Bilangue",
+   "now": "Bilangué"
+  },
+  {
+   "area": "SAMY-002",
+   "was": "Bilangue",
+   "now": "Bilangué"
+  },
+  {
+   "area": "SAMY-007",
+   "was": "Keleng",
+   "now": "Kéleng"
+  },
+  {
+   "area": "VINB-008",
+   "was": "Bera",
+   "now": "Béra"
+  },
+  {
+   "area": "VINB-030",
+   "was": "Nabemo",
+   "now": "Nabémo"
+  },
+  {
+   "area": "VINE-018",
+   "was": "Mbe",
+   "now": "Mbé"
+  },
+  {
+   "area": "VINE-019",
+   "was": "Mbe",
+   "now": "Mbé"
+  },
+  {
+   "area": "VINM-030",
+   "was": "Lewa",
+   "now": "Léwa"
+  },
+  {
+   "area": "VINM-057",
+   "was": "Mikai",
+   "now": "Mikaï"
+  },
+  {
+   "area": "VINM-058",
+   "was": "Mikai",
+   "now": "Mikaï"
+  },
+  {
+   "area": "VINN-023",
+   "was": "Koubadje",
+   "now": "Koubadjé"
+  },
+  {
+   "area": "VNTA-058",
+   "was": "Elon",
+   "now": "Élon"
+  },
+  {
+   "area": "VNTA-070",
+   "was": "Medoumou",
+   "now": "Médoumou"
+  },
+  {
+   "area": "VNTA-071",
+   "was": "Mefoup",
+   "now": "Méfoup"
+  },
+  {
+   "area": "VNTA-072",
+   "was": "Mefoup",
+   "now": "Méfoup"
+  },
+  {
+   "area": "VNTA-077",
+   "was": "Mekoa",
+   "now": "Mékoa"
+  },
+  {
+   "area": "VNTA-093",
+   "was": "Meyo",
+   "now": "Méyo"
+  },
+  {
+   "area": "VNTA-094",
+   "was": "Meyo",
+   "now": "Méyo"
+  },
+  {
+   "area": "VNTA-107",
+   "was": "Minsele",
+   "now": "Minsélé"
+  },
+  {
+   "area": "VNTA-108",
+   "was": "Minsele",
+   "now": "Minsélé"
+  },
+  {
+   "area": "VNTA-122",
+   "was": "Nkane",
+   "now": "Nkâne"
+  },
+  {
+   "area": "VNTA-130",
+   "was": "Nkol Efoulan",
+   "now": "Nkol-Efoulan"
+  },
+  {
+   "area": "VNTA-131",
+   "was": "Nkol Efoulan",
+   "now": "Nkol-Efoulan"
+  },
+  {
+   "area": "VNTA-132",
+   "was": "Nkolekon",
+   "now": "Nkolékon"
+  },
+  {
+   "area": "VNTA-133",
+   "was": "Nkolekon",
+   "now": "Nkolékon"
+  },
+  {
+   "area": "VNTK-021",
+   "was": "Kye Ossi",
+   "now": "Kyé-Ossi"
+  },
+  {
+   "area": "VNTK-022",
+   "was": "Kye Ossi",
+   "now": "Kyé-Ossi"
+  },
+  {
+   "area": "VNTK-024",
+   "was": "Mefoup",
+   "now": "Méfoup"
+  },
+  {
+   "area": "VNTK-025",
+   "was": "Mekok",
+   "now": "Mékok"
+  },
+  {
+   "area": "VNTK-046",
+   "was": "Nkane",
+   "now": "Nkâne"
+  },
+  {
+   "area": "VNTM-029",
+   "was": "Bibae",
+   "now": "Bibaé"
+  },
+  {
+   "area": "VNTM-049",
+   "was": "Eves",
+   "now": "Evés"
+  },
+  {
+   "area": "VNTM-058",
+   "was": "Mbekomo",
+   "now": "Mbékomo"
+  },
+  {
+   "area": "VNTM-059",
+   "was": "Mbekomo",
+   "now": "Mbékomo"
+  },
+  {
+   "area": "VNTM-060",
+   "was": "Mebang",
+   "now": "Mébang"
+  },
+  {
+   "area": "VNTM-061",
+   "was": "Mebang",
+   "now": "Mébang"
+  },
+  {
+   "area": "VNTM-062",
+   "was": "Mebem",
+   "now": "Mébem"
+  },
+  {
+   "area": "VNTM-064",
+   "was": "Mekak",
+   "now": "Mékak"
+  },
+  {
+   "area": "VNTM-065",
+   "was": "Mekok",
+   "now": "Mékok"
+  },
+  {
+   "area": "VNTM-069",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "VNTM-070",
+   "was": "Melen",
+   "now": "Mélen"
+  },
+  {
+   "area": "VNTM-076",
+   "was": "Metondo",
+   "now": "Métondo"
+  },
+  {
+   "area": "VNTM-077",
+   "was": "Metondo",
+   "now": "Métondo"
+  },
+  {
+   "area": "VNTM-095",
+   "was": "Nélefoup",
+   "now": "Néléfoup"
+  },
+  {
+   "area": "VNTM-108",
+   "was": "Nnemeyong",
+   "now": "Nnémeyong"
+  },
+  {
+   "area": "VNTM-121",
+   "was": "Son",
+   "now": "Sôn"
+  },
+  {
+   "area": "VNTO-024",
+   "was": "Mbe",
+   "now": "Mbé"
+  },
+  {
+   "area": "VNTO-032",
+   "was": "Mekak",
+   "now": "Mékak"
+  },
+  {
+   "area": "VNTO-036",
+   "was": "Mekoa",
+   "now": "Mékoa"
+  },
+  {
+   "area": "VNTO-041",
+   "was": "Meyo",
+   "now": "Méyo"
+  },
+  {
+   "area": "YDE1-027",
+   "was": "Emana",
+   "now": "Émana"
+  },
+  {
+   "area": "YDE3-023",
+   "was": "Mekoa",
+   "now": "Mékoa"
+  },
+  {
+   "area": "YDE4-005",
+   "was": "Boumnyebel",
+   "now": "Boumnyébel"
+  },
+  {
+   "area": "YDE4-041",
+   "was": "Meyo",
+   "now": "Méyo"
+  },
+  {
+   "area": "YDE6-014",
+   "was": "Melen",
+   "now": "Mélen"
+  }
+ ]
+}

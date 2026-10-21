@@ -1,0 +1,131 @@
+{
+  "country": "CM",
+  "name": "Cameroon",
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "alphabet": "23456789CFGHJMPQRVWX",
+  "cellMetres": 3.0,
+  "buildingHeadroom": 2.0,
+  "regionLevel": "first-level division (ISO 3166-2), as in the N-Ways regions table",
+  "regions": 10,
+  "buildings": 9294102,
+  "spotCodeLengths": [
+    8
+  ],
+  "buildingCodeLengths": [
+    5,
+    6
+  ],
+  "regionsToSubdivide": [
+    "CM-AD",
+    "CM-CE",
+    "CM-EN",
+    "CM-ES",
+    "CM-LT",
+    "CM-NO",
+    "CM-NW",
+    "CM-OU",
+    "CM-SU",
+    "CM-SW"
+  ],
+  "spoken": {
+    "fr": {
+      "2": "deux",
+      "3": "trois",
+      "4": "quatre",
+      "5": "cinq",
+      "6": "six",
+      "7": "sept",
+      "8": "huit",
+      "9": "neuf",
+      "C": "cé",
+      "F": "effe",
+      "G": "gé",
+      "H": "ache",
+      "J": "ji",
+      "M": "emme",
+      "P": "pé",
+      "Q": "ku",
+      "R": "erre",
+      "V": "vé",
+      "W": "double vé",
+      "X": "ixe"
+    },
+    "en": {
+      "2": "two",
+      "3": "three",
+      "4": "four",
+      "5": "five",
+      "6": "six",
+      "7": "seven",
+      "8": "eight",
+      "9": "nine",
+      "C": "see",
+      "F": "eff",
+      "G": "gee",
+      "H": "aitch",
+      "J": "jay",
+      "M": "em",
+      "P": "pee",
+      "Q": "cue",
+      "R": "ar",
+      "V": "vee",
+      "W": "double-u",
+      "X": "ex"
+    }
+  },
+  "existing": {
+    "system": "No national postcode or address system in use. Campost (Cameroon Postal Services) uses P.O. boxes: 'BP 6000 YAOUNDÉ CAMEROUN' (UPU addressing sheet, 2002). Street names and numbers exist only in parts of Douala and Yaoundé (city-council street-naming schemes, e.g. 'Rue 1.055' in central Yaoundé in OSM); people give directions by quarter and landmark ('Akwa, derrière l'immeuble X').",
+    "status": "No digital national address or postcode project found as of 2026-10-17 (Campost's announced commune codes aside; an unpublished project cannot be ruled out).",
+    "openData": "No open national address register found. OSM has some street names and a few addr:street tags (e.g. Yaoundé 'Rue 1.055', Douala 'Boulevard du Président Ahmadou Ahidjo'); Overpass was unreachable so house-number counts were not taken.",
+    "openAlgorithm": "Open Location Code (Plus Codes) is open and free (Apache-2.0) and works offline; what3words is proprietary.",
+    "terms": "Plus Codes have no licence fee; OSM data is ODbL with attribution.",
+    "recommendation": "Coordinates plus Plus Codes (nways.ng/p/<code>) with OSM street names and quarter/landmark descriptions ('Akwa, Douala · en face de la SCB'). Accept 'BP' boxes as text only; they are not locations.",
+    "lastChecked": "2026-10-17",
+    "findings": [
+      {
+        "name": "Campost P.O. boxes",
+        "state": "in use",
+        "format": "'BP 6000 Yaoundé'",
+        "openData": "none",
+        "inOSM": false
+      },
+      {
+        "name": "City street naming (Douala, Yaoundé)",
+        "state": "partial, legacy",
+        "format": "street name or coded street ('Rue 1.055') + no reliable house numbers",
+        "openData": "not found",
+        "inOSM": "some streets"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/cmrFr.pdf",
+        "kind": "official",
+        "note": "UPU addressing sheet for Cameroon (07/2002): example 'BP 6000 YAOUNDÉ CAMEROUN', no postcode"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q2935563",
+        "kind": "wikidata",
+        "note": "CAMPOST, national postal operator"
+      },
+      {
+        "url": "https://www.openstreetmap.org/node/4338286745",
+        "kind": "osm",
+        "note": "Example addr:street 'Rue 1.055' (Yaoundé)"
+      },
+      {
+        "url": "https://github.com/google/open-location-code",
+        "kind": "other",
+        "note": "Open Location Code, Apache-2.0"
+      }
+    ]
+  },
+  "sources": {
+    "regions": "N-Ways regions (OpenStreetMap administrative boundaries, ODbL)",
+    "buildings": "OpenStreetMap (ODbL); Google Open Buildings (CC BY 4.0) and Microsoft building footprints (ODbL) via Overture Maps",
+    "existing": "N-Ways country research, backend/countries/cm.json"
+  }
+}

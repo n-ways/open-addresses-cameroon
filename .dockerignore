@@ -1,0 +1,13 @@
+.git
+**/__pycache__
+**/*.pyc
+**/.DS_Store
+.env
+.env.*
+docs
+tools
+data
+*.sqlite
+*.sqlite-*
+server/tests
+server/testdata

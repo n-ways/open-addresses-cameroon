@@ -1,0 +1,4943 @@
+{
+ "about": "Issue parity cases on the fixture registry (server/testdata/registry: the arrondissement of Douala I, DLA1). Every expected value was computed by the N-Ways issuer (internal/addressing/cm) from the same register and the same issued codes; the server must reproduce each one. issue: points posted in order to POST /v1/codes (the 215 doors of one Deido compound fill the area and open an extension block from the name's spare); insert: one new compound in a given area; places: the zone, code area, nearest numbered area, spot code (also for points in no outline, SPEC 5; none where the point is refused) and Plus Code of points across the country.",
+ "issue": [
+  {
+   "input": {
+    "lat": 4.0305218,
+    "lng": 9.688043,
+    "note": "near CM-DLA1-031-10661-8"
+   },
+   "expected": {
+    "area": "DLA1-031",
+    "home": "Douala 11520",
+    "machine": "CM-DLA1-031-11520-2",
+    "number": 11520,
+    "written": "Douala 11 520"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0280407,
+    "lng": 9.6769233,
+    "note": "near CM-DLA1-013-3226-1"
+   },
+   "expected": {
+    "area": "DLA1-013",
+    "home": "Bonanjo 3493",
+    "machine": "CM-DLA1-013-3493-9",
+    "number": 3493,
+    "written": "Bonanjo 34 93"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0593473,
+    "lng": 9.702867,
+    "note": "near CM-DLA1-033-12924-2"
+   },
+   "expected": {
+    "area": "DLA1-033",
+    "home": "Douala 13453",
+    "machine": "CM-DLA1-033-13453-8",
+    "number": 13453,
+    "written": "Douala 13 453"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0440646,
+    "lng": 9.7023362,
+    "note": "near CM-DLA1-032-1354-7"
+   },
+   "expected": {
+    "area": "DLA1-032",
+    "home": "Ahidjo 2073",
+    "machine": "CM-DLA1-032-2073-0",
+    "number": 2073,
+    "written": "Ahidjo 20 73"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0348399,
+    "lng": 9.6810565,
+    "note": "near CM-DLA1-013-3105-7"
+   },
+   "expected": {
+    "area": "DLA1-013",
+    "home": "Bonanjo 3494",
+    "machine": "CM-DLA1-013-3494-7",
+    "number": 3494,
+    "written": "Bonanjo 34 94"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0209696,
+    "lng": 9.6916055,
+    "note": "near CM-DLA1-015-1125-7"
+   },
+   "expected": {
+    "area": "DLA1-015",
+    "home": "Bonapriso 2286",
+    "machine": "CM-DLA1-015-2286-3",
+    "number": 2286,
+    "written": "Bonapriso 22 86"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0717757,
+    "lng": 9.7125773,
+    "note": "near CM-DLA1-011-1159-3"
+   },
+   "expected": {
+    "area": "DLA1-011",
+    "home": "Bonamouti 2326",
+    "machine": "CM-DLA1-011-2326-2",
+    "number": 2326,
+    "written": "Bonamouti 23 26"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0328813,
+    "lng": 9.6961644,
+    "note": "near CM-DLA1-028-2015-3"
+   },
+   "expected": {
+    "area": "DLA1-028",
+    "home": "Koumassi 2466",
+    "machine": "CM-DLA1-028-2466-5",
+    "number": 2466,
+    "written": "Koumassi 24 66"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0492375,
+    "lng": 9.6901983,
+    "note": "near CM-DLA1-022-1080-7"
+   },
+   "expected": {
+    "area": "DLA1-022",
+    "home": "Manne 1346",
+    "machine": "CM-DLA1-022-1346-7",
+    "number": 1346,
+    "written": "Manne 13 46"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0656081,
+    "lng": 9.7126053,
+    "note": "near CM-DLA1-008-1167-9"
+   },
+   "expected": {
+    "area": "DLA1-008",
+    "home": "Bonajinje 1926",
+    "machine": "CM-DLA1-008-1926-3",
+    "number": 1926,
+    "written": "Bonajinje 19 26"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0802133,
+    "lng": 9.7166877,
+    "note": "near CM-DLA1-018-1538-9"
+   },
+   "expected": {
+    "area": "DLA1-018",
+    "home": "Bonewonda 2953",
+    "machine": "CM-DLA1-018-2953-4",
+    "number": 2953,
+    "written": "Bonewonda 29 53"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0632576,
+    "lng": 9.7102436,
+    "note": "near CM-DLA1-014-1453-7"
+   },
+   "expected": {
+    "area": "DLA1-014",
+    "home": "Bonantone 1673",
+    "machine": "CM-DLA1-014-1673-6",
+    "number": 1673,
+    "written": "Bonantone 16 73"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0236957,
+    "lng": 9.6910634,
+    "note": "near CM-DLA1-015-1168-8"
+   },
+   "expected": {
+    "area": "DLA1-015",
+    "home": "Bonapriso 2287",
+    "machine": "CM-DLA1-015-2287-4",
+    "number": 2287,
+    "written": "Bonapriso 22 87"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0380357,
+    "lng": 9.6991927,
+    "note": "near CM-DLA1-032-1004-5"
+   },
+   "expected": {
+    "area": "DLA1-028",
+    "home": "Koumassi 2467",
+    "machine": "CM-DLA1-028-2467-9",
+    "number": 2467,
+    "written": "Koumassi 24 67"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.021242,
+    "lng": 9.6990609,
+    "note": "near CM-DLA1-007-1528-6"
+   },
+   "expected": {
+    "area": "DLA1-007",
+    "home": "Bonadoumbé 2073",
+    "machine": "CM-DLA1-007-2073-5",
+    "number": 2073,
+    "written": "Bonadoumbé 20 73"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0471232,
+    "lng": 9.7061752,
+    "note": "near CM-DLA1-032-1594-5"
+   },
+   "expected": {
+    "area": "DLA1-032",
+    "home": "Ahidjo 2074",
+    "machine": "CM-DLA1-032-2074-9",
+    "number": 2074,
+    "written": "Ahidjo 20 74"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0385017,
+    "lng": 9.6888161,
+    "note": "near CM-DLA1-003-11163-9"
+   },
+   "expected": {
+    "area": "DLA1-003",
+    "home": "Bali 12150",
+    "machine": "CM-DLA1-003-12150-4",
+    "number": 12150,
+    "written": "Bali 12 150"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0659746,
+    "lng": 9.7215277,
+    "note": "near CM-DLA1-021-1281-6"
+   },
+   "expected": {
+    "area": "DLA1-021",
+    "home": "Ruelles 1846",
+    "machine": "CM-DLA1-021-1846-3",
+    "number": 1846,
+    "written": "Ruelles 18 46"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0361273,
+    "lng": 9.6964437,
+    "note": "near CM-DLA1-028-1573-6"
+   },
+   "expected": {
+    "area": "DLA1-028",
+    "home": "Koumassi 2468",
+    "machine": "CM-DLA1-028-2468-7",
+    "number": 2468,
+    "written": "Koumassi 24 68"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0571565,
+    "lng": 9.705518,
+    "note": "near CM-DLA1-033-13129-5"
+   },
+   "expected": {
+    "area": "DLA1-033",
+    "home": "Douala 13454",
+    "machine": "CM-DLA1-033-13454-6",
+    "number": 13454,
+    "written": "Douala 13 454"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0372301,
+    "lng": 9.6983153,
+    "note": "near CM-DLA1-028-1722-0"
+   },
+   "expected": {
+    "area": "DLA1-028",
+    "home": "Koumassi 2469",
+    "machine": "CM-DLA1-028-2469-8",
+    "number": 2469,
+    "written": "Koumassi 24 69"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0432724,
+    "lng": 9.6924919,
+    "note": "near CM-DLA1-003-11425-0"
+   },
+   "expected": {
+    "area": "DLA1-003",
+    "home": "Bali 12151",
+    "machine": "CM-DLA1-003-12151-2",
+    "number": 12151,
+    "written": "Bali 12 151"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0485515,
+    "lng": 9.7056527,
+    "note": "near CM-DLA1-037-11745-6"
+   },
+   "expected": {
+    "area": "DLA1-037",
+    "home": "Bessengué 13816",
+    "machine": "CM-DLA1-037-13816-0",
+    "number": 13816,
+    "written": "Bessengué 13 816"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0663121,
+    "lng": 9.7062687,
+    "note": "near CM-DLA1-017-1552-9"
+   },
+   "expected": {
+    "area": "DLA1-017",
+    "home": "Bonatene 1900",
+    "machine": "CM-DLA1-017-1900-3",
+    "number": 1900,
+    "written": "Bonatene 19 00"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0250845,
+    "lng": 9.6900062,
+    "note": "near CM-DLA1-015-1262-5"
+   },
+   "expected": {
+    "area": "DLA1-015",
+    "home": "Bonapriso 2288",
+    "machine": "CM-DLA1-015-2288-2",
+    "number": 2288,
+    "written": "Bonapriso 22 88"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0528128,
+    "lng": 9.7157341,
+    "note": "near CM-DLA1-004-1465-2"
+   },
+   "expected": {
+    "area": "DLA1-004",
+    "home": "Bell 1740",
+    "machine": "CM-DLA1-004-1740-0",
+    "number": 1740,
+    "written": "Bell 17 40"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0596621,
+    "lng": 9.7099126,
+    "note": "near CM-DLA1-027-10941-2"
+   },
+   "expected": {
+    "area": "DLA1-027",
+    "home": "Bessengué 11416",
+    "machine": "CM-DLA1-027-11416-4",
+    "number": 11416,
+    "written": "Bessengué 11 416"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0580074,
+    "lng": 9.7206028,
+    "note": "near CM-DLA1-010-1454-3"
+   },
+   "expected": {
+    "area": "DLA1-010",
+    "home": "Bonamoudourou 1660",
+    "machine": "CM-DLA1-010-1660-5",
+    "number": 1660,
+    "written": "Bonamoudourou 16 60"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0201397,
+    "lng": 9.6813535,
+    "note": "near CM-DLA1-029-2993-0"
+   },
+   "expected": {
+    "area": "DLA1-029",
+    "home": "Sengué 4413",
+    "machine": "CM-DLA1-029-4413-2",
+    "number": 4413,
+    "written": "Sengué 44 13"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0645045,
+    "lng": 9.7196998,
+    "note": "near CM-DLA1-021-1024-7"
+   },
+   "expected": {
+    "area": "DLA1-021",
+    "home": "Ruelles 1847",
+    "machine": "CM-DLA1-021-1847-4",
+    "number": 1847,
+    "written": "Ruelles 18 47"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0259113,
+    "lng": 9.6981483,
+    "note": "on CM-DLA1-007-1627-2 (already coded)"
+   },
+   "expected": {
+    "error": "exists",
+    "existing": "CM-DLA1-007-1627-2"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.077543,
+    "lng": 9.7157536,
+    "note": "on CM-DLA1-018-1478-7 (already coded)"
+   },
+   "expected": {
+    "error": "exists",
+    "existing": "CM-DLA1-018-1478-7"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0479962,
+    "lng": 9.7000718,
+    "note": "on CM-DLA1-026-1063-5 (already coded)"
+   },
+   "expected": {
+    "error": "exists",
+    "existing": "CM-DLA1-026-1063-5"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.07,
+    "lng": 9.735,
+    "note": "Douala, outside the fixture: the code area of the point"
+   },
+   "expected": {
+    "area": "DLA5-039",
+    "home": "II Yonyong 1819",
+    "machine": "CM-DLA5-039-1819-3",
+    "number": 1819,
+    "written": "II Yonyong 18 19"
+   }
+  },
+  {
+   "input": {
+    "lat": 3.8667,
+    "lng": 11.5167,
+    "note": "Yaounde: the code area of the point"
+   },
+   "expected": {
+    "area": "YDE1-031",
+    "home": "Cameroun 142",
+    "machine": "CM-YDE1-031-142-8",
+    "number": 142,
+    "written": "Cameroun 142"
+   }
+  },
+  {
+   "input": {
+    "lat": 6.455,
+    "lng": 3.394,
+    "note": "outside Cameroon"
+   },
+   "expected": {
+    "error": "outside"
+   }
+  },
+  {
+   "input": {
+    "lat": 3.95,
+    "lng": 9.3,
+    "note": "at sea in no outline, off Limbé III: in Cameroon by the spot-code rule, so the nearest area"
+   },
+   "expected": {
+    "area": "LIM3-025",
+    "home": "Mbomo I 106",
+    "machine": "CM-LIM3-025-106-5",
+    "number": 106,
+    "written": "Mbomo I 106"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622654,
+    "lng": 9.7123092,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (1)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1273",
+    "machine": "CM-DLA1-025-1273-8",
+    "number": 1273,
+    "written": "Deido 12 73"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0627093,
+    "lng": 9.7122229,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (2)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1274",
+    "machine": "CM-DLA1-025-1274-6",
+    "number": 1274,
+    "written": "Deido 12 74"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620586,
+    "lng": 9.7121872,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (3)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1275",
+    "machine": "CM-DLA1-025-1275-1",
+    "number": 1275,
+    "written": "Deido 12 75"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062253,
+    "lng": 9.7122804,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (4)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1276",
+    "machine": "CM-DLA1-025-1276-7",
+    "number": 1276,
+    "written": "Deido 12 76"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0626015,
+    "lng": 9.7125429,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (5)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1277",
+    "machine": "CM-DLA1-025-1277-2",
+    "number": 1277,
+    "written": "Deido 12 77"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622804,
+    "lng": 9.7124851,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (6)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1278",
+    "machine": "CM-DLA1-025-1278-0",
+    "number": 1278,
+    "written": "Deido 12 78"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621844,
+    "lng": 9.7125749,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (7)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1279",
+    "machine": "CM-DLA1-025-1279-5",
+    "number": 1279,
+    "written": "Deido 12 79"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621906,
+    "lng": 9.7119309,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (8)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1280",
+    "machine": "CM-DLA1-025-1280-5",
+    "number": 1280,
+    "written": "Deido 12 80"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622289,
+    "lng": 9.7123521,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (9)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1281",
+    "machine": "CM-DLA1-025-1281-8",
+    "number": 1281,
+    "written": "Deido 12 81"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0618551,
+    "lng": 9.7120303,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (10)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1204",
+    "machine": "CM-DLA1-025-1204-3",
+    "number": 1204,
+    "written": "Deido 12 04"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0617689,
+    "lng": 9.7122258,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (11)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1239",
+    "machine": "CM-DLA1-025-1239-9",
+    "number": 1239,
+    "written": "Deido 12 39"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0625583,
+    "lng": 9.7126642,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (12)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1282",
+    "machine": "CM-DLA1-025-1282-6",
+    "number": 1282,
+    "written": "Deido 12 82"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622527,
+    "lng": 9.7123771,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (13)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1283",
+    "machine": "CM-DLA1-025-1283-9",
+    "number": 1283,
+    "written": "Deido 12 83"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062169,
+    "lng": 9.7122038,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (14)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1284",
+    "machine": "CM-DLA1-025-1284-7",
+    "number": 1284,
+    "written": "Deido 12 84"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621685,
+    "lng": 9.7123158,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (15)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1285",
+    "machine": "CM-DLA1-025-1285-2",
+    "number": 1285,
+    "written": "Deido 12 85"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620451,
+    "lng": 9.712527,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (16)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1286",
+    "machine": "CM-DLA1-025-1286-0",
+    "number": 1286,
+    "written": "Deido 12 86"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0618895,
+    "lng": 9.7118845,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (17)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1287",
+    "machine": "CM-DLA1-025-1287-1",
+    "number": 1287,
+    "written": "Deido 12 87"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623768,
+    "lng": 9.7121914,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (18)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1288",
+    "machine": "CM-DLA1-025-1288-3",
+    "number": 1288,
+    "written": "Deido 12 88"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0625361,
+    "lng": 9.712198,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (19)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1289",
+    "machine": "CM-DLA1-025-1289-4",
+    "number": 1289,
+    "written": "Deido 12 89"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623772,
+    "lng": 9.7125098,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (20)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1290",
+    "machine": "CM-DLA1-025-1290-1",
+    "number": 1290,
+    "written": "Deido 12 90"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622082,
+    "lng": 9.712357,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (21)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1291",
+    "machine": "CM-DLA1-025-1291-7",
+    "number": 1291,
+    "written": "Deido 12 91"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0625683,
+    "lng": 9.7124659,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (22)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1292",
+    "machine": "CM-DLA1-025-1292-5",
+    "number": 1292,
+    "written": "Deido 12 92"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0616424,
+    "lng": 9.7122315,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (23)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1205",
+    "machine": "CM-DLA1-025-1205-6",
+    "number": 1205,
+    "written": "Deido 12 05"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0628645,
+    "lng": 9.7123993,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (24)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1293",
+    "machine": "CM-DLA1-025-1293-0",
+    "number": 1293,
+    "written": "Deido 12 93"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620553,
+    "lng": 9.7122298,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (25)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1257",
+    "machine": "CM-DLA1-025-1257-5",
+    "number": 1257,
+    "written": "Deido 12 57"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622697,
+    "lng": 9.7123793,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (26)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1206",
+    "machine": "CM-DLA1-025-1206-2",
+    "number": 1206,
+    "written": "Deido 12 06"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621547,
+    "lng": 9.7123664,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (27)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1294",
+    "machine": "CM-DLA1-025-1294-9",
+    "number": 1294,
+    "written": "Deido 12 94"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0618052,
+    "lng": 9.7127896,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (28)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1295",
+    "machine": "CM-DLA1-025-1295-8",
+    "number": 1295,
+    "written": "Deido 12 95"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621561,
+    "lng": 9.7123613,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (29)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1296",
+    "machine": "CM-DLA1-025-1296-3",
+    "number": 1296,
+    "written": "Deido 12 96"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0624753,
+    "lng": 9.7124598,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (30)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1297",
+    "machine": "CM-DLA1-025-1297-4",
+    "number": 1297,
+    "written": "Deido 12 97"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0616644,
+    "lng": 9.7122974,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (31)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1298",
+    "machine": "CM-DLA1-025-1298-2",
+    "number": 1298,
+    "written": "Deido 12 98"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622662,
+    "lng": 9.7126158,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (32)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1207",
+    "machine": "CM-DLA1-025-1207-0",
+    "number": 1207,
+    "written": "Deido 12 07"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623461,
+    "lng": 9.7119526,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (33)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1299",
+    "machine": "CM-DLA1-025-1299-6",
+    "number": 1299,
+    "written": "Deido 12 99"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622885,
+    "lng": 9.7122066,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (34)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1300",
+    "machine": "CM-DLA1-025-1300-9",
+    "number": 1300,
+    "written": "Deido 13 00"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621736,
+    "lng": 9.7122025,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (35)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1301",
+    "machine": "CM-DLA1-025-1301-4",
+    "number": 1301,
+    "written": "Deido 13 01"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620544,
+    "lng": 9.7122205,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (36)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1266",
+    "machine": "CM-DLA1-025-1266-5",
+    "number": 1266,
+    "written": "Deido 12 66"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620294,
+    "lng": 9.7126357,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (37)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1208",
+    "machine": "CM-DLA1-025-1208-1",
+    "number": 1208,
+    "written": "Deido 12 08"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621934,
+    "lng": 9.712388,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (38)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1302",
+    "machine": "CM-DLA1-025-1302-3",
+    "number": 1302,
+    "written": "Deido 13 02"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623357,
+    "lng": 9.7122239,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (39)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1303",
+    "machine": "CM-DLA1-025-1303-8",
+    "number": 1303,
+    "written": "Deido 13 03"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623606,
+    "lng": 9.7125913,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (40)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1304",
+    "machine": "CM-DLA1-025-1304-6",
+    "number": 1304,
+    "written": "Deido 13 04"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062699,
+    "lng": 9.712274,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (41)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1209",
+    "machine": "CM-DLA1-025-1209-7",
+    "number": 1209,
+    "written": "Deido 12 09"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621567,
+    "lng": 9.7125476,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (42)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1305",
+    "machine": "CM-DLA1-025-1305-1",
+    "number": 1305,
+    "written": "Deido 13 05"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621104,
+    "lng": 9.7122696,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (43)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1306",
+    "machine": "CM-DLA1-025-1306-7",
+    "number": 1306,
+    "written": "Deido 13 06"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0626154,
+    "lng": 9.7122333,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (44)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1307",
+    "machine": "CM-DLA1-025-1307-2",
+    "number": 1307,
+    "written": "Deido 13 07"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0618061,
+    "lng": 9.7121206,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (45)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1221",
+    "machine": "CM-DLA1-025-1221-5",
+    "number": 1221,
+    "written": "Deido 12 21"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0624871,
+    "lng": 9.7123214,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (46)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1308",
+    "machine": "CM-DLA1-025-1308-0",
+    "number": 1308,
+    "written": "Deido 13 08"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621223,
+    "lng": 9.7126782,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (47)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1309",
+    "machine": "CM-DLA1-025-1309-5",
+    "number": 1309,
+    "written": "Deido 13 09"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622138,
+    "lng": 9.7122826,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (48)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1310",
+    "machine": "CM-DLA1-025-1310-2",
+    "number": 1310,
+    "written": "Deido 13 10"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0619337,
+    "lng": 9.7121921,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (49)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1248",
+    "machine": "CM-DLA1-025-1248-6",
+    "number": 1248,
+    "written": "Deido 12 48"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620493,
+    "lng": 9.7126214,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (50)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1247",
+    "machine": "CM-DLA1-025-1247-8",
+    "number": 1247,
+    "written": "Deido 12 47"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620021,
+    "lng": 9.712865,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (51)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1311",
+    "machine": "CM-DLA1-025-1311-5",
+    "number": 1311,
+    "written": "Deido 13 11"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0626037,
+    "lng": 9.7127543,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (52)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1312",
+    "machine": "CM-DLA1-025-1312-8",
+    "number": 1312,
+    "written": "Deido 13 12"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0625101,
+    "lng": 9.7123111,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (53)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1313",
+    "machine": "CM-DLA1-025-1313-1",
+    "number": 1313,
+    "written": "Deido 13 13"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621434,
+    "lng": 9.7128483,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (54)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1314",
+    "machine": "CM-DLA1-025-1314-4",
+    "number": 1314,
+    "written": "Deido 13 14"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622617,
+    "lng": 9.7122614,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (55)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1315",
+    "machine": "CM-DLA1-025-1315-3",
+    "number": 1315,
+    "written": "Deido 13 15"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0618126,
+    "lng": 9.7125039,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (56)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1316",
+    "machine": "CM-DLA1-025-1316-6",
+    "number": 1316,
+    "written": "Deido 13 16"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062201,
+    "lng": 9.7119737,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (57)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1317",
+    "machine": "CM-DLA1-025-1317-7",
+    "number": 1317,
+    "written": "Deido 13 17"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0626087,
+    "lng": 9.7123988,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (58)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1318",
+    "machine": "CM-DLA1-025-1318-9",
+    "number": 1318,
+    "written": "Deido 13 18"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623952,
+    "lng": 9.7123016,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (59)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1210",
+    "machine": "CM-DLA1-025-1210-0",
+    "number": 1210,
+    "written": "Deido 12 10"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062193,
+    "lng": 9.7121713,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (60)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1319",
+    "machine": "CM-DLA1-025-1319-0",
+    "number": 1319,
+    "written": "Deido 13 19"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622834,
+    "lng": 9.7122076,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (61)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1320",
+    "machine": "CM-DLA1-025-1320-6",
+    "number": 1320,
+    "written": "Deido 13 20"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622046,
+    "lng": 9.7127652,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (62)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1321",
+    "machine": "CM-DLA1-025-1321-1",
+    "number": 1321,
+    "written": "Deido 13 21"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0616626,
+    "lng": 9.7120945,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (63)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1322",
+    "machine": "CM-DLA1-025-1322-2",
+    "number": 1322,
+    "written": "Deido 13 22"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0627084,
+    "lng": 9.7122785,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (64)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1323",
+    "machine": "CM-DLA1-025-1323-3",
+    "number": 1323,
+    "written": "Deido 13 23"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0619421,
+    "lng": 9.7128137,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (65)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1324",
+    "machine": "CM-DLA1-025-1324-0",
+    "number": 1324,
+    "written": "Deido 13 24"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.06233,
+    "lng": 9.7121876,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (66)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1325",
+    "machine": "CM-DLA1-025-1325-4",
+    "number": 1325,
+    "written": "Deido 13 25"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621784,
+    "lng": 9.7123571,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (67)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1326",
+    "machine": "CM-DLA1-025-1326-5",
+    "number": 1326,
+    "written": "Deido 13 26"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621755,
+    "lng": 9.7123096,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (68)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1327",
+    "machine": "CM-DLA1-025-1327-9",
+    "number": 1327,
+    "written": "Deido 13 27"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623695,
+    "lng": 9.7126959,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (69)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1328",
+    "machine": "CM-DLA1-025-1328-7",
+    "number": 1328,
+    "written": "Deido 13 28"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0624477,
+    "lng": 9.71225,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (70)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1329",
+    "machine": "CM-DLA1-025-1329-8",
+    "number": 1329,
+    "written": "Deido 13 29"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623054,
+    "lng": 9.7129465,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (71)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1330",
+    "machine": "CM-DLA1-025-1330-3",
+    "number": 1330,
+    "written": "Deido 13 30"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622575,
+    "lng": 9.7121302,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (72)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1331",
+    "machine": "CM-DLA1-025-1331-6",
+    "number": 1331,
+    "written": "Deido 13 31"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0625988,
+    "lng": 9.7123247,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (73)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1332",
+    "machine": "CM-DLA1-025-1332-7",
+    "number": 1332,
+    "written": "Deido 13 32"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622598,
+    "lng": 9.7123443,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (74)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1211",
+    "machine": "CM-DLA1-025-1211-3",
+    "number": 1211,
+    "written": "Deido 12 11"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0617482,
+    "lng": 9.7125342,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (75)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1333",
+    "machine": "CM-DLA1-025-1333-4",
+    "number": 1333,
+    "written": "Deido 13 33"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622286,
+    "lng": 9.7123371,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (76)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1334",
+    "machine": "CM-DLA1-025-1334-2",
+    "number": 1334,
+    "written": "Deido 13 34"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621998,
+    "lng": 9.7122268,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (77)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1335",
+    "machine": "CM-DLA1-025-1335-0",
+    "number": 1335,
+    "written": "Deido 13 35"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062386,
+    "lng": 9.7128975,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (78)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1336",
+    "machine": "CM-DLA1-025-1336-9",
+    "number": 1336,
+    "written": "Deido 13 36"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620407,
+    "lng": 9.7129134,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (79)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1337",
+    "machine": "CM-DLA1-025-1337-5",
+    "number": 1337,
+    "written": "Deido 13 37"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0619869,
+    "lng": 9.7121876,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (80)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1252",
+    "machine": "CM-DLA1-025-1252-7",
+    "number": 1252,
+    "written": "Deido 12 52"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0627165,
+    "lng": 9.7119969,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (81)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1338",
+    "machine": "CM-DLA1-025-1338-8",
+    "number": 1338,
+    "written": "Deido 13 38"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0625931,
+    "lng": 9.7128212,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (82)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1339",
+    "machine": "CM-DLA1-025-1339-1",
+    "number": 1339,
+    "written": "Deido 13 39"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620206,
+    "lng": 9.712289,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (83)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1340",
+    "machine": "CM-DLA1-025-1340-1",
+    "number": 1340,
+    "written": "Deido 13 40"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622235,
+    "lng": 9.7126206,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (84)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1243",
+    "machine": "CM-DLA1-025-1243-2",
+    "number": 1243,
+    "written": "Deido 12 43"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0619802,
+    "lng": 9.7121662,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (85)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1250",
+    "machine": "CM-DLA1-025-1250-3",
+    "number": 1250,
+    "written": "Deido 12 50"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623595,
+    "lng": 9.712369,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (86)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1341",
+    "machine": "CM-DLA1-025-1341-7",
+    "number": 1341,
+    "written": "Deido 13 41"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062462,
+    "lng": 9.7123345,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (87)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1342",
+    "machine": "CM-DLA1-025-1342-5",
+    "number": 1342,
+    "written": "Deido 13 42"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621456,
+    "lng": 9.7123112,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (88)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1343",
+    "machine": "CM-DLA1-025-1343-0",
+    "number": 1343,
+    "written": "Deido 13 43"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621722,
+    "lng": 9.7127237,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (89)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1344",
+    "machine": "CM-DLA1-025-1344-9",
+    "number": 1344,
+    "written": "Deido 13 44"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0619611,
+    "lng": 9.7125506,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (90)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1265",
+    "machine": "CM-DLA1-025-1265-4",
+    "number": 1265,
+    "written": "Deido 12 65"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0619393,
+    "lng": 9.7123366,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (91)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1345",
+    "machine": "CM-DLA1-025-1345-8",
+    "number": 1345,
+    "written": "Deido 13 45"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622215,
+    "lng": 9.7122418,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (92)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1346",
+    "machine": "CM-DLA1-025-1346-3",
+    "number": 1346,
+    "written": "Deido 13 46"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621818,
+    "lng": 9.7123502,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (93)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1347",
+    "machine": "CM-DLA1-025-1347-4",
+    "number": 1347,
+    "written": "Deido 13 47"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0625411,
+    "lng": 9.7128944,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (94)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1348",
+    "machine": "CM-DLA1-025-1348-2",
+    "number": 1348,
+    "written": "Deido 13 48"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062235,
+    "lng": 9.712392,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (95)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1349",
+    "machine": "CM-DLA1-025-1349-6",
+    "number": 1349,
+    "written": "Deido 13 49"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0626366,
+    "lng": 9.7125708,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (96)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1350",
+    "machine": "CM-DLA1-025-1350-5",
+    "number": 1350,
+    "written": "Deido 13 50"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0619211,
+    "lng": 9.7126346,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (97)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1256",
+    "machine": "CM-DLA1-025-1256-9",
+    "number": 1256,
+    "written": "Deido 12 56"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062579,
+    "lng": 9.7126948,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (98)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1351",
+    "machine": "CM-DLA1-025-1351-8",
+    "number": 1351,
+    "written": "Deido 13 51"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622122,
+    "lng": 9.7124062,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (99)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1352",
+    "machine": "CM-DLA1-025-1352-6",
+    "number": 1352,
+    "written": "Deido 13 52"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621954,
+    "lng": 9.7123052,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (100)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1353",
+    "machine": "CM-DLA1-025-1353-9",
+    "number": 1353,
+    "written": "Deido 13 53"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0627332,
+    "lng": 9.7123371,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (101)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1354",
+    "machine": "CM-DLA1-025-1354-7",
+    "number": 1354,
+    "written": "Deido 13 54"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0618517,
+    "lng": 9.7120013,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (102)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1212",
+    "machine": "CM-DLA1-025-1212-1",
+    "number": 1212,
+    "written": "Deido 12 12"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062845,
+    "lng": 9.712432,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (103)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1213",
+    "machine": "CM-DLA1-025-1213-7",
+    "number": 1213,
+    "written": "Deido 12 13"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0618292,
+    "lng": 9.7127701,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (104)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1355",
+    "machine": "CM-DLA1-025-1355-2",
+    "number": 1355,
+    "written": "Deido 13 55"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623393,
+    "lng": 9.7120494,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (105)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1356",
+    "machine": "CM-DLA1-025-1356-0",
+    "number": 1356,
+    "written": "Deido 13 56"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062259,
+    "lng": 9.712896,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (106)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1357",
+    "machine": "CM-DLA1-025-1357-1",
+    "number": 1357,
+    "written": "Deido 13 57"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0625786,
+    "lng": 9.7125318,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (107)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1358",
+    "machine": "CM-DLA1-025-1358-3",
+    "number": 1358,
+    "written": "Deido 13 58"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0625456,
+    "lng": 9.7122578,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (108)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1359",
+    "machine": "CM-DLA1-025-1359-4",
+    "number": 1359,
+    "written": "Deido 13 59"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621827,
+    "lng": 9.7122023,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (109)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1360",
+    "machine": "CM-DLA1-025-1360-4",
+    "number": 1360,
+    "written": "Deido 13 60"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0619446,
+    "lng": 9.7123153,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (110)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1361",
+    "machine": "CM-DLA1-025-1361-2",
+    "number": 1361,
+    "written": "Deido 13 61"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621302,
+    "lng": 9.7119352,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (111)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1362",
+    "machine": "CM-DLA1-025-1362-0",
+    "number": 1362,
+    "written": "Deido 13 62"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062583,
+    "lng": 9.7123425,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (112)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1363",
+    "machine": "CM-DLA1-025-1363-6",
+    "number": 1363,
+    "written": "Deido 13 63"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622187,
+    "lng": 9.7119518,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (113)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1364",
+    "machine": "CM-DLA1-025-1364-8",
+    "number": 1364,
+    "written": "Deido 13 64"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.06228,
+    "lng": 9.7123235,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (114)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1365",
+    "machine": "CM-DLA1-025-1365-7",
+    "number": 1365,
+    "written": "Deido 13 65"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0626443,
+    "lng": 9.712675,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (115)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1366",
+    "machine": "CM-DLA1-025-1366-1",
+    "number": 1366,
+    "written": "Deido 13 66"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620813,
+    "lng": 9.7124918,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (116)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1367",
+    "machine": "CM-DLA1-025-1367-3",
+    "number": 1367,
+    "written": "Deido 13 67"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0627769,
+    "lng": 9.7123717,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (117)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1368",
+    "machine": "CM-DLA1-025-1368-5",
+    "number": 1368,
+    "written": "Deido 13 68"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062501,
+    "lng": 9.712584,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (118)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1369",
+    "machine": "CM-DLA1-025-1369-9",
+    "number": 1369,
+    "written": "Deido 13 69"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0619549,
+    "lng": 9.7120484,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (119)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1242",
+    "machine": "CM-DLA1-025-1242-9",
+    "number": 1242,
+    "written": "Deido 12 42"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620269,
+    "lng": 9.7118115,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (120)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1370",
+    "machine": "CM-DLA1-025-1370-0",
+    "number": 1370,
+    "written": "Deido 13 70"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620249,
+    "lng": 9.7124721,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (121)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1272",
+    "machine": "CM-DLA1-025-1272-3",
+    "number": 1272,
+    "written": "Deido 12 72"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622713,
+    "lng": 9.7118703,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (122)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1371",
+    "machine": "CM-DLA1-025-1371-3",
+    "number": 1371,
+    "written": "Deido 13 71"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620703,
+    "lng": 9.7127075,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (123)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1372",
+    "machine": "CM-DLA1-025-1372-1",
+    "number": 1372,
+    "written": "Deido 13 72"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.061926,
+    "lng": 9.7122348,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (124)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1249",
+    "machine": "CM-DLA1-025-1249-3",
+    "number": 1249,
+    "written": "Deido 12 49"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0625758,
+    "lng": 9.7123416,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (125)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1373",
+    "machine": "CM-DLA1-025-1373-7",
+    "number": 1373,
+    "written": "Deido 13 73"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0624523,
+    "lng": 9.7125042,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (126)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1214",
+    "machine": "CM-DLA1-025-1214-5",
+    "number": 1214,
+    "written": "Deido 12 14"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621721,
+    "lng": 9.712633,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (127)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1261",
+    "machine": "CM-DLA1-025-1261-1",
+    "number": 1261,
+    "written": "Deido 12 61"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622315,
+    "lng": 9.7122226,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (128)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1374",
+    "machine": "CM-DLA1-025-1374-5",
+    "number": 1374,
+    "written": "Deido 13 74"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0626061,
+    "lng": 9.7124372,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (129)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1375",
+    "machine": "CM-DLA1-025-1375-9",
+    "number": 1375,
+    "written": "Deido 13 75"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620264,
+    "lng": 9.7126028,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (130)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1251",
+    "machine": "CM-DLA1-025-1251-6",
+    "number": 1251,
+    "written": "Deido 12 51"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622492,
+    "lng": 9.7123168,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (131)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1241",
+    "machine": "CM-DLA1-025-1241-0",
+    "number": 1241,
+    "written": "Deido 12 41"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0624275,
+    "lng": 9.7125191,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (132)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1376",
+    "machine": "CM-DLA1-025-1376-8",
+    "number": 1376,
+    "written": "Deido 13 76"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0625408,
+    "lng": 9.7127731,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (133)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1377",
+    "machine": "CM-DLA1-025-1377-6",
+    "number": 1377,
+    "written": "Deido 13 77"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623632,
+    "lng": 9.712626,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (134)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1378",
+    "machine": "CM-DLA1-025-1378-4",
+    "number": 1378,
+    "written": "Deido 13 78"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621411,
+    "lng": 9.7121524,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (135)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1379",
+    "machine": "CM-DLA1-025-1379-2",
+    "number": 1379,
+    "written": "Deido 13 79"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622663,
+    "lng": 9.7123388,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (136)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1226",
+    "machine": "CM-DLA1-025-1226-6",
+    "number": 1226,
+    "written": "Deido 12 26"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0627756,
+    "lng": 9.712159,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (137)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1380",
+    "machine": "CM-DLA1-025-1380-7",
+    "number": 1380,
+    "written": "Deido 13 80"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621155,
+    "lng": 9.712959,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (138)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1381",
+    "machine": "CM-DLA1-025-1381-0",
+    "number": 1381,
+    "written": "Deido 13 81"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0625442,
+    "lng": 9.7122828,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (139)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1382",
+    "machine": "CM-DLA1-025-1382-9",
+    "number": 1382,
+    "written": "Deido 13 82"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0627752,
+    "lng": 9.712548,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (140)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1383",
+    "machine": "CM-DLA1-025-1383-2",
+    "number": 1383,
+    "written": "Deido 13 83"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0626828,
+    "lng": 9.7127509,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (141)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1236",
+    "machine": "CM-DLA1-025-1236-1",
+    "number": 1236,
+    "written": "Deido 12 36"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622017,
+    "lng": 9.7121064,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (142)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1384",
+    "machine": "CM-DLA1-025-1384-1",
+    "number": 1384,
+    "written": "Deido 13 84"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.061877,
+    "lng": 9.7122305,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (143)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1240",
+    "machine": "CM-DLA1-025-1240-7",
+    "number": 1240,
+    "written": "Deido 12 40"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622333,
+    "lng": 9.7122538,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (144)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1385",
+    "machine": "CM-DLA1-025-1385-5",
+    "number": 1385,
+    "written": "Deido 13 85"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621165,
+    "lng": 9.7119414,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (145)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1386",
+    "machine": "CM-DLA1-025-1386-4",
+    "number": 1386,
+    "written": "Deido 13 86"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622399,
+    "lng": 9.7129587,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (146)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1387",
+    "machine": "CM-DLA1-025-1387-8",
+    "number": 1387,
+    "written": "Deido 13 87"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620043,
+    "lng": 9.7123426,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (147)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1388",
+    "machine": "CM-DLA1-025-1388-6",
+    "number": 1388,
+    "written": "Deido 13 88"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0624561,
+    "lng": 9.7128673,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (148)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1225",
+    "machine": "CM-DLA1-025-1225-3",
+    "number": 1225,
+    "written": "Deido 12 25"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621633,
+    "lng": 9.7122468,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (149)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1389",
+    "machine": "CM-DLA1-025-1389-3",
+    "number": 1389,
+    "written": "Deido 13 89"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622591,
+    "lng": 9.7123589,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (150)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1244",
+    "machine": "CM-DLA1-025-1244-1",
+    "number": 1244,
+    "written": "Deido 12 44"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620857,
+    "lng": 9.7126215,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (151)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1390",
+    "machine": "CM-DLA1-025-1390-8",
+    "number": 1390,
+    "written": "Deido 13 90"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.061756,
+    "lng": 9.712207,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (152)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1230",
+    "machine": "CM-DLA1-025-1230-4",
+    "number": 1230,
+    "written": "Deido 12 30"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0619032,
+    "lng": 9.712761,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (153)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1391",
+    "machine": "CM-DLA1-025-1391-9",
+    "number": 1391,
+    "written": "Deido 13 91"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0619502,
+    "lng": 9.7127129,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (154)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1392",
+    "machine": "CM-DLA1-025-1392-4",
+    "number": 1392,
+    "written": "Deido 13 92"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622186,
+    "lng": 9.7124148,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (155)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1393",
+    "machine": "CM-DLA1-025-1393-5",
+    "number": 1393,
+    "written": "Deido 13 93"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0627747,
+    "lng": 9.712098,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (156)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1394",
+    "machine": "CM-DLA1-025-1394-3",
+    "number": 1394,
+    "written": "Deido 13 94"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0627069,
+    "lng": 9.7119888,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (157)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1395",
+    "machine": "CM-DLA1-025-1395-6",
+    "number": 1395,
+    "written": "Deido 13 95"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620665,
+    "lng": 9.7128315,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (158)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1396",
+    "machine": "CM-DLA1-025-1396-2",
+    "number": 1396,
+    "written": "Deido 13 96"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621695,
+    "lng": 9.7118894,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (159)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1397",
+    "machine": "CM-DLA1-025-1397-0",
+    "number": 1397,
+    "written": "Deido 13 97"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.06279,
+    "lng": 9.7124768,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (160)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1398",
+    "machine": "CM-DLA1-025-1398-1",
+    "number": 1398,
+    "written": "Deido 13 98"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0628175,
+    "lng": 9.7122496,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (161)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1399",
+    "machine": "CM-DLA1-025-1399-7",
+    "number": 1399,
+    "written": "Deido 13 99"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623288,
+    "lng": 9.7123527,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (162)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1400",
+    "machine": "CM-DLA1-025-1400-1",
+    "number": 1400,
+    "written": "Deido 14 00"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062283,
+    "lng": 9.7129599,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (163)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1215",
+    "machine": "CM-DLA1-025-1215-9",
+    "number": 1215,
+    "written": "Deido 12 15"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622458,
+    "lng": 9.7124955,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (164)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1401",
+    "machine": "CM-DLA1-025-1401-7",
+    "number": 1401,
+    "written": "Deido 14 01"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0617959,
+    "lng": 9.712794,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (165)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1402",
+    "machine": "CM-DLA1-025-1402-5",
+    "number": 1402,
+    "written": "Deido 14 02"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0626533,
+    "lng": 9.7122272,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (166)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1403",
+    "machine": "CM-DLA1-025-1403-0",
+    "number": 1403,
+    "written": "Deido 14 03"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622843,
+    "lng": 9.7127184,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (167)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1404",
+    "machine": "CM-DLA1-025-1404-9",
+    "number": 1404,
+    "written": "Deido 14 04"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623058,
+    "lng": 9.7119709,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (168)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1405",
+    "machine": "CM-DLA1-025-1405-8",
+    "number": 1405,
+    "written": "Deido 14 05"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062225,
+    "lng": 9.7126824,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (169)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1406",
+    "machine": "CM-DLA1-025-1406-3",
+    "number": 1406,
+    "written": "Deido 14 06"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623319,
+    "lng": 9.71292,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (170)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1407",
+    "machine": "CM-DLA1-025-1407-4",
+    "number": 1407,
+    "written": "Deido 14 07"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620003,
+    "lng": 9.711792,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (171)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1408",
+    "machine": "CM-DLA1-025-1408-2",
+    "number": 1408,
+    "written": "Deido 14 08"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0628402,
+    "lng": 9.7121865,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (172)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1409",
+    "machine": "CM-DLA1-025-1409-6",
+    "number": 1409,
+    "written": "Deido 14 09"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622484,
+    "lng": 9.7126338,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (173)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1224",
+    "machine": "CM-DLA1-025-1224-4",
+    "number": 1224,
+    "written": "Deido 12 24"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623181,
+    "lng": 9.7123454,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (174)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2390",
+    "machine": "CM-DLA1-025-2390-1",
+    "newBlocks": [
+     [
+      2390,
+      3149
+     ]
+    ],
+    "number": 2390,
+    "written": "Deido 23 90"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620111,
+    "lng": 9.7120521,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (175)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2391",
+    "machine": "CM-DLA1-025-2391-7",
+    "number": 2391,
+    "written": "Deido 23 91"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622979,
+    "lng": 9.7123237,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (176)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2392",
+    "machine": "CM-DLA1-025-2392-5",
+    "number": 2392,
+    "written": "Deido 23 92"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622308,
+    "lng": 9.7124091,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (177)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2393",
+    "machine": "CM-DLA1-025-2393-0",
+    "number": 2393,
+    "written": "Deido 23 93"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621931,
+    "lng": 9.7121933,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (178)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2394",
+    "machine": "CM-DLA1-025-2394-9",
+    "number": 2394,
+    "written": "Deido 23 94"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0619388,
+    "lng": 9.7120347,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (179)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2395",
+    "machine": "CM-DLA1-025-2395-8",
+    "number": 2395,
+    "written": "Deido 23 95"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062166,
+    "lng": 9.7121781,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (180)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2396",
+    "machine": "CM-DLA1-025-2396-3",
+    "number": 2396,
+    "written": "Deido 23 96"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622053,
+    "lng": 9.7119779,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (181)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2397",
+    "machine": "CM-DLA1-025-2397-4",
+    "number": 2397,
+    "written": "Deido 23 97"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620583,
+    "lng": 9.7126002,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (182)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2398",
+    "machine": "CM-DLA1-025-2398-2",
+    "number": 2398,
+    "written": "Deido 23 98"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623269,
+    "lng": 9.7124239,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (183)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2399",
+    "machine": "CM-DLA1-025-2399-6",
+    "number": 2399,
+    "written": "Deido 23 99"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623245,
+    "lng": 9.7124924,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (184)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2400",
+    "machine": "CM-DLA1-025-2400-5",
+    "number": 2400,
+    "written": "Deido 24 00"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0624398,
+    "lng": 9.7121627,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (185)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2401",
+    "machine": "CM-DLA1-025-2401-8",
+    "number": 2401,
+    "written": "Deido 24 01"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622891,
+    "lng": 9.7123975,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (186)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2402",
+    "machine": "CM-DLA1-025-2402-6",
+    "number": 2402,
+    "written": "Deido 24 02"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062469,
+    "lng": 9.7123094,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (187)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2403",
+    "machine": "CM-DLA1-025-2403-9",
+    "number": 2403,
+    "written": "Deido 24 03"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0616558,
+    "lng": 9.7123892,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (188)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1216",
+    "machine": "CM-DLA1-025-1216-8",
+    "number": 1216,
+    "written": "Deido 12 16"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0628091,
+    "lng": 9.712169,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (189)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2404",
+    "machine": "CM-DLA1-025-2404-7",
+    "number": 2404,
+    "written": "Deido 24 04"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623473,
+    "lng": 9.7121447,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (190)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2405",
+    "machine": "CM-DLA1-025-2405-2",
+    "number": 2405,
+    "written": "Deido 24 05"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622317,
+    "lng": 9.712317,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (191)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2406",
+    "machine": "CM-DLA1-025-2406-0",
+    "number": 2406,
+    "written": "Deido 24 06"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0616852,
+    "lng": 9.7125841,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (192)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2407",
+    "machine": "CM-DLA1-025-2407-1",
+    "number": 2407,
+    "written": "Deido 24 07"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621704,
+    "lng": 9.7118882,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (193)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2408",
+    "machine": "CM-DLA1-025-2408-3",
+    "number": 2408,
+    "written": "Deido 24 08"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623589,
+    "lng": 9.7122028,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (194)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2409",
+    "machine": "CM-DLA1-025-2409-4",
+    "number": 2409,
+    "written": "Deido 24 09"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0626079,
+    "lng": 9.7119724,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (195)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2410",
+    "machine": "CM-DLA1-025-2410-7",
+    "number": 2410,
+    "written": "Deido 24 10"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622212,
+    "lng": 9.7123979,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (196)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2411",
+    "machine": "CM-DLA1-025-2411-0",
+    "number": 2411,
+    "written": "Deido 24 11"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622904,
+    "lng": 9.7125064,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (197)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1217",
+    "machine": "CM-DLA1-025-1217-6",
+    "number": 1217,
+    "written": "Deido 12 17"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0624461,
+    "lng": 9.7126492,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (198)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2412",
+    "machine": "CM-DLA1-025-2412-9",
+    "number": 2412,
+    "written": "Deido 24 12"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622587,
+    "lng": 9.7123451,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (199)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1218",
+    "machine": "CM-DLA1-025-1218-4",
+    "number": 1218,
+    "written": "Deido 12 18"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0627258,
+    "lng": 9.7121623,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (200)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2413",
+    "machine": "CM-DLA1-025-2413-2",
+    "number": 2413,
+    "written": "Deido 24 13"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622579,
+    "lng": 9.7124004,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (201)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1223",
+    "machine": "CM-DLA1-025-1223-1",
+    "number": 1223,
+    "written": "Deido 12 23"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622685,
+    "lng": 9.712371,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (202)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2414",
+    "machine": "CM-DLA1-025-2414-1",
+    "number": 2414,
+    "written": "Deido 24 14"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622272,
+    "lng": 9.7123478,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (203)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2415",
+    "machine": "CM-DLA1-025-2415-5",
+    "number": 2415,
+    "written": "Deido 24 15"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0620182,
+    "lng": 9.7127911,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (204)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 1219",
+    "machine": "CM-DLA1-025-1219-2",
+    "number": 1219,
+    "written": "Deido 12 19"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621841,
+    "lng": 9.7121835,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (205)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2416",
+    "machine": "CM-DLA1-025-2416-4",
+    "number": 2416,
+    "written": "Deido 24 16"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0623876,
+    "lng": 9.7120678,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (206)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2417",
+    "machine": "CM-DLA1-025-2417-8",
+    "number": 2417,
+    "written": "Deido 24 17"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0621623,
+    "lng": 9.7123696,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (207)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2418",
+    "machine": "CM-DLA1-025-2418-6",
+    "number": 2418,
+    "written": "Deido 24 18"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622077,
+    "lng": 9.7124074,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (208)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2419",
+    "machine": "CM-DLA1-025-2419-3",
+    "number": 2419,
+    "written": "Deido 24 19"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0619195,
+    "lng": 9.7122431,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (209)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2420",
+    "machine": "CM-DLA1-025-2420-4",
+    "number": 2420,
+    "written": "Deido 24 20"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0626804,
+    "lng": 9.712609,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (210)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2421",
+    "machine": "CM-DLA1-025-2421-2",
+    "number": 2421,
+    "written": "Deido 24 21"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0622909,
+    "lng": 9.7121927,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (211)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2422",
+    "machine": "CM-DLA1-025-2422-0",
+    "number": 2422,
+    "written": "Deido 24 22"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062059,
+    "lng": 9.7123364,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (212)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2423",
+    "machine": "CM-DLA1-025-2423-6",
+    "number": 2423,
+    "written": "Deido 24 23"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0627847,
+    "lng": 9.7122717,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (213)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2424",
+    "machine": "CM-DLA1-025-2424-8",
+    "number": 2424,
+    "written": "Deido 24 24"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062047,
+    "lng": 9.7121877,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (214)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2425",
+    "machine": "CM-DLA1-025-2425-7",
+    "number": 2425,
+    "written": "Deido 24 25"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.062511,
+    "lng": 9.7122443,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "another door of CM-DLA1-025-1000-0 (215)"
+   },
+   "expected": {
+    "area": "DLA1-025",
+    "home": "Deido 2426",
+    "machine": "CM-DLA1-025-2426-1",
+    "number": 2426,
+    "written": "Deido 24 26"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0629598,
+    "lng": 9.7128058,
+    "of": "CM-DLA1-025-1000-0",
+    "note": "a door 95 m away"
+   },
+   "expected": {
+    "error": "too_far"
+   }
+  }
+ ],
+ "insert": [
+  {
+   "input": {
+    "area": "DLA1-031",
+    "lat": 4.029436,
+    "lng": 9.6861499
+   },
+   "expected": {
+    "blocks": [
+     [
+      10000,
+      12279
+     ]
+    ],
+    "newBlocks": 0,
+    "number": 11520,
+    "ok": true
+   }
+  },
+  {
+   "input": {
+    "area": "DLA1-035",
+    "lat": 4.0635672,
+    "lng": 9.7131235
+   },
+   "expected": {
+    "blocks": [
+     [
+      14040,
+      14439
+     ]
+    ],
+    "newBlocks": 0,
+    "number": 14306,
+    "ok": true
+   }
+  },
+  {
+   "input": {
+    "area": "DLA1-022",
+    "lat": 4.0462157,
+    "lng": 9.688395
+   },
+   "expected": {
+    "blocks": [
+     [
+      1000,
+      1519
+     ]
+    ],
+    "newBlocks": 0,
+    "number": 1346,
+    "ok": true
+   }
+  },
+  {
+   "input": {
+    "area": "DLA1-021",
+    "lat": 4.065562,
+    "lng": 9.7218112
+   },
+   "expected": {
+    "blocks": [
+     [
+      1000,
+      2269
+     ]
+    ],
+    "newBlocks": 0,
+    "number": 1846,
+    "ok": true
+   }
+  },
+  {
+   "input": {
+    "area": "DLA1-033",
+    "lat": 4.0627792,
+    "lng": 9.7038039
+   },
+   "expected": {
+    "blocks": [
+     [
+      12280,
+      14039
+     ]
+    ],
+    "newBlocks": 0,
+    "number": 13453,
+    "ok": true
+   }
+  },
+  {
+   "input": {
+    "area": "DLA1-014",
+    "lat": 4.0614174,
+    "lng": 9.7075924
+   },
+   "expected": {
+    "blocks": [
+     [
+      1000,
+      2009
+     ]
+    ],
+    "newBlocks": 0,
+    "number": 1673,
+    "ok": true
+   }
+  },
+  {
+   "input": {
+    "area": "DLA1-037",
+    "lat": 4.0556256,
+    "lng": 9.703099
+   },
+   "expected": {
+    "blocks": [
+     [
+      11710,
+      14869
+     ]
+    ],
+    "newBlocks": 0,
+    "number": 13816,
+    "ok": true
+   }
+  },
+  {
+   "input": {
+    "area": "DLA1-032",
+    "lat": 4.0458085,
+    "lng": 9.7068139
+   },
+   "expected": {
+    "blocks": [
+     [
+      1000,
+      2609
+     ]
+    ],
+    "newBlocks": 0,
+    "number": 2073,
+    "ok": true
+   }
+  },
+  {
+   "input": {
+    "area": "DLA1-006",
+    "lat": 4.0280013,
+    "lng": 9.6987308
+   },
+   "expected": {
+    "blocks": [
+     [
+      1000,
+      2709
+     ]
+    ],
+    "newBlocks": 0,
+    "number": 2140,
+    "ok": true
+   }
+  },
+  {
+   "input": {
+    "area": "DLA1-003",
+    "lat": 4.0390703,
+    "lng": 9.693192
+   },
+   "expected": {
+    "blocks": [
+     [
+      11150,
+      12649
+     ]
+    ],
+    "newBlocks": 0,
+    "number": 12150,
+    "ok": true
+   }
+  },
+  {
+   "input": {
+    "area": "DLA1-019",
+    "lat": 4.0516599,
+    "lng": 9.6953289
+   },
+   "expected": {
+    "blocks": [
+     [
+      100,
+      769
+     ]
+    ],
+    "newBlocks": 0,
+    "number": 546,
+    "ok": true
+   }
+  },
+  {
+   "input": {
+    "area": "DLA1-029",
+    "lat": 4.0207792,
+    "lng": 9.6755171
+   },
+   "expected": {
+    "blocks": [
+     [
+      1000,
+      6119
+     ]
+    ],
+    "newBlocks": 0,
+    "number": 4413,
+    "ok": true
+   }
+  }
+ ],
+ "places": [
+  {
+   "input": {
+    "lat": 8.630959,
+    "lng": 12.496164
+   },
+   "expected": {
+    "area": "FARB-052",
+    "nearestArea": "FARB-052",
+    "plusCode": "6FWJJFJW+9FM",
+    "spot": "CM-FARB E2818 N05097",
+    "zone": "FARB"
+   }
+  },
+  {
+   "input": {
+    "lat": 12.448847,
+    "lng": 9.258784
+   },
+   "expected": {
+    "nearestArea": "MLOM-123",
+    "plusCode": "7F4FC7X5+GGM"
+   }
+  },
+  {
+   "input": {
+    "lat": 9.263645,
+    "lng": 13.163588
+   },
+   "expected": {
+    "area": "BENM-003",
+    "nearestArea": "BENM-003",
+    "plusCode": "6FXM7577+FC4",
+    "spot": "CM-BENM E3554 N0814",
+    "zone": "BENM"
+   }
+  },
+  {
+   "input": {
+    "lat": 2.861186,
+    "lng": 10.439081
+   },
+   "expected": {
+    "area": "OCEA-032",
+    "nearestArea": "OCEA-032",
+    "plusCode": "6FJGVC6Q+FJG",
+    "spot": "CM-OCEA E2880 N3219",
+    "zone": "OCEA"
+   }
+  },
+  {
+   "input": {
+    "lat": 12.027995,
+    "lng": 10.154855
+   },
+   "expected": {
+    "nearestArea": "MLOM-123",
+    "plusCode": "7F4G25H3+5WX"
+   }
+  },
+  {
+   "input": {
+    "lat": 5.180104,
+    "lng": 14.191358
+   },
+   "expected": {
+    "area": "LOME-118",
+    "nearestArea": "LOME-118",
+    "plusCode": "6FQP55JR+2GX",
+    "spot": "CM-LOME E14751 N01991",
+    "zone": "LOME"
+   }
+  },
+  {
+   "input": {
+    "lat": 5.383019,
+    "lng": 12.263122
+   },
+   "expected": {
+    "area": "MBKY-077",
+    "nearestArea": "MBKY-077",
+    "plusCode": "6FQJ97M7+665",
+    "spot": "CM-MBKY E10008 N08326",
+    "zone": "MBKY"
+   }
+  },
+  {
+   "input": {
+    "lat": 5.103204,
+    "lng": 14.301762
+   },
+   "expected": {
+    "area": "LOME-064",
+    "nearestArea": "LOME-064",
+    "plusCode": "6FQP4832+7PJ",
+    "spot": "CM-LOME E15974 N01141",
+    "zone": "LOME"
+   }
+  },
+  {
+   "input": {
+    "lat": 12.838107,
+    "lng": 12.127268
+   },
+   "expected": {
+    "nearestArea": "LOGF-058",
+    "plusCode": "7F4JR4QG+6WR"
+   }
+  },
+  {
+   "input": {
+    "lat": 3.276111,
+    "lng": 15.046315
+   },
+   "expected": {
+    "area": "BNGY-042",
+    "nearestArea": "BNGY-042",
+    "plusCode": "6FMQ72GW+CGW",
+    "spot": "CM-BNGY E08073 N6259",
+    "zone": "BNGY"
+   }
+  },
+  {
+   "input": {
+    "lat": 10.449935,
+    "lng": 16.066672
+   },
+   "expected": {
+    "nearestArea": "MDAG-061",
+    "plusCode": "7F2RC3X8+XMF"
+   }
+  },
+  {
+   "input": {
+    "lat": 9.781795,
+    "lng": 13.25719
+   },
+   "expected": {
+    "nearestArea": "BENB-103",
+    "plusCode": "6FXMQ7J4+PV8",
+    "spot": "CM-BENB E0408 N2894"
+   }
+  },
+  {
+   "input": {
+    "lat": 12.333015,
+    "lng": 10.561748
+   },
+   "expected": {
+    "nearestArea": "MTSO-285",
+    "plusCode": "7F4G8HM6+6M5"
+   }
+  },
+  {
+   "input": {
+    "lat": 10.406621,
+    "lng": 12.449382
+   },
+   "expected": {
+    "nearestArea": "MLOM-123",
+    "plusCode": "7F2JCC4X+JQR"
+   }
+  },
+  {
+   "input": {
+    "lat": 5.177413,
+    "lng": 13.847815
+   },
+   "expected": {
+    "area": "LOMM-023",
+    "nearestArea": "LOME-032",
+    "plusCode": "6FQM5RGX+X48",
+    "spot": "CM-LOMM E2194 N09259",
+    "zone": "LOMM"
+   }
+  },
+  {
+   "input": {
+    "lat": 12.688579,
+    "lng": 10.15836
+   },
+   "expected": {
+    "nearestArea": "MTSO-285",
+    "plusCode": "7F4GM5Q5+C8Q"
+   }
+  },
+  {
+   "input": {
+    "lat": 3.735106,
+    "lng": 14.599043
+   },
+   "expected": {
+    "area": "BNGG-030",
+    "nearestArea": "KADN-008",
+    "plusCode": "6FMPPHPX+2JV",
+    "spot": "CM-BNGG E02099 N3041",
+    "zone": "BNGG"
+   }
+  },
+  {
+   "input": {
+    "lat": 6.200008,
+    "lng": 11.108175
+   },
+   "expected": {
+    "area": "NOUM-014",
+    "nearestArea": "NOUM-014",
+    "plusCode": "6FRH6425+273",
+    "spot": "CM-NOUM E2304 N3759",
+    "zone": "NOUM"
+   }
+  },
+  {
+   "input": {
+    "lat": 7.389292,
+    "lng": 14.971324
+   },
+   "expected": {
+    "area": "MREO-009",
+    "nearestArea": "MREO-009",
+    "plusCode": "6FVP9XQC+PG8",
+    "spot": "CM-MREO E05310 N04193",
+    "zone": "MREO"
+   }
+  },
+  {
+   "input": {
+    "lat": 7.304309,
+    "lng": 9.633291
+   },
+   "expected": {
+    "nearestArea": "MENF-007",
+    "plusCode": "6FVF8J3M+P8F"
+   }
+  },
+  {
+   "input": {
+    "lat": 7.090346,
+    "lng": 15.104333
+   },
+   "expected": {
+    "area": "MBEJ-075",
+    "nearestArea": "MBEJ-075",
+    "plusCode": "6FVQ34R3+4PP",
+    "spot": "CM-MBEJ E7341 N5090",
+    "zone": "MBEJ"
+   }
+  },
+  {
+   "input": {
+    "lat": 5.97332,
+    "lng": 14.216863
+   },
+   "expected": {
+    "area": "LOME-115",
+    "nearestArea": "MBEM-093",
+    "plusCode": "6FQPX6F8+8PH",
+    "spot": "CM-LOME E15034 N10762",
+    "zone": "LOME"
+   }
+  },
+  {
+   "input": {
+    "lat": 7.297586,
+    "lng": 13.885269
+   },
+   "expected": {
+    "area": "VINN-068",
+    "nearestArea": "VINN-068",
+    "plusCode": "6FVM7VXP+24J",
+    "spot": "CM-VINN E3259 N0857",
+    "zone": "VINN"
+   }
+  },
+  {
+   "input": {
+    "lat": 10.919664,
+    "lng": 13.495392
+   },
+   "expected": {
+    "nearestArea": "MTSO-159",
+    "plusCode": "7F2MWF9W+V56"
+   }
+  },
+  {
+   "input": {
+    "lat": 7.88785,
+    "lng": 13.79189
+   },
+   "expected": {
+    "area": "MRET-019",
+    "nearestArea": "MRET-019",
+    "plusCode": "6FVMVQQR+4QR",
+    "spot": "CM-MRET E08732 N09264",
+    "zone": "MRET"
+   }
+  },
+  {
+   "input": {
+    "lat": 12.365628,
+    "lng": 10.159884
+   },
+   "expected": {
+    "nearestArea": "MTSO-285",
+    "plusCode": "7F4G9585+7X2"
+   }
+  },
+  {
+   "input": {
+    "lat": 10.351968,
+    "lng": 11.623072
+   },
+   "expected": {
+    "nearestArea": "BENM-008",
+    "plusCode": "7F2H9J2F+Q6P"
+   }
+  },
+  {
+   "input": {
+    "lat": 2.619513,
+    "lng": 9.590622
+   },
+   "expected": {
+    "nearestArea": "OCEC-037",
+    "plusCode": "6FJFJH9R+R65"
+   }
+  },
+  {
+   "input": {
+    "lat": 12.434936,
+    "lng": 8.64621
+   },
+   "expected": {
+    "nearestArea": "MLOM-123",
+    "plusCode": "7F4CCJMW+XFG"
+   }
+  },
+  {
+   "input": {
+    "lat": 3.055165,
+    "lng": 10.317693
+   },
+   "expected": {
+    "area": "OCEB-009",
+    "nearestArea": "OCEB-009",
+    "plusCode": "6FMG3849+338",
+    "spot": "CM-OCEB E1085 N1273",
+    "zone": "OCEB"
+   }
+  },
+  {
+   "input": {
+    "lat": 5.025521,
+    "lng": 13.879306
+   },
+   "expected": {
+    "area": "LOMM-023",
+    "nearestArea": "LOMM-023",
+    "plusCode": "6FQM2VGH+6P3",
+    "spot": "CM-LOMM E2543 N07580",
+    "zone": "LOMM"
+   }
+  },
+  {
+   "input": {
+    "lat": 10.09025,
+    "lng": 15.794638
+   },
+   "expected": {
+    "nearestArea": "MDAG-061",
+    "plusCode": "7F2Q3QRV+4V2"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.825843,
+    "lng": 15.889928
+   },
+   "expected": {
+    "nearestArea": "KADK-005",
+    "plusCode": "6FPQRVGQ+8XM"
+   }
+  },
+  {
+   "input": {
+    "lat": 7.013316,
+    "lng": 15.168381
+   },
+   "expected": {
+    "nearestArea": "MBEJ-078",
+    "plusCode": "6FVQ2579+89C",
+    "spot": "CM-MBEJ E8049 N4238"
+   }
+  },
+  {
+   "input": {
+    "lat": 10.020144,
+    "lng": 11.912201
+   },
+   "expected": {
+    "nearestArea": "BENM-008",
+    "plusCode": "7F2H2WC6+3V4"
+   }
+  },
+  {
+   "input": {
+    "lat": 10.38739,
+    "lng": 14.393512
+   },
+   "expected": {
+    "area": "MKAM-129",
+    "nearestArea": "MKAM-129",
+    "plusCode": "7F2P99PV+XC2",
+    "spot": "CM-MKAM E1790 N1629",
+    "zone": "MKAM"
+   }
+  },
+  {
+   "input": {
+    "lat": 2.603495,
+    "lng": 10.823457
+   },
+   "expected": {
+    "area": "VNTM-005",
+    "nearestArea": "VNTM-005",
+    "plusCode": "6FJGJR3F+99W",
+    "spot": "CM-VNTM E07156 N4903",
+    "zone": "VNTM"
+   }
+  },
+  {
+   "input": {
+    "lat": 12.320852,
+    "lng": 9.570482
+   },
+   "expected": {
+    "nearestArea": "MLOM-123",
+    "plusCode": "7F4F8HCC+85X"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.26273,
+    "lng": 12.842815
+   },
+   "expected": {
+    "area": "HNYK-018",
+    "nearestArea": "HNYK-018",
+    "plusCode": "6FPJ7R7V+34W",
+    "spot": "CM-HNYK E1141 N2020",
+    "zone": "HNYK"
+   }
+  },
+  {
+   "input": {
+    "lat": 5.325438,
+    "lng": 8.751765
+   },
+   "expected": {
+    "nearestArea": "NDIM-045",
+    "plusCode": "6FQC8QG2+5PC",
+    "spot": "CM-NDIM E1239 N6362"
+   }
+  },
+  {
+   "input": {
+    "lat": 8.127511,
+    "lng": 13.86773
+   },
+   "expected": {
+    "area": "MRET-017",
+    "nearestArea": "MRET-017",
+    "plusCode": "6FWM4VH9+235",
+    "spot": "CM-MRET E09568 N11914",
+    "zone": "MRET"
+   }
+  },
+  {
+   "input": {
+    "lat": 9.453427,
+    "lng": 15.007364
+   },
+   "expected": {
+    "nearestArea": "MDAD-004",
+    "plusCode": "6FXQF234+9WH"
+   }
+  },
+  {
+   "input": {
+    "lat": 3.305777,
+    "lng": 14.492207
+   },
+   "expected": {
+    "area": "BNGY-077",
+    "nearestArea": "HNYS-023",
+    "plusCode": "6FMP8F4R+8V8",
+    "spot": "CM-BNGY E01914 N6587",
+    "zone": "BNGY"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.618645,
+    "lng": 12.369564
+   },
+   "expected": {
+    "area": "HSAN-019",
+    "nearestArea": "HSAN-019",
+    "plusCode": "6FPJJ999+FR4",
+    "spot": "CM-HSAN E4876 N03412",
+    "zone": "HSAN"
+   }
+  },
+  {
+   "input": {
+    "lat": 8.66156,
+    "lng": 11.232012
+   },
+   "expected": {
+    "nearestArea": "FADK-003",
+    "plusCode": "6FWHM66J+JRC"
+   }
+  },
+  {
+   "input": {
+    "lat": 2.214588,
+    "lng": 10.535996
+   },
+   "expected": {
+    "area": "VNTM-029",
+    "nearestArea": "VNTM-111",
+    "plusCode": "6FJG6G7P+R9Q",
+    "spot": "CM-VNTM E03959 N0603",
+    "zone": "VNTM"
+   }
+  },
+  {
+   "input": {
+    "lat": 9.265101,
+    "lng": 15.508459
+   },
+   "expected": {
+    "nearestArea": "MDAG-079",
+    "plusCode": "6FXQ7G85+29W"
+   }
+  },
+  {
+   "input": {
+    "lat": 5.137086,
+    "lng": 15.574172
+   },
+   "expected": {
+    "nearestArea": "KADO-024",
+    "plusCode": "6FQQ4HPF+RMM"
+   }
+  },
+  {
+   "input": {
+    "lat": 3.903921,
+    "lng": 16.00657
+   },
+   "expected": {
+    "nearestArea": "BNGY-074",
+    "plusCode": "6FMRW234+HJ8"
+   }
+  },
+  {
+   "input": {
+    "lat": 8.97109,
+    "lng": 16.095822
+   },
+   "expected": {
+    "nearestArea": "MRER-363",
+    "plusCode": "6FWRX3CW+C8P"
+   }
+  },
+  {
+   "input": {
+    "lat": 6.251536,
+    "lng": 12.696479
+   },
+   "expected": {
+    "area": "DJET-067",
+    "nearestArea": "DJET-067",
+    "plusCode": "6FRJ7M2W+JH9",
+    "spot": "CM-DJET E07813 N02781",
+    "zone": "DJET"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.678548,
+    "lng": 10.010458
+   },
+   "expected": {
+    "area": "NKAY-057",
+    "nearestArea": "NKAK-001",
+    "plusCode": "6FPGM2H6+C58",
+    "spot": "CM-NKAY E2890 N6839",
+    "zone": "NKAY"
+   }
+  },
+  {
+   "input": {
+    "lat": 11.719364,
+    "lng": 14.690413
+   },
+   "expected": {
+    "area": "LOGL-164",
+    "nearestArea": "LOGL-164",
+    "plusCode": "7F3PPM9R+P5V",
+    "spot": "CM-LOGL E0985 N3089",
+    "zone": "LOGL"
+   }
+  },
+  {
+   "input": {
+    "lat": 5.392046,
+    "lng": 10.09958
+   },
+   "expected": {
+    "area": "MNON-116",
+    "nearestArea": "MNOF-004",
+    "plusCode": "6FQG93RX+RR8",
+    "spot": "CM-MNON E0549 N0133",
+    "zone": "MNON"
+   }
+  },
+  {
+   "input": {
+    "lat": 3.488861,
+    "lng": 13.507198
+   },
+   "expected": {
+    "area": "HNYI-019",
+    "nearestArea": "HNYI-019",
+    "plusCode": "6FMMFGQ4+GVW",
+    "spot": "CM-HNYI E03746 N2751",
+    "zone": "HNYI"
+   }
+  },
+  {
+   "input": {
+    "lat": 12.235651,
+    "lng": 10.820676
+   },
+   "expected": {
+    "nearestArea": "MTSO-285",
+    "plusCode": "7F4G6RPC+777"
+   }
+  },
+  {
+   "input": {
+    "lat": 8.090258,
+    "lng": 10.286078
+   },
+   "expected": {
+    "nearestArea": "DOMA-023",
+    "plusCode": "6FWG37RP+4C4"
+   }
+  },
+  {
+   "input": {
+    "lat": 6.275462,
+    "lng": 14.502985
+   },
+   "expected": {
+    "area": "MBEM-020",
+    "nearestArea": "MBEM-020",
+    "plusCode": "6FRP7GG3+55Q",
+    "spot": "CM-MBEM E06559 N3045",
+    "zone": "MBEM"
+   }
+  },
+  {
+   "input": {
+    "lat": 6.46756,
+    "lng": 14.036489
+   },
+   "expected": {
+    "area": "MBEM-078",
+    "nearestArea": "MBED-022",
+    "plusCode": "6FRPF29P+2HH",
+    "spot": "CM-MBEM E01399 N5169",
+    "zone": "MBEM"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.208012,
+    "lng": 15.83796
+   },
+   "expected": {
+    "nearestArea": "KADN-066",
+    "plusCode": "6FPQ6R5Q+654"
+   }
+  },
+  {
+   "input": {
+    "lat": 2.007445,
+    "lng": 15.473219
+   },
+   "expected": {
+    "area": "BNGM-081",
+    "nearestArea": "BNGM-081",
+    "plusCode": "6FJQ2F4F+X7H",
+    "spot": "CM-BNGM E09825 N3952",
+    "zone": "BNGM"
+   }
+  },
+  {
+   "input": {
+    "lat": 6.088581,
+    "lng": 12.654812
+   },
+   "expected": {
+    "area": "DJET-070",
+    "nearestArea": "DJET-070",
+    "plusCode": "6FRJ3MQ3+CWM",
+    "spot": "CM-DJET E07352 N00979",
+    "zone": "DJET"
+   }
+  },
+  {
+   "input": {
+    "lat": 9.127208,
+    "lng": 14.063915
+   },
+   "expected": {
+    "area": "MRER-038",
+    "nearestArea": "MRER-038",
+    "plusCode": "6FXP43G7+VHM",
+    "spot": "CM-MRER E04552 N08593",
+    "zone": "MRER"
+   }
+  },
+  {
+   "input": {
+    "lat": 11.939891,
+    "lng": 12.688683
+   },
+   "expected": {
+    "nearestArea": "MTSO-285",
+    "plusCode": "7F3JWMQQ+XF3"
+   }
+  },
+  {
+   "input": {
+    "lat": 7.460805,
+    "lng": 9.927937
+   },
+   "expected": {
+    "nearestArea": "MENF-012",
+    "plusCode": "6FVFFW6H+85F"
+   }
+  },
+  {
+   "input": {
+    "lat": 6.433517,
+    "lng": 11.403957
+   },
+   "expected": {
+    "area": "BANB-064",
+    "nearestArea": "BANB-064",
+    "plusCode": "6FRHCCM3+CH4",
+    "spot": "CM-BANB E2478 N5125",
+    "zone": "BANB"
+   }
+  },
+  {
+   "input": {
+    "lat": 9.443952,
+    "lng": 9.346416
+   },
+   "expected": {
+    "nearestArea": "MENF-012",
+    "plusCode": "6FXFC8VW+HHM"
+   }
+  },
+  {
+   "input": {
+    "lat": 3.495386,
+    "lng": 11.131533
+   },
+   "expected": {
+    "area": "NYKM-008",
+    "nearestArea": "NYKM-008",
+    "plusCode": "6FMHF4WJ+5J3",
+    "spot": "CM-NYKM E3572 N1386",
+    "zone": "NYKM"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.382853,
+    "lng": 9.626892
+   },
+   "expected": {
+    "area": "MOUO-030",
+    "nearestArea": "MOUA-010",
+    "plusCode": "6FPF9JMG+4QR",
+    "spot": "CM-MOUO E1186 N1800",
+    "zone": "MOUO"
+   }
+  },
+  {
+   "input": {
+    "lat": 6.988633,
+    "lng": 12.362359
+   },
+   "expected": {
+    "area": "FADG-005",
+    "nearestArea": "FADG-005",
+    "plusCode": "6FRJX9Q6+FW5",
+    "spot": "CM-FADG E5438 N1311",
+    "zone": "FADG"
+   }
+  },
+  {
+   "input": {
+    "lat": 8.797526,
+    "lng": 10.649588
+   },
+   "expected": {
+    "nearestArea": "DOMA-023",
+    "plusCode": "6FWGQJXX+2R8"
+   }
+  },
+  {
+   "input": {
+    "lat": 12.534159,
+    "lng": 11.515912
+   },
+   "expected": {
+    "nearestArea": "LOGF-051",
+    "plusCode": "7F4HGGM8+M97"
+   }
+  },
+  {
+   "input": {
+    "lat": 1.835033,
+    "lng": 8.840056
+   },
+   "expected": {
+    "nearestArea": "OCEC-028",
+    "plusCode": "6FHCRRPR+227"
+   }
+  },
+  {
+   "input": {
+    "lat": 3.750686,
+    "lng": 14.59604
+   },
+   "expected": {
+    "area": "KADM-031",
+    "nearestArea": "KADN-008",
+    "plusCode": "6FMPQH2W+7CF",
+    "spot": "CM-KADM E10394 N0892",
+    "zone": "KADM"
+   }
+  },
+  {
+   "input": {
+    "lat": 11.095607,
+    "lng": 14.561174
+   },
+   "expected": {
+    "area": "DIAP-013",
+    "nearestArea": "DIAP-013",
+    "plusCode": "7F3P3HW6+6FV",
+    "spot": "CM-DIAP E1761 N4042",
+    "zone": "DIAP"
+   }
+  },
+  {
+   "input": {
+    "lat": 12.812057,
+    "lng": 14.289831
+   },
+   "expected": {
+    "area": "LOGD-009",
+    "nearestArea": "LOGD-009",
+    "plusCode": "7F4PR76Q+RWG",
+    "spot": "CM-LOGD E2278 N4003",
+    "zone": "LOGD"
+   }
+  },
+  {
+   "input": {
+    "lat": 7.534691,
+    "lng": 13.009903
+   },
+   "expected": {
+    "area": "FADT-005",
+    "nearestArea": "FADT-005",
+    "plusCode": "6FVMG2M5+VXC",
+    "spot": "CM-FADT E08499 N6354",
+    "zone": "FADT"
+   }
+  },
+  {
+   "input": {
+    "lat": 9.274278,
+    "lng": 11.812869
+   },
+   "expected": {
+    "nearestArea": "FARB-002",
+    "plusCode": "6FXH7RF7+P49"
+   }
+  },
+  {
+   "input": {
+    "lat": 9.114117,
+    "lng": 14.284723
+   },
+   "expected": {
+    "area": "MRER-258",
+    "nearestArea": "MRER-258",
+    "plusCode": "6FXP477M+JVX",
+    "spot": "CM-MRER E06981 N08449",
+    "zone": "MRER"
+   }
+  },
+  {
+   "input": {
+    "lat": 11.425402,
+    "lng": 13.735096
+   },
+   "expected": {
+    "nearestArea": "MSAK-072",
+    "plusCode": "7F3MCPGP+529"
+   }
+  },
+  {
+   "input": {
+    "lat": 4.0243022,
+    "lng": 9.6904852
+   },
+   "expected": {
+    "area": "DLA1-015",
+    "nearestArea": "DLA1-015",
+    "plusCode": "6FPF2MFR+P5H",
+    "spot": "CM-DLA1 E0449 N0268",
+    "zone": "DLA1"
+   }
+  },
+  {
+   "input": {
+    "lat": 3.848,
+    "lng": 11.5021
+   },
+   "expected": {
+    "area": "YDE3-020",
+    "nearestArea": "YDE3-020",
+    "plusCode": "6FMHRGX2+6R5",
+    "spot": "CM-YDE3 E0911 N1525",
+    "zone": "YDE3"
+   }
+  },
+  {
+   "input": {
+    "lat": 5.9631,
+    "lng": 10.1591
+   },
+   "expected": {
+    "area": "BDA3-017",
+    "nearestArea": "BDA3-017",
+    "plusCode": "6FQGX575+6JX",
+    "spot": "CM-BDA3 E0322 N0255",
+    "zone": "BDA3"
+   }
+  }
+ ]
+}

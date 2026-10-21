@@ -1,0 +1,15 @@
+{
+  "byUnit": {
+    "DLA1": 26154
+  },
+  "codes": 26154,
+  "country": "CM",
+  "credit": "N-Ways Addressing for Cameroon, © N-WAYS LIMITED (nways.ng)",
+  "engine": "internal/addressing/cm (SPEC v1.0)",
+  "exported": "2026-10-21T14:51:04Z",
+  "licence": "ODbL 1.0 (LICENSE-DATA)",
+  "sha256": {
+    "DLA1.csv": "a85737a38396f53fb6b6bc1e8077ba5306a7ffb3ffa6ee68142d774e4218c572",
+    "areas.csv": "9ec92a35c5c8e6efc422e42a3a6b63072039ca5cd378a1e4ed27cbc4fc09ec06"
+  }
+}

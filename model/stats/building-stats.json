@@ -1,0 +1,2467 @@
+{
+ "computed": "2026-10-20",
+ "note": "From the compounds numbered by tools/issue_registry.py and N-Ways map data.",
+ "rules": {
+  "cities": {
+   "annex_m2": 25.0,
+   "attach_m": 8.0,
+   "hut_m2": 0.0
+  },
+  "rural": {
+   "annex_m2": 25.0,
+   "attach_m": 8.0,
+   "hut_m2": 40.0,
+   "hut_gap_m": 3.0,
+   "hut_max": 25
+  }
+ },
+ "country": {
+  "compounds": 7243272,
+  "structures": 9293569,
+  "fromOpenStreetMap": 3836259,
+  "structuresPerCompound": 1.283,
+  "shareStructuresInMultiStructureCompounds": 0.376,
+  "compoundSizeMix": {
+   "1": 5796261,
+   "2": 1062820,
+   "3": 256178,
+   "4": 79533,
+   "5": 28366,
+   "6": 10866,
+   "7+": 9248
+  },
+  "rules": {
+   "single": 5795550,
+   "annex": 1155565,
+   "hut-cluster": 290494,
+   "enclosure": 1663
+  },
+  "coverage": {
+   "nways": 7035565,
+   "official-street": 207707
+  },
+  "useTop": {
+   "residential": 9156024,
+   "annex": 82878,
+   "under_construction": 14633,
+   "commercial": 14446,
+   "education": 8090,
+   "industrial": 3618,
+   "government": 3551,
+   "religious": 2922,
+   "health": 2635,
+   "office": 2568,
+   "hospitality": 1855,
+   "transport": 180,
+   "mixed": 124,
+   "agricultural": 29,
+   "ruin": 16
+  },
+  "useDetail": {
+   "residential": 9156024,
+   "annex": 82878,
+   "under_construction": 14633,
+   "commercial": 14446,
+   "education": 8090,
+   "industrial": 3618,
+   "government": 3551,
+   "religious": 2922,
+   "health": 2635,
+   "office": 2568,
+   "hospitality": 1855,
+   "transport": 180,
+   "mixed": 124,
+   "agricultural": 29,
+   "ruin": 16
+  },
+  "floorsFrom": {
+   "none": 9291734,
+   "osm:building:levels": 1826,
+   "osm:height": 9
+  },
+  "floors": {
+   "1": 1505,
+   "2": 153,
+   "3": 81,
+   "4": 96
+  },
+  "compoundsByDigits": {
+   "3": 1640038,
+   "4": 4170120,
+   "5": 1433114
+  },
+  "annexCompounds": 1155565,
+  "footprintAreaM2": {
+   "p10": 13.4,
+   "p25": 21.5,
+   "p50": 51.0,
+   "p75": 105.3,
+   "p90": 165.4
+  }
+ },
+ "yaoundeDouala": {
+  "compounds": 757167,
+  "structures": 916998,
+  "fromOpenStreetMap": 566053,
+  "structuresPerCompound": 1.211,
+  "shareStructuresInMultiStructureCompounds": 0.315,
+  "compoundSizeMix": {
+   "1": 628293,
+   "2": 105158,
+   "3": 18698,
+   "4": 3694,
+   "5": 839,
+   "6": 274,
+   "7+": 211
+  },
+  "rules": {
+   "single": 627693,
+   "annex": 128330,
+   "enclosure": 1144
+  },
+  "coverage": {
+   "official-street": 207707,
+   "nways": 549460
+  },
+  "useTop": {
+   "residential": 878023,
+   "annex": 11168,
+   "under_construction": 8622,
+   "commercial": 7135,
+   "education": 3108,
+   "industrial": 2696,
+   "government": 2010,
+   "office": 1626,
+   "health": 1148,
+   "religious": 737,
+   "hospitality": 647,
+   "transport": 43,
+   "mixed": 33,
+   "ruin": 1,
+   "agricultural": 1
+  },
+  "useDetail": {
+   "residential": 878023,
+   "annex": 11168,
+   "under_construction": 8622,
+   "commercial": 7135,
+   "education": 3108,
+   "industrial": 2696,
+   "government": 2010,
+   "office": 1626,
+   "health": 1148,
+   "religious": 737,
+   "hospitality": 647,
+   "transport": 43,
+   "mixed": 33,
+   "ruin": 1,
+   "agricultural": 1
+  },
+  "floorsFrom": {
+   "none": 916724,
+   "osm:building:levels": 271,
+   "osm:height": 3
+  },
+  "floors": {
+   "1": 103,
+   "2": 59,
+   "3": 46,
+   "4": 66
+  },
+  "compoundsByDigits": {
+   "3": 13494,
+   "4": 434424,
+   "5": 309249
+  },
+  "annexCompounds": 128330,
+  "footprintAreaM2": {
+   "p10": 13.3,
+   "p25": 29.3,
+   "p50": 69.9,
+   "p75": 134.1,
+   "p90": 231.5
+  }
+ },
+ "regions": {
+  "Adamaoua": {
+   "compounds": 494453,
+   "structures": 661153,
+   "fromOpenStreetMap": 182572,
+   "structuresPerCompound": 1.337,
+   "shareStructuresInMultiStructureCompounds": 0.443,
+   "compoundSizeMix": {
+    "1": 368148,
+    "2": 96032,
+    "3": 22947,
+    "4": 5443,
+    "5": 1333,
+    "6": 352,
+    "7+": 198
+   },
+   "rules": {
+    "single": 368124,
+    "annex": 106537,
+    "hut-cluster": 19737,
+    "enclosure": 55
+   },
+   "coverage": {
+    "nways": 494453
+   },
+   "useTop": {
+    "residential": 656495,
+    "annex": 2242,
+    "commercial": 1490,
+    "education": 331,
+    "religious": 269,
+    "health": 75,
+    "government": 72,
+    "hospitality": 61,
+    "office": 53,
+    "industrial": 48,
+    "under_construction": 10,
+    "transport": 4,
+    "mixed": 2,
+    "agricultural": 1
+   },
+   "useDetail": {
+    "residential": 656495,
+    "annex": 2242,
+    "commercial": 1490,
+    "education": 331,
+    "religious": 269,
+    "health": 75,
+    "government": 72,
+    "hospitality": 61,
+    "office": 53,
+    "industrial": 48,
+    "under_construction": 10,
+    "transport": 4,
+    "mixed": 2,
+    "agricultural": 1
+   },
+   "floorsFrom": {
+    "none": 661105,
+    "osm:building:levels": 48
+   },
+   "floors": {
+    "1": 46,
+    "2": 1,
+    "4": 1
+   },
+   "compoundsByDigits": {
+    "3": 85352,
+    "4": 251850,
+    "5": 157251
+   },
+   "annexCompounds": 106537,
+   "footprintAreaM2": {
+    "p10": 13.1,
+    "p25": 18.1,
+    "p50": 27.3,
+    "p75": 47.7,
+    "p90": 81.3
+   }
+  },
+  "Centre": {
+   "compounds": 1101839,
+   "structures": 1276238,
+   "fromOpenStreetMap": 736262,
+   "structuresPerCompound": 1.158,
+   "shareStructuresInMultiStructureCompounds": 0.252,
+   "compoundSizeMix": {
+    "1": 954996,
+    "2": 125088,
+    "3": 17688,
+    "4": 3031,
+    "5": 696,
+    "6": 192,
+    "7+": 148
+   },
+   "rules": {
+    "single": 954748,
+    "annex": 138086,
+    "hut-cluster": 8467,
+    "enclosure": 538
+   },
+   "coverage": {
+    "nways": 928971,
+    "official-street": 172868
+   },
+   "useTop": {
+    "residential": 1250365,
+    "annex": 10045,
+    "commercial": 6366,
+    "education": 3139,
+    "government": 1630,
+    "health": 1049,
+    "office": 894,
+    "under_construction": 799,
+    "religious": 780,
+    "industrial": 570,
+    "hospitality": 459,
+    "mixed": 70,
+    "transport": 48,
+    "agricultural": 22,
+    "ruin": 2
+   },
+   "useDetail": {
+    "residential": 1250365,
+    "annex": 10045,
+    "commercial": 6366,
+    "education": 3139,
+    "government": 1630,
+    "health": 1049,
+    "office": 894,
+    "under_construction": 799,
+    "religious": 780,
+    "industrial": 570,
+    "hospitality": 459,
+    "mixed": 70,
+    "transport": 48,
+    "agricultural": 22,
+    "ruin": 2
+   },
+   "floorsFrom": {
+    "none": 1275893,
+    "osm:building:levels": 343,
+    "osm:height": 2
+   },
+   "floors": {
+    "1": 195,
+    "2": 52,
+    "3": 42,
+    "4": 56
+   },
+   "compoundsByDigits": {
+    "3": 250866,
+    "4": 608110,
+    "5": 242863
+   },
+   "annexCompounds": 138086,
+   "footprintAreaM2": {
+    "p10": 17.4,
+    "p25": 34.4,
+    "p50": 75.6,
+    "p75": 135.9,
+    "p90": 204.3
+   }
+  },
+  "Est": {
+   "compounds": 404924,
+   "structures": 503703,
+   "fromOpenStreetMap": 149145,
+   "structuresPerCompound": 1.244,
+   "shareStructuresInMultiStructureCompounds": 0.356,
+   "compoundSizeMix": {
+    "1": 324386,
+    "2": 66283,
+    "3": 11373,
+    "4": 2157,
+    "5": 512,
+    "6": 135,
+    "7+": 78
+   },
+   "rules": {
+    "single": 324381,
+    "annex": 69705,
+    "hut-cluster": 10811,
+    "enclosure": 27
+   },
+   "coverage": {
+    "nways": 404924
+   },
+   "useTop": {
+    "residential": 501987,
+    "annex": 1030,
+    "commercial": 229,
+    "government": 102,
+    "education": 72,
+    "office": 59,
+    "health": 54,
+    "religious": 43,
+    "hospitality": 39,
+    "industrial": 39,
+    "under_construction": 26,
+    "transport": 14,
+    "ruin": 9
+   },
+   "useDetail": {
+    "residential": 501987,
+    "annex": 1030,
+    "commercial": 229,
+    "government": 102,
+    "education": 72,
+    "office": 59,
+    "health": 54,
+    "religious": 43,
+    "hospitality": 39,
+    "industrial": 39,
+    "under_construction": 26,
+    "transport": 14,
+    "ruin": 9
+   },
+   "floorsFrom": {
+    "none": 503550,
+    "osm:building:levels": 153
+   },
+   "floors": {
+    "1": 143,
+    "2": 8,
+    "3": 1,
+    "4": 1
+   },
+   "compoundsByDigits": {
+    "3": 122168,
+    "4": 177984,
+    "5": 104772
+   },
+   "annexCompounds": 69705,
+   "footprintAreaM2": {
+    "p10": 15.4,
+    "p25": 23.3,
+    "p50": 41.4,
+    "p75": 75.5,
+    "p90": 130.2
+   }
+  },
+  "Extrême-Nord": {
+   "compounds": 1265948,
+   "structures": 1990468,
+   "fromOpenStreetMap": 588511,
+   "structuresPerCompound": 1.572,
+   "shareStructuresInMultiStructureCompounds": 0.582,
+   "compoundSizeMix": {
+    "1": 832212,
+    "2": 267714,
+    "3": 98733,
+    "4": 38785,
+    "5": 15806,
+    "6": 6550,
+    "7+": 6148
+   },
+   "rules": {
+    "single": 832208,
+    "annex": 296404,
+    "hut-cluster": 137313,
+    "enclosure": 23
+   },
+   "coverage": {
+    "nways": 1265948
+   },
+   "useTop": {
+    "residential": 1952145,
+    "annex": 29225,
+    "under_construction": 5067,
+    "education": 1706,
+    "religious": 587,
+    "commercial": 531,
+    "health": 371,
+    "hospitality": 277,
+    "office": 216,
+    "government": 190,
+    "industrial": 149,
+    "transport": 4
+   },
+   "useDetail": {
+    "residential": 1952145,
+    "annex": 29225,
+    "under_construction": 5067,
+    "education": 1706,
+    "religious": 587,
+    "commercial": 531,
+    "health": 371,
+    "hospitality": 277,
+    "office": 216,
+    "government": 190,
+    "industrial": 149,
+    "transport": 4
+   },
+   "floorsFrom": {
+    "none": 1990451,
+    "osm:building:levels": 17
+   },
+   "floors": {
+    "1": 7,
+    "2": 10
+   },
+   "compoundsByDigits": {
+    "3": 418887,
+    "4": 712796,
+    "5": 134265
+   },
+   "annexCompounds": 296404,
+   "footprintAreaM2": {
+    "p10": 10.6,
+    "p25": 13.7,
+    "p50": 19.7,
+    "p75": 29.8,
+    "p90": 51.0
+   }
+  },
+  "Littoral": {
+   "compounds": 647775,
+   "structures": 785844,
+   "fromOpenStreetMap": 391775,
+   "structuresPerCompound": 1.213,
+   "shareStructuresInMultiStructureCompounds": 0.317,
+   "compoundSizeMix": {
+    "1": 536478,
+    "2": 90942,
+    "3": 15932,
+    "4": 3245,
+    "5": 738,
+    "6": 255,
+    "7+": 185
+   },
+   "rules": {
+    "single": 536089,
+    "annex": 108467,
+    "hut-cluster": 2466,
+    "enclosure": 753
+   },
+   "coverage": {
+    "official-street": 34839,
+    "nways": 612936
+   },
+   "useTop": {
+    "residential": 759497,
+    "annex": 8674,
+    "under_construction": 8620,
+    "commercial": 2472,
+    "industrial": 2385,
+    "government": 1204,
+    "education": 1012,
+    "office": 876,
+    "health": 415,
+    "hospitality": 332,
+    "religious": 294,
+    "mixed": 32,
+    "transport": 30,
+    "ruin": 1
+   },
+   "useDetail": {
+    "residential": 759497,
+    "annex": 8674,
+    "under_construction": 8620,
+    "commercial": 2472,
+    "industrial": 2385,
+    "government": 1204,
+    "education": 1012,
+    "office": 876,
+    "health": 415,
+    "hospitality": 332,
+    "religious": 294,
+    "mixed": 32,
+    "transport": 30,
+    "ruin": 1
+   },
+   "floorsFrom": {
+    "none": 785745,
+    "osm:building:levels": 96,
+    "osm:height": 3
+   },
+   "floors": {
+    "1": 44,
+    "2": 24,
+    "3": 13,
+    "4": 18
+   },
+   "compoundsByDigits": {
+    "3": 65738,
+    "4": 294573,
+    "5": 287464
+   },
+   "annexCompounds": 108467,
+   "footprintAreaM2": {
+    "p10": 13.2,
+    "p25": 29.1,
+    "p50": 68.8,
+    "p75": 130.5,
+    "p90": 225.3
+   }
+  },
+  "Nord": {
+   "compounds": 866358,
+   "structures": 1296326,
+   "fromOpenStreetMap": 475362,
+   "structuresPerCompound": 1.496,
+   "shareStructuresInMultiStructureCompounds": 0.541,
+   "compoundSizeMix": {
+    "1": 595564,
+    "2": 172856,
+    "3": 60924,
+    "4": 22945,
+    "5": 8524,
+    "6": 3190,
+    "7+": 2355
+   },
+   "rules": {
+    "single": 595538,
+    "annex": 183374,
+    "hut-cluster": 87239,
+    "enclosure": 207
+   },
+   "coverage": {
+    "nways": 866358
+   },
+   "useTop": {
+    "residential": 1270456,
+    "annex": 23900,
+    "commercial": 1001,
+    "religious": 224,
+    "education": 193,
+    "industrial": 176,
+    "government": 136,
+    "health": 127,
+    "hospitality": 57,
+    "office": 42,
+    "transport": 10,
+    "mixed": 2,
+    "agricultural": 1,
+    "ruin": 1
+   },
+   "useDetail": {
+    "residential": 1270456,
+    "annex": 23900,
+    "commercial": 1001,
+    "religious": 224,
+    "education": 193,
+    "industrial": 176,
+    "government": 136,
+    "health": 127,
+    "hospitality": 57,
+    "office": 42,
+    "transport": 10,
+    "mixed": 2,
+    "agricultural": 1,
+    "ruin": 1
+   },
+   "floorsFrom": {
+    "none": 1296299,
+    "osm:building:levels": 27
+   },
+   "floors": {
+    "1": 14,
+    "2": 5,
+    "3": 8
+   },
+   "compoundsByDigits": {
+    "3": 232315,
+    "4": 486091,
+    "5": 147952
+   },
+   "annexCompounds": 183374,
+   "footprintAreaM2": {
+    "p10": 10.4,
+    "p25": 12.4,
+    "p50": 17.1,
+    "p75": 27.1,
+    "p90": 45.6
+   }
+  },
+  "Nord-Ouest": {
+   "compounds": 673661,
+   "structures": 758785,
+   "fromOpenStreetMap": 242687,
+   "structuresPerCompound": 1.126,
+   "shareStructuresInMultiStructureCompounds": 0.211,
+   "compoundSizeMix": {
+    "1": 598548,
+    "2": 66480,
+    "3": 7506,
+    "4": 932,
+    "5": 156,
+    "6": 28,
+    "7+": 11
+   },
+   "rules": {
+    "single": 598548,
+    "annex": 66696,
+    "hut-cluster": 8416,
+    "enclosure": 1
+   },
+   "coverage": {
+    "nways": 673661
+   },
+   "useTop": {
+    "residential": 757499,
+    "annex": 581,
+    "education": 179,
+    "commercial": 177,
+    "religious": 115,
+    "health": 71,
+    "office": 70,
+    "hospitality": 31,
+    "government": 27,
+    "industrial": 20,
+    "transport": 10,
+    "agricultural": 3,
+    "under_construction": 2
+   },
+   "useDetail": {
+    "residential": 757499,
+    "annex": 581,
+    "education": 179,
+    "commercial": 177,
+    "religious": 115,
+    "health": 71,
+    "office": 70,
+    "hospitality": 31,
+    "government": 27,
+    "industrial": 20,
+    "transport": 10,
+    "agricultural": 3,
+    "under_construction": 2
+   },
+   "floorsFrom": {
+    "none": 758593,
+    "osm:building:levels": 192
+   },
+   "floors": {
+    "1": 172,
+    "2": 6,
+    "3": 4,
+    "4": 10
+   },
+   "compoundsByDigits": {
+    "3": 62719,
+    "4": 474621,
+    "5": 136321
+   },
+   "annexCompounds": 66696,
+   "footprintAreaM2": {
+    "p10": 18.9,
+    "p25": 32.7,
+    "p50": 67.6,
+    "p75": 119.4,
+    "p90": 186.7
+   }
+  },
+  "Ouest": {
+   "compounds": 1209040,
+   "structures": 1351691,
+   "fromOpenStreetMap": 645001,
+   "structuresPerCompound": 1.118,
+   "shareStructuresInMultiStructureCompounds": 0.199,
+   "compoundSizeMix": {
+    "1": 1082739,
+    "2": 112400,
+    "3": 12057,
+    "4": 1459,
+    "5": 277,
+    "6": 60,
+    "7+": 48
+   },
+   "rules": {
+    "single": 1082733,
+    "annex": 115732,
+    "hut-cluster": 10541,
+    "enclosure": 34
+   },
+   "coverage": {
+    "nways": 1209040
+   },
+   "useTop": {
+    "residential": 1345772,
+    "annex": 3331,
+    "education": 840,
+    "commercial": 641,
+    "religious": 268,
+    "health": 224,
+    "hospitality": 184,
+    "office": 183,
+    "government": 90,
+    "industrial": 77,
+    "transport": 43,
+    "under_construction": 25,
+    "mixed": 9,
+    "ruin": 2,
+    "agricultural": 2
+   },
+   "useDetail": {
+    "residential": 1345772,
+    "annex": 3331,
+    "education": 840,
+    "commercial": 641,
+    "religious": 268,
+    "health": 224,
+    "hospitality": 184,
+    "office": 183,
+    "government": 90,
+    "industrial": 77,
+    "transport": 43,
+    "under_construction": 25,
+    "mixed": 9,
+    "ruin": 2,
+    "agricultural": 2
+   },
+   "floorsFrom": {
+    "none": 1351630,
+    "osm:building:levels": 60,
+    "osm:height": 1
+   },
+   "floors": {
+    "1": 31,
+    "2": 18,
+    "3": 6,
+    "4": 6
+   },
+   "compoundsByDigits": {
+    "3": 194157,
+    "4": 870000,
+    "5": 144883
+   },
+   "annexCompounds": 115732,
+   "footprintAreaM2": {
+    "p10": 22.5,
+    "p25": 47.2,
+    "p50": 86.2,
+    "p75": 128.7,
+    "p90": 179.1
+   }
+  },
+  "Sud": {
+   "compounds": 237733,
+   "structures": 267943,
+   "fromOpenStreetMap": 195542,
+   "structuresPerCompound": 1.127,
+   "shareStructuresInMultiStructureCompounds": 0.21,
+   "compoundSizeMix": {
+    "1": 211705,
+    "2": 22666,
+    "3": 2782,
+    "4": 435,
+    "5": 96,
+    "6": 29,
+    "7+": 20
+   },
+   "rules": {
+    "single": 211701,
+    "annex": 24094,
+    "hut-cluster": 1926,
+    "enclosure": 12
+   },
+   "coverage": {
+    "nways": 237733
+   },
+   "useTop": {
+    "residential": 264764,
+    "annex": 1706,
+    "commercial": 733,
+    "hospitality": 219,
+    "education": 148,
+    "religious": 109,
+    "health": 82,
+    "industrial": 65,
+    "government": 46,
+    "office": 46,
+    "under_construction": 16,
+    "mixed": 6,
+    "transport": 2,
+    "ruin": 1
+   },
+   "useDetail": {
+    "residential": 264764,
+    "annex": 1706,
+    "commercial": 733,
+    "hospitality": 219,
+    "education": 148,
+    "religious": 109,
+    "health": 82,
+    "industrial": 65,
+    "government": 46,
+    "office": 46,
+    "under_construction": 16,
+    "mixed": 6,
+    "transport": 2,
+    "ruin": 1
+   },
+   "floorsFrom": {
+    "none": 267913,
+    "osm:building:levels": 27,
+    "osm:height": 3
+   },
+   "floors": {
+    "1": 16,
+    "2": 10,
+    "3": 1,
+    "4": 3
+   },
+   "compoundsByDigits": {
+    "3": 112931,
+    "4": 103326,
+    "5": 21476
+   },
+   "annexCompounds": 24094,
+   "footprintAreaM2": {
+    "p10": 19.8,
+    "p25": 39.9,
+    "p50": 80.6,
+    "p75": 132.8,
+    "p90": 199.5
+   }
+  },
+  "Sud-Ouest": {
+   "compounds": 341541,
+   "structures": 401418,
+   "fromOpenStreetMap": 229402,
+   "structuresPerCompound": 1.175,
+   "shareStructuresInMultiStructureCompounds": 0.274,
+   "compoundSizeMix": {
+    "1": 291485,
+    "2": 42359,
+    "3": 6236,
+    "4": 1101,
+    "5": 228,
+    "6": 75,
+    "7+": 57
+   },
+   "rules": {
+    "single": 291480,
+    "annex": 46470,
+    "hut-cluster": 3578,
+    "enclosure": 13
+   },
+   "coverage": {
+    "nways": 341541
+   },
+   "useTop": {
+    "residential": 397044,
+    "annex": 2144,
+    "commercial": 806,
+    "education": 470,
+    "religious": 233,
+    "hospitality": 196,
+    "health": 167,
+    "office": 129,
+    "industrial": 89,
+    "under_construction": 68,
+    "government": 54,
+    "transport": 15,
+    "mixed": 3
+   },
+   "useDetail": {
+    "residential": 397044,
+    "annex": 2144,
+    "commercial": 806,
+    "education": 470,
+    "religious": 233,
+    "hospitality": 196,
+    "health": 167,
+    "office": 129,
+    "industrial": 89,
+    "under_construction": 68,
+    "government": 54,
+    "transport": 15,
+    "mixed": 3
+   },
+   "floorsFrom": {
+    "none": 400555,
+    "osm:building:levels": 863
+   },
+   "floors": {
+    "1": 837,
+    "2": 19,
+    "3": 6,
+    "4": 1
+   },
+   "compoundsByDigits": {
+    "3": 94905,
+    "4": 190769,
+    "5": 55867
+   },
+   "annexCompounds": 46470,
+   "footprintAreaM2": {
+    "p10": 18.0,
+    "p25": 33.5,
+    "p50": 76.1,
+    "p75": 149.0,
+    "p90": 233.3
+   }
+  }
+ },
+ "units": {
+  "DLA3": {
+   "compounds": 181571,
+   "structures": 225058
+  },
+  "MTSO": {
+   "compounds": 109872,
+   "structures": 173654
+  },
+  "DLA5": {
+   "compounds": 95433,
+   "structures": 117950
+  },
+  "MLOG": {
+   "compounds": 84638,
+   "structures": 127635
+  },
+  "YDE4": {
+   "compounds": 83425,
+   "structures": 98253
+  },
+  "MSAM": {
+   "compounds": 83062,
+   "structures": 135388
+  },
+  "MREO": {
+   "compounds": 80102,
+   "structures": 116323
+  },
+  "DLA4": {
+   "compounds": 78210,
+   "structures": 97263
+  },
+  "MAFB": {
+   "compounds": 74475,
+   "structures": 89283
+  },
+  "BAMA": {
+   "compounds": 72395,
+   "structures": 79664
+  },
+  "MRER": {
+   "compounds": 68875,
+   "structures": 102888
+  },
+  "MAFN": {
+   "compounds": 67082,
+   "structures": 77511
+  },
+  "BENN": {
+   "compounds": 66089,
+   "structures": 101933
+  },
+  "MNOP": {
+   "compounds": 65399,
+   "structures": 69593
+  },
+  "YDE1": {
+   "compounds": 64983,
+   "structures": 77106
+  },
+  "NDEB": {
+   "compounds": 63540,
+   "structures": 73490
+  },
+  "MBEM": {
+   "compounds": 59174,
+   "structures": 80603
+  },
+  "BAMM": {
+   "compounds": 58725,
+   "structures": 64943
+  },
+  "DIAM": {
+   "compounds": 56575,
+   "structures": 87947
+  },
+  "MAR3": {
+   "compounds": 55464,
+   "structures": 89489
+  },
+  "MRET": {
+   "compounds": 55415,
+   "structures": 79294
+  },
+  "MDAY": {
+   "compounds": 54440,
+   "structures": 82017
+  },
+  "MNON": {
+   "compounds": 53938,
+   "structures": 58434
+  },
+  "GAR2": {
+   "compounds": 53844,
+   "structures": 76313
+  },
+  "NGA1": {
+   "compounds": 53173,
+   "structures": 68657
+  },
+  "KKHP": {
+   "compounds": 52534,
+   "structures": 57580
+  },
+  "BAF2": {
+   "compounds": 52427,
+   "structures": 57999
+  },
+  "MAR1": {
+   "compounds": 52335,
+   "structures": 86920
+  },
+  "MNOD": {
+   "compounds": 52049,
+   "structures": 58228
+  },
+  "NGA2": {
+   "compounds": 51648,
+   "structures": 67581
+  },
+  "HPLA": {
+   "compounds": 50568,
+   "structures": 53930
+  },
+  "BENI": {
+   "compounds": 50192,
+   "structures": 77795
+  },
+  "YDE5": {
+   "compounds": 50154,
+   "structures": 59257
+  },
+  "NOUF": {
+   "compounds": 49977,
+   "structures": 59481
+  },
+  "BAF1": {
+   "compounds": 48996,
+   "structures": 55786
+  },
+  "BAF3": {
+   "compounds": 48900,
+   "structures": 52835
+  },
+  "YDE3": {
+   "compounds": 48846,
+   "structures": 55902
+  },
+  "BENL": {
+   "compounds": 48638,
+   "structures": 71222
+  },
+  "MLOM": {
+   "compounds": 48595,
+   "structures": 79347
+  },
+  "MKAK": {
+   "compounds": 47494,
+   "structures": 70558
+  },
+  "BENP": {
+   "compounds": 45654,
+   "structures": 69056
+  },
+  "YDE6": {
+   "compounds": 44785,
+   "structures": 51029
+  },
+  "KADB": {
+   "compounds": 44486,
+   "structures": 57996
+  },
+  "MDAM": {
+   "compounds": 44336,
+   "structures": 82834
+  },
+  "LOME": {
+   "compounds": 43762,
+   "structures": 56043
+  },
+  "GAR1": {
+   "compounds": 43314,
+   "structures": 60846
+  },
+  "DJET": {
+   "compounds": 42539,
+   "structures": 54500
+  },
+  "DOMN": {
+   "compounds": 41686,
+   "structures": 50079
+  },
+  "NOUO": {
+   "compounds": 41644,
+   "structures": 50962
+  },
+  "LOGK": {
+   "compounds": 40467,
+   "structures": 65697
+  },
+  "MLOF": {
+   "compounds": 39850,
+   "structures": 61969
+  },
+  "DIAB": {
+   "compounds": 38706,
+   "structures": 66585
+  },
+  "LEKA": {
+   "compounds": 38103,
+   "structures": 47987
+  },
+  "FAKB": {
+   "compounds": 37805,
+   "structures": 44948
+  },
+  "MAKM": {
+   "compounds": 37243,
+   "structures": 42788
+  },
+  "BANA": {
+   "compounds": 37225,
+   "structures": 49508
+  },
+  "MEZS": {
+   "compounds": 36219,
+   "structures": 39301
+  },
+  "BUIK": {
+   "compounds": 35943,
+   "structures": 40136
+  },
+  "YDE7": {
+   "compounds": 35810,
+   "structures": 41852
+  },
+  "BAMB": {
+   "compounds": 35496,
+   "structures": 39169
+  },
+  "LOGM": {
+   "compounds": 35360,
+   "structures": 52804
+  },
+  "DOMK": {
+   "compounds": 34181,
+   "structures": 40408
+  },
+  "BANB": {
+   "compounds": 33000,
+   "structures": 39507
+  },
+  "HNKD": {
+   "compounds": 32873,
+   "structures": 35906
+  },
+  "HPLN": {
+   "compounds": 32192,
+   "structures": 35449
+  },
+  "LOMG": {
+   "compounds": 31941,
+   "structures": 42430
+  },
+  "MKAO": {
+   "compounds": 31673,
+   "structures": 44867
+  },
+  "BDA3": {
+   "compounds": 31660,
+   "structures": 36187
+  },
+  "MSAT": {
+   "compounds": 31586,
+   "structures": 53758
+  },
+  "HPLB": {
+   "compounds": 31570,
+   "structures": 33957
+  },
+  "MEZT": {
+   "compounds": 31436,
+   "structures": 34439
+  },
+  "MAFM": {
+   "compounds": 31249,
+   "structures": 36180
+  },
+  "NOUU": {
+   "compounds": 31000,
+   "structures": 36032
+  },
+  "LOGG": {
+   "compounds": 30980,
+   "structures": 48620
+  },
+  "NOUA": {
+   "compounds": 30743,
+   "structures": 36004
+  },
+  "MDAK": {
+   "compounds": 30715,
+   "structures": 55413
+  },
+  "MAR2": {
+   "compounds": 29886,
+   "structures": 48530
+  },
+  "BDA2": {
+   "compounds": 29245,
+   "structures": 33355
+  },
+  "BENM": {
+   "compounds": 28925,
+   "structures": 43303
+  },
+  "BUIJ": {
+   "compounds": 28868,
+   "structures": 32324
+  },
+  "MTSM": {
+   "compounds": 28572,
+   "structures": 43772
+  },
+  "FARP": {
+   "compounds": 28549,
+   "structures": 40005
+  },
+  "LEKK": {
+   "compounds": 28438,
+   "structures": 32979
+  },
+  "DOMW": {
+   "compounds": 28088,
+   "structures": 32652
+  },
+  "MDAU": {
+   "compounds": 27350,
+   "structures": 54920
+  },
+  "MDAR": {
+   "compounds": 27249,
+   "structures": 34688
+  },
+  "VINY": {
+   "compounds": 27198,
+   "structures": 36890
+  },
+  "MREM": {
+   "compounds": 27137,
+   "structures": 40190
+  },
+  "MTSB": {
+   "compounds": 26815,
+   "structures": 41075
+  },
+  "DJLS": {
+   "compounds": 26742,
+   "structures": 30473
+  },
+  "DLA1": {
+   "compounds": 26154,
+   "structures": 34754
+  },
+  "LOGL": {
+   "compounds": 26052,
+   "structures": 41306
+  },
+  "MOUN": {
+   "compounds": 25950,
+   "structures": 32954
+  },
+  "BAMG": {
+   "compounds": 25903,
+   "structures": 27842
+  },
+  "MOUD": {
+   "compounds": 25402,
+   "structures": 30096
+  },
+  "FADT": {
+   "compounds": 25276,
+   "structures": 34452
+  },
+  "MDAG": {
+   "compounds": 25145,
+   "structures": 39378
+  },
+  "EBO2": {
+   "compounds": 25138,
+   "structures": 28396
+  },
+  "FAKT": {
+   "compounds": 25066,
+   "structures": 32989
+  },
+  "MENZ": {
+   "compounds": 24982,
+   "structures": 27956
+  },
+  "KADE": {
+   "compounds": 24633,
+   "structures": 31498
+  },
+  "MKAM": {
+   "compounds": 23744,
+   "structures": 39195
+  },
+  "NGKA": {
+   "compounds": 23721,
+   "structures": 25681
+  },
+  "MTSK": {
+   "compounds": 23625,
+   "structures": 33850
+  },
+  "MBIB": {
+   "compounds": 23374,
+   "structures": 30355
+  },
+  "BUIE": {
+   "compounds": 23321,
+   "structures": 25274
+  },
+  "NGKB": {
+   "compounds": 22960,
+   "structures": 25181
+  },
+  "BNGY": {
+   "compounds": 22945,
+   "structures": 26875
+  },
+  "NOUS": {
+   "compounds": 22581,
+   "structures": 26621
+  },
+  "NYSM": {
+   "compounds": 22315,
+   "structures": 25248
+  },
+  "KUM1": {
+   "compounds": 22237,
+   "structures": 25374
+  },
+  "LEKS": {
+   "compounds": 21938,
+   "structures": 25438
+  },
+  "DIAP": {
+   "compounds": 21858,
+   "structures": 36932
+  },
+  "BER2": {
+   "compounds": 21765,
+   "structures": 25940
+  },
+  "FAKM": {
+   "compounds": 21632,
+   "structures": 25910
+  },
+  "GAR3": {
+   "compounds": 21596,
+   "structures": 35458
+  },
+  "MSAK": {
+   "compounds": 21573,
+   "structures": 31724
+  },
+  "BER1": {
+   "compounds": 21293,
+   "structures": 25258
+  },
+  "MOMB": {
+   "compounds": 21248,
+   "structures": 22607
+  },
+  "MEZB": {
+   "compounds": 21066,
+   "structures": 23196
+  },
+  "KKHB": {
+   "compounds": 20945,
+   "structures": 22647
+  },
+  "LOMM": {
+   "compounds": 20913,
+   "structures": 26506
+  },
+  "DLA2": {
+   "compounds": 20862,
+   "structures": 27286
+  },
+  "KRI2": {
+   "compounds": 20785,
+   "structures": 24398
+  },
+  "VINM": {
+   "compounds": 20698,
+   "structures": 27784
+  },
+  "MANM": {
+   "compounds": 20683,
+   "structures": 23488
+  },
+  "NYMA": {
+   "compounds": 20656,
+   "structures": 22295
+  },
+  "NOUM": {
+   "compounds": 20482,
+   "structures": 24497
+  },
+  "VINN": {
+   "compounds": 20362,
+   "structures": 30334
+  },
+  "KMAT": {
+   "compounds": 20111,
+   "structures": 23769
+  },
+  "BENT": {
+   "compounds": 19952,
+   "structures": 27682
+  },
+  "BUIU": {
+   "compounds": 19819,
+   "structures": 23088
+  },
+  "NGKN": {
+   "compounds": 19789,
+   "structures": 21943
+  },
+  "FARB": {
+   "compounds": 19418,
+   "structures": 30628
+  },
+  "MOMM": {
+   "compounds": 19381,
+   "structures": 21439
+  },
+  "HNKK": {
+   "compounds": 19281,
+   "structures": 21287
+  },
+  "MDAA": {
+   "compounds": 19219,
+   "structures": 26387
+  },
+  "BOYB": {
+   "compounds": 18674,
+   "structures": 19586
+  },
+  "YDE2": {
+   "compounds": 18520,
+   "structures": 21465
+  },
+  "LIM1": {
+   "compounds": 18503,
+   "structures": 22410
+  },
+  "MNOS": {
+   "compounds": 18371,
+   "structures": 20396
+  },
+  "KADK": {
+   "compounds": 18214,
+   "structures": 24251
+  },
+  "NDEZ": {
+   "compounds": 18209,
+   "structures": 21117
+  },
+  "MBKG": {
+   "compounds": 18205,
+   "structures": 20656
+  },
+  "HNKB": {
+   "compounds": 17873,
+   "structures": 19828
+  },
+  "KUM3": {
+   "compounds": 17760,
+   "structures": 21271
+  },
+  "VINB": {
+   "compounds": 17360,
+   "structures": 23911
+  },
+  "KUM2": {
+   "compounds": 17353,
+   "structures": 20145
+  },
+  "MEMK": {
+   "compounds": 17235,
+   "structures": 19591
+  },
+  "MBKN": {
+   "compounds": 17145,
+   "structures": 20545
+  },
+  "HSAN": {
+   "compounds": 16840,
+   "structures": 19365
+  },
+  "NOUK": {
+   "compounds": 16678,
+   "structures": 19066
+  },
+  "MKAD": {
+   "compounds": 16533,
+   "structures": 20374
+  },
+  "MTSH": {
+   "compounds": 16525,
+   "structures": 27787
+  },
+  "MBKY": {
+   "compounds": 16497,
+   "structures": 18912
+  },
+  "LEKM": {
+   "compounds": 16253,
+   "structures": 17864
+  },
+  "MOUA": {
+   "compounds": 16174,
+   "structures": 18841
+  },
+  "MBED": {
+   "compounds": 15890,
+   "structures": 21346
+  },
+  "MBIO": {
+   "compounds": 15592,
+   "structures": 17901
+  },
+  "MANA": {
+   "compounds": 15407,
+   "structures": 19962
+  },
+  "MKAG": {
+   "compounds": 15369,
+   "structures": 20347
+  },
+  "BOYU": {
+   "compounds": 15344,
+   "structures": 16414
+  },
+  "MBKT": {
+   "compounds": 15041,
+   "structures": 16409
+  },
+  "LIM2": {
+   "compounds": 14997,
+   "structures": 17882
+  },
+  "DJEN": {
+   "compounds": 14988,
+   "structures": 18853
+  },
+  "MKAT": {
+   "compounds": 14865,
+   "structures": 17743
+  },
+  "MNOO": {
+   "compounds": 14704,
+   "structures": 15484
+  },
+  "DIAD": {
+   "compounds": 14671,
+   "structures": 23975
+  },
+  "LOGF": {
+   "compounds": 14656,
+   "structures": 21215
+  },
+  "DJLM": {
+   "compounds": 14630,
+   "structures": 15916
+  },
+  "HPLT": {
+   "compounds": 14566,
+   "structures": 15761
+  },
+  "LOMB": {
+   "compounds": 14551,
+   "structures": 18763
+  },
+  "MDAE": {
+   "compounds": 14492,
+   "structures": 18652
+  },
+  "NOUN": {
+   "compounds": 14463,
+   "structures": 17124
+  },
+  "MBIE": {
+   "compounds": 14419,
+   "structures": 18278
+  },
+  "EDE1": {
+   "compounds": 14378,
+   "structures": 14995
+  },
+  "MTSS": {
+   "compounds": 14366,
+   "structures": 20759
+  },
+  "NOUB": {
+   "compounds": 14213,
+   "structures": 16803
+  },
+  "VNTA": {
+   "compounds": 14159,
+   "structures": 16307
+  },
+  "BDA1": {
+   "compounds": 14138,
+   "structures": 16098
+  },
+  "MENB": {
+   "compounds": 13692,
+   "structures": 16399
+  },
+  "BUIM": {
+   "compounds": 13566,
+   "structures": 15195
+  },
+  "BENG": {
+   "compounds": 13524,
+   "structures": 20490
+  },
+  "BUIN": {
+   "compounds": 13115,
+   "structures": 14445
+  },
+  "BENB": {
+   "compounds": 12949,
+   "structures": 19979
+  },
+  "MOUL": {
+   "compounds": 12818,
+   "structures": 14422
+  },
+  "NGA3": {
+   "compounds": 12753,
+   "structures": 16903
+  },
+  "MEZA": {
+   "compounds": 12749,
+   "structures": 14738
+  },
+  "MOUP": {
+   "compounds": 12626,
+   "structures": 14805
+  },
+  "MOUM": {
+   "compounds": 12445,
+   "structures": 14758
+  },
+  "BOYN": {
+   "compounds": 12392,
+   "structures": 12975
+  },
+  "VINE": {
+   "compounds": 12246,
+   "structures": 18290
+  },
+  "BANM": {
+   "compounds": 12176,
+   "structures": 15607
+  },
+  "NKS3": {
+   "compounds": 12139,
+   "structures": 13947
+  },
+  "HNKE": {
+   "compounds": 12118,
+   "structures": 13902
+  },
+  "DJLZ": {
+   "compounds": 11964,
+   "structures": 13196
+  },
+  "MBEJ": {
+   "compounds": 11894,
+   "structures": 17034
+  },
+  "NYMY": {
+   "compounds": 11730,
+   "structures": 12954
+  },
+  "MKAU": {
+   "compounds": 11699,
+   "structures": 17320
+  },
+  "KKHD": {
+   "compounds": 11574,
+   "structures": 12351
+  },
+  "DIAN": {
+   "compounds": 11467,
+   "structures": 19466
+  },
+  "MEMM": {
+   "compounds": 11257,
+   "structures": 12280
+  },
+  "HNYA": {
+   "compounds": 11133,
+   "structures": 12765
+  },
+  "HNKN": {
+   "compounds": 11106,
+   "structures": 12586
+  },
+  "KADM": {
+   "compounds": 10997,
+   "structures": 14193
+  },
+  "NKAY": {
+   "compounds": 10986,
+   "structures": 12242
+  },
+  "LOMN": {
+   "compounds": 10945,
+   "structures": 13768
+  },
+  "MENW": {
+   "compounds": 10943,
+   "structures": 12718
+  },
+  "KADN": {
+   "compounds": 10804,
+   "structures": 13847
+  },
+  "DOMA": {
+   "compounds": 10721,
+   "structures": 14146
+  },
+  "MBKM": {
+   "compounds": 10621,
+   "structures": 12124
+  },
+  "BOYF": {
+   "compounds": 10547,
+   "structures": 11929
+  },
+  "MAKB": {
+   "compounds": 10543,
+   "structures": 11659
+  },
+  "DOMM": {
+   "compounds": 10462,
+   "structures": 12352
+  },
+  "MNOF": {
+   "compounds": 10427,
+   "structures": 11239
+  },
+  "HSAK": {
+   "compounds": 10039,
+   "structures": 11653
+  },
+  "NKS2": {
+   "compounds": 9934,
+   "structures": 12098
+  },
+  "NDET": {
+   "compounds": 9744,
+   "structures": 11465
+  },
+  "MAFW": {
+   "compounds": 9726,
+   "structures": 10765
+  },
+  "NYKM": {
+   "compounds": 9702,
+   "structures": 10879
+  },
+  "LOGD": {
+   "compounds": 9622,
+   "structures": 14397
+  },
+  "LEKL": {
+   "compounds": 9599,
+   "structures": 11219
+  },
+  "FADG": {
+   "compounds": 9554,
+   "structures": 13765
+  },
+  "FADM": {
+   "compounds": 9447,
+   "structures": 14046
+  },
+  "DIAG": {
+   "compounds": 9440,
+   "structures": 15877
+  },
+  "HNYK": {
+   "compounds": 9374,
+   "structures": 10882
+  },
+  "NYSN": {
+   "compounds": 9274,
+   "structures": 10049
+  },
+  "LOGZ": {
+   "compounds": 9215,
+   "structures": 16528
+  },
+  "MBIM": {
+   "compounds": 9197,
+   "structures": 10967
+  },
+  "HSAM": {
+   "compounds": 9189,
+   "structures": 10952
+  },
+  "BEND": {
+   "compounds": 9102,
+   "structures": 13970
+  },
+  "VNTK": {
+   "compounds": 9066,
+   "structures": 10604
+  },
+  "LEBW": {
+   "compounds": 8924,
+   "structures": 10022
+  },
+  "HNYE": {
+   "compounds": 8591,
+   "structures": 9673
+  },
+  "LOGH": {
+   "compounds": 8554,
+   "structures": 12929
+  },
+  "MVIM": {
+   "compounds": 8484,
+   "structures": 9393
+  },
+  "MOMW": {
+   "compounds": 8435,
+   "structures": 9452
+  },
+  "DLA6": {
+   "compounds": 8414,
+   "structures": 9823
+  },
+  "KRI1": {
+   "compounds": 8391,
+   "structures": 9433
+  },
+  "BNGM": {
+   "compounds": 8342,
+   "structures": 9831
+  },
+  "NYKE": {
+   "compounds": 8305,
+   "structures": 9124
+  },
+  "MOUB": {
+   "compounds": 8072,
+   "structures": 9925
+  },
+  "EBO1": {
+   "compounds": 8064,
+   "structures": 9194
+  },
+  "LEKE": {
+   "compounds": 8043,
+   "structures": 8919
+  },
+  "DJLD": {
+   "compounds": 7960,
+   "structures": 9210
+  },
+  "LOGB": {
+   "compounds": 7851,
+   "structures": 11361
+  },
+  "LEBA": {
+   "compounds": 7687,
+   "structures": 8244
+  },
+  "MDAD": {
+   "compounds": 7558,
+   "structures": 9370
+  },
+  "NDIE": {
+   "compounds": 7467,
+   "structures": 8304
+  },
+  "LEBM": {
+   "compounds": 7370,
+   "structures": 7999
+  },
+  "LEKV": {
+   "compounds": 7290,
+   "structures": 7922
+  },
+  "KMAN": {
+   "compounds": 7279,
+   "structures": 8084
+  },
+  "HNYL": {
+   "compounds": 7220,
+   "structures": 8520
+  },
+  "MOUO": {
+   "compounds": 7067,
+   "structures": 8042
+  },
+  "LOGW": {
+   "compounds": 6974,
+   "structures": 10529
+  },
+  "MAFS": {
+   "compounds": 6908,
+   "structures": 7453
+  },
+  "MBII": {
+   "compounds": 6777,
+   "structures": 7576
+  },
+  "MAKN": {
+   "compounds": 6766,
+   "structures": 7497
+  },
+  "MDAW": {
+   "compounds": 6716,
+   "structures": 8627
+  },
+  "NYME": {
+   "compounds": 6653,
+   "structures": 7047
+  },
+  "MVIV": {
+   "compounds": 6602,
+   "structures": 7522
+  },
+  "HSAI": {
+   "compounds": 6537,
+   "structures": 7650
+  },
+  "NKAK": {
+   "compounds": 6428,
+   "structures": 7142
+  },
+  "NYKA": {
+   "compounds": 6387,
+   "structures": 7123
+  },
+  "NYKT": {
+   "compounds": 6353,
+   "structures": 6873
+  },
+  "KMAB": {
+   "compounds": 6348,
+   "structures": 7164
+  },
+  "OCEM": {
+   "compounds": 6265,
+   "structures": 6761
+  },
+  "LEKB": {
+   "compounds": 6208,
+   "structures": 7322
+  },
+  "SAMP": {
+   "compounds": 6190,
+   "structures": 6558
+  },
+  "OCEL": {
+   "compounds": 6149,
+   "structures": 6720
+  },
+  "MOUE": {
+   "compounds": 6126,
+   "structures": 7208
+  },
+  "HNYO": {
+   "compounds": 6119,
+   "structures": 6809
+  },
+  "MTSZ": {
+   "compounds": 6068,
+   "structures": 8637
+  },
+  "SAMD": {
+   "compounds": 5971,
+   "structures": 6585
+  },
+  "MBEN": {
+   "compounds": 5869,
+   "structures": 8654
+  },
+  "OCEN": {
+   "compounds": 5852,
+   "structures": 7155
+  },
+  "MBIK": {
+   "compounds": 5821,
+   "structures": 6998
+  },
+  "MOMA": {
+   "compounds": 5795,
+   "structures": 6113
+  },
+  "BNGG": {
+   "compounds": 5769,
+   "structures": 7045
+  },
+  "MOMN": {
+   "compounds": 5769,
+   "structures": 6243
+  },
+  "MANT": {
+   "compounds": 5745,
+   "structures": 6252
+  },
+  "BNGS": {
+   "compounds": 5722,
+   "structures": 6711
+  },
+  "NYSK": {
+   "compounds": 5584,
+   "structures": 6024
+  },
+  "DJLB": {
+   "compounds": 5547,
+   "structures": 6016
+  },
+  "OCEO": {
+   "compounds": 5457,
+   "structures": 5952
+  },
+  "LOMD": {
+   "compounds": 5420,
+   "structures": 6611
+  },
+  "EDE2": {
+   "compounds": 5387,
+   "structures": 5605
+  },
+  "VNTM": {
+   "compounds": 5366,
+   "structures": 5837
+  },
+  "SAMN": {
+   "compounds": 5330,
+   "structures": 5923
+  },
+  "MVIN": {
+   "compounds": 5237,
+   "structures": 5627
+  },
+  "MDAT": {
+   "compounds": 5154,
+   "structures": 6267
+  },
+  "MBID": {
+   "compounds": 5120,
+   "structures": 5801
+  },
+  "HNYU": {
+   "compounds": 5102,
+   "structures": 6031
+  },
+  "MAKA": {
+   "compounds": 5061,
+   "structures": 5498
+  },
+  "SAMI": {
+   "compounds": 5006,
+   "structures": 5645
+  },
+  "HNYN": {
+   "compounds": 4982,
+   "structures": 5488
+  },
+  "NYKS": {
+   "compounds": 4861,
+   "structures": 5182
+  },
+  "LEKO": {
+   "compounds": 4739,
+   "structures": 5169
+  },
+  "MVII": {
+   "compounds": 4689,
+   "structures": 5216
+  },
+  "NDIB": {
+   "compounds": 4606,
+   "structures": 4984
+  },
+  "NYSD": {
+   "compounds": 4560,
+   "structures": 4857
+  },
+  "MVIB": {
+   "compounds": 4503,
+   "structures": 4983
+  },
+  "SAMY": {
+   "compounds": 4440,
+   "structures": 4809
+  },
+  "DJLE": {
+   "compounds": 4367,
+   "structures": 4869
+  },
+  "NYKN": {
+   "compounds": 4352,
+   "structures": 4957
+  },
+  "KADO": {
+   "compounds": 4294,
+   "structures": 5450
+  },
+  "SAMO": {
+   "compounds": 4270,
+   "structures": 4791
+  },
+  "HNYD": {
+   "compounds": 4223,
+   "structures": 4964
+  },
+  "NYSE": {
+   "compounds": 4196,
+   "structures": 4512
+  },
+  "KADG": {
+   "compounds": 4159,
+   "structures": 5528
+  },
+  "HNKA": {
+   "compounds": 4151,
+   "structures": 4600
+  },
+  "MVIE": {
+   "compounds": 4117,
+   "structures": 4495
+  },
+  "HNYT": {
+   "compounds": 4081,
+   "structures": 4502
+  },
+  "OCEB": {
+   "compounds": 4069,
+   "structures": 4324
+  },
+  "HNKW": {
+   "compounds": 4048,
+   "structures": 4676
+  },
+  "NDII": {
+   "compounds": 3850,
+   "structures": 4267
+  },
+  "NKS1": {
+   "compounds": 3772,
+   "structures": 4305
+  },
+  "MENF": {
+   "compounds": 3706,
+   "structures": 4736
+  },
+  "MANE": {
+   "compounds": 3687,
+   "structures": 4447
+  },
+  "LIM3": {
+   "compounds": 3609,
+   "structures": 4068
+  },
+  "NYKD": {
+   "compounds": 3606,
+   "structures": 3900
+  },
+  "NDIM": {
+   "compounds": 3556,
+   "structures": 4044
+  },
+  "NYSA": {
+   "compounds": 3517,
+   "structures": 3785
+  },
+  "NYMM": {
+   "compounds": 3508,
+   "structures": 3804
+  },
+  "NKAN": {
+   "compounds": 3367,
+   "structures": 3709
+  },
+  "SAMM": {
+   "compounds": 3346,
+   "structures": 3594
+  },
+  "HNYI": {
+   "compounds": 3323,
+   "structures": 4470
+  },
+  "OCEA": {
+   "compounds": 3317,
+   "structures": 3627
+  },
+  "NYMK": {
+   "compounds": 3247,
+   "structures": 3477
+  },
+  "VNTO": {
+   "compounds": 3236,
+   "structures": 3598
+  },
+  "HSAL": {
+   "compounds": 3187,
+   "structures": 3426
+  },
+  "MBIN": {
+   "compounds": 3136,
+   "structures": 3502
+  },
+  "SAMW": {
+   "compounds": 3117,
+   "structures": 3424
+  },
+  "NYKG": {
+   "compounds": 3017,
+   "structures": 3380
+  },
+  "HNYM": {
+   "compounds": 3012,
+   "structures": 3370
+  },
+  "HSAS": {
+   "compounds": 2958,
+   "structures": 3721
+  },
+  "HNYG": {
+   "compounds": 2776,
+   "structures": 3118
+  },
+  "HNYS": {
+   "compounds": 2753,
+   "structures": 3155
+  },
+  "HSAB": {
+   "compounds": 2711,
+   "structures": 3116
+  },
+  "MAFE": {
+   "compounds": 2708,
+   "structures": 2987
+  },
+  "DJLO": {
+   "compounds": 2685,
+   "structures": 3113
+  },
+  "OCEC": {
+   "compounds": 2660,
+   "structures": 3035
+  },
+  "NDEA": {
+   "compounds": 2637,
+   "structures": 2957
+  },
+  "FAKI": {
+   "compounds": 2627,
+   "structures": 3349
+  },
+  "SAMG": {
+   "compounds": 2619,
+   "structures": 2802
+  },
+  "MOUC": {
+   "compounds": 2464,
+   "structures": 3019
+  },
+  "NYKO": {
+   "compounds": 2345,
+   "structures": 2639
+  },
+  "DJLI": {
+   "compounds": 2232,
+   "structures": 2573
+  },
+  "MAFO": {
+   "compounds": 2210,
+   "structures": 2390
+  },
+  "NDID": {
+   "compounds": 2158,
+   "structures": 2340
+  },
+  "NDIS": {
+   "compounds": 2103,
+   "structures": 2526
+  },
+  "MBIT": {
+   "compounds": 2081,
+   "structures": 2213
+  },
+  "FADK": {
+   "compounds": 1983,
+   "structures": 2928
+  },
+  "NDIT": {
+   "compounds": 1932,
+   "structures": 2144
+  },
+  "NKAI": {
+   "compounds": 1307,
+   "structures": 1466
+  },
+  "NDIO": {
+   "compounds": 1285,
+   "structures": 1643
+  },
+  "HNYB": {
+   "compounds": 1280,
+   "structures": 1412
+  },
+  "NDIK": {
+   "compounds": 1262,
+   "structures": 1518
+  },
+  "MAFA": {
+   "compounds": 1203,
+   "structures": 1343
+  },
+  "NYKB": {
+   "compounds": 876,
+   "structures": 972
+  }
+ },
+ "validation": {
+  "mappedEnclosures": 854,
+  "byKind": {
+   "osm-fence": 131,
+   "osm-wall": 645,
+   "osm-hedge": 74,
+   "osm-retaining_wall": 4
+  },
+  "whole": 90,
+  "exact": 79,
+  "missingOne": 345,
+  "shareWhole": 0.105,
+  "shareExact": 0.093,
+  "shareMissingOne": 0.404
+ },
+ "access": {
+  "health": {
+   "facilities": 2287,
+   "within2km": 0.373,
+   "within5km": 0.529,
+   "medianKm": 4.3
+  },
+  "school": {
+   "facilities": 5273,
+   "within2km": 0.422,
+   "within5km": 0.56,
+   "medianKm": 3.5
+  },
+  "police": {
+   "facilities": 460,
+   "within2km": 0.21,
+   "within5km": 0.321,
+   "medianKm": 13.1
+  },
+  "pharmacy": {
+   "facilities": 521,
+   "within2km": 0.186,
+   "within5km": 0.281,
+   "medianKm": 19.6
+  }
+ },
+ "accessSample": 20000
+}

@@ -1,0 +1,2007 @@
+# OpenAPI 3.1 description of the registry API of N-Ways Addressing for Cameroon (server/).
+# Every example is a real response of the server on the published registry (docs/api.md).
+openapi: 3.1.0
+info:
+  title: 'N-Ways Addressing for Cameroon: registry API'
+  version: 1.0.0
+  description: 'The API of the registry server in server/: every published code of Cameroon, look-ups by remembered form,
+    machine form, official address, spot code and point, and on-demand issue by the rules of engine/SPEC.md. Every response
+    is JSON; every error is {"error": {"code", "message"}}. Data: ODbL 1.0; credit "N-Ways Addressing for Cameroon, © N-WAYS
+    LIMITED (nways.ng)". Every example is a real response of the server on the published registry (docs/api.md).'
+  license:
+    name: Apache-2.0
+    identifier: Apache-2.0
+  contact:
+    name: N-WAYS LIMITED
+    url: https://nways.ng
+    email: hello@nways.ng
+servers:
+- url: http://localhost:8080
+  description: A local deployment (docker compose up)
+paths:
+  /v1/health:
+    get:
+      summary: Liveness and the registry served.
+      description: Liveness and the registry served.
+      operationId: health
+      security: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Health'
+              example:
+                status: ok
+                country: CM
+                codes: 7243272
+                registryExported: '2026-10-21T14:51:04Z'
+                issuing: true
+        '404':
+          description: An endpoint that does not exist
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: not_found
+                  message: There is no endpoint /v1/codez; see /v1/info and docs/api.md.
+        '405':
+          description: A method an endpoint does not allow
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: method_not_allowed
+                  message: DELETE is not allowed here; use GET.
+  /v1/info:
+    get:
+      summary: The country, its arrondissements and counts, licences, credit line and engine.
+      description: The country, its arrondissements and counts, licences, credit line and engine.
+      operationId: info
+      security: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Info'
+              example:
+                country: CM
+                name: Cameroon
+                codes: 7243272
+                byStatus:
+                  provisional: 7243272
+                byIssue:
+                  bulk: 7243272
+                zones:
+                - key: BAF1
+                  name: Bafoussam I
+                  nameEn: Bafoussam 1
+                  region: CM-OU
+                  codes: 48996
+                  areas: 48
+                - key: BAF2
+                  name: Bafoussam II
+                  nameEn: Bafoussam 2
+                  region: CM-OU
+                  codes: 52427
+                  areas: 51
+                - key: BAF3
+                  name: Bafoussam III
+                  nameEn: Bafoussam 3
+                  region: CM-OU
+                  codes: 48900
+                  areas: 51
+                areas: 24213
+                areasWithCodes: 23208
+                names: 17240
+                registryExported: '2026-10-21T14:51:04Z'
+                importedAt: '2026-10-21T14:59:35Z'
+                engine: internal/addressing/cm (SPEC v1.0)
+                spec: engine/SPEC.md
+                licences:
+                  data: ODbL 1.0 (LICENSE-DATA)
+                  code: Apache-2.0 (LICENSE)
+                  documents: CC BY 4.0 (LICENSE-DOCS)
+                credit: N-Ways Addressing for Cameroon, © N-WAYS LIMITED (nways.ng)
+                creditUrl: https://github.com/n-ways/open-addresses-cameroon
+                issuing: true
+                issuePerDay: 50
+                example:
+                  remembered: Bonapriso 14 01
+                  machine: CM-DLA1-015-1401-6
+                  spot: CM-DLA1 E0449 N0268
+  /v1/codes/{machine}:
+    get:
+      summary: 'The full card of an issued code: every registry column under `record`, named, with the spot code, Plus Code,
+        area, arrondissement, and the remembered, written and spoken forms.'
+      description: 'The full card of an issued code: every registry column under `record`, named, with the spot code, Plus
+        Code, area, arrondissement, and the remembered, written and spoken forms. People see the remembered or written form,
+        never the check digit.'
+      operationId: getCode
+      parameters:
+      - name: machine
+        in: path
+        required: true
+        description: Machine form with its check digit.
+        schema:
+          type: string
+      security: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Card'
+              example:
+                country: CM
+                machine: CM-DLA1-015-1401-6
+                home: Bonapriso 1401
+                written: Bonapriso 14 01
+                spoken: Bonapriso, 14 01
+                number: 1401
+                check: 6
+                status: provisional
+                issued: bulk
+                issuedAt: '2026-10-21T06:05:31Z'
+                area:
+                  key: DLA1-015
+                  id: 4368
+                  plateName: Bonapriso
+                  officialName: Bonapriso
+                  provisionalName: false
+                  zone: DLA1
+                  zoneName: Douala I
+                zone:
+                  key: DLA1
+                  name: Douala I
+                  nameEn: Douala 1
+                  region: CM-LT
+                  language: fr
+                  index: 20
+                officialAddress: null
+                entrance:
+                  lat: 4.0243022
+                  lng: 9.6904852
+                  kind: centre
+                spotCode: CM-DLA1 E0449 N0268
+                plusCode: 6FPF2MFR+P5H
+                profile:
+                  class: residential
+                  use: residential
+                  kind: building
+                  structures: 1
+                  floorAreaM2: 852.7
+                  rule: single
+                  estate: null
+                record:
+                  machine: CM-DLA1-015-1401-6
+                  home: Bonapriso 1401
+                  written: Bonapriso 14 01
+                  zone: DLA1-015
+                  official_name: Bonapriso
+                  number: '1401'
+                  check: '6'
+                  status: provisional
+                  issued: bulk
+                  issued_at: '2026-10-21T06:05:31Z'
+                  entrance_lat: '4.0243022'
+                  entrance_lng: '9.6904852'
+                  entrance_kind: centre
+                  spot_code: CM-DLA1 E0449 N0268
+                  official_address: ''
+                  class: residential
+                  use: residential
+                  kind: building
+                  structures: '1'
+                  floor_area_m2: '852.7'
+                  rule: single
+                  estate: ''
+                credit: N-Ways Addressing for Cameroon, © N-WAYS LIMITED (nways.ng)
+                creditUrl: https://github.com/n-ways/open-addresses-cameroon
+        '400':
+          description: Without its check digit
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: bad_code
+                  message: A machine code ends with its check digit; use /v1/find to look up a code without it.
+        '404':
+          description: An area that does not exist
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: unknown_area
+                  message: There is no area 999 in zone DLA1.
+        '422':
+          description: A wrong check digit is refused, not corrected
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: check_digit
+                  message: 'The check digit does not match: a digit is wrong or two are swapped.'
+    patch:
+      summary: 'Confirms a code, retires it (for good: its number is never given again), or moves its entrance to the real
+        gate or door, at most 80 m away.'
+      description: 'Confirms a code, retires it (for good: its number is never given again), or moves its entrance to the
+        real gate or door, at most 80 m away and never more than 300 m outside the national border (422 outside). Needs
+        `Authorization: Bearer <key>`.'
+      operationId: changeCode
+      parameters:
+      - name: machine
+        in: path
+        required: true
+        description: Machine form with its check digit.
+        schema:
+          type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ChangeRequest'
+            example:
+              status: confirmed
+      security:
+      - issuingKey: []
+      responses:
+        '200':
+          description: Confirm a code
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Card'
+              example:
+                country: CM
+                machine: CM-DLA1-015-2286-3
+                home: Bonapriso 2286
+                written: Bonapriso 22 86
+                spoken: Bonapriso, 22 86
+                number: 2286
+                check: 3
+                status: confirmed
+                issued: on-demand
+                issuedAt: '2026-10-21T15:04:38Z'
+                area:
+                  key: DLA1-015
+                  id: 4368
+                  plateName: Bonapriso
+                  officialName: Bonapriso
+                  provisionalName: false
+                  zone: DLA1
+                  zoneName: Douala I
+                zone:
+                  key: DLA1
+                  name: Douala I
+                  nameEn: Douala 1
+                  region: CM-LT
+                  language: fr
+                  index: 20
+                officialAddress: null
+                entrance:
+                  lat: 4.0243022
+                  lng: 9.6905933
+                  kind: centre
+                spotCode: CM-DLA1 E0450 N0268
+                plusCode: 6FPF2MFR+P6G
+                profile:
+                  class: residential
+                  use: residential
+                  kind: building
+                  structures: 1
+                  floorAreaM2: 245.6
+                  rule: null
+                  estate: null
+                record:
+                  machine: CM-DLA1-015-2286-3
+                  home: Bonapriso 2286
+                  written: Bonapriso 22 86
+                  zone: DLA1-015
+                  official_name: Bonapriso
+                  number: '2286'
+                  check: '3'
+                  status: confirmed
+                  issued: on-demand
+                  issued_at: '2026-10-21T15:04:38Z'
+                  entrance_lat: '4.0243022'
+                  entrance_lng: '9.6905933'
+                  entrance_kind: centre
+                  spot_code: CM-DLA1 E0450 N0268
+                  official_address: ''
+                  class: residential
+                  use: residential
+                  kind: building
+                  structures: '1'
+                  floor_area_m2: '245.6'
+                  rule: ''
+                  estate: ''
+                credit: N-Ways Addressing for Cameroon, © N-WAYS LIMITED (nways.ng)
+                creditUrl: https://github.com/n-ways/open-addresses-cameroon
+        '400':
+          description: A status that does not exist
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: bad_status
+                  message: status is provisional, confirmed or retired.
+        '404':
+          description: A code that does not exist
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: unknown_code
+                  message: There is no code CM-DLA1-015-2929-9.
+        '409':
+          description: A retired code never comes back
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: retired
+                  message: Bonapriso 2286 is retired; a retired code never comes back and its number is never reused.
+        '422':
+          description: An entrance more than 80 m away
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: too_far
+                  message: The new entrance is 218 m from the old one; it may move at most 80 m.
+  /v1/find:
+    get:
+      summary: 'Finds a code from what a person says or types: a remembered or written form in any spacing, case or accents
+        (`Bonapriso 14 01`, `bonapriso1401`), an official name in place of the plate name, a machine form, an official address,
+        or a spot code.'
+      description: 'Finds a code from what a person says or types: a remembered or written form in any spacing, case or accents
+        (`Bonapriso 14 01`, `bonapriso1401`), an official name in place of the plate name, a machine form, an official address,
+        or a spot code. A check digit sent by a system after a hyphen is verified; a wrong one is refused, never guessed.
+        `limit` (1-100, default 20) caps the matches of an official address.'
+      operationId: find
+      parameters:
+      - name: q
+        in: query
+        required: true
+        description: A remembered or written form, a machine form, an official address or a spot code.
+        schema:
+          type: string
+      - name: limit
+        in: query
+        required: false
+        description: Most matches of an official address (1-100, default 20).
+        schema:
+          type: integer
+      security: []
+      responses:
+        '200':
+          description: A remembered form, typed loosely
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Find'
+              example:
+                query: bonapriso 1401
+                kind: remembered
+                matches:
+                - country: CM
+                  machine: CM-DLA1-015-1401-6
+                  home: Bonapriso 1401
+                  written: Bonapriso 14 01
+                  spoken: Bonapriso, 14 01
+                  number: 1401
+                  check: 6
+                  status: provisional
+                  issued: bulk
+                  issuedAt: '2026-10-21T06:05:31Z'
+                  area:
+                    key: DLA1-015
+                    id: 4368
+                    plateName: Bonapriso
+                    officialName: Bonapriso
+                    provisionalName: false
+                    zone: DLA1
+                    zoneName: Douala I
+                  zone:
+                    key: DLA1
+                    name: Douala I
+                    nameEn: Douala 1
+                    region: CM-LT
+                    language: fr
+                    index: 20
+                  officialAddress: null
+                  entrance:
+                    lat: 4.0243022
+                    lng: 9.6904852
+                    kind: centre
+                  spotCode: CM-DLA1 E0449 N0268
+                  plusCode: 6FPF2MFR+P5H
+                  profile:
+                    class: residential
+                    use: residential
+                    kind: building
+                    structures: 1
+                    floorAreaM2: 852.7
+                    rule: single
+                    estate: null
+                  record:
+                    machine: CM-DLA1-015-1401-6
+                    home: Bonapriso 1401
+                    written: Bonapriso 14 01
+                    zone: DLA1-015
+                    official_name: Bonapriso
+                    number: '1401'
+                    check: '6'
+                    status: provisional
+                    issued: bulk
+                    issued_at: '2026-10-21T06:05:31Z'
+                    entrance_lat: '4.0243022'
+                    entrance_lng: '9.6904852'
+                    entrance_kind: centre
+                    spot_code: CM-DLA1 E0449 N0268
+                    official_address: ''
+                    class: residential
+                    use: residential
+                    kind: building
+                    structures: '1'
+                    floor_area_m2: '852.7'
+                    rule: single
+                    estate: ''
+                  credit: N-Ways Addressing for Cameroon, © N-WAYS LIMITED (nways.ng)
+                  creditUrl: https://github.com/n-ways/open-addresses-cameroon
+                total: 1
+        '400':
+          description: No query
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: missing_q
+                  message: The query parameter q is required.
+        '404':
+          description: A number with the wrong count of digits
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: wrong_length
+                  message: Numbers of Bonapriso have 4 digits.
+        '422':
+          description: A wrong check digit after a remembered form
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: check_digit
+                  message: 'The check digit does not match: a mistyped name or number.'
+  /v1/at:
+    get:
+      summary: 'The code of the compound at a point: the nearest live entrance within 12 m (or an outline issued on this server
+        that holds the point), as the N-Ways service decides "found".'
+      description: 'The code of the compound at a point: the nearest live entrance within 12 m (or an outline issued on this
+        server that holds the point), as the N-Ways service decides "found". Otherwise `status: "none"`, the area a new compound
+        there would join, and the nearest code within 100 m. A point is in Cameroon when an arrondissement outline holds
+        it, or when the spot-code rule gives it a zone ([SPEC §5](../engine/SPEC.md#5-spot-codes)), as the compounds in the
+        slivers between outlines and along the shoreline and the border are; a point the rule refuses (no outline within
+        12 km, or no frame within 5,000 m) is outside (404 outside).'
+      operationId: at
+      parameters:
+      - name: lat
+        in: query
+        required: true
+        description: Latitude, WGS 84 degrees.
+        schema:
+          type: number
+      - name: lng
+        in: query
+        required: true
+        description: Longitude, WGS 84 degrees.
+        schema:
+          type: number
+      security: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/At'
+              example:
+                status: found
+                code:
+                  country: CM
+                  machine: CM-DLA1-015-1401-6
+                  home: Bonapriso 1401
+                  written: Bonapriso 14 01
+                  spoken: Bonapriso, 14 01
+                  number: 1401
+                  check: 6
+                  status: provisional
+                  issued: bulk
+                  issuedAt: '2026-10-21T06:05:31Z'
+                  area:
+                    key: DLA1-015
+                    id: 4368
+                    plateName: Bonapriso
+                    officialName: Bonapriso
+                    provisionalName: false
+                    zone: DLA1
+                    zoneName: Douala I
+                  zone:
+                    key: DLA1
+                    name: Douala I
+                    nameEn: Douala 1
+                    region: CM-LT
+                    language: fr
+                    index: 20
+                  officialAddress: null
+                  entrance:
+                    lat: 4.0243022
+                    lng: 9.6904852
+                    kind: centre
+                  spotCode: CM-DLA1 E0449 N0268
+                  plusCode: 6FPF2MFR+P5H
+                  profile:
+                    class: residential
+                    use: residential
+                    kind: building
+                    structures: 1
+                    floorAreaM2: 852.7
+                    rule: single
+                    estate: null
+                  record:
+                    machine: CM-DLA1-015-1401-6
+                    home: Bonapriso 1401
+                    written: Bonapriso 14 01
+                    zone: DLA1-015
+                    official_name: Bonapriso
+                    number: '1401'
+                    check: '6'
+                    status: provisional
+                    issued: bulk
+                    issued_at: '2026-10-21T06:05:31Z'
+                    entrance_lat: '4.0243022'
+                    entrance_lng: '9.6904852'
+                    entrance_kind: centre
+                    spot_code: CM-DLA1 E0449 N0268
+                    official_address: ''
+                    class: residential
+                    use: residential
+                    kind: building
+                    structures: '1'
+                    floor_area_m2: '852.7'
+                    rule: single
+                    estate: ''
+                  credit: N-Ways Addressing for Cameroon, © N-WAYS LIMITED (nways.ng)
+                  creditUrl: https://github.com/n-ways/open-addresses-cameroon
+                distanceM: 0
+                area:
+                  key: DLA1-015
+                  id: 4368
+                  plateName: Bonapriso
+                  officialName: Bonapriso
+                  provisionalName: false
+                  zone: DLA1
+                  zoneName: Douala I
+        '400':
+          description: A coordinate that is not a number
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: bad_lat
+                  message: lat is a number.
+        '404':
+          description: Outside Cameroon
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: outside
+                  message: The point is outside Cameroon.
+  /v1/near:
+    get:
+      summary: The codes whose entrance lies within `radius` metres (default 100, at most 500), nearest first, at most `limit`
+        (default and maximum 100).
+      description: The codes whose entrance lies within `radius` metres (default 100, at most 500), nearest first, at most
+        `limit` (default and maximum 100). `total` counts them all. The point must be in Cameroon, as for `GET /v1/at` (404
+        outside).
+      operationId: near
+      parameters:
+      - name: lat
+        in: query
+        required: true
+        description: Latitude.
+        schema:
+          type: number
+      - name: lng
+        in: query
+        required: true
+        description: Longitude.
+        schema:
+          type: number
+      - name: radius
+        in: query
+        required: false
+        description: Metres, more than 0 and at most 500 (default 100).
+        schema:
+          type: number
+      - name: limit
+        in: query
+        required: false
+        description: Most codes returned (1-100, default 100).
+        schema:
+          type: integer
+      security: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Near'
+              example:
+                point:
+                  lat: 4.0243022
+                  lng: 9.6904852
+                radiusM: 30.0
+                total: 3
+                codes:
+                - machine: CM-DLA1-015-1401-6
+                  home: Bonapriso 1401
+                  written: Bonapriso 14 01
+                  status: provisional
+                  area: DLA1-015
+                  entrance:
+                    lat: 4.0243022
+                    lng: 9.6904852
+                  distanceM: 0.0
+                - machine: CM-DLA1-015-1400-3
+                  home: Bonapriso 1400
+                  written: Bonapriso 14 00
+                  status: provisional
+                  area: DLA1-015
+                  entrance:
+                    lat: 4.0244512
+                    lng: 9.6903288
+                  distanceM: 23.9
+                - machine: CM-DLA1-015-1402-7
+                  home: Bonapriso 1402
+                  written: Bonapriso 14 02
+                  status: provisional
+                  area: DLA1-015
+                  entrance:
+                    lat: 4.0242791
+                    lng: 9.6907182
+                  distanceM: 26.0
+        '400':
+          description: A radius over 500 m
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: bad_radius
+                  message: radius is in metres, more than 0 and at most 500.
+  /v1/verify:
+    get:
+      summary: 'Checks a machine code: its syntax, its area, its blocks, its check digit and whether a compound holds it.'
+      description: 'Checks a machine code: its syntax, its area, its blocks, its check digit and whether a compound holds
+        it. A wrong check digit is reported, never corrected.'
+      operationId: verify
+      parameters:
+      - name: code
+        in: query
+        required: true
+        description: A machine code.
+        schema:
+          type: string
+      security: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Verify'
+              example:
+                code: CM-DLA1-015-1401-6
+                syntax: true
+                checkDigit: ok
+                inBlocks: true
+                valid: true
+                issued: true
+                area: DLA1-015
+                status: provisional
+                machine: CM-DLA1-015-1401-6
+                home: Bonapriso 1401
+        '400':
+          description: No code
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: missing_code
+                  message: The query parameter code is required.
+  /v1/spot:
+    get:
+      summary: 'The spot code of a point: its 10 m cell on its arrondissement''s frozen frame, and the cell centre.'
+      description: 'The spot code of a point: its 10 m cell on the frozen frame of the arrondissement whose outline holds it, and
+        the cell centre. A point in no outline takes the arrondissement with the nearest outline within 12 km whose frame holds
+        it (ties to the lower key), or else the nearest cell of a frame at most 5,000 m away (engine/SPEC.md §5). A point farther
+        away is outside Cameroon (404).'
+      operationId: spot
+      parameters:
+      - name: lat
+        in: query
+        required: true
+        description: Latitude.
+        schema:
+          type: number
+      - name: lng
+        in: query
+        required: true
+        description: Longitude.
+        schema:
+          type: number
+      security: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Spot'
+              example:
+                spot: CM-DLA1 E0449 N0268
+                zone:
+                  key: DLA1
+                  name: Douala I
+                  nameEn: Douala 1
+                  region: CM-LT
+                  language: fr
+                  index: 20
+                cellM: 10
+                centre:
+                  lat: 4.0242824
+                  lng: 9.6904802
+        '404':
+          description: Outside Cameroon
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: outside
+                  message: The point is outside Cameroon.
+  /v1/spot/decode:
+    get:
+      summary: The centre of a spot code's cell, and the code of the compound within 15 m of it, if any.
+      description: The centre of a spot code's cell, and the code of the compound within 15 m of it, if any.
+      operationId: spotDecode
+      parameters:
+      - name: code
+        in: query
+        required: true
+        description: A spot code, CM-<zone> E<east> N<north>.
+        schema:
+          type: string
+      security: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SpotDecode'
+              example:
+                spot: CM-DLA1 E0449 N0268
+                zone:
+                  key: DLA1
+                  name: Douala I
+                  nameEn: Douala 1
+                  region: CM-LT
+                  language: fr
+                  index: 20
+                centre:
+                  lat: 4.0242824
+                  lng: 9.6904802
+                cellM: 10
+                code:
+                  machine: CM-DLA1-015-1401-6
+                  home: Bonapriso 1401
+                  written: Bonapriso 14 01
+                  status: provisional
+                  area: DLA1-015
+                  entrance:
+                    lat: 4.0243022
+                    lng: 9.6904852
+                  distanceM: 2.3
+        '400':
+          description: Not a spot code
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: bad_spot
+                  message: A spot code is CM-<zone> E<east> N<north>, e.g. CM-DLA1 E0449 N0268.
+        '422':
+          description: The wrong count of digits for the arrondissement
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: bad_spot
+                  message: Wrong number of digits for this zone frame.
+  /v1/zones:
+    get:
+      summary: The 360 arrondissements, with their codes and areas.
+      description: The 360 arrondissements, with their codes and areas.
+      operationId: zones
+      security: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Zones'
+              example:
+                zones:
+                - key: BAF1
+                  index: 32
+                  name: Bafoussam I
+                  nameEn: Bafoussam 1
+                  region: CM-OU
+                  language: fr
+                  codes: 48996
+                  areas: 48
+                - key: BAF2
+                  index: 33
+                  name: Bafoussam II
+                  nameEn: Bafoussam 2
+                  region: CM-OU
+                  language: fr
+                  codes: 52427
+                  areas: 51
+                - key: BAF3
+                  index: 34
+                  name: Bafoussam III
+                  nameEn: Bafoussam 3
+                  region: CM-OU
+                  language: fr
+                  codes: 48900
+                  areas: 51
+                total: 360
+  /v1/zones/{key}:
+    get:
+      summary: 'One arrondissement: its frame and its areas with their blocks and codes.'
+      description: 'One arrondissement: its frame and its areas with their blocks and codes.'
+      operationId: zone
+      parameters:
+      - name: key
+        in: path
+        required: true
+        description: Arrondissement key (DLA1).
+        schema:
+          type: string
+      security: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Zone'
+              example:
+                key: DLA1
+                name: Douala I
+                nameEn: Douala 1
+                region: CM-LT
+                language: fr
+                index: 20
+                frame:
+                  lon0: 9.65
+                  lat0: 4.0
+                  latc: 4.05
+                  digitsE: 4
+                  digitsN: 4
+                codes: 26154
+                areas:
+                - key: DLA1-001
+                  id: 4354
+                  plateName: Akwa
+                  officialName: Akwa
+                  provisionalName: false
+                  zone: DLA1
+                  zoneName: Douala I
+                  codes: 463
+                  blocks:
+                  - - 1000
+                    - 1929
+                - key: DLA1-002
+                  id: 4355
+                  plateName: Ancien Dalip
+                  officialName: Ancien Dalip
+                  provisionalName: false
+                  zone: DLA1
+                  zoneName: Douala I
+                  codes: 153
+                  blocks:
+                  - - 100
+                    - 409
+                - key: DLA1-003
+                  id: 4356
+                  plateName: Bali
+                  officialName: Bali
+                  provisionalName: false
+                  zone: DLA1
+                  zoneName: Douala I
+                  codes: 747
+                  blocks:
+                  - - 11150
+                    - 12649
+        '404':
+          description: An unknown arrondissement
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: unknown_zone
+                  message: There is no zone “XYZ”; see /v1/zones.
+  /v1/zones/{key}/codes:
+    get:
+      summary: 'The codes of an arrondissement, page by page in machine-code order: pass the `next` of a page as `after` to
+        get the next one.'
+      description: 'The codes of an arrondissement, page by page in machine-code order: pass the `next` of a page as `after`
+        to get the next one. `limit` is 1-1000 (default 100).'
+      operationId: zoneCodes
+      parameters:
+      - name: key
+        in: path
+        required: true
+        description: Arrondissement key.
+        schema:
+          type: string
+      - name: after
+        in: query
+        required: false
+        description: The `next` of the previous page.
+        schema:
+          type: string
+      - name: limit
+        in: query
+        required: false
+        description: 1-1000 (default 100).
+        schema:
+          type: integer
+      security: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Page'
+              example:
+                zone: DLA1
+                codes:
+                - machine: CM-DLA1-001-1000-1
+                  home: Akwa 1000
+                  written: Akwa 10 00
+                  status: provisional
+                  area: DLA1-001
+                  entrance:
+                    lat: 4.0502109
+                    lng: 9.6960003
+                  officialAddress: Rue Castelnau (N°1.378), Douala
+                - machine: CM-DLA1-001-1001-7
+                  home: Akwa 1001
+                  written: Akwa 10 01
+                  status: provisional
+                  area: DLA1-001
+                  entrance:
+                    lat: 4.0503681
+                    lng: 9.6958975
+                  officialAddress: Rue Castelnau (N°1.378), Douala
+                - machine: CM-DLA1-001-1002-5
+                  home: Akwa 1002
+                  written: Akwa 10 02
+                  status: provisional
+                  area: DLA1-001
+                  entrance:
+                    lat: 4.051761
+                    lng: 9.6958476
+                  officialAddress: Rue Boué de Lapeyrère (N° 1.382), Douala
+                count: 3
+                next: CM-DLA1-001-1002-5
+        '400':
+          description: A limit out of range
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: bad_limit
+                  message: limit is a whole number from 1 to 1000.
+  /v1/areas/{id}:
+    get:
+      summary: 'One area, by its numeric id or its key: names, blocks, its name''s national range, its codes.'
+      description: 'One area, by its numeric id or its key: names, blocks, its name''s national range, its codes.'
+      operationId: area
+      parameters:
+      - name: id
+        in: path
+        required: true
+        description: Numeric id (4368) or key (DLA1-015).
+        schema:
+          type: string
+      security: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Area'
+              example:
+                key: DLA1-015
+                id: 4368
+                plateName: Bonapriso
+                officialName: Bonapriso
+                provisionalName: false
+                zone: DLA1
+                zoneName: Douala I
+                index: '015'
+                nameKey: BONAPRISO
+                nameId: 2616
+                digits: 4
+                blocks:
+                - - 1000
+                  - 2929
+                codes: 962
+                compoundsAtFirstIssue: 962
+                place:
+                  lat: 4.025615
+                  lng: 9.693015
+                frame:
+                - 9.687462
+                - 4.017162
+                - 9.69728
+                alertZone: false
+                nameRange:
+                  range:
+                  - 1000
+                  - 9999
+                  spareFrom: 2930
+                  areas:
+                  - DLA1-015
+        '404':
+          description: An unknown area
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: unknown_area
+                  message: There is no area “99999”.
+  /v1/areas:
+    get:
+      summary: The areas whose plate name or official name is the name given, compared by name key (accents, case, spelling
+        variants and articles folded).
+      description: The areas whose plate name or official name is the name given, compared by name key (accents, case, spelling
+        variants and articles folded). The areas of one plate name share its national range, each with its own block.
+      operationId: areasNamed
+      parameters:
+      - name: name
+        in: query
+        required: true
+        description: A plate name or an official name.
+        schema:
+          type: string
+      security: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AreasNamed'
+              example:
+                name: Adjap
+                total: 30
+                areas:
+                - key: DJLO-003
+                  id: 4031
+                  plateName: Adjap
+                  officialName: Adjap
+                  provisionalName: false
+                  zone: DJLO
+                  zoneName: Oveng
+                  codes: 52
+                  blocks:
+                  - - 1000
+                    - 1109
+                - key: DJLO-004
+                  id: 4032
+                  plateName: Adjap
+                  officialName: Adjap
+                  provisionalName: false
+                  zone: DJLO
+                  zoneName: Oveng
+                  codes: 19
+                  blocks:
+                  - - 1110
+                    - 1149
+                - key: DJLS-001
+                  id: 4070
+                  plateName: Adjap
+                  officialName: Adjap
+                  provisionalName: false
+                  zone: DJLS
+                  zoneName: Sangmélima
+                  codes: 5
+                  blocks:
+                  - - 1150
+                    - 1169
+        '400':
+          description: No name
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: missing_name
+                  message: The query parameter name is required.
+        '404':
+          description: A name no area has
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: unknown_name
+                  message: No area of Cameroon is called “Qwertyville”.
+  /v1/codes:
+    post:
+      summary: Issues a code for a new compound, or for another door of a compound (`of`).
+      description: 'Issues a code for a new compound, or for another door of a compound (`of`). Needs `Authorization: Bearer
+        <key>` and exists only on the designated issuer''s deployment. Body: `lat`, `lng`, optionally `outline` (`[lng, lat]`
+        points) or `of` (a machine code). The rules are those of the N-Ways issuer ([server/README.md](../server/README.md#how-issue-works)).
+        The new code is provisional. The point must be in Cameroon, as for `GET /v1/at`: in an arrondissement outline, or
+        in no outline but given a zone by the spot-code rule (422 outside otherwise). The border decides: a point more than
+        300 m outside the national border (OpenStreetMap, admin_level 2) is in a neighbouring country and is refused (422
+        outside), even where the spot-code rule gives it a zone.'
+      operationId: issue
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/IssueRequest'
+            example:
+              lat: 4.0243022
+              lng: 9.6905933
+              outline:
+              - - 9.6904933
+                - 4.0242522
+              - - 9.6906933
+                - 4.0242522
+              - - 9.6906933
+                - 4.0243522
+              - - 9.6904933
+                - 4.0243522
+              - - 9.6904933
+                - 4.0242522
+      security:
+      - issuingKey: []
+      responses:
+        '201':
+          description: A new compound, with its outline
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Card'
+              example:
+                country: CM
+                machine: CM-DLA1-015-2286-3
+                home: Bonapriso 2286
+                written: Bonapriso 22 86
+                spoken: Bonapriso, 22 86
+                number: 2286
+                check: 3
+                status: provisional
+                issued: on-demand
+                issuedAt: '2026-10-21T15:04:38Z'
+                area:
+                  key: DLA1-015
+                  id: 4368
+                  plateName: Bonapriso
+                  officialName: Bonapriso
+                  provisionalName: false
+                  zone: DLA1
+                  zoneName: Douala I
+                zone:
+                  key: DLA1
+                  name: Douala I
+                  nameEn: Douala 1
+                  region: CM-LT
+                  language: fr
+                  index: 20
+                officialAddress: null
+                entrance:
+                  lat: 4.0243022
+                  lng: 9.6905933
+                  kind: centre
+                spotCode: CM-DLA1 E0450 N0268
+                plusCode: 6FPF2MFR+P6G
+                profile:
+                  class: residential
+                  use: residential
+                  kind: building
+                  structures: 1
+                  floorAreaM2: 245.6
+                  rule: null
+                  estate: null
+                record:
+                  machine: CM-DLA1-015-2286-3
+                  home: Bonapriso 2286
+                  written: Bonapriso 22 86
+                  zone: DLA1-015
+                  official_name: Bonapriso
+                  number: '2286'
+                  check: '3'
+                  status: provisional
+                  issued: on-demand
+                  issued_at: '2026-10-21T15:04:38Z'
+                  entrance_lat: '4.0243022'
+                  entrance_lng: '9.6905933'
+                  entrance_kind: centre
+                  spot_code: CM-DLA1 E0450 N0268
+                  official_address: ''
+                  class: residential
+                  use: residential
+                  kind: building
+                  structures: '1'
+                  floor_area_m2: '245.6'
+                  rule: ''
+                  estate: ''
+                credit: N-Ways Addressing for Cameroon, © N-WAYS LIMITED (nways.ng)
+                creditUrl: https://github.com/n-ways/open-addresses-cameroon
+        '400':
+          description: No coordinates
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: bad_point
+                  message: lat and lng are numbers (WGS 84 degrees).
+        '401':
+          description: Without a key
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: unauthorised
+                  message: 'Send the issuing key as "Authorization: Bearer <key>".'
+        '403':
+          description: On a read-only deployment (no ISSUE_KEYS), every write is refused
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: read_only
+                  message: 'This deployment is read-only: it is not designated to issue codes.'
+        '409':
+          description: The same building again
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: exists
+                  message: 'This building already has its code: Bonapriso 2286.'
+                existing:
+                  country: CM
+                  machine: CM-DLA1-015-2286-3
+                  home: Bonapriso 2286
+                  written: Bonapriso 22 86
+                  spoken: Bonapriso, 22 86
+                  number: 2286
+                  check: 3
+                  status: provisional
+                  issued: on-demand
+                  issuedAt: '2026-10-21T15:04:38Z'
+                  area:
+                    key: DLA1-015
+                    id: 4368
+                    plateName: Bonapriso
+                    officialName: Bonapriso
+                    provisionalName: false
+                    zone: DLA1
+                    zoneName: Douala I
+                  zone:
+                    key: DLA1
+                    name: Douala I
+                    nameEn: Douala 1
+                    region: CM-LT
+                    language: fr
+                    index: 20
+                  officialAddress: null
+                  entrance:
+                    lat: 4.0243022
+                    lng: 9.6905933
+                    kind: centre
+                  spotCode: CM-DLA1 E0450 N0268
+                  plusCode: 6FPF2MFR+P6G
+                  profile:
+                    class: residential
+                    use: residential
+                    kind: building
+                    structures: 1
+                    floorAreaM2: 245.6
+                    rule: null
+                    estate: null
+                  record:
+                    machine: CM-DLA1-015-2286-3
+                    home: Bonapriso 2286
+                    written: Bonapriso 22 86
+                    zone: DLA1-015
+                    official_name: Bonapriso
+                    number: '2286'
+                    check: '3'
+                    status: provisional
+                    issued: on-demand
+                    issued_at: '2026-10-21T15:04:38Z'
+                    entrance_lat: '4.0243022'
+                    entrance_lng: '9.6905933'
+                    entrance_kind: centre
+                    spot_code: CM-DLA1 E0450 N0268
+                    official_address: ''
+                    class: residential
+                    use: residential
+                    kind: building
+                    structures: '1'
+                    floor_area_m2: '245.6'
+                    rule: ''
+                    estate: ''
+                  credit: N-Ways Addressing for Cameroon, © N-WAYS LIMITED (nways.ng)
+                  creditUrl: https://github.com/n-ways/open-addresses-cameroon
+        '422':
+          description: A door more than 80 m from its compound
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  code: too_far
+                  message: That door is more than 80 m from Bonapriso 1401.
+components:
+  schemas:
+    Error:
+      type: object
+      required:
+      - error
+      properties:
+        error:
+          type: object
+          required:
+          - code
+          - message
+          properties:
+            code:
+              type: string
+            message:
+              type: string
+        existing:
+          $ref: '#/components/schemas/Card'
+        point:
+          type: object
+          properties:
+            lat:
+              type: number
+            lng:
+              type: number
+          required:
+          - lat
+          - lng
+      description: Every error. `existing` comes with 409 exists; `point` with a spot code that is on no compound.
+    Health:
+      type: object
+      properties:
+        status:
+          const: ok
+        country:
+          const: CM
+        codes:
+          type: integer
+        registryExported:
+          type: string
+        issuing:
+          type: boolean
+    ZoneInfo:
+      type: object
+      properties:
+        key:
+          type: string
+        name:
+          type: string
+        nameEn:
+          type: string
+        region:
+          type: string
+        language:
+          enum:
+          - fr
+          - en
+        index:
+          type: integer
+    AreaBrief:
+      type: object
+      properties:
+        key:
+          type: string
+        id:
+          type: integer
+        plateName:
+          type: string
+        officialName:
+          type: string
+        provisionalName:
+          type: boolean
+        zone:
+          type: string
+        zoneName:
+          type: string
+    Record:
+      type: object
+      description: Every column of the published registry row, as published (text).
+      properties:
+        machine:
+          type: string
+        home:
+          type: string
+        written:
+          type: string
+        zone:
+          type: string
+        official_name:
+          type: string
+        number:
+          type: string
+        check:
+          type: string
+        status:
+          type: string
+        issued:
+          type: string
+        issued_at:
+          type: string
+        entrance_lat:
+          type: string
+        entrance_lng:
+          type: string
+        entrance_kind:
+          type: string
+        spot_code:
+          type: string
+        official_address:
+          type: string
+        class:
+          type: string
+        use:
+          type: string
+        kind:
+          type: string
+        structures:
+          type: string
+        floor_area_m2:
+          type: string
+        rule:
+          type: string
+        estate:
+          type: string
+    Card:
+      type: object
+      properties:
+        country:
+          const: CM
+        machine:
+          type: string
+        home:
+          type: string
+        written:
+          type: string
+        spoken:
+          type: string
+        number:
+          type: integer
+        check:
+          type: integer
+        status:
+          enum:
+          - provisional
+          - confirmed
+          - retired
+        issued:
+          enum:
+          - bulk
+          - on-demand
+        issuedAt:
+          type: string
+        area:
+          $ref: '#/components/schemas/AreaBrief'
+        zone:
+          $ref: '#/components/schemas/ZoneInfo'
+        officialAddress:
+          type:
+          - string
+          - 'null'
+        entrance:
+          type: object
+          properties:
+            lat:
+              type: number
+            lng:
+              type: number
+            kind:
+              enum:
+              - centre
+              - gate
+              - door
+        spotCode:
+          type: string
+        plusCode:
+          type: string
+        profile:
+          type: object
+          properties:
+            class:
+              type: string
+            use:
+              type: string
+            kind:
+              type: string
+            structures:
+              type: integer
+            floorAreaM2:
+              type: number
+            rule:
+              type:
+              - string
+              - 'null'
+            estate:
+              type:
+              - string
+              - 'null'
+        record:
+          $ref: '#/components/schemas/Record'
+        credit:
+          type: string
+        creditUrl:
+          type: string
+        newBlocks:
+          type: array
+          items:
+            type: array
+            items:
+              type: integer
+          description: Only on issue, when the code opened a block.
+    Brief:
+      type: object
+      properties:
+        machine:
+          type: string
+        home:
+          type: string
+        written:
+          type: string
+        status:
+          type: string
+        area:
+          type: string
+        entrance:
+          type: object
+          properties:
+            lat:
+              type: number
+            lng:
+              type: number
+          required:
+          - lat
+          - lng
+        officialAddress:
+          type: string
+        distanceM:
+          type: number
+    Info:
+      type: object
+      properties:
+        country:
+          type: string
+        name:
+          type: string
+        codes:
+          type: integer
+        byStatus:
+          type: object
+        byIssue:
+          type: object
+        zones:
+          type: array
+          items:
+            type: object
+        areas:
+          type: integer
+        areasWithCodes:
+          type: integer
+        names:
+          type: integer
+        registryExported:
+          type: string
+        importedAt:
+          type: string
+        engine:
+          type: string
+        spec:
+          type: string
+        licences:
+          type: object
+        credit:
+          type: string
+        creditUrl:
+          type: string
+        issuing:
+          type: boolean
+        issuePerDay:
+          type:
+          - integer
+          - 'null'
+        example:
+          type: object
+    Find:
+      type: object
+      properties:
+        query:
+          type: string
+        kind:
+          enum:
+          - remembered
+          - machine
+          - officialAddress
+          - spot
+        checked:
+          type: boolean
+        matches:
+          type: array
+          items:
+            $ref: '#/components/schemas/Card'
+        total:
+          type: integer
+    At:
+      type: object
+      properties:
+        status:
+          enum:
+          - found
+          - none
+        code:
+          $ref: '#/components/schemas/Card'
+        distanceM:
+          type: number
+        area:
+          $ref: '#/components/schemas/AreaBrief'
+        canIssue:
+          type: boolean
+        nearest:
+          $ref: '#/components/schemas/Brief'
+    Near:
+      type: object
+      properties:
+        point:
+          type: object
+          properties:
+            lat:
+              type: number
+            lng:
+              type: number
+          required:
+          - lat
+          - lng
+        radiusM:
+          type: number
+        total:
+          type: integer
+        codes:
+          type: array
+          items:
+            $ref: '#/components/schemas/Brief'
+    Verify:
+      type: object
+      properties:
+        code:
+          type: string
+        syntax:
+          type: boolean
+        checkDigit:
+          enum:
+          - ok
+          - wrong
+          - absent
+          - null
+        inBlocks:
+          type:
+          - boolean
+          - 'null'
+        valid:
+          type: boolean
+        issued:
+          type: boolean
+        area:
+          type: string
+        status:
+          type: string
+        machine:
+          type: string
+        home:
+          type: string
+        reason:
+          type: string
+    Spot:
+      type: object
+      properties:
+        spot:
+          type: string
+        zone:
+          $ref: '#/components/schemas/ZoneInfo'
+        cellM:
+          type: integer
+        centre:
+          type: object
+          properties:
+            lat:
+              type: number
+            lng:
+              type: number
+          required:
+          - lat
+          - lng
+    SpotDecode:
+      type: object
+      properties:
+        spot:
+          type: string
+        zone:
+          $ref: '#/components/schemas/ZoneInfo'
+        centre:
+          type: object
+          properties:
+            lat:
+              type: number
+            lng:
+              type: number
+          required:
+          - lat
+          - lng
+        cellM:
+          type: integer
+        code:
+          oneOf:
+          - $ref: '#/components/schemas/Brief'
+          - type: 'null'
+    Zones:
+      type: object
+      properties:
+        zones:
+          type: array
+          items:
+            type: object
+        total:
+          type: integer
+    Zone:
+      type: object
+      properties:
+        key:
+          type: string
+        name:
+          type: string
+        nameEn:
+          type: string
+        region:
+          type: string
+        language:
+          type: string
+        index:
+          type: integer
+        frame:
+          type: object
+        codes:
+          type: integer
+        areas:
+          type: array
+          items:
+            type: object
+    Page:
+      type: object
+      properties:
+        zone:
+          type: string
+        codes:
+          type: array
+          items:
+            $ref: '#/components/schemas/Brief'
+        count:
+          type: integer
+        next:
+          type:
+          - string
+          - 'null'
+    Area:
+      type: object
+      properties:
+        key:
+          type: string
+        id:
+          type: integer
+        plateName:
+          type: string
+        officialName:
+          type: string
+        provisionalName:
+          type: boolean
+        zone:
+          type: string
+        zoneName:
+          type: string
+        index:
+          type: string
+        nameKey:
+          type: string
+        nameId:
+          type: integer
+        digits:
+          type: integer
+        blocks:
+          type: array
+          items:
+            type: array
+            items:
+              type: integer
+        codes:
+          type: integer
+        compoundsAtFirstIssue:
+          type: integer
+        place:
+          type: object
+          properties:
+            lat:
+              type: number
+            lng:
+              type: number
+          required:
+          - lat
+          - lng
+        frame:
+          type: array
+          items:
+            type: number
+        alertZone:
+          type: boolean
+        nameRange:
+          type: object
+    AreasNamed:
+      type: object
+      properties:
+        name:
+          type: string
+        total:
+          type: integer
+        areas:
+          type: array
+          items:
+            type: object
+    IssueRequest:
+      type: object
+      required:
+      - lat
+      - lng
+      properties:
+        lat:
+          type: number
+        lng:
+          type: number
+        outline:
+          type: array
+          items:
+            type: array
+            items:
+              type: number
+            minItems: 2
+            maxItems: 2
+          maxItems: 500
+        of:
+          type: string
+          description: Machine code of the compound this is another door of.
+    ChangeRequest:
+      type: object
+      properties:
+        status:
+          enum:
+          - provisional
+          - confirmed
+          - retired
+        entrance:
+          type: object
+          properties:
+            lat:
+              type: number
+            lng:
+              type: number
+            kind:
+              enum:
+              - gate
+              - door
+          required:
+          - lat
+          - lng
+  securitySchemes:
+    issuingKey:
+      type: http
+      scheme: bearer
+      description: One of the deployment's ISSUE_KEYS. Only the designated issuer's deployment has keys.

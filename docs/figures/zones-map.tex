@@ -1,0 +1,53 @@
+% The 360 arrondissements of Cameroon, shaded by compounds per km² (registry/MANIFEST.json, model/units/zones.geojson).
+% Data: zones-map-<class>.dat, written by tools/paper-figures.py.
+\documentclass[tikz,border=3pt]{standalone}
+\usepackage{fontspec}
+\setmainfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{unicode-math}
+\setmathfont{LibertinusMath-Regular.otf}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{pgfplotstable}
+% English by default; the French paper compiles <name>-fr.tex, which sets \fr to 1 and inputs this file.
+\providecommand{\fr}{0}
+\newcommand{\T}[2]{\ifnum\fr=1 #2\else #1\fi}
+\ifnum\fr=1 \pgfkeys{/pgf/number format/.cd, use comma, 1000 sep={\,}}\else \pgfkeys{/pgf/number format/.cd, 1000 sep={,}}\fi
+\definecolor{ink}{HTML}{00664F}\definecolor{flaggreen}{HTML}{007A5E}\definecolor{flagred}{HTML}{CE1126}
+\definecolor{flagyellow}{HTML}{FCD116}\definecolor{amber}{HTML}{C98A00}
+\definecolor{c0}{HTML}{EEF5F1}\definecolor{c1}{HTML}{C3E1D1}\definecolor{c2}{HTML}{7DC1A0}
+\definecolor{c3}{HTML}{2C9670}\definecolor{c4}{HTML}{00553F}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[axis equal image, width=11.5cm, xmin=8.3, xmax=16.4, ymin=1.5, ymax=13.2,
+  xlabel={Longitude (°E)}, ylabel={Latitude (°N)}, tick label style={font=\footnotesize},
+  label style={font=\small}, xtick={9,10,...,16}, ytick={2,3,...,13}, axis line style={gray}, clip=false,
+  legend style={at={(1.04,1)}, anchor=north west, font=\footnotesize, draw=gray!50, cells={anchor=west}},
+  legend cell align=left, unbounded coords=jump]
+\addplot[fill=c0, draw=white, line width=0.2pt, area legend] table[x=x, y=y] {zones-map-0.dat};
+\addlegendentry{< 10}
+\addplot[fill=c1, draw=white, line width=0.2pt, area legend] table[x=x, y=y] {zones-map-1.dat};
+\addlegendentry{10–50}
+\addplot[fill=c2, draw=white, line width=0.2pt, area legend] table[x=x, y=y] {zones-map-2.dat};
+\addlegendentry{50–200}
+\addplot[fill=c3, draw=white, line width=0.2pt, area legend] table[x=x, y=y] {zones-map-3.dat};
+\addlegendentry{\T{200–1,000}{200–1\,000}}
+\addplot[fill=c4, draw=white, line width=0.2pt, area legend] table[x=x, y=y] {zones-map-4.dat};
+\addlegendentry{\T{≥ 1,000}{≥ 1\,000}}
+\addlegendimage{empty legend}\addlegendentry{\hspace{-1.1em}\T{compounds per km²}{concessions par km²}}
+\addplot[only marks, mark=*, mark size=1.1pt, black] coordinates {(11.518,3.866) (9.690,4.024) (13.388,9.299)
+  (14.325,10.599) (13.578,7.321) (10.148,5.958) (10.416,5.479) (13.684,4.577) (11.151,2.901) (9.241,4.153)};
+\begin{scope}[every node/.style={font=\scriptsize, text=black, inner sep=1pt}]
+\node[right] at (axis cs:11.56,3.866) {Yaoundé};
+\draw[gray] (axis cs:9.69,4.02) -- (axis cs:9.3,3.5) node[below left, inner sep=1pt] {Douala};
+\draw[gray] (axis cs:9.24,4.15) -- (axis cs:8.9,4.6) node[above left, inner sep=1pt] {Buea};
+\node[right] at (axis cs:13.43,9.299) {Garoua};
+\node[right] at (axis cs:14.37,10.599) {Maroua};
+\node[right] at (axis cs:13.62,7.321) {Ngaoundéré};
+\node[left] at (axis cs:10.11,5.99) {Bamenda};
+\node[right] at (axis cs:10.46,5.45) {Bafoussam};
+\node[right] at (axis cs:13.73,4.577) {Bertoua};
+\node[right] at (axis cs:11.19,2.901) {Ebolowa};
+\end{scope}
+\end{axis}
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,104 @@
+{
+ "source": "model/stats/area-compounds.csv (the register's areas with the compounds grouped at first issue)",
+ "normalisation": "cm_engine.name_key of the plate name",
+ "plateRule": {
+  "maxChars": 12,
+  "maxWords": 2,
+  "langs": [
+   "fr",
+   "en"
+  ],
+  "tool": "engine/reference/plate_names.py"
+ },
+ "spare": 0.1,
+ "areas": 24213,
+ "genericLabels": 0,
+ "namedAreas": 24213,
+ "plates": {
+  "officialOverLimit": 2122,
+  "byRule": {
+   "abbreviated": 1,
+   "as-is": 22024,
+   "cleaned": 214,
+   "council": 1236,
+   "distinctive": 738
+  },
+  "needsCouncilChoice": 1236,
+  "needsCouncilChoiceByReason": {
+   "every short form drops a qualifier (Grand, Petit, Nouveau, Nord...)": 476,
+   "another place of the same zone has this name": 236,
+   "no run of whole words fits 12 characters and 2 words": 210,
+   "the short form has a number, only ordinary words, a cut phrase or another town's name, or nothing fits: the zone's name until the commune chooses": 151,
+   "no clear choice": 150,
+   "too short to be a name on its own": 8,
+   "the short form drops a number of the official name": 4,
+   "a name \"between X and Y\" needs a choice": 1
+  },
+  "stillOverLimit": 210,
+  "aliases": 1773,
+  "droppedAliases": 37,
+  "provisionalCompounds": 487712
+ },
+ "names": 17240,
+ "repeatedNames": 3886,
+ "areasUnderRepeatedNames": 10859,
+ "mostAreas": [
+  [
+   "Adjap",
+   30
+  ],
+  [
+   "Melen",
+   27
+  ],
+  [
+   "Yaoundé",
+   27
+  ],
+  [
+   "Akak",
+   26
+  ],
+  [
+   "Akom",
+   24
+  ],
+  [
+   "Néméyong",
+   23
+  ],
+  [
+   "Abang",
+   22
+  ],
+  [
+   "Efoulan",
+   21
+  ],
+  [
+   "Douala",
+   20
+  ],
+  [
+   "Meyos",
+   20
+  ]
+ ],
+ "areasByDigits": {
+  "3": 14849,
+  "4": 7574,
+  "5": 785
+ },
+ "compoundsByDigits": {
+  "3": 1640038,
+  "4": 4170120,
+  "5": 1433114
+ },
+ "compoundShareByDigits": {
+  "3": 0.226,
+  "4": 0.576,
+  "5": 0.198
+ },
+ "splitBeforeIssue": [],
+ "qualified": []
+}

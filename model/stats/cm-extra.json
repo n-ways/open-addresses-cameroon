@@ -1,0 +1,200 @@
+{
+ "enclosuresByRegion": [
+  {
+   "code": "CM-LT",
+   "enclosures": 2169,
+   "plot_p50": 318.0,
+   "walls": 1715,
+   "hedges": 306,
+   "structures_inside": "1486",
+   "avg_structures": 1.95,
+   "structures_region": 785863,
+   "pct_structures_enclosed": 0.19
+  },
+  {
+   "code": "CM-CE",
+   "enclosures": 1818,
+   "plot_p50": 424.0,
+   "walls": 1289,
+   "hedges": 256,
+   "structures_inside": "1467",
+   "avg_structures": 2.63,
+   "structures_region": 1276385,
+   "pct_structures_enclosed": 0.11
+  },
+  {
+   "code": "CM-NO",
+   "enclosures": 508,
+   "plot_p50": 2448.0,
+   "walls": 297,
+   "hedges": 34,
+   "structures_inside": "1314",
+   "avg_structures": 5.24,
+   "structures_region": 1296551,
+   "pct_structures_enclosed": 0.1
+  },
+  {
+   "code": "CM-AD",
+   "enclosures": 142,
+   "plot_p50": 386.0,
+   "walls": 110,
+   "hedges": 2,
+   "structures_inside": "197",
+   "avg_structures": 3.23,
+   "structures_region": 661171,
+   "pct_structures_enclosed": 0.03
+  },
+  {
+   "code": "CM-OU",
+   "enclosures": 103,
+   "plot_p50": 2868.0,
+   "walls": 73,
+   "hedges": 8,
+   "structures_inside": "324",
+   "avg_structures": 7.2,
+   "structures_region": 1351713,
+   "pct_structures_enclosed": 0.02
+  },
+  {
+   "code": "CM-EN",
+   "enclosures": 87,
+   "plot_p50": 4683.0,
+   "walls": 51,
+   "hedges": 18,
+   "structures_inside": "159",
+   "avg_structures": 4.82,
+   "structures_region": 1990532,
+   "pct_structures_enclosed": 0.01
+  },
+  {
+   "code": "CM-ES",
+   "enclosures": 72,
+   "plot_p50": 841.0,
+   "walls": 58,
+   "hedges": 0,
+   "structures_inside": "146",
+   "avg_structures": 4.29,
+   "structures_region": 503725,
+   "pct_structures_enclosed": 0.03
+  },
+  {
+   "code": "CM-SW",
+   "enclosures": 39,
+   "plot_p50": 4405.0,
+   "walls": 31,
+   "hedges": 0,
+   "structures_inside": "110",
+   "avg_structures": 5.24,
+   "structures_region": 401419,
+   "pct_structures_enclosed": 0.03
+  },
+  {
+   "code": "CM-SU",
+   "enclosures": 36,
+   "plot_p50": 3198.0,
+   "walls": 16,
+   "hedges": 0,
+   "structures_inside": "82",
+   "avg_structures": 5.13,
+   "structures_region": 267954,
+   "pct_structures_enclosed": 0.03
+  },
+  {
+   "code": "CM-NW",
+   "enclosures": 8,
+   "plot_p50": 10327.0,
+   "walls": 6,
+   "hedges": 2,
+   "structures_inside": "24",
+   "avg_structures": 6.0,
+   "structures_region": 758789,
+   "pct_structures_enclosed": 0.0
+  }
+ ],
+ "roundHousesByRegion": [
+  {
+   "code": "CM-AD",
+   "round_houses": 10235,
+   "pct": 1.5
+  },
+  {
+   "code": "CM-CE",
+   "round_houses": 695,
+   "pct": 0.1
+  },
+  {
+   "code": "CM-EN",
+   "round_houses": 126069,
+   "pct": 6.3
+  },
+  {
+   "code": "CM-ES",
+   "round_houses": 595,
+   "pct": 0.1
+  },
+  {
+   "code": "CM-LT",
+   "round_houses": 314,
+   "pct": 0.0
+  },
+  {
+   "code": "CM-NO",
+   "round_houses": 39100,
+   "pct": 3.0
+  },
+  {
+   "code": "CM-NW",
+   "round_houses": 345,
+   "pct": 0.0
+  },
+  {
+   "code": "CM-OU",
+   "round_houses": 508,
+   "pct": 0.0
+  },
+  {
+   "code": "CM-SU",
+   "round_houses": 182,
+   "pct": 0.1
+  },
+  {
+   "code": "CM-SW",
+   "round_houses": 1483,
+   "pct": 0.4
+  }
+ ],
+ "sampleCandidates": [
+  {
+   "lid": 563,
+   "name": "Zone O",
+   "kind": "neighbourhood",
+   "src": "osm",
+   "n": 364
+  },
+  {
+   "lid": 23762,
+   "name": "Etetak",
+   "kind": "PPLX",
+   "src": "geonames",
+   "n": 375
+  },
+  {
+   "lid": 562,
+   "name": "Zone M",
+   "kind": "neighbourhood",
+   "src": "osm",
+   "n": 404
+  }
+ ],
+ "sample": {
+  "area": {
+   "lid": 23762,
+   "name": "Etetak",
+   "kind": "PPLX",
+   "src": "geonames",
+   "n": 375
+  },
+  "compounds": 303,
+  "structures": 375
+ }
+}

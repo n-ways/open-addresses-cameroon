@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Databases and working files
+*.duckdb
+*.sqlite
+*.sqlite-*
+*.sqlite.importing*
+*.db
+data/
+!engine/data/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Systems and editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Paper build output
+docs/paper/build/

@@ -1,0 +1,33 @@
+{
+ "areas": 24213,
+ "areasWithCompounds": 23208,
+ "compounds": 7243272,
+ "yaounde": {
+  "areas": 307,
+  "compounds": 346523
+ },
+ "douala": {
+  "areas": 267,
+  "compounds": 410644
+ },
+ "nameKeys": 17240,
+ "sharedNames": 3886,
+ "areasInSharedNames": 10859,
+ "areasByDigits": {
+  "3": 14849,
+  "4": 7574,
+  "5": 785
+ },
+ "compoundsByDigits": {
+  "3": 1640038,
+  "4": 4170120,
+  "5": 1433114
+ },
+ "provisionalNames": 1236,
+ "compoundsWithProvisionalNames": 487712,
+ "largestArea": {
+  "key": "DLA3-010",
+  "name": "Alphonse",
+  "compounds": 19107
+ }
+}

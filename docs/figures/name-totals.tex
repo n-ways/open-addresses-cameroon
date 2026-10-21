@@ -1,0 +1,35 @@
+% Empirical distribution of T, the total block size of each name range (Eq. 6), with the three digit limits.
+% Data: name-totals.dat, written by tools/paper-figures.py.
+\documentclass[tikz,border=3pt]{standalone}
+\usepackage{fontspec}
+\setmainfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{unicode-math}
+\setmathfont{LibertinusMath-Regular.otf}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{pgfplotstable}
+% English by default; the French paper compiles <name>-fr.tex, which sets \fr to 1 and inputs this file.
+\providecommand{\fr}{0}
+\newcommand{\T}[2]{\ifnum\fr=1 #2\else #1\fi}
+\ifnum\fr=1 \pgfkeys{/pgf/number format/.cd, use comma, 1000 sep={\,}}\else \pgfkeys{/pgf/number format/.cd, 1000 sep={,}}\fi
+\definecolor{ink}{HTML}{00664F}\definecolor{flaggreen}{HTML}{007A5E}\definecolor{flagred}{HTML}{CE1126}
+\definecolor{flagyellow}{HTML}{FCD116}\definecolor{amber}{HTML}{C98A00}
+\begin{document}
+\begin{tikzpicture}
+\begin{semilogxaxis}[width=11.5cm, height=6.2cm, xmin=15, xmax=100000, ymin=0, ymax=1.02,
+  xlabel={\T{total block size $T$ of the name (numbers)}{taille totale $T$ des blocs du nom (numéros)}},
+  ylabel={\T{share of names with at most $T$}{part des noms d'au plus $T$}}, label style={font=\small},
+  tick label style={font=\footnotesize}, axis line style={gray}, grid=major, grid style={gray!15},
+  log ticks with fixed point, yticklabel={\pgfmathparse{\tick*100}\pgfmathprintnumber[fixed,precision=0]{\pgfmathresult}\,\%}]
+\addplot[const plot, ink, thick] table[x=t, y=p] {name-totals.dat};
+\draw[flagred, dashed] (axis cs:810,0) -- (axis cs:810,1.02);
+\draw[flagred, dashed] (axis cs:8100,0) -- (axis cs:8100,1.02);
+\draw[flagred, dashed] (axis cs:81000,0) -- (axis cs:81000,1.02);
+\node[font=\scriptsize, anchor=north west, text=flagred, align=left] at (axis cs:830,0.35) {\T{3 digits: 810}{3 chiffres : 810}\\\T{12,437 names}{12\,437 noms}};
+\node[font=\scriptsize, anchor=north west, text=flagred, align=left] at (axis cs:8300,0.62) {\T{4 digits: 8,100}{4 chiffres : 8\,100}\\\T{4,057 names}{4\,057 noms}};
+\node[font=\scriptsize, anchor=north east, text=flagred, align=right] at (axis cs:79000,0.3) {\T{5 digits: 81,000}{5 chiffres : 81\,000}\\\T{213 names}{213 noms}};
+\node[font=\scriptsize, anchor=south east] at (axis cs:49000,0.86) {\T{Yaoundé, 49,000}{Yaoundé, 49\,000}};
+\draw[gray] (axis cs:49000,1) -- (axis cs:42000,0.88);
+\end{semilogxaxis}
+\end{tikzpicture}
+\end{document}

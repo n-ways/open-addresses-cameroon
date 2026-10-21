@@ -1,0 +1,36 @@
+% The 10 m spot grid of Douala I around Bonapriso 14 01 (Eq. 12): every compound of the registry within 55 m,
+% the cell E0449 N0268 and the centre a decoder returns. Data: spot-points.dat, spot-cell.dat, written by tools/paper-figures.py.
+\documentclass[tikz,border=3pt]{standalone}
+\usepackage{fontspec}
+\setmainfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{unicode-math}
+\setmathfont{LibertinusMath-Regular.otf}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{pgfplotstable}
+% English by default; the French paper compiles <name>-fr.tex, which sets \fr to 1 and inputs this file.
+\providecommand{\fr}{0}
+\newcommand{\T}[2]{\ifnum\fr=1 #2\else #1\fi}
+\ifnum\fr=1 \pgfkeys{/pgf/number format/.cd, use comma, 1000 sep={\,}}\else \pgfkeys{/pgf/number format/.cd, 1000 sep={,}}\fi
+\definecolor{ink}{HTML}{00664F}\definecolor{flaggreen}{HTML}{007A5E}\definecolor{flagred}{HTML}{CE1126}
+\definecolor{flagyellow}{HTML}{FCD116}\definecolor{amber}{HTML}{C98A00}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[axis equal image, width=9.5cm, xmin=4440, xmax=4550, ymin=2630, ymax=2745,
+  xtick={4440,4450,...,4550}, ytick={4440}, extra y ticks={2630,2640,...,2740},
+  xticklabel={\pgfmathparse{\tick/10}\pgfmathprintnumber[int detect,1000 sep={}]{\pgfmathresult}},
+  extra y tick labels={}, yticklabels={}, grid=both, grid style={gray!25},
+  extra y tick style={grid=major}, x tick label style={font=\tiny, rotate=90, anchor=east},
+  xlabel={\T{$E$, 10 m cells east of the origin (9.65°E)}{$E$, cellules de 10 m à l'est de l'origine (9,65°E)}},
+  ylabel={\T{$N$, 10 m cells north of 4.00°N}{$N$, cellules de 10 m au nord de 4,00°N}}, label style={font=\small},
+  axis line style={gray}, clip=false]
+\pgfplotsinvokeforeach{263,264,...,274}{\node[font=\tiny, anchor=east] at (axis cs:4440,#1*10) {#1};}
+\fill[flagyellow!55] (axis cs:4490,2680) rectangle (axis cs:4500,2690);
+\draw[ink, thick] (axis cs:4490,2680) rectangle (axis cs:4500,2690);
+\addplot[only marks, mark=*, mark size=1.6pt, gray!70!black] table[x=x, y=y] {spot-points.dat};
+\addplot[only marks, mark=*, mark size=2.2pt, flagred] coordinates {(4495.6,2687.2)};
+\addplot[only marks, mark=x, mark size=3pt, ink, thick] coordinates {(4495,2685)};
+\draw[black!70] (axis cs:4500,2690) -- (axis cs:4518,2712) node[above, font=\scriptsize, fill=white, inner sep=1.5pt, align=center] {CM-DLA1 E0449 N0268\\Bonapriso 14 01};
+\end{axis}
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this model, the registry or the paper, please cite it as below."
+title: "N-Ways Addressing for Cameroon: a national addressing model for every compound"
+type: dataset
+authors:
+  - name: "The N-Ways Addressing Group"
+    affiliation: "N-WAYS LIMITED"
+    email: "hello@nways.ng"
+repository-code: "https://github.com/n-ways/open-addresses-cameroon"
+url: "https://nways.ng"
+date-released: 2026-10-21
+license:
+  - Apache-2.0
+  - ODbL-1.0
+  - CC-BY-4.0
+keywords:
+  - addressing
+  - Cameroon
+  - postcodes
+  - geocoding
+  - Hilbert curve
+  - Damm check digit
+  - building footprints
+preferred-citation:
+  type: article
+  title: "A code for every compound: a national addressing model for Cameroon"
+  authors:
+    - name: "The N-Ways Addressing Group"
+  institution:
+    name: "N-WAYS LIMITED"
+  year: 2026
+  month: 10
+  url: "https://github.com/n-ways/open-addresses-cameroon/blob/main/docs/paper.md"
+  languages:
+    - en
+    - fr

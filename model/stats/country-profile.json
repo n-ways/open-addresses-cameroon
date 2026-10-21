@@ -1,0 +1,264 @@
+{
+ "classMix": [
+  {
+   "cls": "RES",
+   "n": 8644605,
+   "pct": 90.74
+  },
+  {
+   "cls": "ANX",
+   "n": 831376,
+   "pct": 8.73
+  },
+  {
+   "cls": "CON",
+   "n": 14649,
+   "pct": 0.15
+  },
+  {
+   "cls": "COM",
+   "n": 12951,
+   "pct": 0.14
+  },
+  {
+   "cls": "GOV",
+   "n": 9586,
+   "pct": 0.1
+  },
+  {
+   "cls": "EDU",
+   "n": 6919,
+   "pct": 0.07
+  },
+  {
+   "cls": "REL",
+   "n": 2479,
+   "pct": 0.03
+  },
+  {
+   "cls": "HEA",
+   "n": 2025,
+   "pct": 0.02
+  },
+  {
+   "cls": "HOS",
+   "n": 1451,
+   "pct": 0.02
+  },
+  {
+   "cls": "IND",
+   "n": 598,
+   "pct": 0.01
+  },
+  {
+   "cls": "TRA",
+   "n": 376,
+   "pct": 0.0
+  },
+  {
+   "cls": "AGR",
+   "n": 51,
+   "pct": 0.0
+  },
+  {
+   "cls": "RUI",
+   "n": 16,
+   "pct": 0.0
+  }
+ ],
+ "classSource": [
+  {
+   "cls_src": "default",
+   "n": 8428386,
+   "pct": 88.47
+  },
+  {
+   "cls_src": "shape",
+   "n": 1013702,
+   "pct": 10.64
+  },
+  {
+   "cls_src": "osm:building",
+   "n": 64228,
+   "pct": 0.67
+  },
+  {
+   "cls_src": "n-ways:place",
+   "n": 9942,
+   "pct": 0.1
+  },
+  {
+   "cls_src": "n-ways:compound",
+   "n": 5571,
+   "pct": 0.06
+  },
+  {
+   "cls_src": "osm:tags",
+   "n": 5253,
+   "pct": 0.06
+  }
+ ],
+ "heightSource": [
+  {
+   "h_src": "ml:h",
+   "n": 5639817,
+   "pct": 59.2
+  },
+  {
+   "h_src": "none",
+   "n": 3885405,
+   "pct": 40.78
+  },
+  {
+   "h_src": "osm:building:levels",
+   "n": 1767,
+   "pct": 0.02
+  },
+  {
+   "h_src": "osm:height",
+   "n": 93,
+   "pct": 0.0
+  }
+ ],
+ "size": [
+  {
+   "n": 9527082,
+   "a_p10": 12.5,
+   "a_p50": 37.4,
+   "a_p90": 156.3,
+   "a_p99": 375.0,
+   "h_p50": 5.2,
+   "h_p90": 6.7,
+   "floor_area_km2": 788.28
+  }
+ ],
+ "roundHouses": [
+  {
+   "n": 182682
+  }
+ ],
+ "byRegion": [
+  {
+   "code": "CM-AD",
+   "n": 661171,
+   "round_pct": 1.5,
+   "a_p50": 28.0
+  },
+  {
+   "code": "CM-CE",
+   "n": 1276385,
+   "round_pct": 0.1,
+   "a_p50": 76.3
+  },
+  {
+   "code": "CM-EN",
+   "n": 1990532,
+   "round_pct": 6.3,
+   "a_p50": 19.3
+  },
+  {
+   "code": "CM-ES",
+   "n": 503725,
+   "round_pct": 0.1,
+   "a_p50": 39.6
+  },
+  {
+   "code": "CM-LT",
+   "n": 785863,
+   "round_pct": 0.0,
+   "a_p50": 71.0
+  },
+  {
+   "code": "CM-NO",
+   "n": 1296551,
+   "round_pct": 3.0,
+   "a_p50": 18.6
+  },
+  {
+   "code": "CM-NW",
+   "n": 758789,
+   "round_pct": 0.0,
+   "a_p50": 69.3
+  },
+  {
+   "code": "CM-OU",
+   "n": 1351713,
+   "round_pct": 0.0,
+   "a_p50": 79.3
+  },
+  {
+   "code": "CM-SU",
+   "n": 267954,
+   "round_pct": 0.1,
+   "a_p50": 80.6
+  },
+  {
+   "code": "CM-SW",
+   "n": 401419,
+   "round_pct": 0.4,
+   "a_p50": 76.2
+  }
+ ],
+ "enclosures": [
+  {
+   "kind": "enclosure:fence",
+   "n": 623
+  },
+  {
+   "kind": "enclosure:hedge",
+   "n": 1176
+  },
+  {
+   "kind": "enclosure:retaining_wall",
+   "n": 350
+  },
+  {
+   "kind": "enclosure:wall",
+   "n": 6663
+  },
+  {
+   "kind": "gate",
+   "n": 663
+  },
+  {
+   "kind": "landuse:residential",
+   "n": 148959
+  }
+ ],
+ "nwCompounds": [
+  {
+   "kind": "estate",
+   "n": 11
+  },
+  {
+   "kind": "government",
+   "n": 674
+  },
+  {
+   "kind": "military",
+   "n": 64
+  },
+  {
+   "kind": "police",
+   "n": 208
+  },
+  {
+   "kind": "site",
+   "n": 5295
+  }
+ ],
+ "nwGates": [
+  {
+   "kind": "entry",
+   "n": 126
+  },
+  {
+   "kind": "gate",
+   "n": 340
+  },
+  {
+   "kind": "lift_gate",
+   "n": 42
+  }
+ ]
+}

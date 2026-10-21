@@ -1,0 +1,189 @@
+{
+ "localities": [
+  {
+   "src": "geonames",
+   "n": 11225
+  },
+  {
+   "src": "osm",
+   "n": 13078
+  }
+ ],
+ "perArea": [
+  {
+   "areas_with_buildings": 23568,
+   "p50": 157.0,
+   "p90": 915.0,
+   "p99": 4085.0,
+   "max_n": 29433,
+   "le_450": 18252,
+   "le_4500": 5125,
+   "le_45000": 191,
+   "gt_45000": 0,
+   "buildings_in_areas_over_4500": "1432533",
+   "total": "9564960"
+  }
+ ],
+ "capitalTop": [
+  {
+   "name": "Carrefour Alphonse",
+   "kind": "locality",
+   "src": "osm",
+   "n": 25024
+  },
+  {
+   "name": "Carrefour Saint Nicolas",
+   "kind": "locality",
+   "src": "osm",
+   "n": 11309
+  },
+  {
+   "name": "Shell Village",
+   "kind": "locality",
+   "src": "osm",
+   "n": 11180
+  },
+  {
+   "name": "Ndogpassi III",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 10422
+  },
+  {
+   "name": "Mbenga",
+   "kind": "PPL",
+   "src": "geonames",
+   "n": 10365
+  },
+  {
+   "name": "Ngodi Bakoko",
+   "kind": "village",
+   "src": "osm",
+   "n": 9483
+  },
+  {
+   "name": "Bomkoul",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 8126
+  },
+  {
+   "name": "Ndoghem",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 7796
+  },
+  {
+   "name": "Ndoghèm-Poudrière",
+   "kind": "PPL",
+   "src": "geonames",
+   "n": 7281
+  },
+  {
+   "name": "Ndobo",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 7030
+  },
+  {
+   "name": "Pindo",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 6640
+  },
+  {
+   "name": "Nyalla Bassa",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 6598
+  },
+  {
+   "name": "Washington",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 6532
+  },
+  {
+   "name": "Logbessou I",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 6425
+  },
+  {
+   "name": "Logbessou II",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 6357
+  },
+  {
+   "name": "Yassa",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 5952
+  },
+  {
+   "name": "Bessengué",
+   "kind": "PPL",
+   "src": "geonames",
+   "n": 5716
+  },
+  {
+   "name": "Ndogbong",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 5566
+  },
+  {
+   "name": "Koto",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 5534
+  },
+  {
+   "name": "Nyalla Etrangers",
+   "kind": "locality",
+   "src": "osm",
+   "n": 5434
+  },
+  {
+   "name": "Nkolmbong",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 4920
+  },
+  {
+   "name": "Didom II",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 4895
+  },
+  {
+   "name": "Minkwélé",
+   "kind": "village",
+   "src": "osm",
+   "n": 4804
+  },
+  {
+   "name": "Beedi",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 4602
+  },
+  {
+   "name": "Carrefour Chico",
+   "kind": "locality",
+   "src": "osm",
+   "n": 4558
+  }
+ ],
+ "capitalAreas": [
+  {
+   "areas": 269,
+   "p50": 1110.0,
+   "p90": 4541.0,
+   "max_n": 25024,
+   "over_4500": 28,
+   "over_45000": 0
+  }
+ ]
+}
